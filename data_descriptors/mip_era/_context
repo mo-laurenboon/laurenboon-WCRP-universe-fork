@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@base": "https://wcrp-cmip.github.io/MIP_UNIVERSE/data_descriptors/mip_era/",
+    "@vocab": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/mip_era/",
+    "id": "@id",
+    "type": "@type"
+  },
+  "@embed": "@always"
+} 

@@ -1,8 +1,9 @@
 {
-    "@type": "resolution",
-    "@id": "mip-cmor-tables:auxillary/resolution/10km",
-    "name": "10 km",
-    "value": "10",
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/resolution/_context",
     "description": "Resolution of 10 km",
-    "unit": "km"
+    "id": "10km.json",
+    "name": "10 km",
+    "type": "resolution",
+    "unit": "km",
+    "value": "10"
 }

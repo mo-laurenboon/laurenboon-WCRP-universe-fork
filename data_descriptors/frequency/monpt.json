@@ -1,8 +1,9 @@
 {
-  "@id": "mip-cmor-tables:auxillary/frequency/monpt",
-  "@type": "frequency",
-  "description": "sampled monthly, at specified time point within the time period",
-  "long_name": "Monthly Point",
-  "name": "monPt",
-  "unit": "month"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "description": "sampled monthly, at specified time point within the time period",
+    "id": "monpt.json",
+    "long_name": "Monthly Point",
+    "name": "monPt",
+    "type": "frequency",
+    "unit": "month"
 }

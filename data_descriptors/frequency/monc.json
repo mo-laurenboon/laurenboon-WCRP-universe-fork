@@ -1,8 +1,9 @@
 {
-  "@id": "mip-cmor-tables:auxillary/frequency/monc",
-  "@type": "frequency",
-  "description": "monthly climatology computed from monthly mean samples",
-  "long_name": "Monthly Climatology",
-  "name": "monC",
-  "unit": "month"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "description": "monthly climatology computed from monthly mean samples",
+    "id": "monc.json",
+    "long_name": "Monthly Climatology",
+    "name": "monC",
+    "type": "frequency",
+    "unit": "month"
 }

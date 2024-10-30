@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/source-type/agcm",
-  "@type": "source-type",
-  "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-  "name": "AGCM"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/source-type/_context",
+    "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+    "id": "agcm.json",
+    "name": "AGCM",
+    "type": "source-type"
 }

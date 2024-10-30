@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/realm/atmos",
-  "@type": "realm",
-  "description": "Atmosphere",
-  "name": "atmos"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/realm/_context",
+    "description": "Atmosphere",
+    "id": "atmos.json",
+    "name": "atmos",
+    "type": "realm"
 }

@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/realm/ocean",
-  "@type": "realm",
-  "description": "Ocean",
-  "name": "ocean"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/realm/_context",
+    "description": "Ocean",
+    "id": "ocean.json",
+    "name": "ocean",
+    "type": "realm"
 }

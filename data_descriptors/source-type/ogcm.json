@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/source-type/ogcm",
-  "@type": "source-type",
-  "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
-  "name": "OGCM"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/source-type/_context",
+    "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+    "id": "ogcm.json",
+    "name": "OGCM",
+    "type": "source-type"
 }

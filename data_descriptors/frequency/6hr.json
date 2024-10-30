@@ -1,8 +1,9 @@
 {
-  "@id": "mip-cmor-tables:auxillary/frequency/6hr",
-  "@type": "frequency",
-  "description": "6 hourly mean samples",
-  "long_name": "6 Hourly Frequency",
-  "name": "6hr",
-  "unit": "hour"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "description": "6 hourly mean samples",
+    "id": "6hr.json",
+    "long_name": "6 Hourly Frequency",
+    "name": "6hr",
+    "type": "frequency",
+    "unit": "hour"
 }

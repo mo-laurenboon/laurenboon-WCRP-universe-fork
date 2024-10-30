@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/source-type/slab",
-  "@type": "source-type",
-  "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
-  "name": "SLAB"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/source-type/_context",
+    "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+    "id": "slab.json",
+    "name": "SLAB",
+    "type": "source-type"
 }

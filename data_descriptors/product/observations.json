@@ -1,6 +1,7 @@
 {
-  "@id": "mip-cmor-tables:auxillary/product/observations",
-  "@type": "product",
-  "description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
-  "kind": "observations"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/product/_context",
+    "description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
+    "id": "observations.json",
+    "kind": "observations",
+    "type": "product"
 }

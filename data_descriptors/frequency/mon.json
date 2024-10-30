@@ -1,8 +1,9 @@
 {
-  "@id": "mip-cmor-tables:auxillary/frequency/mon",
-  "@type": "frequency",
-  "description": "monthly mean samples",
-  "long_name": "Monthly Frequency",
-  "name": "mon",
-  "unit": "month"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "description": "monthly mean samples",
+    "id": "mon.json",
+    "long_name": "Monthly Frequency",
+    "name": "mon",
+    "type": "frequency",
+    "unit": "month"
 }

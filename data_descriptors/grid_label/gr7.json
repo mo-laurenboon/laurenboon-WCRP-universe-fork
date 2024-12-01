@@ -1,0 +1,9 @@
+{
+  "@context": "_context_",
+  "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+  "id": "gr7",
+  "name": "gr7",
+  "region": "greenland",
+  "short name": "Regridded Greenland Alternate 7",
+  "type": "grid_label"
+}

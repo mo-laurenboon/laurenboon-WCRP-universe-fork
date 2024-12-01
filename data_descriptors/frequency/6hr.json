@@ -1,7 +1,7 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "@context": "_context_",
     "description": "6 hourly mean samples",
-    "id": "6hr.json",
+    "id": "6hr",
     "long_name": "6 Hourly Frequency",
     "name": "6hr",
     "type": "frequency",

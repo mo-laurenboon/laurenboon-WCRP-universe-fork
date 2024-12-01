@@ -1,9 +1,0 @@
-{
-  "@context": {
-    "@base": "https://wcrp-cmip.github.io/MIP_UNIVERSE/data_descriptors/resolution/",
-    "@vocab": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/resolution/",
-    "id": "@id",
-    "type": "@type"
-  },
-  "@embed": "@always"
-}

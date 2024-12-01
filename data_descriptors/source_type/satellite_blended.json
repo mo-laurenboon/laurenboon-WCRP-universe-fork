@@ -1,0 +1,7 @@
+{
+    "@context": "_context_",
+    "description": "gridded product based on both in-situ instruments and satellite measurements",
+    "id": "satellite_blended",
+    "name": "satellite_blended",
+    "type": "source_type"
+}

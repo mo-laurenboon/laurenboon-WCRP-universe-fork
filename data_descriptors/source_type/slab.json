@@ -1,0 +1,7 @@
+{
+    "@context": "_context_",
+    "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+    "id": "slab",
+    "name": "SLAB",
+    "type": "source_type"
+}

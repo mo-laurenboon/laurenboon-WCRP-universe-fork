@@ -1,0 +1,9 @@
+{
+  "@context": "_context_",
+  "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
+  "id": "grz",
+  "name": "grz",
+  "region": "greenland",
+  "short name": "Regridded Greenland Zonal Mean",
+  "type": "grid_label"
+}

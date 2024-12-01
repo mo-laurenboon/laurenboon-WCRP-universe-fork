@@ -1,7 +1,0 @@
-{
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/source-type/_context",
-    "description": "radiation component of an atmospheric model run 'offline'",
-    "id": "rad.json",
-    "name": "RAD",
-    "type": "source-type"
-}

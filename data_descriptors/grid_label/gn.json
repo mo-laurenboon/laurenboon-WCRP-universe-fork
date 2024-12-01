@@ -1,0 +1,9 @@
+{
+  "@context": "_context_",
+  "description": "data reported on a model's native grid",
+  "id": "gn",
+  "name": "gn",
+  "region": "greenland",
+  "short name": "Grid Native Greenland",
+  "type": "grid_label"
+}

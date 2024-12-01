@@ -1,9 +1,9 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/resolution/_context",
-    "description": "Resolution of 1x1 degree",
-    "id": "1x1degree.json",
-    "name": "1x1 degree",
-    "type": "resolution",
-    "unit": "degree",
-    "value": "1x1"
+  "@context": "_context_",
+  "description": "Resolution of 1x1 degree",
+  "id": "1x1degree",
+  "name": "1x1 degree",
+  "type": "resolution",
+  "unit": "degree",
+  "value": "1x1"
 }

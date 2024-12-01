@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "rss",
+    "acronyms": [
+        "RSS"
+    ],
+    "aliases": [],
+    "cmip_acronym": "RSS",
+    "established": 1974,
+    "labels": [],
+    "location": {
+        "id": "wcrp-universe:location/01vp8h012",
+        "@nest": {
+            "city": "Santa Rosa",
+            "country": [
+                "United States",
+                "US"
+            ],
+            "lat": 38.443733,
+            "lon": -122.717185
+        },
+        "type": "location"
+    },
+    "name": "Remote Sensing Systems (United States)",
+    "ror": "01vp8h012",
+    "kind": "Company",
+    "url": [
+        "http://www.remss.com/"
+    ],
+    "type": [
+        "institution",
+        "organisation:organisation"
+    ]
+}

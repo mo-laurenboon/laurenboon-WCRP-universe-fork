@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "mps",
+    "acronyms": [
+        "MPS"
+    ],
+    "aliases": [],
+    "cmip_acronym": "MPS",
+    "established": 1934,
+    "labels": [],
+    "location": {
+        "id": "wcrp-universe:location/02j6gm739",
+        "@nest": {
+            "city": "G\u00f6ttingen",
+            "country": [
+                "Germany",
+                "DE"
+            ],
+            "lat": 51.561218,
+            "lon": 51.561218
+        },
+        "type": "location"
+    },
+    "name": "Max Planck Institute for Solar System Research",
+    "ror": "02j6gm739",
+    "kind": "Facility",
+    "url": [
+        "http://www.mps.mpg.de/en"
+    ],
+    "type": [
+        "institution",
+        "organisation:organisation"
+    ]
+}

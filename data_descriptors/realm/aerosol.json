@@ -1,7 +1,7 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/realm/_context",
-    "description": "Aerosol",
-    "id": "aerosol.json",
-    "name": "aerosol",
-    "type": "realm"
+  "@context": "_context_",
+  "description": "Aerosol",
+  "id": "aerosol",
+  "name": "aerosol",
+  "type": "realm"
 }

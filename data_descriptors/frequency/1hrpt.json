@@ -1,7 +1,7 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "@context": "_context_",
     "description": "sampled hourly, at specified time point within an hour",
-    "id": "1hrpt.json",
+    "id": "1hrpt",
     "long_name": "1 Hour Point",
     "name": "1hrPt",
     "type": "frequency",

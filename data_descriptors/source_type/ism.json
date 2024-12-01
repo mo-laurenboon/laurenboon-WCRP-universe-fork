@@ -1,0 +1,7 @@
+{
+    "@context": "_context_",
+    "description": "ice-sheet model that includes ice-flow",
+    "id": "ism",
+    "name": "ISM",
+    "type": "source_type"
+}

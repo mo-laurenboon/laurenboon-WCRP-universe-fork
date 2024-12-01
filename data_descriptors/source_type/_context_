@@ -1,0 +1,10 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/source_type/",
+            "@vocab": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/source_type/"
+        }
+    ],
+    "@embed": "@always"
+}

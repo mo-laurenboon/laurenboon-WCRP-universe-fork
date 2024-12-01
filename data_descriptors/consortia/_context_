@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/consortia/",
+            "@vocab": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/consortia/",
+            "organisation": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/organisation/"
+        }
+    ],
+    "@embed": "@always"
+}

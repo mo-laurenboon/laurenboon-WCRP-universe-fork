@@ -1,7 +1,7 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/frequency/_context",
+    "@context": "_context_",
     "description": "sampled yearly, at specified time point within the time period",
-    "id": "yrpt.json",
+    "id": "yrpt",
     "long_name": "Yearly Point",
     "name": "yrPt",
     "type": "frequency",

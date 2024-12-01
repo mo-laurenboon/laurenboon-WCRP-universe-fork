@@ -1,0 +1,9 @@
+{
+  "@context": "_context_",
+  "description": "global mean data",
+  "id": "gm",
+  "name": "gm",
+  "region": "greenland",
+  "short name": "Greenland",
+  "type": "grid_label"
+}

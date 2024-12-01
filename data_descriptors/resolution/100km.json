@@ -1,9 +1,9 @@
 {
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/data_descriptors/resolution/_context",
-    "description": "Resolution of 100 km",
-    "id": "100km.json",
-    "name": "100 km",
-    "type": "resolution",
-    "unit": "km",
-    "value": "100"
+  "@context": "_context_",
+  "description": "Resolution of 100 km",
+  "id": "100km",
+  "name": "100 km",
+  "type": "resolution",
+  "unit": "km",
+  "value": "100"
 }

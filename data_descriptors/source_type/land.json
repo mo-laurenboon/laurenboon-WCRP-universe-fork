@@ -1,0 +1,7 @@
+{
+    "@context": "_context_",
+    "description": "land model run uncoupled from the atmosphere",
+    "id": "land",
+    "name": "LAND",
+    "type": "source_type"
+}

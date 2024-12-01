@@ -1,0 +1,9 @@
+{
+  "@context": "_context_",
+  "description": "data reported on a native grid in the region of Antarctica",
+  "id": "gna",
+  "name": "gna",
+  "region": "antarctica",
+  "short name": "Grid Native Antarctica Greenland",
+  "type": "grid_label"
+}

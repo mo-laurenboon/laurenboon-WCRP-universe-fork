@@ -1,0 +1,8 @@
+{
+    "@context": "_context_",
+    "id": "ramip",
+    "type": "activity",
+    "description": "Regional Aerosol Model Intercomparison Project",
+    "name": "RAMIP",
+    "url": "https://ramip.ncas.ac.uk"
+}

@@ -1,7 +1,0 @@
-{
-  "@context": "_context_",
-  "description": "Land Ice",
-  "id": "landice",
-  "name": "landIce",
-  "type": "realm"
-}

@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "uw",
+    "acronyms": [
+        "UW"
+    ],
+    "aliases": [],
+    "cmip_acronym": "UW",
+    "established": 1861,
+    "labels": [],
+    "location": {
+        "id": "universal:location/00cvxb145",
+        "@nest": {
+            "city": "Seattle",
+            "country": [
+                "United States",
+                "US"
+            ],
+            "lat": 47.60621,
+            "lon": -122.33207
+        },
+        "type": "location"
+    },
+    "name": "University of Washington",
+    "ror": "00cvxb145",
+    "kind": "Education",
+    "url": [
+        "http://www.washington.edu/"
+    ],
+    "type": [
+        "wcrp:institution",
+        "universal"
+    ]
+}

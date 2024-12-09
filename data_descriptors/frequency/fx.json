@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "description": "fixed (time invariant) field",
-    "id": "fx",
-    "long_name": "Fixed Frequency",
-    "name": "fx",
-    "type": "frequency",
-    "unit": "none"
-}

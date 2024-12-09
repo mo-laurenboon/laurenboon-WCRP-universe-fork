@@ -1,0 +1,10 @@
+{
+    "@context": "_context_",
+    "description": "Ocean Biogeochemistry",
+    "id": "ocnbgchem",
+    "name": "ocnBgchem",
+    "type": [
+        "wcrp:realm",
+        "universal"
+    ]
+}

@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "description": "sampled 6 hourly, at specified time point within the time period",
-    "id": "6hrpt",
-    "long_name": "6 Hour Point",
-    "name": "6hrPt",
-    "type": "frequency",
-    "unit": "hour"
-}

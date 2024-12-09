@@ -1,8 +1,0 @@
-{
-    "@context": "_context_",
-    "id": "pmip",
-    "type": "activity",
-    "description": "PMIP focuses on past climate variability, with experiments like LIGabrupt.",
-    "name": "PMIP",
-    "url": "https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf"
-}

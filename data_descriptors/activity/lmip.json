@@ -1,8 +1,0 @@
-{
-    "@context": "_context_",
-    "id": "lmip",
-    "type": "activity",
-    "description": "LMIP explores land-atmosphere interactions and processes, with experiments like land-hist.",
-    "name": "LMIP",
-    "url": "https://gmd.copernicus.org/articles/10/3977/2017/gmd-10-3977-2017.pdf"
-}

@@ -1,9 +1,0 @@
-{
-  "@context": "_context_",
-  "description": "regridded data reported on the data provider's preferred target grid",
-  "id": "gr",
-  "name": "gr",
-  "region": "greenland",
-  "short name": "Regridded Greenland",
-  "type": "grid_label"
-}

@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "ecmwf",
+    "acronyms": [
+        "ECMWF"
+    ],
+    "aliases": [],
+    "cmip_acronym": "ECMWF",
+    "established": 1975,
+    "labels": [],
+    "location": {
+        "id": "universal:location/014w0fd65",
+        "@nest": {
+            "city": "Reading",
+            "country": [
+                "United Kingdom",
+                "GB"
+            ],
+            "lat": 51.45625,
+            "lon": -0.97113
+        },
+        "type": "location"
+    },
+    "name": "European Centre for Medium-Range Weather Forecasts",
+    "ror": "014w0fd65",
+    "kind": "Other",
+    "url": [
+        "http://www.ecmwf.int/"
+    ],
+    "type": [
+        "wcrp:institution",
+        "universal"
+    ]
+}

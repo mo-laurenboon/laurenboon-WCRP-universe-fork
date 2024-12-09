@@ -1,9 +1,0 @@
-{
-  "@context": "_context_",
-  "description": "Resolution of 2.5 km",
-  "id": "2.5km",
-  "name": "2.5 km",
-  "type": "resolution",
-  "unit": "km",
-  "value": "2.5"
-}

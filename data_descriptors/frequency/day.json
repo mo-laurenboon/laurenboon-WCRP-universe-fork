@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "description": "daily mean samples",
-    "id": "day",
-    "long_name": "Daily Frequency",
-    "name": "day",
-    "type": "frequency",
-    "unit": "day"
-}

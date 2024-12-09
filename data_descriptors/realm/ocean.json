@@ -1,7 +1,0 @@
-{
-  "@context": "_context_",
-  "description": "Ocean",
-  "id": "ocean",
-  "name": "ocean",
-  "type": "realm"
-}

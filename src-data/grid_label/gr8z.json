@@ -1,0 +1,12 @@
+{
+    "@context": "_context_",
+    "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+    "id": "gr8z",
+    "name": "gr8z",
+    "region": "greenland",
+    "short name": "Regridded Greenland Zonal Mean Alternate z",
+    "type": [
+        "wcrp:grid_label",
+        "universal"
+    ]
+}

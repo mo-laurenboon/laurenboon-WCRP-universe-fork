@@ -1,7 +1,0 @@
-{
-  "@context": "_context_",
-  "description": "Land Surface and Subsurface",
-  "id": "land",
-  "name": "land",
-  "type": "realm"
-}

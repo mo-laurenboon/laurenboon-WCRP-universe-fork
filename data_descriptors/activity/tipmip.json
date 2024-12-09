@@ -1,8 +1,0 @@
-{
-    "@context": "_context_",
-    "id": "tipmip",
-    "type": "activity",
-    "description": "Tipping Point Model Intercomparison Project",
-    "name": "TIPMIP",
-    "url": "https://tipmip.pik-potsdam.de/"
-}

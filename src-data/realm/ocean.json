@@ -1,0 +1,10 @@
+{
+    "@context": "_context_",
+    "description": "Ocean",
+    "id": "ocean",
+    "name": "ocean",
+    "type": [
+        "wcrp:realm",
+        "universal"
+    ]
+}

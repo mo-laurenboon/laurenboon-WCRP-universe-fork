@@ -1,0 +1,12 @@
+{
+    "@context": "_context_",
+    "description": "zonal mean data reported on a model's native latitude grid",
+    "id": "gnz",
+    "name": "gnz",
+    "region": "greenland",
+    "short name": "Grid Native Greenland Zonal Mean",
+    "type": [
+        "wcrp:grid_label",
+        "universal"
+    ]
+}

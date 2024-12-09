@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "end": 2020,
-    "id": "cmip5",
-    "name": "CMIP5",
-    "start": 2006,
-    "type": "mip",
-    "url": "https://wcrp-cmip.org/CMIP5"
-}

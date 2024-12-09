@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "description": "3 hourly mean samples",
-    "id": "3hr",
-    "long_name": "3 Hourly Frequency",
-    "name": "3hr",
-    "type": "frequency",
-    "unit": "hour"
-}

@@ -1,9 +1,0 @@
-{
-    "@context": "_context_",
-    "description": "decadal mean samples",
-    "id": "dec",
-    "long_name": "Decadal Frequency",
-    "name": "dec",
-    "type": "frequency",
-    "unit": "decade"
-}

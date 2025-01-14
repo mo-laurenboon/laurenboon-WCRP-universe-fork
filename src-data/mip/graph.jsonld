@@ -2,6 +2,7 @@
   "@context": {
   "@base": "https://wcrp-cmip.github.io/WCRP-universe/mip/",
   "@vocab": "https://wcrp-cmip.github.io/WCRP-universe/mip/",
+  "entries": "@none",
   "id": "@id",
   "type": "@type",
   "cf": "https://wcrp-cmip.github.io/CF/",
@@ -15,46 +16,46 @@
     {
   "end": 2020,
   "id": "cmip5",
-  "name": "CMIP5",
   "start": 2006,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP5"
+  "url": "https://wcrp-cmip.org/CMIP5",
+  "label": "CMIP5"
 }
     ,{
   "end": 2024,
   "id": "cmip6",
-  "name": "CMIP6",
   "start": 2013,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP6"
+  "url": "https://wcrp-cmip.org/CMIP6",
+  "label": "CMIP6"
 }
     ,{
   "end": 2999,
   "id": "cmip6plus",
-  "name": "CMIP6Plus",
   "start": 2023,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP6Plus"
+  "url": "https://wcrp-cmip.org/CMIP6Plus",
+  "label": "CMIP6Plus"
 }
     ,{
   "end": 2999,
   "id": "cmip7",
-  "name": "CMIP7",
   "start": 2025,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP7"
+  "url": "https://wcrp-cmip.org/CMIP7",
+  "label": "CMIP7"
 }
   ]
 }

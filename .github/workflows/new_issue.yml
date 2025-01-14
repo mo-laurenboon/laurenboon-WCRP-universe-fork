@@ -1,0 +1,23 @@
+name: Deploy static content to Pages
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  id-token: write
+
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: true
+
+jobs:
+  # Specify the machine type
+  new-issue:
+    runs-on: ubuntu-latest  # Added missing runs-on field
+
+    steps:
+      - name: Run the parser on a new issue
+        id: new-issue-action
+        uses: WCRP-CMIP/CMIP-LD/actions/new-issue@main

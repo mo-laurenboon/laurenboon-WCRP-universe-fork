@@ -2,6 +2,7 @@
   "@context": {
   "@base": "https://wcrp-cmip.github.io/WCRP-universe/realm/",
   "@vocab": "https://wcrp-cmip.github.io/WCRP-universe/realm/",
+  "entries": "@none",
   "id": "@id",
   "type": "@type",
   "cf": "https://wcrp-cmip.github.io/CF/",
@@ -15,74 +16,82 @@
     {
   "description": "Aerosol",
   "id": "aerosol",
-  "name": "aerosol",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "aerosol",
+  "long_label": "Aerosol"
 }
     ,{
   "description": "Atmosphere",
   "id": "atmos",
-  "name": "atmos",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "atmos",
+  "long_label": "Atmosphere"
 }
     ,{
   "description": "Atmospheric Chemistry",
   "id": "atmoschem",
-  "name": "atmosChem",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "atmosChem",
+  "long_label": "Atmospheric Chemistry"
 }
     ,{
   "description": "Land Surface and Subsurface",
   "id": "land",
-  "name": "land",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "land",
+  "long_label": "Land Surface and Subsurface"
 }
     ,{
   "description": "Land Ice",
   "id": "landice",
-  "name": "landIce",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "landIce",
+  "long_label": "Land Ice"
 }
     ,{
   "description": "Ocean",
   "id": "ocean",
-  "name": "ocean",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "ocean",
+  "long_label": "Ocean"
 }
     ,{
   "description": "Ocean Biogeochemistry",
   "id": "ocnbgchem",
-  "name": "ocnBgchem",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "ocnBgchem",
+  "long_label": "Ocean Biogeochemistry"
 }
     ,{
   "description": "Sea Ice",
   "id": "seaice",
-  "name": "seaIce",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "label": "seaIce",
+  "long_label": "Sea Ice"
 }
   ]
 }

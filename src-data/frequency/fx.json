@@ -3,10 +3,10 @@
     "description": "fixed (time invariant) field",
     "id": "fx",
     "long_name": "Fixed Frequency",
-    "name": "fx",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "none"
+    "unit": "none",
+    "label": "fx"
 }

@@ -2,11 +2,11 @@
     "@context": "_context_",
     "description": "Resolution of 25 km",
     "id": "25km",
-    "name": "25 km",
     "type": [
         "wcrp:resolution",
         "universal"
     ],
     "unit": "km",
-    "value": "25"
+    "value": "25",
+    "label": "25 km"
 }

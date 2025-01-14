@@ -3,10 +3,10 @@
     "description": "decadal mean samples",
     "id": "dec",
     "long_name": "Decadal Frequency",
-    "name": "dec",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "decade"
+    "unit": "decade",
+    "label": "dec"
 }

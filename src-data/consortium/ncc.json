@@ -1,7 +1,6 @@
 {
     "@context": "_context_",
     "changes": "",
-    "cmip-acronym": "NCC",
     "id": "ncc",
     "members": {
         "noresm": {
@@ -61,11 +60,12 @@
             ]
         }
     },
-    "name": "NCC Consortium",
     "status": "active",
     "type": [
         "wcrp:consortium",
         "universal"
     ],
-    "url": ""
+    "url": "",
+    "long_label": "NCC Consortium",
+    "label": "NCC"
 }

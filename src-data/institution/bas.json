@@ -5,7 +5,6 @@
         "BAS"
     ],
     "aliases": [],
-    "cmip_acronym": "BAS",
     "established": 1962,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "British Antarctic Survey",
     "ror": "01rhff309",
     "kind": "Government",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "British Antarctic Survey",
+    "label": "BAS"
 }

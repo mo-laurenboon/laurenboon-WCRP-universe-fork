@@ -5,7 +5,6 @@
         "LaRC"
     ],
     "aliases": [],
-    "cmip_acronym": "NASA-LaRC",
     "established": 1917,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Langley Research Center",
     "ror": "0399mhs52",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Langley Research Center",
+    "label": "NASA-LaRC"
 }

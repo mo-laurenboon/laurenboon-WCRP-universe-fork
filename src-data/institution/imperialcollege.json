@@ -3,7 +3,6 @@
     "id": "imperialcollege",
     "acronyms": [],
     "aliases": [],
-    "cmip_acronym": "ImperialCollege",
     "established": 1907,
     "labels": [],
     "location": {
@@ -19,7 +18,6 @@
         },
         "type": "location"
     },
-    "name": "Imperial College London",
     "ror": "041kmwe10",
     "kind": "Education",
     "url": [
@@ -28,5 +26,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Imperial College London",
+    "label": "ImperialCollege"
 }

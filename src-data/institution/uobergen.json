@@ -5,7 +5,6 @@
         "UiB"
     ],
     "aliases": [],
-    "cmip_acronym": "UoBergen",
     "established": 1946,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "University of Bergen",
     "ror": "03zga2b32",
     "kind": "Education",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of Bergen",
+    "label": "UoBergen"
 }

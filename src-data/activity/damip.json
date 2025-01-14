@@ -6,6 +6,6 @@
         "universal"
     ],
     "description": "DAMIP focuses on detection and attribution of climate change, covering experiments like hist-aer and hist-nat.",
-    "name": "DAMIP",
-    "url": "https://gmd.copernicus.org/articles/13/7947/2020/gmd-13-7947-2020.pdf"
+    "url": "https://gmd.copernicus.org/articles/13/7947/2020/gmd-13-7947-2020.pdf",
+    "label": "DAMIP"
 }

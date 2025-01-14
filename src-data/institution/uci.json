@@ -7,7 +7,6 @@
     "aliases": [
         "UC Irvine"
     ],
-    "cmip_acronym": "UCI",
     "established": 1965,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "University of California, Irvine",
     "ror": "04gyf1771",
     "kind": "Education",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of California, Irvine",
+    "label": "UCI"
 }

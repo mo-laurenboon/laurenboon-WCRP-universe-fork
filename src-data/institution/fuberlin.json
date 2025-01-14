@@ -8,7 +8,6 @@
         "FU Berlin",
         "Free University of Berlin"
     ],
-    "cmip_acronym": "FUBerlin",
     "established": 1948,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "Freie Universit\u00e4t Berlin",
     "ror": "046ak2485",
     "kind": "Education",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Freie Universit\u00e4t Berlin",
+    "label": "FUBerlin"
 }

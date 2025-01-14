@@ -8,7 +8,6 @@
         "Karlsruhe Institute of Technology - The Research University in the Helmholtz Association",
         "Das Karlsruher Institut f\u00fcr Technologie (KIT) \u2013 Die Forschungsuniversit\u00e4t in der Helmholtz-Gemeinschaft"
     ],
-    "cmip_acronym": "KIT",
     "established": 2009,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "Karlsruhe Institute of Technology",
     "ror": "04t3en479",
     "kind": "Education",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Karlsruhe Institute of Technology",
+    "label": "KIT"
 }

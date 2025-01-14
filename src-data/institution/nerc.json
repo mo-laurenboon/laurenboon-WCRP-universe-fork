@@ -5,7 +5,6 @@
         "NERC"
     ],
     "aliases": [],
-    "cmip_acronym": "NERC",
     "established": 1965,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Natural Environment Research Council",
     "ror": "02b5d8509",
     "kind": "Government",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Natural Environment Research Council",
+    "label": "NERC"
 }

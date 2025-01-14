@@ -3,7 +3,6 @@
     "id": "uoleeds",
     "acronyms": [],
     "aliases": [],
-    "cmip_acronym": "UoLeeds",
     "established": 1904,
     "labels": [],
     "location": {
@@ -19,7 +18,6 @@
         },
         "type": "location"
     },
-    "name": "University of Leeds",
     "ror": "024mrxd33",
     "kind": "Education",
     "url": [
@@ -28,5 +26,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of Leeds",
+    "label": "UoLeeds"
 }

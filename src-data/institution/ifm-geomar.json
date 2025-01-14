@@ -7,7 +7,6 @@
     "aliases": [
         "Leibniz Institute of Marine Sciences"
     ],
-    "cmip_acronym": "IFM-GEOMAR",
     "established": 2004,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
     "ror": "02h2x0161",
     "kind": "Facility",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+    "label": "IFM-GEOMAR"
 }

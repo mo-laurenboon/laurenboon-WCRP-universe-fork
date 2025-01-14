@@ -3,10 +3,10 @@
     "description": "sampled sub-hourly, at specified time point within an hour",
     "id": "subhrpt",
     "long_name": "Sub-Hourly Point",
-    "name": "subhrPt",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "minute"
+    "unit": "minute",
+    "label": "subhrPt"
 }

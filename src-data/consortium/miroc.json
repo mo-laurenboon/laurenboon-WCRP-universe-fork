@@ -1,7 +1,6 @@
 {
     "@context": "_context_",
     "changes": "",
-    "cmip-acronym": "MIROC",
     "id": "miroc",
     "members": {
         "jamstec": {
@@ -37,11 +36,12 @@
             ]
         }
     },
-    "name": "MIROC Consortium",
     "status": "active",
     "type": [
         "wcrp:consortium",
         "universal"
     ],
-    "url": ""
+    "url": "",
+    "long_label": "MIROC Consortium",
+    "label": "MIROC"
 }

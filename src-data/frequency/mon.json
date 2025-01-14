@@ -3,10 +3,10 @@
     "description": "monthly mean samples",
     "id": "mon",
     "long_name": "Monthly Frequency",
-    "name": "mon",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "month"
+    "unit": "month",
+    "label": "mon"
 }

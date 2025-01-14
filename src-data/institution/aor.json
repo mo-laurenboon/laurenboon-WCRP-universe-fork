@@ -3,7 +3,6 @@
     "id": "aor",
     "acronyms": [],
     "aliases": [],
-    "cmip_acronym": "AoR",
     "established": 1938,
     "labels": [],
     "location": {
@@ -19,7 +18,6 @@
         },
         "type": "location"
     },
-    "name": "Astronomical Observatory of Rome",
     "ror": "02hnp4676",
     "kind": "Facility",
     "url": [
@@ -28,5 +26,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Astronomical Observatory of Rome",
+    "label": "AoR"
 }

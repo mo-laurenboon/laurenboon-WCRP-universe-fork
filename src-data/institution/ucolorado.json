@@ -5,7 +5,6 @@
         "CU"
     ],
     "aliases": [],
-    "cmip_acronym": "UColorado",
     "established": 1876,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "University of Colorado System",
     "ror": "00jc20583",
     "kind": "Education",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of Colorado System",
+    "label": "UColorado"
 }

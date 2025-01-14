@@ -6,6 +6,6 @@
         "universal"
     ],
     "description": "Regional Aerosol Model Intercomparison Project",
-    "name": "RAMIP",
-    "url": "https://ramip.ncas.ac.uk"
+    "url": "https://ramip.ncas.ac.uk",
+    "label": "RAMIP"
 }

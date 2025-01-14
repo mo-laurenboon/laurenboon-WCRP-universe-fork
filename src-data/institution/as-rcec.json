@@ -5,7 +5,6 @@
         "RCEC"
     ],
     "aliases": [],
-    "cmip_acronym": "AS-RCEC",
     "established": 0,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Research Center for Environmental Changes, Academia Sinica",
     "ror": "050qpg053",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Research Center for Environmental Changes, Academia Sinica",
+    "label": "AS-RCEC"
 }

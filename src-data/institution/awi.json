@@ -5,7 +5,6 @@
         "AWI"
     ],
     "aliases": [],
-    "cmip_acronym": "AWI",
     "established": 1980,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Alfred Wegener Institute for Polar and Marine Research",
     "ror": "032e6b942",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Alfred Wegener Institute for Polar and Marine Research",
+    "label": "AWI"
 }

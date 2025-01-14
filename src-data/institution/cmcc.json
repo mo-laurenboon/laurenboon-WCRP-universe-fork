@@ -5,7 +5,6 @@
         "CMCC"
     ],
     "aliases": [],
-    "cmip_acronym": "CMCC",
     "established": 2005,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Euro-Mediterranean Center for Climate Change",
     "ror": "01tf11a61",
     "kind": "Nonprofit",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Euro-Mediterranean Center for Climate Change",
+    "label": "CMCC"
 }

@@ -5,7 +5,6 @@
         "MPS"
     ],
     "aliases": [],
-    "cmip_acronym": "MPS",
     "established": 1934,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Max Planck Institute for Solar System Research",
     "ror": "02j6gm739",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Max Planck Institute for Solar System Research",
+    "label": "MPS"
 }

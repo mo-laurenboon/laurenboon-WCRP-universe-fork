@@ -5,7 +5,6 @@
         "CNES"
     ],
     "aliases": [],
-    "cmip_acronym": "CNES",
     "established": 1961,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Centre National d'\u00c9tudes Spatiales",
     "ror": "04h1h0y33",
     "kind": "Government",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Centre National d'\u00c9tudes Spatiales",
+    "label": "CNES"
 }

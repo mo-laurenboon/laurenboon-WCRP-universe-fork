@@ -8,7 +8,6 @@
         "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Zurich",
         "Politecnico Federale di Zurigo"
     ],
-    "cmip_acronym": "IACETH",
     "established": 1855,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "ETH Zurich",
     "ror": "05a28rw58",
     "kind": "Education",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "ETH Zurich",
+    "label": "IACETH"
 }

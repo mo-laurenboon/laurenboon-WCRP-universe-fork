@@ -5,7 +5,6 @@
         "ECMWF"
     ],
     "aliases": [],
-    "cmip_acronym": "ECMWF",
     "established": 1975,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "European Centre for Medium-Range Weather Forecasts",
     "ror": "014w0fd65",
     "kind": "Other",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "European Centre for Medium-Range Weather Forecasts",
+    "label": "ECMWF"
 }

@@ -5,7 +5,6 @@
         "UMD"
     ],
     "aliases": [],
-    "cmip_acronym": "UofMD",
     "established": 1856,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "University of Maryland, College Park",
     "ror": "047s2c258",
     "kind": "Education",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of Maryland, College Park",
+    "label": "UofMD"
 }

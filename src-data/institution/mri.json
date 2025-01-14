@@ -7,7 +7,6 @@
     "aliases": [
         "Kish\u014d-ch\u014d"
     ],
-    "cmip_acronym": "MRI",
     "established": 1956,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "Japan Meteorological Agency",
     "ror": "02772kk97",
     "kind": "Other",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Japan Meteorological Agency",
+    "label": "MRI"
 }

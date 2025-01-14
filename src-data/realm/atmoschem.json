@@ -2,9 +2,10 @@
     "@context": "_context_",
     "description": "Atmospheric Chemistry",
     "id": "atmoschem",
-    "name": "atmosChem",
     "type": [
         "wcrp:realm",
         "universal"
-    ]
+    ],
+    "label": "atmosChem",
+    "long_label": "Atmospheric Chemistry"
 }

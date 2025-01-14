@@ -8,7 +8,6 @@
     "aliases": [
         "Nanking University"
     ],
-    "cmip_acronym": "NUIST",
     "established": 1902,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "Nanjing University",
     "ror": "01rxvg760",
     "kind": "Education",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Nanjing University",
+    "label": "NUIST"
 }

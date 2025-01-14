@@ -5,7 +5,6 @@
         "EAWAG"
     ],
     "aliases": [],
-    "cmip_acronym": "EAWAG",
     "established": 1936,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Swiss Federal Institute of Aquatic Science and Technology",
     "ror": "00pc48d59",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Swiss Federal Institute of Aquatic Science and Technology",
+    "label": "EAWAG"
 }

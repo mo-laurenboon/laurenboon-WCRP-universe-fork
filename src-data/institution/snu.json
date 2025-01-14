@@ -7,7 +7,6 @@
     "aliases": [
         "Seoul Daehakgyo"
     ],
-    "cmip_acronym": "SNU",
     "established": 1946,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "Seoul National University",
     "ror": "04h9pn542",
     "kind": "Education",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Seoul National University",
+    "label": "SNU"
 }

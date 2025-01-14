@@ -3,10 +3,10 @@
     "description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
     "id": "1hrcm",
     "long_name": "1 Hour Climatology Monthly",
-    "name": "1hrCM",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "hour"
+    "unit": "hour",
+    "label": "1hrCM"
 }

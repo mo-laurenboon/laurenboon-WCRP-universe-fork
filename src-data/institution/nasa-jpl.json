@@ -8,7 +8,6 @@
         "Jet Propulsion Lab",
         "Jet Propulsion Laboratory, California Institute of Technology"
     ],
-    "cmip_acronym": "NASA-JPL",
     "established": 1936,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "Jet Propulsion Laboratory",
     "ror": "027k65916",
     "kind": "Facility",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Jet Propulsion Laboratory",
+    "label": "NASA-JPL"
 }

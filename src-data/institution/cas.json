@@ -5,7 +5,6 @@
         "CAS"
     ],
     "aliases": [],
-    "cmip_acronym": "CAS",
     "established": 1949,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Chinese Academy of Sciences",
     "ror": "034t30j35",
     "kind": "Government",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Chinese Academy of Sciences",
+    "label": "CAS"
 }

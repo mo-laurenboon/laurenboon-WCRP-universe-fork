@@ -3,10 +3,10 @@
     "description": "3 hourly mean samples",
     "id": "3hr",
     "long_name": "3 Hourly Frequency",
-    "name": "3hr",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "hour"
+    "unit": "hour",
+    "label": "3hr"
 }

@@ -5,7 +5,6 @@
         "OSU"
     ],
     "aliases": [],
-    "cmip_acronym": "OSU",
     "established": 1868,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Oregon State University",
     "ror": "00ysfqy60",
     "kind": "Education",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Oregon State University",
+    "label": "OSU"
 }

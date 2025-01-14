@@ -3,7 +3,6 @@
     "id": "mpi-b",
     "acronyms": [],
     "aliases": [],
-    "cmip_acronym": "MPI-B",
     "established": 1997,
     "labels": [],
     "location": {
@@ -19,7 +18,6 @@
         },
         "type": "location"
     },
-    "name": "Max Planck Institute for Biogeochemistry",
     "ror": "051yxp643",
     "kind": "Facility",
     "url": [
@@ -28,5 +26,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Max Planck Institute for Biogeochemistry",
+    "label": "MPI-B"
 }

@@ -12,7 +12,6 @@
         "U.S. National Centers for Environmental Information",
         "National Centers for Environmental Information"
     ],
-    "cmip_acronym": "NOAA-NCEI",
     "established": 1934,
     "labels": [],
     "location": {
@@ -28,7 +27,6 @@
         },
         "type": "location"
     },
-    "name": "NOAA National Centers for Environmental Information",
     "ror": "04r0wrp59",
     "kind": "Government",
     "url": [
@@ -37,5 +35,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "NOAA National Centers for Environmental Information",
+    "label": "NOAA-NCEI"
 }

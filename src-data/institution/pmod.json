@@ -5,7 +5,6 @@
         "PMOD"
     ],
     "aliases": [],
-    "cmip_acronym": "PMOD",
     "established": 1907,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Physikalisch-Meteorologisches Observatorium Davos",
     "ror": "02gtrqv93",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Physikalisch-Meteorologisches Observatorium Davos",
+    "label": "PMOD"
 }

@@ -6,6 +6,6 @@
         "universal"
     ],
     "description": "Tipping Point Model Intercomparison Project",
-    "name": "TIPMIP",
-    "url": "https://tipmip.pik-potsdam.de/"
+    "url": "https://tipmip.pik-potsdam.de/",
+    "label": "TIPMIP"
 }

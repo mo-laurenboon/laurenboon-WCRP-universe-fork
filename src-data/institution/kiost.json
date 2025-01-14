@@ -7,7 +7,6 @@
     "aliases": [
         "Korean Ocean Research and Development Institute"
     ],
-    "cmip_acronym": "KIOST",
     "established": 1973,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "Korea Institute of Ocean Science and Technology",
     "ror": "032m55064",
     "kind": "Facility",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Korea Institute of Ocean Science and Technology",
+    "label": "KIOST"
 }

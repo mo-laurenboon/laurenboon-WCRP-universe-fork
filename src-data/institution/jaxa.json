@@ -8,7 +8,6 @@
         "Dokuritsu-gy\u014dsei-h\u014djin Uch\u016b K\u014dk\u016b Kenky\u016b Kaihatsu Kik\u014d",
         "Independent Administrative Institution on Aerospace Research and Development"
     ],
-    "cmip_acronym": "JAXA",
     "established": 2003,
     "labels": [],
     "location": {
@@ -24,7 +23,6 @@
         },
         "type": "location"
     },
-    "name": "Japan Aerospace Exploration Agency",
     "ror": "059yhyy33",
     "kind": "Facility",
     "url": [
@@ -33,5 +31,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Japan Aerospace Exploration Agency",
+    "label": "JAXA"
 }

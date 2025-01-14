@@ -5,7 +5,6 @@
         "THU"
     ],
     "aliases": [],
-    "cmip_acronym": "THU",
     "established": 1911,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Tsinghua University",
     "ror": "03cve4549",
     "kind": "Education",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Tsinghua University",
+    "label": "THU"
 }

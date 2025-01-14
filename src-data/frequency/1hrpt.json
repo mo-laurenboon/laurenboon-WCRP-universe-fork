@@ -3,10 +3,10 @@
     "description": "sampled hourly, at specified time point within an hour",
     "id": "1hrpt",
     "long_name": "1 Hour Point",
-    "name": "1hrPt",
     "type": [
         "wcrp:frequency",
         "universal"
     ],
-    "unit": "hour"
+    "unit": "hour",
+    "label": "1hrPt"
 }

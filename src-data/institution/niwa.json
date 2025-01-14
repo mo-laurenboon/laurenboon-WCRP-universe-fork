@@ -7,7 +7,6 @@
     "aliases": [
         "Taihoro Nukurangi"
     ],
-    "cmip_acronym": "NIWA",
     "established": 1992,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "National Institute of Water and Atmospheric Research",
     "ror": "04hxcaz34",
     "kind": "Facility",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "National Institute of Water and Atmospheric Research",
+    "label": "NIWA"
 }

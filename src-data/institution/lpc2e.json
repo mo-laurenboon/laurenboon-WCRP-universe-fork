@@ -5,7 +5,6 @@
         "LPC2E"
     ],
     "aliases": [],
-    "cmip_acronym": "LPC2E",
     "established": 2012,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
     "ror": "049k66y27",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
+    "label": "LPC2E"
 }

@@ -5,7 +5,6 @@
         "GSFC"
     ],
     "aliases": [],
-    "cmip_acronym": "NASA-GSFC",
     "established": 1959,
     "labels": [],
     "location": {
@@ -21,7 +20,6 @@
         },
         "type": "location"
     },
-    "name": "Goddard Space Flight Center",
     "ror": "0171mag52",
     "kind": "Facility",
     "url": [
@@ -30,5 +28,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Goddard Space Flight Center",
+    "label": "NASA-GSFC"
 }

@@ -7,7 +7,6 @@
     "aliases": [
         "UC Santa Barbara"
     ],
-    "cmip_acronym": "UCSB",
     "established": 1891,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "University of California, Santa Barbara",
     "ror": "02t274463",
     "kind": "Education",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "University of California, Santa Barbara",
+    "label": "UCSB"
 }

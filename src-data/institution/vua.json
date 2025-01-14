@@ -7,7 +7,6 @@
     "aliases": [
         "VU Amsterdam"
     ],
-    "cmip_acronym": "VUA",
     "established": 1880,
     "labels": [],
     "location": {
@@ -23,7 +22,6 @@
         },
         "type": "location"
     },
-    "name": "Vrije Universiteit Amsterdam",
     "ror": "008xxew50",
     "kind": "Education",
     "url": [
@@ -32,5 +30,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Vrije Universiteit Amsterdam",
+    "label": "VUA"
 }

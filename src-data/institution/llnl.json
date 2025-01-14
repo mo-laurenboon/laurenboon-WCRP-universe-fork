@@ -11,7 +11,6 @@
         "United States Department of Energy Los Alamos National Laboratory",
         "U.S. Department of Energy Los Alamos National Laboratory"
     ],
-    "cmip_acronym": "LLNL",
     "established": 1952,
     "labels": [],
     "location": {
@@ -27,7 +26,6 @@
         },
         "type": "location"
     },
-    "name": "Lawrence Livermore National Laboratory",
     "ror": "041nk4h53",
     "kind": "Facility",
     "url": [
@@ -36,5 +34,7 @@
     "type": [
         "wcrp:institution",
         "universal"
-    ]
+    ],
+    "long_label": "Lawrence Livermore National Laboratory",
+    "label": "LLNL"
 }

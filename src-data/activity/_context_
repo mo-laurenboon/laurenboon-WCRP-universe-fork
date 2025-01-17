@@ -7,7 +7,5 @@
         }
     ],
     "@embed": "@always",
-    "@type": [
-        "universal"
-    ]
+    "@type": "universal"
 }

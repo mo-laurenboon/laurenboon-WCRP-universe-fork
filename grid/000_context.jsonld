@@ -1,0 +1,16 @@
+
+{
+     
+      "@context": {
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/grid/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "grid-label": "https://espri-mod.github.io/mip-cmor-tables/grid/",
+      "short_name": {"@id": "https://schema.org/alternateName"},
+      "name": {"@id": "https://schema.org/name"},
+      "region": {"@id": "https://es-vocab.fr/region"},
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

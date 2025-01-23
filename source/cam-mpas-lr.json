@@ -1,0 +1,23 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cam-mpas-lr",
+    "type": "source",
+    "activity_participation": [
+        "highresmip"
+    ],
+    "cohort": [
+        "Registered"
+    ],
+    "label": "CAM-MPAS-LR",
+    "label_extended": "CAM MPAS (Community Atmosphere Model - Model for Prediction Across Scales)",
+    "model_component": {
+        "aerosol": "none,",
+        "atmos": "cam-mpas",
+        "land": "clm"
+    },
+    "release_year": "2018",
+    "organisation_id": [
+        "pnnl-waccem"
+    ],
+    "drs_name": "CAM-MPAS-LR"
+}

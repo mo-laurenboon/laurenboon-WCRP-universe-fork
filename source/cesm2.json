@@ -1,0 +1,57 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cesm2",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "aerchemmip",
+        "c4mip",
+        "cdrmip",
+        "cfmip",
+        "cmip",
+        "cordex",
+        "damip",
+        "dcpp",
+        "dynvarmip",
+        "fafmip",
+        "gmmip",
+        "geomip",
+        "highresmip",
+        "ismip6",
+        "ls3mip",
+        "lumip",
+        "omip",
+        "pamip",
+        "pmip",
+        "rfmip",
+        "rfmip",
+        "simip",
+        "scenariomip",
+        "viacsab",
+        "volmip"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "label": "CESM2",
+    "label_extended": "CESM2",
+    "model_component": {
+        "aerosol": "mam4",
+        "atmos": "cam6",
+        "atmosChem": "mam4",
+        "land": "clm5",
+        "landIce": "cism2.1",
+        "ocean": "pop2",
+        "ocnBgchem": "marbl",
+        "seaIce": "cice5.1"
+    },
+    "release_year": "2018",
+    "organisation_id": [
+        "ncar"
+    ],
+    "drs_name": "CESM2"
+}

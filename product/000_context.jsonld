@@ -1,0 +1,15 @@
+
+{
+     
+      "@context": {
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/product/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "product": "https://espri-mod.github.io/mip-cmor-tables/product/",
+      "kind": {"@id": "https://espri-mod.github.io/mip-cmor-tables/kind"},
+      
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

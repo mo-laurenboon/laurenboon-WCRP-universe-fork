@@ -2,8 +2,8 @@ from pathlib import Path
 import os,json
 
 from _pytest.pathlib import insert_missing_modules
-from mip_cmor_tables.models.consortium import Consortium
-from mip_cmor_tables.models.institution import Institution
+from wcrp_universe.models.consortium import Consortium
+from wcrp_universe.models.institution import Institution
 
 institution_path = Path("institution")
 consortia_path = Path("consortium")

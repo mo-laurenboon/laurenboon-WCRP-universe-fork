@@ -1,34 +1,33 @@
-from mip_cmor_tables.models.consortia import Consortia
-from mip_cmor_tables.models.forcing_index import ForcingIndex
-from mip_cmor_tables.models.frequency import Frequency
-from mip_cmor_tables.models.activity import Activity
-from mip_cmor_tables.models.experiment import Experiment
-from mip_cmor_tables.models.grid_label import GridLabel
-from mip_cmor_tables.models.initialisation_index import InitialisationIndex
-from mip_cmor_tables.models.institution import Institution
-from mip_cmor_tables.models.license import License
-from mip_cmor_tables.models.mip_era import MipEra
-from mip_cmor_tables.models.model_component import ModelComponent
-from mip_cmor_tables.models.organisation import Organisation
-from mip_cmor_tables.models.physic_index import PhysicIndex
-from mip_cmor_tables.models.product import Product
-from mip_cmor_tables.models.realisation_index import RealisationIndex
-from mip_cmor_tables.models.realm import Realm
-from mip_cmor_tables.models.resolution import Resolution
-from mip_cmor_tables.models.source import Source
-from mip_cmor_tables.models.source_type import SourceType
-from mip_cmor_tables.models.sub_experiment import SubExperiment
-from mip_cmor_tables.models.table import Table
-from mip_cmor_tables.models.date import Date
-from mip_cmor_tables.models.time_range import TimeRange
+from wcrp_universe.models.consortium import Consortium
+from wcrp_universe.models.forcing_index import ForcingIndex
+from wcrp_universe.models.frequency import Frequency
+from wcrp_universe.models.activity import Activity
+from wcrp_universe.models.experiment import Experiment
+from wcrp_universe.models.grid_label import GridLabel
+from wcrp_universe.models.initialisation_index import InitialisationIndex
+from wcrp_universe.models.institution import Institution
+from wcrp_universe.models.license import License
+from wcrp_universe.models.mip_era import MipEra
+from wcrp_universe.models.model_component import ModelComponent
+from wcrp_universe.models.organisation import Organisation
+from wcrp_universe.models.physic_index import PhysicIndex
+from wcrp_universe.models.product import Product
+from wcrp_universe.models.realisation_index import RealisationIndex
+from wcrp_universe.models.realm import Realm
+from wcrp_universe.models.resolution import Resolution
+from wcrp_universe.models.source import Source
+from wcrp_universe.models.source_type import SourceType
+from wcrp_universe.models.sub_experiment import SubExperiment
+from wcrp_universe.models.table import Table
+from wcrp_universe.models.date import Date
+from wcrp_universe.models.time_range import TimeRange
 
 from pathlib import Path
-from mip_cmor_tables.models.variable import Variable
-from mip_cmor_tables.models.variant_label import VariantLabel
+from wcrp_universe.models.variable import Variable
+from wcrp_universe.models.variant_label import VariantLabel
 from pydantic import ValidationError
 import pytest
 
-import json
 
 def validate_terms(input_dir, model):
     for p in input_dir.iterdir():
@@ -74,7 +73,7 @@ def test_institutions():
     validate_terms(Path("institution/"),Institution)
 
 def test_consortias():
-    validate_terms(Path("consortia/"),Consortia)
+    validate_terms(Path("consortium/"),Consortium)
 
 def test_organisation():
     validate_terms(Path("organisation/"),Organisation)

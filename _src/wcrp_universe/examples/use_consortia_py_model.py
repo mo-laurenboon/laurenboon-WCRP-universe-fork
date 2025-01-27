@@ -1,4 +1,4 @@
-from mip_cmor_tables.models.consortia import Consortia
+from wcrp_universe.models.consortia import Consortia
 import json
 from pathlib import Path
 from pprint import pp

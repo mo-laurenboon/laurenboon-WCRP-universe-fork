@@ -1,4 +1,4 @@
-from mip_cmor_tables.models.variant_label import VariantLabel
+from wcrp_universe.models.variant_label import VariantLabel
 import json, re
 from pathlib import Path
 from pprint import pp

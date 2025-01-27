@@ -1,5 +1,5 @@
 [project]
-name = "mip-cmor-tables"
+name = "WCRP-universe"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
@@ -26,7 +26,7 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["_src/mip_cmor_tables"]
+packages = ["_src/wcrp_universe"]
 
 [tool.pytest.ini_options]
 log_cli = true

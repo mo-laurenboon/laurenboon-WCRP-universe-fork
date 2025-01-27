@@ -33,15 +33,15 @@ packaging==24.1
 pluggy==1.5.0
     # via pytest
 pydantic==2.9.2
-    # via mip-cmor-tables
+    # via wcrp-universe
 pydantic-core==2.23.4
     # via pydantic
 pyld==2.0.4
-    # via mip-cmor-tables
+    # via wcrp-universe
 pytest==8.3.3
-    # via mip-cmor-tables
+    # via wcrp-universe
 requests==2.32.3
-    # via mip-cmor-tables
+    # via wcrp-universe
 tomli==2.0.2
     # via pytest
 typing-extensions==4.12.2

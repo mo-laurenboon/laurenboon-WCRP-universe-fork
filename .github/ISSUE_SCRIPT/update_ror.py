@@ -2,14 +2,11 @@
 
 import cmipld
 import json
+from cmipld.tests.jsonld import organisation
+from pydantic import  ValidationError
+
+
 repopath = './src-data/organisation/'
-
-
-# # args needed
-# ror = parsed_issue['ror']
-# acronym = parsed_issue['acronym']
-
-
 
 
 
@@ -71,18 +68,48 @@ if __name__ == '__main__':
         
         match data:
             case {"type":ldtypes} if 'wcrp:institution' in ldtypes:
-                # print('Institution')
-                # print(data['acronym'])
-                data = get_institution(data['ror'],data['label'])
-                pass
+                try:
+                    data = get_institution(data['ror'],data['label'])
+                    organisation.institution(**data)
+                except ValidationError as err:
+                    return 'institution',data['ror'],data['label'],err.errors()[0]
+                    
+                
             case {"type":ldtypes} if 'wcrp:consortium' in ldtypes:
-                print('Consortium')
-                print(data['label'])
+                errors = []
+                return errors
                 
-                
+        with open(file,'w') as f:
+            json.dump(data,f,indent=4) 
+        
     # run on all files
-    p_map(update,files)   
+    errors = p_map(update,files)
+    errors = [i for i in errors if i]
         
-    
+    if errors: 
+        from rich.console import Console
+        from rich.table import Table
+        from rich.text import Text
+        console = Console()
+            
+        console.print(Text("Validation Errors", style="bold red underline"))
+
+        # Create a table
+        table = Table(show_header=True, header_style="bold white")
         
-        
+        table.add_column("Type", style="bold green")  # Green
+        table.add_column("Item", style="bold blue")  # Blue
+        table.add_column("Warnings", style="red")  # Red for errors (bullet points)
+
+
+        for kind,ror,label,err in errors:
+            # print('eee',err)
+            table.add_row(
+                kind,
+                f"{ror}: {label}",
+                f"[{err['loc'][0]}]:\n {err['msg']}"
+            )
+
+
+        console.print(table)
+            

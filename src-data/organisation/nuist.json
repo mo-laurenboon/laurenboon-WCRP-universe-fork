@@ -1,38 +1,35 @@
 {
-    "@context": "_context_",
     "id": "nuist",
-    "acronyms": [
-        "NU",
-        "NJU "
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [
-        "Nanking University"
-    ],
-    "established": 1902,
-    "labels": [],
-    "location": {
-        "id": "universal:location/01rxvg760",
-        "@nest": {
-            "city": "Nanjing",
-            "country": [
-                "China",
-                "CN"
-            ],
-            "lat": 32.056111,
-            "lon": 118.775
-        },
-        "type": "location"
-    },
+    "label": "NUIST",
     "ror": "01rxvg760",
-    "kind": "Education",
+    "long_label": "Nanjing University",
     "url": [
         "http://www.nju.edu.cn/english/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1902,
+    "kind": "Education",
+    "labels": [],
+    "aliases": [
+        "Nanking University"
     ],
-    "long_label": "Nanjing University",
-    "label": "NUIST"
+    "acronyms": [
+        "NJU",
+        "NU"
+    ],
+    "location": {
+        "id": "universal:location/01rxvg760",
+        "type": "wcrp:location",
+        "lat": 32.06167,
+        "lon": 32.06167,
+        "city": "Nanjing",
+        "country": [
+            "China",
+            "CN"
+        ]
+    }
 }

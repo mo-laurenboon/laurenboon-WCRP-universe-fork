@@ -1,35 +1,35 @@
 {
-    "@context": "_context_",
     "id": "pnnl-waccem",
-    "acronyms": [
-        "PNNL"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1965,
-    "labels": [],
-    "location": {
-        "id": "universal:location/05h992307",
-        "@nest": {
-            "city": "Richland",
-            "country": [
-                "United States",
-                "US"
-            ],
-            "lat": 46.28569,
-            "lon": -119.28446
-        },
-        "type": "location"
-    },
+    "label": "PNNL-WACCEM",
     "ror": "05h992307",
-    "kind": "Facility",
+    "long_label": "Pacific Northwest National Laboratory",
     "url": [
         "http://www.pnnl.gov/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1965,
+    "kind": "Facility",
+    "labels": [],
+    "aliases": [
+        "Office of Science Pacific Northwest National Laboratory",
+        "United States Department of Energy Office of Science Pacific Northwest National Laboratory"
     ],
-    "long_label": "Pacific Northwest National Laboratory",
-    "label": "PNNL-WACCEM"
+    "acronyms": [
+        "PNNL"
+    ],
+    "location": {
+        "id": "universal:location/05h992307",
+        "type": "wcrp:location",
+        "lat": 46.28569,
+        "lon": 46.28569,
+        "city": "Richland",
+        "country": [
+            "United States",
+            "US"
+        ]
+    }
 }

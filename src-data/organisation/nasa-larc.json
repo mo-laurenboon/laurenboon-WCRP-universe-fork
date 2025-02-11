@@ -1,35 +1,32 @@
 {
-    "@context": "_context_",
     "id": "nasa-larc",
-    "acronyms": [
-        "LaRC"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1917,
-    "labels": [],
-    "location": {
-        "id": "universal:location/0399mhs52",
-        "@nest": {
-            "city": "Hampton",
-            "country": [
-                "United States",
-                "US"
-            ],
-            "lat": 37.02987,
-            "lon": -76.34522
-        },
-        "type": "location"
-    },
+    "label": "NASA-LaRC",
     "ror": "0399mhs52",
-    "kind": "Facility",
+    "long_label": "Langley Research Center",
     "url": [
         "http://www.nasa.gov/langley"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1917,
+    "kind": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "LaRC"
     ],
-    "long_label": "Langley Research Center",
-    "label": "NASA-LaRC"
+    "location": {
+        "id": "universal:location/0399mhs52",
+        "type": "wcrp:location",
+        "lat": 37.02987,
+        "lon": 37.02987,
+        "city": "Hampton",
+        "country": [
+            "United States",
+            "US"
+        ]
+    }
 }

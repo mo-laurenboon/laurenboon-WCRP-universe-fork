@@ -1,35 +1,32 @@
 {
-    "@context": "_context_",
     "id": "aer",
-    "acronyms": [
-        "AER"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1977,
-    "labels": [],
-    "location": {
-        "id": "universal:location/04cg70g73",
-        "@nest": {
-            "city": "Lexington",
-            "country": [
-                "United States",
-                "US"
-            ],
-            "lat": 42.539472,
-            "lon": -71.256946
-        },
-        "type": "location"
-    },
+    "label": "AER",
     "ror": "04cg70g73",
-    "kind": "Facility",
+    "long_label": "Atmospheric and Environmental Research",
     "url": [
         "http://www.aer.com/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1977,
+    "kind": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "AER"
     ],
-    "long_label": "Atmospheric and Environmental Research",
-    "label": "AER"
+    "location": {
+        "id": "universal:location/04cg70g73",
+        "type": "wcrp:location",
+        "lat": 42.44732,
+        "lon": 42.44732,
+        "city": "Lexington",
+        "country": [
+            "United States",
+            "US"
+        ]
+    }
 }

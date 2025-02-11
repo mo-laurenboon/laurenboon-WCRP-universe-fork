@@ -1,33 +1,30 @@
 {
-    "@context": "_context_",
     "id": "bcc",
-    "acronyms": [],
-    "aliases": [],
-    "established": 2008,
-    "labels": [],
-    "location": {
-        "id": "universal:location/01spyyb53",
-        "@nest": {
-            "city": "Beijing",
-            "country": [
-                "China",
-                "CN"
-            ],
-            "lat": 39.950128,
-            "lon": 116.383679
-        },
-        "type": "location"
-    },
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "label": "BCC",
     "ror": "01spyyb53",
-    "kind": "Company",
+    "long_label": "Beijing Biocytogen (China)",
     "url": [
         "http://www.bbctg.com.cn/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
-    ],
-    "long_label": "Beijing Biocytogen (China)",
-    "label": "BCC"
+    "established": 2008,
+    "kind": "Company",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [],
+    "location": {
+        "id": "universal:location/01spyyb53",
+        "type": "wcrp:location",
+        "lat": 39.9075,
+        "lon": 39.9075,
+        "city": "Beijing",
+        "country": [
+            "China",
+            "CN"
+        ]
+    }
 }

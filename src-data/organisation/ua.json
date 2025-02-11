@@ -1,35 +1,32 @@
 {
-    "@context": "_context_",
     "id": "ua",
-    "acronyms": [
-        "UA"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1885,
-    "labels": [],
-    "location": {
-        "id": "universal:location/03m2x1q45",
-        "@nest": {
-            "city": "Tucson",
-            "country": [
-                "United States",
-                "US"
-            ],
-            "lat": 32.22174,
-            "lon": -110.92648
-        },
-        "type": "location"
-    },
+    "label": "UA",
     "ror": "03m2x1q45",
-    "kind": "Education",
+    "long_label": "University of Arizona",
     "url": [
         "http://www.arizona.edu/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1885,
+    "kind": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "UA"
     ],
-    "long_label": "University of Arizona",
-    "label": "UA"
+    "location": {
+        "id": "universal:location/03m2x1q45",
+        "type": "wcrp:location",
+        "lat": 32.22174,
+        "lon": 32.22174,
+        "city": "Tucson",
+        "country": [
+            "United States",
+            "US"
+        ]
+    }
 }

@@ -1,35 +1,32 @@
 {
-    "@context": "_context_",
     "id": "bas",
-    "acronyms": [
-        "BAS"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1962,
-    "labels": [],
-    "location": {
-        "id": "universal:location/01rhff309",
-        "@nest": {
-            "city": "Cambridge",
-            "country": [
-                "United Kingdom",
-                "GB"
-            ],
-            "lat": 52.212965,
-            "lon": 52.212965
-        },
-        "type": "location"
-    },
+    "label": "BAS",
     "ror": "01rhff309",
-    "kind": "Government",
+    "long_label": "British Antarctic Survey",
     "url": [
         "https://www.bas.ac.uk/"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1962,
+    "kind": "Government",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "BAS"
     ],
-    "long_label": "British Antarctic Survey",
-    "label": "BAS"
+    "location": {
+        "id": "universal:location/01rhff309",
+        "type": "wcrp:location",
+        "lat": 52.2,
+        "lon": 52.2,
+        "city": "Cambridge",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ]
+    }
 }

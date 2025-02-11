@@ -1,35 +1,35 @@
 {
-    "@context": "_context_",
     "id": "awi",
-    "acronyms": [
-        "AWI"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [],
-    "established": 1980,
-    "labels": [],
-    "location": {
-        "id": "universal:location/032e6b942",
-        "@nest": {
-            "city": "Bremerhaven",
-            "country": [
-                "Germany",
-                "DE"
-            ],
-            "lat": 53.53615,
-            "lon": 8.59298
-        },
-        "type": "location"
-    },
+    "label": "AWI",
     "ror": "032e6b942",
-    "kind": "Facility",
+    "long_label": "Alfred-Wegener-Institut Helmholtz-Zentrum f\u00fcr Polar- und Meeresforschung",
     "url": [
         "https://www.awi.de"
     ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
+    "established": 1980,
+    "kind": "Facility",
+    "labels": [],
+    "aliases": [
+        "Alfred Wegener Institute for Polar and Marine Research",
+        "Alfred-Wegener-Institut"
     ],
-    "long_label": "Alfred Wegener Institute for Polar and Marine Research",
-    "label": "AWI"
+    "acronyms": [
+        "AWI"
+    ],
+    "location": {
+        "id": "universal:location/032e6b942",
+        "type": "wcrp:location",
+        "lat": 53.53615,
+        "lon": 53.53615,
+        "city": "Bremerhaven",
+        "country": [
+            "Germany",
+            "DE"
+        ]
+    }
 }

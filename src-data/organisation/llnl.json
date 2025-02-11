@@ -1,41 +1,38 @@
 {
-    "@context": "_context_",
     "id": "llnl",
-    "acronyms": [
-        "LLNL",
-        "LLL"
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "aliases": [
-        "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
-        "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
-        "United States Department of Energy Los Alamos National Laboratory",
-        "U.S. Department of Energy Los Alamos National Laboratory"
+    "label": "LLNL",
+    "ror": "041nk4h53",
+    "long_label": "Lawrence Livermore National Laboratory",
+    "url": [
+        "https://www.llnl.gov"
     ],
     "established": 1952,
+    "kind": "Facility",
     "labels": [],
+    "aliases": [
+        "U.S. Department of Energy Lawrence Livermore National Laboratory",
+        "U.S. Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
+        "United States Department of Energy Lawrence Livermore National Laboratory",
+        "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory"
+    ],
+    "acronyms": [
+        "LLL",
+        "LLNL"
+    ],
     "location": {
         "id": "universal:location/041nk4h53",
-        "@nest": {
-            "city": "Livermore",
-            "country": [
-                "United States",
-                "US"
-            ],
-            "lat": 37.68187,
-            "lon": -121.76801
-        },
-        "type": "location"
-    },
-    "ror": "041nk4h53",
-    "kind": "Facility",
-    "url": [
-        "https://www.llnl.gov/"
-    ],
-    "type": [
-        "universal",
-        "wcrp:institution",
-        "wcrp:organisation"
-    ],
-    "long_label": "Lawrence Livermore National Laboratory",
-    "label": "LLNL"
+        "type": "wcrp:location",
+        "lat": 37.68187,
+        "lon": 37.68187,
+        "city": "Livermore",
+        "country": [
+            "United States",
+            "US"
+        ]
+    }
 }

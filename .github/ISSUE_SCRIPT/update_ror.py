@@ -9,6 +9,7 @@ from pydantic import  ValidationError
 repopath = './src-data/organisation/'
 
 
+def pending_institution():
 
 def get_institution(ror, acronym):
 

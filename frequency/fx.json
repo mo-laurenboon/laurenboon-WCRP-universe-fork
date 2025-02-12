@@ -5,5 +5,6 @@
     "long_name": "Fixed Frequency",
     "name": "fx",
     "unit": "none",
-    "type": "frequency"
+    "type": "frequency",
+    "drs_name": "fx"
 }

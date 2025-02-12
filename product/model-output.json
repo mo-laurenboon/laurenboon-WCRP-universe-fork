@@ -3,5 +3,6 @@
     "id": "model-output",
     "description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
     "kind": "model-output",
-    "type": "product"
+    "type": "product",
+    "drs_name": "model-output"
 }

@@ -1,4 +1,9 @@
-# The idea is to add the key:value "drs_name" to all terms that appears in DRS
+# The idea is to add the key:value "drs_name" to all terms that appears in DRS 
+# The DRS is not only the filename,dataset, directory , it is also the global attribute 
+# therefore need to change that : the key drs_name need to appears in ALL plain_term
+# at this point .. the drs_name will be the current id .. for those taht doesnt have drs_name yet (fev 2025)
+
+
 from pathlib import Path
 import json
 
@@ -34,11 +39,14 @@ def add_drs(dir_path:Path,key:str):
 # add_drs(Path("model_component"),"name")
 # add_drs(Path("source"),"label")
 # add_drs(Path("sub_experiment"),"id")
-#add_drs(Path("table"),"id")
-add_drs(Path("variable"),"cmip_acronym")
+# add_drs(Path("table"),"id")
+# add_drs(Path("variable"),"cmip_acronym")
 
-
-
+# Plainterm taht doesnt appears in DRS (filename,dataset,directory)
+#add_drs(Path("frequency"),"id")
+#add_drs(Path("product"),"id")
+#add_drs(Path("resolution"),"id")
+#add_drs(Path("source_type"),"id")
 
 
 

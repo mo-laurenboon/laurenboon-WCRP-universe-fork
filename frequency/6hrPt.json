@@ -5,5 +5,6 @@
     "long_name": "6 Hour Point",
     "name": "6hrPt",
     "unit": "hour",
-    "type": "frequency"
+    "type": "frequency",
+    "drs_name": "6hrPt"
 }

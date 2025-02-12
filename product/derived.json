@@ -3,5 +3,6 @@
     "id": "derived",
     "description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs.",
     "kind": "derived",
-    "type": "product"
+    "type": "product",
+    "drs_name": "derived"
 }

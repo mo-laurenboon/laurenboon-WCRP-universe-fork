@@ -5,5 +5,6 @@
     "long_name": "Monthly Frequency",
     "name": "mon",
     "unit": "month",
-    "type": "frequency"
+    "type": "frequency",
+    "drs_name": "mon"
 }

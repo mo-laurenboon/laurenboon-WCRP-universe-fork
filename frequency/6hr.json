@@ -5,5 +5,6 @@
     "long_name": "6 Hourly Frequency",
     "name": "6hr",
     "unit": "hour",
-    "type": "frequency"
+    "type": "frequency",
+    "drs_name": "6hr"
 }

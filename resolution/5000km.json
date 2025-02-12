@@ -5,5 +5,6 @@
     "value": "5000",
     "unit": "km",
     "type": "resolution",
-    "description": "Resolution of 5000 km"
+    "description": "Resolution of 5000 km",
+    "drs_name": "5000km"
 }

@@ -1,3 +1,6 @@
+import sys
+sys.path.append(__file__)
+
 import update_ror
 import json
 from cmipld.utils import git

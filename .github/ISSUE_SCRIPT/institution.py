@@ -36,7 +36,7 @@ def run(issue,packet):
     # update the issue title
     git.update_issue_title(f'{issue["issue_type"].capitalize()}: {acronym}')
     
-    acronym_test = tests.field_test(tests.components.stringcheck.id_field)
+    acronym_test = tests.field_test(tests.components.id.id_field)
     ror_test = tests.field_test(tests.organisation.ror.ror_field)
     
     if ror != 'pending':

@@ -1,5 +1,7 @@
 import sys
-sys.path.append(__file__)
+from pathlib import Path
+# set the path to read update_ror. 
+sys.path.append(str(Path(__file__).parent))
 
 import update_ror
 import json

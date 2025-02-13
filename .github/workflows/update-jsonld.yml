@@ -6,6 +6,7 @@ on:
       # - main  # Adjust this to your branch name if different
     branches-ignore:
       - production
+      - esgvoc
 
 jobs:
   update-jsonld:

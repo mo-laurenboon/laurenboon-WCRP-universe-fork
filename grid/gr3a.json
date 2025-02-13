@@ -4,7 +4,7 @@
     "name": "gr3a",
     "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
     "region": "antarctica",
-    "type": "grid-label",
+    "type": "grid",
     "short_name": "Regridded Antarctica Greenland Alternate a",
     "drs_name": "gr3a"
 }

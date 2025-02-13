@@ -4,7 +4,7 @@
     "name": "gr4",
     "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
     "region": "greenland",
-    "type": "grid-label",
+    "type": "grid",
     "short_name": "Regridded Greenland Alternate 4",
     "drs_name": "gr4"
 }

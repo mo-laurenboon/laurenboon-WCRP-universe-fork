@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "institution/ua",
     "type": "institution",
-    "drs_name": "institution/ua"
+    "drs_name": "UA"
 }

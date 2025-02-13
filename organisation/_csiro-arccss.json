@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/csiro-arccss",
     "type": "consortium",
-    "drs_name": "consortium/csiro-arccss"
+    "drs_name": "CSIRO-ARCCSS"
 }

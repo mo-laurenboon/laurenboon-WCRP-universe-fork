@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/pcmdi",
     "type": "consortium",
-    "drs_name": "consortium/pcmdi"
+    "drs_name": "PCMDI"
 }

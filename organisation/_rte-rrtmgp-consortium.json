@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/rte-rrtmgp-consortium",
     "type": "consortium",
-    "drs_name": "consortium/rte-rrtmgp-consortium"
+    "drs_name": "RTE-RRTMGP-Consortium"
 }

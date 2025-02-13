@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "institution/nasa-gsfc",
     "type": "institution",
-    "drs_name": "institution/nasa-gsfc"
+    "drs_name": "NASA-GSFC"
 }

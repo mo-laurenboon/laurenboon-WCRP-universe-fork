@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/espri-ipsl",
     "type": "consortium",
-    "drs_name": "consortium/espri-ipsl"
+    "drs_name": "ESPRI-IPSL"
 }

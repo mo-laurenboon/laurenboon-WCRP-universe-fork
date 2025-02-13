@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/miroc",
     "type": "consortium",
-    "drs_name": "consortium/miroc"
+    "drs_name": "MIROC"
 }

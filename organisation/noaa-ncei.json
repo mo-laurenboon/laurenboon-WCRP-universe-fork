@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "institution/noaa-ncei",
     "type": "institution",
-    "drs_name": "institution/noaa-ncei"
+    "drs_name": "NOAA-NCEI"
 }

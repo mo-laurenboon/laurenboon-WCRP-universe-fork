@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/fio-qlnm",
     "type": "consortium",
-    "drs_name": "consortium/fio-qlnm"
+    "drs_name": "FIO-QLNM"
 }

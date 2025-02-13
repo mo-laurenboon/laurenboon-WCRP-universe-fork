@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "consortium/solaris-heppa",
     "type": "consortium",
-    "drs_name": "consortium/solaris-heppa"
+    "drs_name": "SOLARIS-HEPPA"
 }

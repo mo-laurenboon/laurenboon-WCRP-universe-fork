@@ -4,7 +4,8 @@
     "cmip_acronym": "prsn17O",
     "long_name": "Precipitation Flux of Snow and Ice Containing Oxygen-17 (H2 17O)",
     "standard_name": "solid_precipitation_flux_containing_17O",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "prsn17O"
+    "drs_name": "prsn17O",
+    "variable_type": "real"
 }

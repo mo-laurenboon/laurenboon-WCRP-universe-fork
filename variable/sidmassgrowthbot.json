@@ -4,7 +4,8 @@
     "cmip_acronym": "sidmassgrowthbot",
     "long_name": "Sea-Ice Mass Change Through Basal Growth",
     "standard_name": "tendency_of_sea_ice_amount_due_to_congelation_ice_accumulation",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "sidmassgrowthbot"
+    "drs_name": "sidmassgrowthbot",
+    "variable_type": "real"
 }

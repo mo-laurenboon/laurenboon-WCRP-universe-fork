@@ -4,7 +4,8 @@
     "cmip_acronym": "dissicnatos",
     "long_name": "Surface Natural Dissolved Inorganic Carbon Concentration",
     "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_natural_analogue_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "dissicnatos"
+    "drs_name": "dissicnatos",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "tsnIs",
     "long_name": "Ice Sheet Snow Internal Temperature",
     "standard_name": "temperature_in_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "K",
-    "drs_name": "tsnIs"
+    "drs_name": "tsnIs",
+    "variable_type": "real"
 }

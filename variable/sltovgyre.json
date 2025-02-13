@@ -4,7 +4,8 @@
     "cmip_acronym": "sltovgyre",
     "long_name": "Northward Ocean Salt Transport Due to Gyre",
     "standard_name": "northward_ocean_salt_transport_due_to_gyre",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "sltovgyre"
+    "drs_name": "sltovgyre",
+    "variable_type": "real"
 }

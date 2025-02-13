@@ -4,7 +4,8 @@
     "cmip_acronym": "sios",
     "long_name": "Surface Total Dissolved Inorganic Silicon Concentration",
     "standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "sios"
+    "drs_name": "sios",
+    "variable_type": "real"
 }

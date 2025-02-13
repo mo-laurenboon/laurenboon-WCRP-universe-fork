@@ -4,7 +4,8 @@
     "cmip_acronym": "rzwc",
     "long_name": "Root Zone Soil Moisture",
     "standard_name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "rzwc"
+    "drs_name": "rzwc",
+    "variable_type": "real"
 }

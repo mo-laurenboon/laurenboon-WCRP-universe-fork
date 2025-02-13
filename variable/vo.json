@@ -4,7 +4,8 @@
     "cmip_acronym": "vo",
     "long_name": "Sea Water Y Velocity",
     "standard_name": "sea_water_y_velocity",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "vo"
+    "drs_name": "vo",
+    "variable_type": "real"
 }

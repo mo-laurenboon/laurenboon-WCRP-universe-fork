@@ -4,7 +4,8 @@
     "cmip_acronym": "nh4",
     "long_name": "Dissolved Ammonium Concentration",
     "standard_name": "mole_concentration_of_ammonium_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "nh4"
+    "drs_name": "nh4",
+    "variable_type": "real"
 }

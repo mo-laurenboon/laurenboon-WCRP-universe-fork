@@ -4,7 +4,8 @@
     "cmip_acronym": "bs550aer",
     "long_name": "Aerosol Backscatter Coefficient",
     "standard_name": "volume_scattering_function_of_radiative_flux_in_air_due_to_ambient_aerosol_particles",
-    "type": "real",
+    "type": "variable",
     "units": "m-1 sr-1",
-    "drs_name": "bs550aer"
+    "drs_name": "bs550aer",
+    "variable_type": "real"
 }

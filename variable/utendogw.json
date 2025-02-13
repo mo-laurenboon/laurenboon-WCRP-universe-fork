@@ -4,7 +4,8 @@
     "cmip_acronym": "utendogw",
     "long_name": "Eastward Acceleration Due to Orographic Gravity Wave Drag",
     "standard_name": "tendency_of_eastward_wind_due_to_orographic_gravity_wave_drag",
-    "type": "real",
+    "type": "variable",
     "units": "m s-2",
-    "drs_name": "utendogw"
+    "drs_name": "utendogw",
+    "variable_type": "real"
 }

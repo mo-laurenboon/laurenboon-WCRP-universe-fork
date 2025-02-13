@@ -4,7 +4,8 @@
     "cmip_acronym": "sftlf",
     "long_name": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
     "standard_name": "land_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "sftlf"
+    "drs_name": "sftlf",
+    "variable_type": "real"
 }

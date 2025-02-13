@@ -4,7 +4,8 @@
     "cmip_acronym": "diftrebo2d",
     "long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
     "standard_name": "ocean_tracer_epineutral_biharmonic_diffusivity",
-    "type": "real",
+    "type": "variable",
     "units": "m4 s-1",
-    "drs_name": "diftrebo2d"
+    "drs_name": "diftrebo2d",
+    "variable_type": "real"
 }

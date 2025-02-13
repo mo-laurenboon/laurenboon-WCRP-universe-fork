@@ -4,7 +4,8 @@
     "cmip_acronym": "cl",
     "long_name": "Percentage Cloud Cover",
     "standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "cl"
+    "drs_name": "cl",
+    "variable_type": "real"
 }

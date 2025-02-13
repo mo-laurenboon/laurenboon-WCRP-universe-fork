@@ -4,7 +4,8 @@
     "cmip_acronym": "siforcetilty",
     "long_name": "Sea-Surface Tilt Term in Force Balance (Y-Component)",
     "standard_name": "sea_ice_y_force_per_unit_area_due_to_sea_surface_tilt",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
-    "drs_name": "siforcetilty"
+    "drs_name": "siforcetilty",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "siage",
     "long_name": "Age of Sea Ice",
     "standard_name": "age_of_sea_ice",
-    "type": "real",
+    "type": "variable",
     "units": "s",
-    "drs_name": "siage"
+    "drs_name": "siage",
+    "variable_type": "real"
 }

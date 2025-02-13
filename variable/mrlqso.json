@@ -4,7 +4,8 @@
     "cmip_acronym": "mrlqso",
     "long_name": "Average Layer Fraction of Liquid Moisture",
     "standard_name": "mass_fraction_of_unfrozen_water_in_soil_moisture",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "mrlqso"
+    "drs_name": "mrlqso",
+    "variable_type": "real"
 }

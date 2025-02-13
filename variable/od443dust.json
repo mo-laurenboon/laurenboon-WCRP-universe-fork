@@ -4,7 +4,8 @@
     "cmip_acronym": "od443dust",
     "long_name": "Optical Thickness at 443nm Dust",
     "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "od443dust"
+    "drs_name": "od443dust",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "sza",
     "long_name": "Solar Zenith Angle",
     "standard_name": "solar_zenith_angle",
-    "type": "real",
+    "type": "variable",
     "units": "degree",
-    "drs_name": "sza"
+    "drs_name": "sza",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "sivol",
     "long_name": "Sea-Ice Volume per Area",
     "standard_name": "sea_ice_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "sivol"
+    "drs_name": "sivol",
+    "variable_type": "real"
 }

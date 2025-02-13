@@ -4,7 +4,8 @@
     "cmip_acronym": "siitdsnconc",
     "long_name": "Snow Area Percentages in Ice Thickness Categories",
     "standard_name": "surface_snow_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "siitdsnconc"
+    "drs_name": "siitdsnconc",
+    "variable_type": "real"
 }

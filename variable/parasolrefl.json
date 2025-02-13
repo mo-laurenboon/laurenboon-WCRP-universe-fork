@@ -4,7 +4,8 @@
     "cmip_acronym": "parasolRefl",
     "long_name": "PARASOL Reflectance",
     "standard_name": "toa_bidirectional_reflectance",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "parasolRefl"
+    "drs_name": "parasolRefl",
+    "variable_type": "real"
 }

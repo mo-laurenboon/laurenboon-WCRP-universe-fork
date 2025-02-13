@@ -4,7 +4,8 @@
     "cmip_acronym": "pastureFracC3",
     "long_name": "C3 Pasture Area Percentage",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "pastureFracC3"
+    "drs_name": "pastureFracC3",
+    "variable_type": "real"
 }

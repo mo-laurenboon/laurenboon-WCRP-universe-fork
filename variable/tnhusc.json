@@ -4,7 +4,8 @@
     "cmip_acronym": "tnhusc",
     "long_name": "Tendency of Specific Humidity Due to Convection",
     "standard_name": "tendency_of_specific_humidity_due_to_convection",
-    "type": "real",
+    "type": "variable",
     "units": "s-1",
-    "drs_name": "tnhusc"
+    "drs_name": "tnhusc",
+    "variable_type": "real"
 }

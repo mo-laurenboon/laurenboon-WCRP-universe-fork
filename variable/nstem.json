@@ -4,7 +4,8 @@
     "cmip_acronym": "nStem",
     "long_name": "Nitrogen Mass in Stem",
     "standard_name": "stem_mass_content_of_nitrogen",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "nStem"
+    "drs_name": "nStem",
+    "variable_type": "real"
 }

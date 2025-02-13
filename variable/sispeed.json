@@ -4,7 +4,8 @@
     "cmip_acronym": "sispeed",
     "long_name": "Sea-Ice Speed",
     "standard_name": "sea_ice_speed",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "sispeed"
+    "drs_name": "sispeed",
+    "variable_type": "real"
 }

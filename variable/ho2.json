@@ -4,7 +4,8 @@
     "cmip_acronym": "ho2",
     "long_name": "HO2 Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "ho2"
+    "drs_name": "ho2",
+    "variable_type": "real"
 }

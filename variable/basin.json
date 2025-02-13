@@ -4,7 +4,8 @@
     "cmip_acronym": "basin",
     "long_name": "Region Selection Index",
     "standard_name": "region",
-    "type": "integer",
+    "type": "variable",
     "units": "1",
-    "drs_name": "basin"
+    "drs_name": "basin",
+    "variable_type": "integer"
 }

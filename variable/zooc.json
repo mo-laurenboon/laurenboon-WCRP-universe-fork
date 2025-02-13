@@ -4,7 +4,8 @@
     "cmip_acronym": "zooc",
     "long_name": "Zooplankton Carbon Concentration",
     "standard_name": "mole_concentration_of_zooplankton_expressed_as_carbon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "zooc"
+    "drs_name": "zooc",
+    "variable_type": "real"
 }

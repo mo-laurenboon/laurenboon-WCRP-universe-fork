@@ -4,7 +4,8 @@
     "cmip_acronym": "cLitterBelow",
     "long_name": "Carbon Mass in Below-Ground Litter",
     "standard_name": "subsurface_litter_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cLitterBelow"
+    "drs_name": "cLitterBelow",
+    "variable_type": "real"
 }

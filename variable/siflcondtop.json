@@ -4,7 +4,8 @@
     "cmip_acronym": "siflcondtop",
     "long_name": "Net Conductive Heat Flux in Ice at the Surface",
     "standard_name": "surface_downward_sensible_heat_flux",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "siflcondtop"
+    "drs_name": "siflcondtop",
+    "variable_type": "real"
 }

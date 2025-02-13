@@ -4,7 +4,8 @@
     "cmip_acronym": "rldsIs",
     "long_name": "Ice Sheet Surface Downwelling Longwave Radiation",
     "standard_name": "surface_downwelling_longwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rldsIs"
+    "drs_name": "rldsIs",
+    "variable_type": "real"
 }

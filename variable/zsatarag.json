@@ -4,7 +4,8 @@
     "cmip_acronym": "zsatarag",
     "long_name": "Aragonite Saturation Depth",
     "standard_name": "minimum_depth_of_aragonite_undersaturation_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "zsatarag"
+    "drs_name": "zsatarag",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "siflcondbot",
     "long_name": "Net Conductive Heat Fluxes in Ice at the Bottom",
     "standard_name": "basal_downward_heat_flux_in_sea_ice",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "siflcondbot"
+    "drs_name": "siflcondbot",
+    "variable_type": "real"
 }

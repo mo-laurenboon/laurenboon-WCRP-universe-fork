@@ -4,7 +4,8 @@
     "cmip_acronym": "hfbasinpsmadv",
     "long_name": "Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection",
     "standard_name": "northward_ocean_heat_transport_due_to_parameterized_submesoscale_eddy_advection",
-    "type": "real",
+    "type": "variable",
     "units": "W",
-    "drs_name": "hfbasinpsmadv"
+    "drs_name": "hfbasinpsmadv",
+    "variable_type": "real"
 }

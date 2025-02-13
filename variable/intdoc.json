@@ -4,7 +4,8 @@
     "cmip_acronym": "intdoc",
     "long_name": "Dissolved Organic Carbon Content",
     "standard_name": "ocean_mass_content_of_dissolved_organic_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "intdoc"
+    "drs_name": "intdoc",
+    "variable_type": "real"
 }

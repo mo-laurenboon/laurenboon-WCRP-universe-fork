@@ -4,7 +4,8 @@
     "cmip_acronym": "mmrdust",
     "long_name": "Dust Aerosol Mass Mixing Ratio",
     "standard_name": "mass_fraction_of_dust_dry_aerosol_particles_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "kg kg-1",
-    "drs_name": "mmrdust"
+    "drs_name": "mmrdust",
+    "variable_type": "real"
 }

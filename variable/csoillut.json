@@ -4,7 +4,8 @@
     "cmip_acronym": "cSoilLut",
     "long_name": "Carbon in Soil Pool on Land-Use Tiles",
     "standard_name": "soil_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cSoilLut"
+    "drs_name": "cSoilLut",
+    "variable_type": "real"
 }

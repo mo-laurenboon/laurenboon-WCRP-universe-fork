@@ -4,7 +4,8 @@
     "cmip_acronym": "co",
     "long_name": "CO Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_carbon_monoxide_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "co"
+    "drs_name": "co",
+    "variable_type": "real"
 }

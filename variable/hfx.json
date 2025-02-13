@@ -4,7 +4,8 @@
     "cmip_acronym": "hfx",
     "long_name": "Ocean Heat X Transport",
     "standard_name": "ocean_heat_x_transport",
-    "type": "real",
+    "type": "variable",
     "units": "W",
-    "drs_name": "hfx"
+    "drs_name": "hfx",
+    "variable_type": "real"
 }

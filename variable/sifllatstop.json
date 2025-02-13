@@ -4,7 +4,8 @@
     "cmip_acronym": "sifllatstop",
     "long_name": "Net Latent Heat Flux over Sea Ice",
     "standard_name": "surface_upward_latent_heat_flux",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "sifllatstop"
+    "drs_name": "sifllatstop",
+    "variable_type": "real"
 }

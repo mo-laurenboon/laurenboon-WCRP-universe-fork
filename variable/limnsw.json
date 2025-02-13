@@ -4,7 +4,8 @@
     "cmip_acronym": "limnsw",
     "long_name": "Ice Sheet Mass That Does not Displace Sea Water",
     "standard_name": "land_ice_mass_not_displacing_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "kg",
-    "drs_name": "limnsw"
+    "drs_name": "limnsw",
+    "variable_type": "real"
 }

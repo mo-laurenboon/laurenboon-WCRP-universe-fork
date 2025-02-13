@@ -4,7 +4,8 @@
     "cmip_acronym": "hfy",
     "long_name": "Ocean Heat Y Transport",
     "standard_name": "ocean_heat_y_transport",
-    "type": "real",
+    "type": "variable",
     "units": "W",
-    "drs_name": "hfy"
+    "drs_name": "hfy",
+    "variable_type": "real"
 }

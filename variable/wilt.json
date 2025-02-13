@@ -4,7 +4,8 @@
     "cmip_acronym": "wilt",
     "long_name": "Wilting Point",
     "standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "wilt"
+    "drs_name": "wilt",
+    "variable_type": "real"
 }

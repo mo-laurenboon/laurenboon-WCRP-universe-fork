@@ -4,7 +4,8 @@
     "cmip_acronym": "vsfcorr",
     "long_name": "Virtual Salt Flux Correction",
     "standard_name": "virtual_salt_flux_correction",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "vsfcorr"
+    "drs_name": "vsfcorr",
+    "variable_type": "real"
 }

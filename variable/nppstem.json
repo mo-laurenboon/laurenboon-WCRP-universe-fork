@@ -4,7 +4,8 @@
     "cmip_acronym": "nppStem",
     "long_name": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
     "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_stems",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "nppStem"
+    "drs_name": "nppStem",
+    "variable_type": "real"
 }

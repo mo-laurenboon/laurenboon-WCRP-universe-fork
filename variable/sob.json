@@ -4,7 +4,8 @@
     "cmip_acronym": "sob",
     "long_name": "Sea Water Salinity at Sea Floor",
     "standard_name": "sea_water_salinity_at_sea_floor",
-    "type": "real",
+    "type": "variable",
     "units": "0.001",
-    "drs_name": "sob"
+    "drs_name": "sob",
+    "variable_type": "real"
 }

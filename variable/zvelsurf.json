@@ -4,7 +4,8 @@
     "cmip_acronym": "zvelsurf",
     "long_name": "Upward Component of Land-Ice Surface Velocity",
     "standard_name": "land_ice_surface_upward_velocity",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "zvelsurf"
+    "drs_name": "zvelsurf",
+    "variable_type": "real"
 }

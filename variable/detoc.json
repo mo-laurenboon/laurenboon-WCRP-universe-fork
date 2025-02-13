@@ -4,7 +4,8 @@
     "cmip_acronym": "detoc",
     "long_name": "Detrital Organic Carbon Concentration",
     "standard_name": "mole_concentration_of_organic_detritus_expressed_as_carbon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "detoc"
+    "drs_name": "detoc",
+    "variable_type": "real"
 }

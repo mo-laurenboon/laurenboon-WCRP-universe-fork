@@ -4,7 +4,8 @@
     "cmip_acronym": "concdust",
     "long_name": "Concentration of Dust",
     "standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-3",
-    "drs_name": "concdust"
+    "drs_name": "concdust",
+    "variable_type": "real"
 }

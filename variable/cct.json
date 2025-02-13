@@ -4,7 +4,8 @@
     "cmip_acronym": "cct",
     "long_name": "Air Pressure at Convective Cloud Top",
     "standard_name": "air_pressure_at_convective_cloud_top",
-    "type": "real",
+    "type": "variable",
     "units": "Pa",
-    "drs_name": "cct"
+    "drs_name": "cct",
+    "variable_type": "real"
 }

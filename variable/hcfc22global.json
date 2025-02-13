@@ -4,7 +4,8 @@
     "cmip_acronym": "hcfc22global",
     "long_name": "Global Mean Mole Fraction of HCFC22",
     "standard_name": "mole_fraction_of_hcfc22_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "1e-12",
-    "drs_name": "hcfc22global"
+    "drs_name": "hcfc22global",
+    "variable_type": "real"
 }

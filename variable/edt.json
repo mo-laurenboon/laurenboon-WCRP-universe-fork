@@ -4,7 +4,8 @@
     "cmip_acronym": "edt",
     "long_name": "Eddy Diffusivity Coefficient for Temperature",
     "standard_name": "atmosphere_heat_diffusivity",
-    "type": "real",
+    "type": "variable",
     "units": "m2 s-1",
-    "drs_name": "edt"
+    "drs_name": "edt",
+    "variable_type": "real"
 }

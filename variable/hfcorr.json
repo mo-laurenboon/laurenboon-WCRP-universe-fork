@@ -4,7 +4,8 @@
     "cmip_acronym": "hfcorr",
     "long_name": "Heat Flux Correction",
     "standard_name": "heat_flux_correction",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "hfcorr"
+    "drs_name": "hfcorr",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "msftmzsmpa",
     "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
     "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "msftmzsmpa"
+    "drs_name": "msftmzsmpa",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "tr",
     "long_name": "Surface Radiative Temperature",
     "standard_name": "surface_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
-    "drs_name": "tr"
+    "drs_name": "tr",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "reffsnowc",
     "long_name": "Hydrometeor Effective Radius of Convective Snowfall",
     "standard_name": "effective_radius_of_convective_cloud_snow_particles",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "reffsnowc"
+    "drs_name": "reffsnowc",
+    "variable_type": "real"
 }

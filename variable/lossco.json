@@ -4,7 +4,8 @@
     "cmip_acronym": "lossco",
     "long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
     "standard_name": "tendency_of_atmosphere_mole_concentration_of_carbon_monoxide_due_to_chemical_destruction",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3 s-1",
-    "drs_name": "lossco"
+    "drs_name": "lossco",
+    "variable_type": "real"
 }

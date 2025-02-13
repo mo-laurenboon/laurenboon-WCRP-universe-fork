@@ -4,7 +4,8 @@
     "cmip_acronym": "sithick",
     "long_name": "Sea Ice Thickness",
     "standard_name": "sea_ice_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "sithick"
+    "drs_name": "sithick",
+    "variable_type": "real"
 }

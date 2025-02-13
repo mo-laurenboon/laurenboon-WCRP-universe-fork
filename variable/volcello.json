@@ -4,7 +4,8 @@
     "cmip_acronym": "volcello",
     "long_name": "Ocean Grid-Cell Volume",
     "standard_name": "ocean_volume",
-    "type": "real",
+    "type": "variable",
     "units": "m3",
-    "drs_name": "volcello"
+    "drs_name": "volcello",
+    "variable_type": "real"
 }

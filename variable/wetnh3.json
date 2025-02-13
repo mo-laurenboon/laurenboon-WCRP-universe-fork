@@ -4,7 +4,8 @@
     "cmip_acronym": "wetnh3",
     "long_name": "Wet Deposition Rate of NH3",
     "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_wet_deposition",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "wetnh3"
+    "drs_name": "wetnh3",
+    "variable_type": "real"
 }

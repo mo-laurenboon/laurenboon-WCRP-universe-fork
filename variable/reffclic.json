@@ -4,7 +4,8 @@
     "cmip_acronym": "reffclic",
     "long_name": "Hydrometeor Effective Radius of Convective Cloud Ice",
     "standard_name": "effective_radius_of_convective_cloud_ice_particles",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "reffclic"
+    "drs_name": "reffclic",
+    "variable_type": "real"
 }

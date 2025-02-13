@@ -4,7 +4,8 @@
     "cmip_acronym": "drydust",
     "long_name": "Dry Deposition Rate of Dust",
     "standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_dry_deposition",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "drydust"
+    "drs_name": "drydust",
+    "variable_type": "real"
 }

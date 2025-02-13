@@ -4,7 +4,8 @@
     "cmip_acronym": "wmo",
     "long_name": "Upward Ocean Mass Transport",
     "standard_name": "upward_ocean_mass_transport",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "wmo"
+    "drs_name": "wmo",
+    "variable_type": "real"
 }

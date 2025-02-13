@@ -4,7 +4,8 @@
     "cmip_acronym": "rss",
     "long_name": "Net Shortwave Surface Radiation",
     "standard_name": "surface_net_downward_shortwave_flux",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rss"
+    "drs_name": "rss",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "cSoilMedium",
     "long_name": "Carbon Mass in Medium Soil Pool",
     "standard_name": "medium_soil_pool_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cSoilMedium"
+    "drs_name": "cSoilMedium",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "intparag",
     "long_name": "Aragonite Production",
     "standard_name": "tendency_of_ocean_mole_content_of_aragonite_expressed_as_carbon_due_to_biological_production",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-2 s-1",
-    "drs_name": "intparag"
+    "drs_name": "intparag",
+    "variable_type": "real"
 }

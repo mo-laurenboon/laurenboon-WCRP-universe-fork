@@ -4,7 +4,8 @@
     "cmip_acronym": "minpblz",
     "long_name": "Minimum PBL Height",
     "standard_name": "atmosphere_boundary_layer_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "minpblz"
+    "drs_name": "minpblz",
+    "variable_type": "real"
 }

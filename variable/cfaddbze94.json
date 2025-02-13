@@ -4,7 +4,8 @@
     "cmip_acronym": "cfadDbze94",
     "long_name": "CloudSat Radar Reflectivity CFAD",
     "standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "cfadDbze94"
+    "drs_name": "cfadDbze94",
+    "variable_type": "real"
 }

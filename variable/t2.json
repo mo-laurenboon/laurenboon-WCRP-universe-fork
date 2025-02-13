@@ -4,7 +4,8 @@
     "cmip_acronym": "t2",
     "long_name": "Mean-Squared Air Temperature",
     "standard_name": "square_of_air_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K2",
-    "drs_name": "t2"
+    "drs_name": "t2",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "thetaoga",
     "long_name": "Global Average Sea Water Potential Temperature",
     "standard_name": "sea_water_potential_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
-    "drs_name": "thetaoga"
+    "drs_name": "thetaoga",
+    "variable_type": "real"
 }

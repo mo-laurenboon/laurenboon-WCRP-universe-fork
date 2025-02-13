@@ -4,7 +4,8 @@
     "cmip_acronym": "dissicos",
     "long_name": "Surface Dissolved Inorganic Carbon Concentration",
     "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "dissicos"
+    "drs_name": "dissicos",
+    "variable_type": "real"
 }

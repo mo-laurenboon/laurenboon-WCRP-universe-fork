@@ -4,7 +4,8 @@
     "cmip_acronym": "prbigthetao",
     "long_name": "Sea Water Redistributed Conservative Temperature",
     "standard_name": "sea_water_redistributed_conservative_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
-    "drs_name": "prbigthetao"
+    "drs_name": "prbigthetao",
+    "variable_type": "real"
 }

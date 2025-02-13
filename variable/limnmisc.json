@@ -4,7 +4,8 @@
     "cmip_acronym": "limnmisc",
     "long_name": "Nitrogen Limitation of Other Phytoplankton",
     "standard_name": "nitrogen_growth_limitation_of_miscellaneous_phytoplankton",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "limnmisc"
+    "drs_name": "limnmisc",
+    "variable_type": "real"
 }

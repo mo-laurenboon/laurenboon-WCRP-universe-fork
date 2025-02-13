@@ -4,7 +4,8 @@
     "cmip_acronym": "n2oClim",
     "long_name": "Mole Fraction of N2O",
     "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "n2oClim"
+    "drs_name": "n2oClim",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "hfds",
     "long_name": "Downward Heat Flux at Sea Water Surface",
     "standard_name": "surface_downward_heat_flux_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "hfds"
+    "drs_name": "hfds",
+    "variable_type": "real"
 }

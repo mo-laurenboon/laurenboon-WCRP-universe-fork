@@ -4,7 +4,8 @@
     "cmip_acronym": "cVegLut",
     "long_name": "Carbon in Vegetation on Land-Use Tiles",
     "standard_name": "vegetation_carbon_content",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cVegLut"
+    "drs_name": "cVegLut",
+    "variable_type": "real"
 }

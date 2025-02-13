@@ -4,7 +4,8 @@
     "cmip_acronym": "hcho",
     "long_name": "Formaldehyde Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_formaldehyde_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "hcho"
+    "drs_name": "hcho",
+    "variable_type": "real"
 }

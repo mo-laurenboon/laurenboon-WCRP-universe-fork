@@ -4,7 +4,8 @@
     "cmip_acronym": "rsdscs",
     "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
     "standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rsdscs"
+    "drs_name": "rsdscs",
+    "variable_type": "real"
 }

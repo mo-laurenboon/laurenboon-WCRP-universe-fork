@@ -4,7 +4,8 @@
     "cmip_acronym": "snd",
     "long_name": "Snow Depth",
     "standard_name": "surface_snow_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "snd"
+    "drs_name": "snd",
+    "variable_type": "real"
 }

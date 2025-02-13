@@ -4,7 +4,8 @@
     "cmip_acronym": "c13Soil",
     "long_name": "Mass of 13C in Soil Pool",
     "standard_name": "soil_mass_content_of_13C",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "c13Soil"
+    "drs_name": "c13Soil",
+    "variable_type": "real"
 }

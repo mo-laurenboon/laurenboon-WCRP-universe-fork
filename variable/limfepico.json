@@ -4,7 +4,8 @@
     "cmip_acronym": "limfepico",
     "long_name": "Iron Limitation of Picophytoplankton",
     "standard_name": "iron_growth_limitation_of_picophytoplankton",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "limfepico"
+    "drs_name": "limfepico",
+    "variable_type": "real"
 }

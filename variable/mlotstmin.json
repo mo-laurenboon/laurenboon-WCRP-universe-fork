@@ -4,7 +4,8 @@
     "cmip_acronym": "mlotstmin",
     "long_name": "Minimum Ocean Mixed Layer Thickness Defined by Sigma T",
     "standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "mlotstmin"
+    "drs_name": "mlotstmin",
+    "variable_type": "real"
 }

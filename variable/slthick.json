@@ -4,7 +4,8 @@
     "cmip_acronym": "slthick",
     "long_name": "Thickness of Soil Layers",
     "standard_name": "cell_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "slthick"
+    "drs_name": "slthick",
+    "variable_type": "real"
 }

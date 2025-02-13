@@ -4,7 +4,8 @@
     "cmip_acronym": "snmassacrossline",
     "long_name": "Snow Mass Flux Through Straits",
     "standard_name": "snow_transport_across_line_due_to_sea_ice_dynamics",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "snmassacrossline"
+    "drs_name": "snmassacrossline",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "cVegShrub",
     "long_name": "Carbon Mass in Vegetation on Shrub Tiles",
     "standard_name": "vegetation_carbon_content",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cVegShrub"
+    "drs_name": "cVegShrub",
+    "variable_type": "real"
 }

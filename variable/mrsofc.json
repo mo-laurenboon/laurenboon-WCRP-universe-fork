@@ -4,7 +4,8 @@
     "cmip_acronym": "mrsofc",
     "long_name": "Capacity of Soil to Store Water (Field Capacity)",
     "standard_name": "soil_moisture_content_at_field_capacity",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "mrsofc"
+    "drs_name": "mrsofc",
+    "variable_type": "real"
 }

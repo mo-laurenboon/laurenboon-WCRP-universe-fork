@@ -4,7 +4,8 @@
     "cmip_acronym": "snmIs",
     "long_name": "Ice Sheet Surface Snow Melt",
     "standard_name": "surface_snow_melt_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "snmIs"
+    "drs_name": "snmIs",
+    "variable_type": "real"
 }

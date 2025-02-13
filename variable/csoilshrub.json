@@ -4,7 +4,8 @@
     "cmip_acronym": "cSoilShrub",
     "long_name": "Carbon Mass in Soil on Shrub Tiles",
     "standard_name": "soil_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cSoilShrub"
+    "drs_name": "cSoilShrub",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "mrsoLut",
     "long_name": "Total Soil Moisture",
     "standard_name": "mass_content_of_water_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "mrsoLut"
+    "drs_name": "mrsoLut",
+    "variable_type": "real"
 }

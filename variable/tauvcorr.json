@@ -4,7 +4,8 @@
     "cmip_acronym": "tauvcorr",
     "long_name": "Surface Downward Y Stress Correction",
     "standard_name": "downward_y_stress_correction_at_sea_water_surface",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
-    "drs_name": "tauvcorr"
+    "drs_name": "tauvcorr",
+    "variable_type": "real"
 }

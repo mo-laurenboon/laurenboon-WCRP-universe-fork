@@ -4,7 +4,8 @@
     "cmip_acronym": "sihc",
     "long_name": "Sea-Ice Heat Content per Unit Area",
     "standard_name": "sea_ice_temperature_expressed_as_heat_content",
-    "type": "real",
+    "type": "variable",
     "units": "J m-2",
-    "drs_name": "sihc"
+    "drs_name": "sihc",
+    "variable_type": "real"
 }

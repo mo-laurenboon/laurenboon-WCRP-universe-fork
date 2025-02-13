@@ -4,7 +4,8 @@
     "cmip_acronym": "thetao",
     "long_name": "Sea Water Potential Temperature",
     "standard_name": "sea_water_potential_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
-    "drs_name": "thetao"
+    "drs_name": "thetao",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "irrLut",
     "long_name": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
     "standard_name": "surface_downward_mass_flux_of_water_due_to_irrigation",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "irrLut"
+    "drs_name": "irrLut",
+    "variable_type": "real"
 }

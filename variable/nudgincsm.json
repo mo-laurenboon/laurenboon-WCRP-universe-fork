@@ -4,7 +4,8 @@
     "cmip_acronym": "nudgincsm",
     "long_name": "Nudging Increment of Water in Soil Moisture",
     "standard_name": "nudging_increment_in_mass_content_of_water_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "nudgincsm"
+    "drs_name": "nudgincsm",
+    "variable_type": "real"
 }

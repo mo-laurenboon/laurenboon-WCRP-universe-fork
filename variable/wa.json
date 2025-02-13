@@ -4,7 +4,8 @@
     "cmip_acronym": "wa",
     "long_name": "Upward Air Velocity",
     "standard_name": "upward_air_velocity",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "wa"
+    "drs_name": "wa",
+    "variable_type": "real"
 }

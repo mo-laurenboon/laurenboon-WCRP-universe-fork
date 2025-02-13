@@ -4,7 +4,8 @@
     "cmip_acronym": "dryo3",
     "long_name": "Dry Deposition Rate of O3",
     "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ozone_due_to_dry_deposition",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "dryo3"
+    "drs_name": "dryo3",
+    "variable_type": "real"
 }

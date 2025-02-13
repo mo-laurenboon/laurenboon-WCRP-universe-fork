@@ -4,7 +4,8 @@
     "cmip_acronym": "pastureFrac",
     "long_name": "Percentage of Land Which Is Anthropogenic Pasture",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "pastureFrac"
+    "drs_name": "pastureFrac",
+    "variable_type": "real"
 }

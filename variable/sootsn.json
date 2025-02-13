@@ -4,7 +4,8 @@
     "cmip_acronym": "sootsn",
     "long_name": "Snow Soot Content",
     "standard_name": "soot_content_of_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "sootsn"
+    "drs_name": "sootsn",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "tnpeo",
     "long_name": "Tendency of Ocean Potential Energy Content",
     "standard_name": "tendency_of_ocean_potential_energy_content",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "tnpeo"
+    "drs_name": "tnpeo",
+    "variable_type": "real"
 }

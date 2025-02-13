@@ -4,7 +4,8 @@
     "cmip_acronym": "masso",
     "long_name": "Sea Water Mass",
     "standard_name": "sea_water_mass",
-    "type": "real",
+    "type": "variable",
     "units": "kg",
-    "drs_name": "masso"
+    "drs_name": "masso",
+    "variable_type": "real"
 }

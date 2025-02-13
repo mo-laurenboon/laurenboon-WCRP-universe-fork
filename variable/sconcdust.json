@@ -4,7 +4,8 @@
     "cmip_acronym": "sconcdust",
     "long_name": "Surface Concentration of Dust",
     "standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-3",
-    "drs_name": "sconcdust"
+    "drs_name": "sconcdust",
+    "variable_type": "real"
 }

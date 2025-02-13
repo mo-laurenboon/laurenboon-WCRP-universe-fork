@@ -4,7 +4,8 @@
     "cmip_acronym": "ares",
     "long_name": "Aerodynamic Resistance",
     "standard_name": "aerodynamic_resistance",
-    "type": "real",
+    "type": "variable",
     "units": "s m-1",
-    "drs_name": "ares"
+    "drs_name": "ares",
+    "variable_type": "real"
 }

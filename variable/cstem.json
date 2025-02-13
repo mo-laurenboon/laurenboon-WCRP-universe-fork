@@ -4,7 +4,8 @@
     "cmip_acronym": "cStem",
     "long_name": "Carbon Mass in Stem",
     "standard_name": "stem_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cStem"
+    "drs_name": "cStem",
+    "variable_type": "real"
 }

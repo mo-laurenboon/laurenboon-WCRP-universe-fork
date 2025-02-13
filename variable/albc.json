@@ -4,7 +4,8 @@
     "cmip_acronym": "albc",
     "long_name": "Canopy Albedo",
     "standard_name": "canopy_albedo",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "albc"
+    "drs_name": "albc",
+    "variable_type": "real"
 }

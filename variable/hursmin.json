@@ -4,7 +4,8 @@
     "cmip_acronym": "hursmin",
     "long_name": "Daily Minimum Near-Surface Relative Humidity",
     "standard_name": "relative_humidity",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "hursmin"
+    "drs_name": "hursmin",
+    "variable_type": "real"
 }

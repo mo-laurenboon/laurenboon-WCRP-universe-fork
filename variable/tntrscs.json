@@ -4,7 +4,8 @@
     "cmip_acronym": "tntrscs",
     "long_name": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
     "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_assuming_clear_sky",
-    "type": "real",
+    "type": "variable",
     "units": "K s-1",
-    "drs_name": "tntrscs"
+    "drs_name": "tntrscs",
+    "variable_type": "real"
 }

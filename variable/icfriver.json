@@ -4,7 +4,8 @@
     "cmip_acronym": "icfriver",
     "long_name": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
     "standard_name": "tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_runoff_and_sediment_dissolution",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-2 s-1",
-    "drs_name": "icfriver"
+    "drs_name": "icfriver",
+    "variable_type": "real"
 }

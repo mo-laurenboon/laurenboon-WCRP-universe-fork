@@ -4,7 +4,8 @@
     "cmip_acronym": "mmrpm2p5",
     "long_name": "PM2.5 Mass Mixing Ratio",
     "standard_name": "mass_fraction_of_pm2p5_dry_aerosol_particles_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "kg kg-1",
-    "drs_name": "mmrpm2p5"
+    "drs_name": "mmrpm2p5",
+    "variable_type": "real"
 }

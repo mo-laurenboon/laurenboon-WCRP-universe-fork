@@ -4,7 +4,8 @@
     "cmip_acronym": "strbasemag",
     "long_name": "Land Ice Basal Drag",
     "standard_name": "land_ice_basal_drag",
-    "type": "real",
+    "type": "variable",
     "units": "Pa",
-    "drs_name": "strbasemag"
+    "drs_name": "strbasemag",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "zg1000",
     "long_name": "Geopotential Height at 1000hPa",
     "standard_name": "geopotential_height",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "zg1000"
+    "drs_name": "zg1000",
+    "variable_type": "real"
 }

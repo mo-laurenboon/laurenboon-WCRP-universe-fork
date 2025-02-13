@@ -4,7 +4,8 @@
     "cmip_acronym": "nppShrub",
     "long_name": "Net Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "nppShrub"
+    "drs_name": "nppShrub",
+    "variable_type": "real"
 }

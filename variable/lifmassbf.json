@@ -4,7 +4,8 @@
     "cmip_acronym": "lifmassbf",
     "long_name": "Land Ice Vertical Front Mass Balance Flux",
     "standard_name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "lifmassbf"
+    "drs_name": "lifmassbf",
+    "variable_type": "real"
 }

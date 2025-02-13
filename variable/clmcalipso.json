@@ -4,7 +4,8 @@
     "cmip_acronym": "clmcalipso",
     "long_name": "CALIPSO Mid Level Cloud Cover Percentage",
     "standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "clmcalipso"
+    "drs_name": "clmcalipso",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "dmc",
     "long_name": "Deep Convective Mass Flux",
     "standard_name": "atmosphere_net_upward_deep_convective_mass_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "dmc"
+    "drs_name": "dmc",
+    "variable_type": "real"
 }

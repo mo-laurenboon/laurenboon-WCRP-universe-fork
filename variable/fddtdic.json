@@ -4,7 +4,8 @@
     "cmip_acronym": "fddtdic",
     "long_name": "Rate of Change of Net Dissolved Inorganic Carbon",
     "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-2 s-1",
-    "drs_name": "fddtdic"
+    "drs_name": "fddtdic",
+    "variable_type": "real"
 }

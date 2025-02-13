@@ -4,7 +4,8 @@
     "cmip_acronym": "mrsfl",
     "long_name": "Frozen Water Content of Soil Layer",
     "standard_name": "frozen_water_content_of_soil_layer",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "mrsfl"
+    "drs_name": "mrsfl",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "sidconcth",
     "long_name": "Sea-Ice Area Percentage Tendency Due to Thermodynamics",
     "standard_name": "tendency_of_sea_ice_area_fraction_due_to_thermodynamics",
-    "type": "real",
+    "type": "variable",
     "units": "s-1",
-    "drs_name": "sidconcth"
+    "drs_name": "sidconcth",
+    "variable_type": "real"
 }

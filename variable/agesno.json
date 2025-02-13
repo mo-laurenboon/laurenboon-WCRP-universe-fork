@@ -4,7 +4,8 @@
     "cmip_acronym": "agesno",
     "long_name": "Mean Age of Snow",
     "standard_name": "age_of_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "day",
-    "drs_name": "agesno"
+    "drs_name": "agesno",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "hfgeou",
     "long_name": "Upward Geothermal Heat Flux at Sea Floor",
     "standard_name": "upward_geothermal_heat_flux_at_sea_floor",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "hfgeou"
+    "drs_name": "hfgeou",
+    "variable_type": "real"
 }

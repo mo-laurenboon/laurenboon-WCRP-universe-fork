@@ -4,7 +4,8 @@
     "cmip_acronym": "hno3",
     "long_name": "HNO3 Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_nitric_acid_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "hno3"
+    "drs_name": "hno3",
+    "variable_type": "real"
 }

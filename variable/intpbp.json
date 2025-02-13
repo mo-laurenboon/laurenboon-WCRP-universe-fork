@@ -4,7 +4,8 @@
     "cmip_acronym": "intpbp",
     "long_name": "Phosphorus Production",
     "standard_name": "tendency_of_ocean_mole_content_of_phosphorus_due_to_biological_production",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-2 s-1",
-    "drs_name": "intpbp"
+    "drs_name": "intpbp",
+    "variable_type": "real"
 }

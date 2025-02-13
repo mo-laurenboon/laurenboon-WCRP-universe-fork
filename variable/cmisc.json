@@ -4,7 +4,8 @@
     "cmip_acronym": "cMisc",
     "long_name": "Carbon Mass in Other Living Compartments on Land",
     "standard_name": "miscellaneous_living_matter_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cMisc"
+    "drs_name": "cMisc",
+    "variable_type": "real"
 }

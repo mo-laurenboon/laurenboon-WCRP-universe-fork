@@ -4,7 +4,8 @@
     "cmip_acronym": "mrro",
     "long_name": "Total Runoff",
     "standard_name": "runoff_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "mrro"
+    "drs_name": "mrro",
+    "variable_type": "real"
 }

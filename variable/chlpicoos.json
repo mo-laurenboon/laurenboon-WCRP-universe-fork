@@ -4,7 +4,8 @@
     "cmip_acronym": "chlpicoos",
     "long_name": "Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
     "standard_name": "mass_concentration_of_picophytoplankton_expressed_as_chlorophyll_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-3",
-    "drs_name": "chlpicoos"
+    "drs_name": "chlpicoos",
+    "variable_type": "real"
 }

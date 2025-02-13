@@ -4,7 +4,8 @@
     "cmip_acronym": "wap7h",
     "long_name": "Omega (=dp/dt)",
     "standard_name": "lagrangian_tendency_of_air_pressure",
-    "type": "real",
+    "type": "variable",
     "units": "Pa s-1",
-    "drs_name": "wap7h"
+    "drs_name": "wap7h",
+    "variable_type": "real"
 }

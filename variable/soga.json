@@ -4,7 +4,8 @@
     "cmip_acronym": "soga",
     "long_name": "Global Mean Sea Water Salinity",
     "standard_name": "sea_water_salinity",
-    "type": "real",
+    "type": "variable",
     "units": "0.001",
-    "drs_name": "soga"
+    "drs_name": "soga",
+    "variable_type": "real"
 }

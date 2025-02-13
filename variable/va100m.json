@@ -4,7 +4,8 @@
     "cmip_acronym": "va100m",
     "long_name": "Northward Wind at 100m",
     "standard_name": "northward_wind",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "va100m"
+    "drs_name": "va100m",
+    "variable_type": "real"
 }

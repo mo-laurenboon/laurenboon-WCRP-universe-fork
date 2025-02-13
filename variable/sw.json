@@ -4,7 +4,8 @@
     "cmip_acronym": "sw",
     "long_name": "Surface Water Storage",
     "standard_name": "land_surface_liquid_water_amount",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "sw"
+    "drs_name": "sw",
+    "variable_type": "real"
 }

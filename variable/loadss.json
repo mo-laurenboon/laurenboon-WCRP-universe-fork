@@ -4,7 +4,8 @@
     "cmip_acronym": "loadss",
     "long_name": "Load of Sea-Salt Aerosol",
     "standard_name": "atmosphere_mass_content_of_sea_salt_dry_aerosol_particles",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "loadss"
+    "drs_name": "loadss",
+    "variable_type": "real"
 }

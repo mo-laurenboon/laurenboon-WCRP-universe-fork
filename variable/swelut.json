@@ -4,7 +4,8 @@
     "cmip_acronym": "sweLut",
     "long_name": "Snow Water Equivalent on Land-Use Tile",
     "standard_name": "lwe_thickness_of_surface_snow_amount",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "sweLut"
+    "drs_name": "sweLut",
+    "variable_type": "real"
 }

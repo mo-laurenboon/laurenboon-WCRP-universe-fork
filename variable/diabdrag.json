@@ -4,7 +4,8 @@
     "cmip_acronym": "diabdrag",
     "long_name": "Tendency of Eastward Wind from Numerical Artefacts",
     "standard_name": "tendency_of_eastward_wind_due_to_numerical_artefacts",
-    "type": "real",
+    "type": "variable",
     "units": "m s-2",
-    "drs_name": "diabdrag"
+    "drs_name": "diabdrag",
+    "variable_type": "real"
 }

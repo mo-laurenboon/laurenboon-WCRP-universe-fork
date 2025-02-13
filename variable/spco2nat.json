@@ -4,7 +4,8 @@
     "cmip_acronym": "spco2nat",
     "long_name": "Natural Surface Aqueous Partial Pressure of CO2",
     "standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
-    "type": "real",
+    "type": "variable",
     "units": "Pa",
-    "drs_name": "spco2nat"
+    "drs_name": "spco2nat",
+    "variable_type": "real"
 }

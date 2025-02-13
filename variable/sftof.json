@@ -4,7 +4,8 @@
     "cmip_acronym": "sftof",
     "long_name": "Sea Area Percentage",
     "standard_name": "sea_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "sftof"
+    "drs_name": "sftof",
+    "variable_type": "real"
 }

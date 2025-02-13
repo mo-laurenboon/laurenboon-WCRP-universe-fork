@@ -4,7 +4,8 @@
     "cmip_acronym": "dsw",
     "long_name": "Change in Surface Water Storage",
     "standard_name": "change_over_time_in_land_water_amount",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "dsw"
+    "drs_name": "dsw",
+    "variable_type": "real"
 }

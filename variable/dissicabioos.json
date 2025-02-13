@@ -4,7 +4,8 @@
     "cmip_acronym": "dissicabioos",
     "long_name": "Surface Abiotic Dissolved Inorganic Carbon Concentration",
     "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "dissicabioos"
+    "drs_name": "dissicabioos",
+    "variable_type": "real"
 }

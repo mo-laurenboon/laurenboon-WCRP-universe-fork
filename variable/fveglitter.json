@@ -4,7 +4,8 @@
     "cmip_acronym": "fVegLitter",
     "long_name": "Total Carbon Mass Flux from Vegetation to Litter",
     "standard_name": "mass_flux_of_carbon_into_litter_from_vegetation",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "fVegLitter"
+    "drs_name": "fVegLitter",
+    "variable_type": "real"
 }

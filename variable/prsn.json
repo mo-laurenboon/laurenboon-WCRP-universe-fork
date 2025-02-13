@@ -4,7 +4,8 @@
     "cmip_acronym": "prsn",
     "long_name": "Snowfall Flux",
     "standard_name": "snowfall_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "prsn"
+    "drs_name": "prsn",
+    "variable_type": "real"
 }

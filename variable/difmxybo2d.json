@@ -4,7 +4,8 @@
     "cmip_acronym": "difmxybo2d",
     "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
     "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
-    "type": "real",
+    "type": "variable",
     "units": "m4 s-1",
-    "drs_name": "difmxybo2d"
+    "drs_name": "difmxybo2d",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "limfecalc",
     "long_name": "Iron Limitation of Calcareous Phytoplankton",
     "standard_name": "iron_growth_limitation_of_calcareous_phytoplankton",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "limfecalc"
+    "drs_name": "limfecalc",
+    "variable_type": "real"
 }

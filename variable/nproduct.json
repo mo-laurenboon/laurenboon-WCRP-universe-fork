@@ -4,7 +4,8 @@
     "cmip_acronym": "nProduct",
     "long_name": "Nitrogen Mass in Products of Land-Use Change",
     "standard_name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "nProduct"
+    "drs_name": "nProduct",
+    "variable_type": "real"
 }

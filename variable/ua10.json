@@ -4,7 +4,8 @@
     "cmip_acronym": "ua10",
     "long_name": "Eastward Wind at 10hPa",
     "standard_name": "eastward_wind",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "ua10"
+    "drs_name": "ua10",
+    "variable_type": "real"
 }

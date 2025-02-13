@@ -4,7 +4,8 @@
     "cmip_acronym": "talknatos",
     "long_name": "Surface Natural Total Alkalinity",
     "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "talknatos"
+    "drs_name": "talknatos",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "volo",
     "long_name": "Sea Water Volume",
     "standard_name": "sea_water_volume",
-    "type": "real",
+    "type": "variable",
     "units": "m3",
-    "drs_name": "volo"
+    "drs_name": "volo",
+    "variable_type": "real"
 }

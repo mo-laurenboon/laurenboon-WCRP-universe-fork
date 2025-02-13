@@ -4,7 +4,8 @@
     "cmip_acronym": "tnt",
     "long_name": "Tendency of Air Temperature",
     "standard_name": "tendency_of_air_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K s-1",
-    "drs_name": "tnt"
+    "drs_name": "tnt",
+    "variable_type": "real"
 }

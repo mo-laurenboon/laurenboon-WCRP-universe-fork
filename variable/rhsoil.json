@@ -4,7 +4,8 @@
     "cmip_acronym": "rhSoil",
     "long_name": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
     "standard_name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "rhSoil"
+    "drs_name": "rhSoil",
+    "variable_type": "real"
 }

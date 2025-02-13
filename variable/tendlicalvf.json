@@ -4,7 +4,8 @@
     "cmip_acronym": "tendlicalvf",
     "long_name": "Total Calving Flux",
     "standard_name": "tendency_of_land_ice_mass_due_to_calving",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "tendlicalvf"
+    "drs_name": "tendlicalvf",
+    "variable_type": "real"
 }

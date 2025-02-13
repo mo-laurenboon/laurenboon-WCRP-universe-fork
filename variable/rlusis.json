@@ -4,7 +4,8 @@
     "cmip_acronym": "rlusIs",
     "long_name": "Ice Sheet Surface Upwelling Longwave Radiation",
     "standard_name": "surface_upwelling_longwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rlusIs"
+    "drs_name": "rlusIs",
+    "variable_type": "real"
 }

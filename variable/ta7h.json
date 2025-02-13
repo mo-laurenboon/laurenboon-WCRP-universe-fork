@@ -4,7 +4,8 @@
     "cmip_acronym": "ta7h",
     "long_name": "Air Temperature",
     "standard_name": "air_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
-    "drs_name": "ta7h"
+    "drs_name": "ta7h",
+    "variable_type": "real"
 }

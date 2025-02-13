@@ -4,7 +4,8 @@
     "cmip_acronym": "c3h6",
     "long_name": "C3H6 Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_propene_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
-    "drs_name": "c3h6"
+    "drs_name": "c3h6",
+    "variable_type": "real"
 }

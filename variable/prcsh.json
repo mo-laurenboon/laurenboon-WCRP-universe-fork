@@ -4,7 +4,8 @@
     "cmip_acronym": "prcsh",
     "long_name": "Precipitation Flux from Shallow Convection",
     "standard_name": "shallow_convective_precipitation_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "prcsh"
+    "drs_name": "prcsh",
+    "variable_type": "real"
 }

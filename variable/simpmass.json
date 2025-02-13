@@ -4,7 +4,8 @@
     "cmip_acronym": "simpmass",
     "long_name": "Meltpond Mass per Unit Area (as Depth)",
     "standard_name": "sea_ice_melt_pond_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "simpmass"
+    "drs_name": "simpmass",
+    "variable_type": "real"
 }

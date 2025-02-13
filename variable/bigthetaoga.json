@@ -4,7 +4,8 @@
     "cmip_acronym": "bigthetaoga",
     "long_name": "Global Average Sea Water Conservative Temperature",
     "standard_name": "sea_water_conservative_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
-    "drs_name": "bigthetaoga"
+    "drs_name": "bigthetaoga",
+    "variable_type": "real"
 }

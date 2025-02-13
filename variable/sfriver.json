@@ -4,7 +4,8 @@
     "cmip_acronym": "sfriver",
     "long_name": "Salt Flux into Sea Water from Rivers",
     "standard_name": "salt_flux_into_sea_water_from_rivers",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "sfriver"
+    "drs_name": "sfriver",
+    "variable_type": "real"
 }

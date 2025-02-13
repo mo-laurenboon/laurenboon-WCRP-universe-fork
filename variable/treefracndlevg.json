@@ -4,7 +4,8 @@
     "cmip_acronym": "treeFracNdlEvg",
     "long_name": "Needleleaf Evergreen Tree Area Percentage",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "treeFracNdlEvg"
+    "drs_name": "treeFracNdlEvg",
+    "variable_type": "real"
 }

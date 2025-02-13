@@ -4,7 +4,8 @@
     "cmip_acronym": "mfo",
     "long_name": "Sea Water Transport",
     "standard_name": "sea_water_transport_across_line",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "mfo"
+    "drs_name": "mfo",
+    "variable_type": "real"
 }

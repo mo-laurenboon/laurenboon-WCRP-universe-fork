@@ -4,7 +4,8 @@
     "cmip_acronym": "nh4os",
     "long_name": "Surface Dissolved Ammonium Concentration",
     "standard_name": "mole_concentration_of_ammonium_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "nh4os"
+    "drs_name": "nh4os",
+    "variable_type": "real"
 }

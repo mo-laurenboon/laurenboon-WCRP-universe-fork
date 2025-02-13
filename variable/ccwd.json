@@ -4,7 +4,8 @@
     "cmip_acronym": "cCwd",
     "long_name": "Carbon Mass in Coarse Woody Debris",
     "standard_name": "wood_debris_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cCwd"
+    "drs_name": "cCwd",
+    "variable_type": "real"
 }

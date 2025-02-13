@@ -4,7 +4,8 @@
     "cmip_acronym": "cropFrac",
     "long_name": "Percentage Crop Cover",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "cropFrac"
+    "drs_name": "cropFrac",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "o2satos",
     "long_name": "Surface Dissolved Oxygen Concentration at Saturation",
     "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "o2satos"
+    "drs_name": "o2satos",
+    "variable_type": "real"
 }

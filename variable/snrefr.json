@@ -4,7 +4,8 @@
     "cmip_acronym": "snrefr",
     "long_name": "Refreezing of Water in the Snow",
     "standard_name": "surface_snow_and_ice_refreezing_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "snrefr"
+    "drs_name": "snrefr",
+    "variable_type": "real"
 }

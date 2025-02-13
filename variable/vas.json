@@ -4,7 +4,8 @@
     "cmip_acronym": "vas",
     "long_name": "Northward Near-Surface Wind",
     "standard_name": "northward_wind",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
-    "drs_name": "vas"
+    "drs_name": "vas",
+    "variable_type": "real"
 }

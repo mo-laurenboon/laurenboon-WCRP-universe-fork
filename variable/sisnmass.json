@@ -4,7 +4,8 @@
     "cmip_acronym": "sisnmass",
     "long_name": "Snow Mass per Area",
     "standard_name": "liquid_water_content_of_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "sisnmass"
+    "drs_name": "sisnmass",
+    "variable_type": "real"
 }

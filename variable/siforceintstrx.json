@@ -4,7 +4,8 @@
     "cmip_acronym": "siforceintstrx",
     "long_name": "Internal Stress Term in Force Balance (X-Component)",
     "standard_name": "sea_ice_x_internal_stress",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
-    "drs_name": "siforceintstrx"
+    "drs_name": "siforceintstrx",
+    "variable_type": "real"
 }

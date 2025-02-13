@@ -4,7 +4,8 @@
     "cmip_acronym": "rld4co2",
     "long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
     "standard_name": "downwelling_longwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rld4co2"
+    "drs_name": "rld4co2",
+    "variable_type": "real"
 }

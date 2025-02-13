@@ -4,7 +4,8 @@
     "cmip_acronym": "hflsIs",
     "long_name": "Ice Sheet Surface Upward Latent Heat Flux",
     "standard_name": "surface_upward_latent_heat_flux",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "hflsIs"
+    "drs_name": "hflsIs",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "sidmassmeltbot",
     "long_name": "Sea-Ice Mass Change Through Bottom Melting",
     "standard_name": "tendency_of_sea_ice_amount_due_to_basal_melting",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "sidmassmeltbot"
+    "drs_name": "sidmassmeltbot",
+    "variable_type": "real"
 }

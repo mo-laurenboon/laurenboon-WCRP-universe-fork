@@ -4,7 +4,8 @@
     "cmip_acronym": "htovovrt",
     "long_name": "Northward Ocean Heat Transport Due to Overturning",
     "standard_name": "northward_ocean_heat_transport_due_to_overturning",
-    "type": "real",
+    "type": "variable",
     "units": "W",
-    "drs_name": "htovovrt"
+    "drs_name": "htovovrt",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "wetlandFrac",
     "long_name": "Wetland Percentage Cover",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "wetlandFrac"
+    "drs_name": "wetlandFrac",
+    "variable_type": "real"
 }

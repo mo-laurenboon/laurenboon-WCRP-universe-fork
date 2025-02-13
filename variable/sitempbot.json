@@ -4,7 +4,8 @@
     "cmip_acronym": "sitempbot",
     "long_name": "Temperature at Ice-Ocean Interface",
     "standard_name": "sea_ice_basal_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
-    "drs_name": "sitempbot"
+    "drs_name": "sitempbot",
+    "variable_type": "real"
 }

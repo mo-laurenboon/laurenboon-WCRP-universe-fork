@@ -4,7 +4,8 @@
     "cmip_acronym": "tauucorr",
     "long_name": "Surface Downward X Stress Correction",
     "standard_name": "downward_x_stress_correction_at_sea_water_surface",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
-    "drs_name": "tauucorr"
+    "drs_name": "tauucorr",
+    "variable_type": "real"
 }

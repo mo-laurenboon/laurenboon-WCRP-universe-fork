@@ -4,7 +4,8 @@
     "cmip_acronym": "tasminCrop",
     "long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
     "standard_name": "air_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
-    "drs_name": "tasminCrop"
+    "drs_name": "tasminCrop",
+    "variable_type": "real"
 }

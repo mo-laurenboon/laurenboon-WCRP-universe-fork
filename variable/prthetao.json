@@ -4,7 +4,8 @@
     "cmip_acronym": "prthetao",
     "long_name": "Sea Water Redistributed Potential Temperature",
     "standard_name": "sea_water_redistributed_potential_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
-    "drs_name": "prthetao"
+    "drs_name": "prthetao",
+    "variable_type": "real"
 }

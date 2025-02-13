@@ -4,7 +4,8 @@
     "cmip_acronym": "snicefreez",
     "long_name": "Surface Snow and Ice Refreeze Flux",
     "standard_name": "surface_snow_and_ice_refreezing_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "snicefreez"
+    "drs_name": "snicefreez",
+    "variable_type": "real"
 }

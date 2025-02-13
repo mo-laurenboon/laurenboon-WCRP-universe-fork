@@ -4,7 +4,8 @@
     "cmip_acronym": "sos",
     "long_name": "Sea Surface Salinity",
     "standard_name": "sea_surface_salinity",
-    "type": "real",
+    "type": "variable",
     "units": "0.001",
-    "drs_name": "sos"
+    "drs_name": "sos",
+    "variable_type": "real"
 }

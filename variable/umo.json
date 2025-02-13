@@ -4,7 +4,8 @@
     "cmip_acronym": "umo",
     "long_name": "Ocean Mass X Transport",
     "standard_name": "ocean_mass_x_transport",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "umo"
+    "drs_name": "umo",
+    "variable_type": "real"
 }

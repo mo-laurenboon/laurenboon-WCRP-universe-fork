@@ -4,7 +4,8 @@
     "cmip_acronym": "physi",
     "long_name": "Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water",
     "standard_name": "mole_concentration_of_phytoplankton_expressed_as_silicon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "physi"
+    "drs_name": "physi",
+    "variable_type": "real"
 }

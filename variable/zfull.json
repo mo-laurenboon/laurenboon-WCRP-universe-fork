@@ -4,7 +4,8 @@
     "cmip_acronym": "zfull",
     "long_name": "Altitude of Model Full-Levels",
     "standard_name": "height_above_reference_ellipsoid",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "zfull"
+    "drs_name": "zfull",
+    "variable_type": "real"
 }

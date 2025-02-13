@@ -4,7 +4,8 @@
     "cmip_acronym": "rlusLut",
     "long_name": "Surface Upwelling Longwave on Land-Use Tile",
     "standard_name": "surface_upwelling_longwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "rlusLut"
+    "drs_name": "rlusLut",
+    "variable_type": "real"
 }

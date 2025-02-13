@@ -4,7 +4,8 @@
     "cmip_acronym": "hfsbl",
     "long_name": "Energy of Sublimation",
     "standard_name": "surface_upward_latent_heat_flux_due_to_sublimation",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
-    "drs_name": "hfsbl"
+    "drs_name": "hfsbl",
+    "variable_type": "real"
 }

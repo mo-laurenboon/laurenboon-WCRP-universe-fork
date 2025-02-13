@@ -4,7 +4,8 @@
     "cmip_acronym": "chlos",
     "long_name": "Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
     "standard_name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-3",
-    "drs_name": "chlos"
+    "drs_name": "chlos",
+    "variable_type": "real"
 }

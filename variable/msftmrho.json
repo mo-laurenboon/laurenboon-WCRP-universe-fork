@@ -4,7 +4,8 @@
     "cmip_acronym": "msftmrho",
     "long_name": "Ocean Meridional Overturning Mass Streamfunction",
     "standard_name": "ocean_meridional_overturning_mass_streamfunction",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
-    "drs_name": "msftmrho"
+    "drs_name": "msftmrho",
+    "variable_type": "real"
 }

@@ -4,7 +4,8 @@
     "cmip_acronym": "huss",
     "long_name": "Near-Surface Specific Humidity",
     "standard_name": "specific_humidity",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "huss"
+    "drs_name": "huss",
+    "variable_type": "real"
 }

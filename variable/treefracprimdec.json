@@ -4,7 +4,8 @@
     "cmip_acronym": "treeFracPrimDec",
     "long_name": "Percentage Cover by Primary Deciduous Tree",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "treeFracPrimDec"
+    "drs_name": "treeFracPrimDec",
+    "variable_type": "real"
 }

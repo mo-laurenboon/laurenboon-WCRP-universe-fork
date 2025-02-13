@@ -4,7 +4,8 @@
     "cmip_acronym": "mrroLut",
     "long_name": "Total Runoff from Land-Use Tile",
     "standard_name": "runoff_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "mrroLut"
+    "drs_name": "mrroLut",
+    "variable_type": "real"
 }

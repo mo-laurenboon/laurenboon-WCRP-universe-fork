@@ -4,7 +4,8 @@
     "cmip_acronym": "po4os",
     "long_name": "Surface Total Dissolved Inorganic Phosphorus Concentration",
     "standard_name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "po4os"
+    "drs_name": "po4os",
+    "variable_type": "real"
 }

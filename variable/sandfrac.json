@@ -4,7 +4,8 @@
     "cmip_acronym": "sandfrac",
     "long_name": "Sand Fraction",
     "standard_name": "volume_fraction_of_sand_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "1",
-    "drs_name": "sandfrac"
+    "drs_name": "sandfrac",
+    "variable_type": "real"
 }

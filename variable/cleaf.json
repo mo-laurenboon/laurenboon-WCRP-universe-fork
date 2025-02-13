@@ -4,7 +4,8 @@
     "cmip_acronym": "cLeaf",
     "long_name": "Carbon Mass in Leaves",
     "standard_name": "leaf_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
-    "drs_name": "cLeaf"
+    "drs_name": "cLeaf",
+    "variable_type": "real"
 }

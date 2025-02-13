@@ -4,7 +4,8 @@
     "cmip_acronym": "zmicroos",
     "long_name": "Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
     "standard_name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-3",
-    "drs_name": "zmicroos"
+    "drs_name": "zmicroos",
+    "variable_type": "real"
 }

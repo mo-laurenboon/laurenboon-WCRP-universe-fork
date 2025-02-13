@@ -4,7 +4,8 @@
     "cmip_acronym": "snicem",
     "long_name": "Surface Snow and Ice Melt Flux",
     "standard_name": "surface_snow_and_ice_melt_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "snicem"
+    "drs_name": "snicem",
+    "variable_type": "real"
 }

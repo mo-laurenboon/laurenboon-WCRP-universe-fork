@@ -4,7 +4,8 @@
     "cmip_acronym": "hur",
     "long_name": "Relative Humidity",
     "standard_name": "relative_humidity",
-    "type": "real",
+    "type": "variable",
     "units": "%",
-    "drs_name": "hur"
+    "drs_name": "hur",
+    "variable_type": "real"
 }

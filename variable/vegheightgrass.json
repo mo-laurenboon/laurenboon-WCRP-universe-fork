@@ -4,7 +4,8 @@
     "cmip_acronym": "vegHeightGrass",
     "long_name": "Height of Grass",
     "standard_name": "canopy_height",
-    "type": "real",
+    "type": "variable",
     "units": "m",
-    "drs_name": "vegHeightGrass"
+    "drs_name": "vegHeightGrass",
+    "variable_type": "real"
 }

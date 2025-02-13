@@ -4,7 +4,8 @@
     "cmip_acronym": "raStem",
     "long_name": "Total Respiration from Stem as Carbon Mass Flux [kgC m-2 s-1]",
     "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_stems",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
-    "drs_name": "raStem"
+    "drs_name": "raStem",
+    "variable_type": "real"
 }

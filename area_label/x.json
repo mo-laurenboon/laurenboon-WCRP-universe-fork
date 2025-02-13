@@ -2,5 +2,6 @@
     "id": "x",
     "label": "x",
     "description": "'where' directive not included in cell_method",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "x"
 }

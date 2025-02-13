@@ -47,10 +47,12 @@ def add_drs(dir_path:Path,key:str):
 #add_drs(Path("product"),"id")
 #add_drs(Path("resolution"),"id")
 #add_drs(Path("source_type"),"id")
-add_drs(Path("license"),"id")
-add_drs(Path("organisation"),"id")
-add_drs(Path("realm"),"id")
-
+# add_drs(Path("license"),"id")
+# add_drs(Path("organisation"),"id")
+# add_drs(Path("realm"),"id")
+add_drs(Path("area_label"),"label")
+add_drs(Path("horizontal_label"),"label")
+add_drs(Path("temporal_label"),"label")
 
 
 

@@ -2,5 +2,6 @@
     "id": "ti",
     "label": "ti",
     "description": "time-independent data (no time coordinate)",
-    "type": "temporal_label"
+    "type": "temporal_label",
+    "drs_name": "ti"
 }

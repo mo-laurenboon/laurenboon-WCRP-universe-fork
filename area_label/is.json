@@ -2,5 +2,6 @@
     "id": "is",
     "label": "is",
     "description": "in cell_methods : ice_sheet",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "is"
 }

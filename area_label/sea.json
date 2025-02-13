@@ -2,5 +2,6 @@
     "id": "sea",
     "label": "sea",
     "description": "in cell_methods : sea",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "sea"
 }

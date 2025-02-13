@@ -2,5 +2,6 @@
     "id": "shb",
     "label": "shb",
     "description": "in cell_methods : shrubs",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "shb"
 }

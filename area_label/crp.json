@@ -2,5 +2,6 @@
     "id": "crp",
     "label": "crp",
     "description": "in cell_methods : crops",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "crp"
 }

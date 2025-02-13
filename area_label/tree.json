@@ -2,5 +2,6 @@
     "id": "tree",
     "label": "tree",
     "description": "in cell_methods : trees",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "tree"
 }

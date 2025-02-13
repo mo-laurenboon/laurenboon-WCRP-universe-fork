@@ -2,5 +2,6 @@
     "id": "cl",
     "label": "cl",
     "description": "in cell_methods : cloud",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "cl"
 }

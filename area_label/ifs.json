@@ -2,5 +2,6 @@
     "id": "gis",
     "label": "gis",
     "description": "in cell_methods : grounding_ice_sheet",
-    "type": "area_label"
+    "type": "area_label",
+    "drs_name": "gis"
 }

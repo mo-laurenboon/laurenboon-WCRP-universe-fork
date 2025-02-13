@@ -2,5 +2,6 @@
     "id": "tavg",
     "label": "tavg",
     "description": "time-average",
-    "type": "temporal_label"
+    "type": "temporal_label",
+    "drs_name": "tavg"
 }

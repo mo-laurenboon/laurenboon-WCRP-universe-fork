@@ -1,0 +1,12 @@
+
+{
+     
+      "@context": {
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/temporal_label/",
+      "id": "@id",
+      "type":"@type",
+      "temporal_label": "https://espri-mod.github.io/mip-cmor-tables/temporal_label/",
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

@@ -1,0 +1,12 @@
+
+{
+     
+      "@context": {
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/area_label/",
+      "id": "@id",
+      "type":"@type",
+      "horizontal_label": "https://espri-mod.github.io/mip-cmor-tables/area_label/",
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

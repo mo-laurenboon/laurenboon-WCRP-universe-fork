@@ -3,5 +3,6 @@
     "label": "cl",
     "description": "in cell_methods : cloud",
     "type": "area_label",
-    "drs_name": "cl"
+    "drs_name": "cl",
+    "@context": "000_context.jsonld"
 }

@@ -3,5 +3,6 @@
     "label": "tavg",
     "description": "time-average",
     "type": "temporal_label",
-    "drs_name": "tavg"
+    "drs_name": "tavg",
+    "@context": "000_context.jsonld"
 }

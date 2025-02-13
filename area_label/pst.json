@@ -3,5 +3,6 @@
     "label": "pst",
     "description": "in cell_methods : pastures",
     "type": "area_label",
-    "drs_name": "pst"
+    "drs_name": "pst",
+    "@context": "000_context.jsonld"
 }

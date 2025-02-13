@@ -3,5 +3,6 @@
     "label": "is",
     "description": "in cell_methods : ice_sheet",
     "type": "area_label",
-    "drs_name": "is"
+    "drs_name": "is",
+    "@context": "000_context.jsonld"
 }

@@ -3,5 +3,6 @@
     "label": "gis",
     "description": "in cell_methods : grounding_ice_sheet",
     "type": "area_label",
-    "drs_name": "gis"
+    "drs_name": "gis",
+    "@context": "000_context.jsonld"
 }

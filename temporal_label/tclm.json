@@ -3,5 +3,6 @@
     "label": "tclmdc",
     "description": "diurnal cycle climatology",
     "type": "temporal_label",
-    "drs_name": "tclmdc"
+    "drs_name": "tclmdc",
+    "@context": "000_context.jsonld"
 }

@@ -3,5 +3,6 @@
     "label": "crp",
     "description": "in cell_methods : crops",
     "type": "area_label",
-    "drs_name": "crp"
+    "drs_name": "crp",
+    "@context": "000_context.jsonld"
 }

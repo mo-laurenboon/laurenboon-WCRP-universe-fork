@@ -4,10 +4,12 @@
     "parts": [
         {
             "id": "variable",
+            "type" : "variable",
             "is_required": true
         },
         {
-            "id": "branded_suffix",
+            "id": "label",
+            "type": "branded_suffix",
             "is_required": true
         }
     ],

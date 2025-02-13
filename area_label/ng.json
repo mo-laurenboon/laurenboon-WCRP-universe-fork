@@ -1,6 +1,6 @@
-
 {
     "id": "ng",
     "label": "ng",
-    "description": "in cell_methods : natural_grasses"
+    "description": "in cell_methods : natural_grasses",
+    "type": "area_label"
 }

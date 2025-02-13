@@ -1,6 +1,6 @@
-
 {
     "id": "lus",
     "label": "lus",
-    "description": "in cell_methods : sector (auxiliary coordinate for land-use erea types)"
+    "description": "in cell_methods : sector (auxiliary coordinate for land-use erea types)",
+    "type": "area_label"
 }

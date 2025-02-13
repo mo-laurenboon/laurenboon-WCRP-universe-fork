@@ -1,6 +1,6 @@
-
 {
     "id": "li",
     "label": "li",
-    "description": "in cell_methods : land_ice"
+    "description": "in cell_methods : land_ice",
+    "type": "area_label"
 }

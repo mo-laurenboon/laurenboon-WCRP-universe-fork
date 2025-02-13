@@ -1,6 +1,6 @@
-
 {
     "id": "shb",
     "label": "shb",
-    "description": "in cell_methods : shrubs"
+    "description": "in cell_methods : shrubs",
+    "type": "area_label"
 }

@@ -1,5 +1,6 @@
 {
     "id": "tavg",
     "label": "tavg",
-    "description": "time-average"
+    "description": "time-average",
+    "type": "temporal_label"
 }

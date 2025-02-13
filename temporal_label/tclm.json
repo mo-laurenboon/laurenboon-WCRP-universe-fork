@@ -1,5 +1,6 @@
 {
     "id": "tclmdc",
     "label": "tclmdc",
-    "description": "diurnal cycle climatology"
+    "description": "diurnal cycle climatology",
+    "type": "temporal_label"
 }

@@ -1,5 +1,6 @@
 {
     "id": "ti",
     "label": "ti",
-    "description": "time-independent data (no time coordinate)"
+    "description": "time-independent data (no time coordinate)",
+    "type": "temporal_label"
 }

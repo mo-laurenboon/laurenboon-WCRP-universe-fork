@@ -1,6 +1,6 @@
-
 {
     "id": "crp",
     "label": "crp",
-    "description": "in cell_methods : crops"
+    "description": "in cell_methods : crops",
+    "type": "area_label"
 }

@@ -1,6 +1,6 @@
-
 {
     "id": "sea",
     "label": "sea",
-    "description": "in cell_methods : sea"
+    "description": "in cell_methods : sea",
+    "type": "area_label"
 }

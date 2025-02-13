@@ -1,6 +1,6 @@
-
 {
     "id": "ufs",
     "label": "ufs",
-    "description": "in cell_methods : unfrozen_soil"
+    "description": "in cell_methods : unfrozen_soil",
+    "type": "area_label"
 }

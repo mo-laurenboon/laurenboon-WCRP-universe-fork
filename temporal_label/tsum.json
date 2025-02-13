@@ -1,5 +1,6 @@
 {
     "id": "tsum",
     "label": "tsum",
-    "description": "accumulation, sum, or integral over the reporting interval"
+    "description": "accumulation, sum, or integral over the reporting interval",
+    "type": "temporal_label"
 }

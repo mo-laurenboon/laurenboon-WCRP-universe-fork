@@ -1,6 +1,6 @@
-
 {
     "id": "tree",
     "label": "tree",
-    "description": "in cell_methods : trees"
+    "description": "in cell_methods : trees",
+    "type": "area_label"
 }

@@ -1,5 +1,6 @@
 {
     "@context": "000_context.jsonld",
     "id": "consortium/ncc",
-    "type": "consortium"
+    "type": "consortium",
+    "drs_name": "consortium/ncc"
 }

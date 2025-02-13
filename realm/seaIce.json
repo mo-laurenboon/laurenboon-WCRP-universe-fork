@@ -3,5 +3,6 @@
     "id": "seaIce",
     "description": "Sea Ice",
     "name": "seaIce",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "seaIce"
 }

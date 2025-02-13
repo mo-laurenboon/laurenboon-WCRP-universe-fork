@@ -3,5 +3,6 @@
     "id": "land",
     "description": "Land Surface and Subsurface",
     "name": "land",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "land"
 }

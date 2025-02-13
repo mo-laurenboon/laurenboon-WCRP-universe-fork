@@ -3,5 +3,6 @@
     "id": "aerosol",
     "description": "Aerosol",
     "name": "aerosol",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "aerosol"
 }

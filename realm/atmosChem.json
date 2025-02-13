@@ -3,5 +3,6 @@
     "id": "atmosChem",
     "description": "Atmospheric Chemistry",
     "name": "atmosChem",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "atmosChem"
 }

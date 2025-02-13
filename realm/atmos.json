@@ -3,5 +3,6 @@
     "id": "atmos",
     "description": "Atmosphere",
     "name": "atmos",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "atmos"
 }

@@ -3,5 +3,6 @@
     "id": "ocnBgchem",
     "description": "Ocean Biogeochemistry",
     "name": "ocnBgchem",
-    "type": "realm"
+    "type": "realm",
+    "drs_name": "ocnBgchem"
 }

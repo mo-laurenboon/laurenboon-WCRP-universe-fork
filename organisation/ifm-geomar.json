@@ -1,5 +1,6 @@
 {
     "@context": "000_context.jsonld",
     "id": "institution/ifm-geomar",
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "institution/ifm-geomar"
 }

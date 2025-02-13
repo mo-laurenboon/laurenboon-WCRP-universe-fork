@@ -1,5 +1,6 @@
 {
     "@context": "000_context.jsonld",
     "id": "institution/cccr-iitm",
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "institution/cccr-iitm"
 }

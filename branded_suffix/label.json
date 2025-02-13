@@ -8,7 +8,7 @@
             "is_required": true
         },
         {
-            "id": "temporal_label",
+            "id": "vertical_label",
             "type": "vertical_label",
             "is_required": true
         },

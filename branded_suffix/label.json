@@ -3,18 +3,22 @@
     "separator": "-",
     "parts": [
         {
+            "id": "temporal_label",
             "type": "temporal_label",
             "is_required": true
         },
         {
+            "id": "temporal_label",
             "type": "vertical_label",
             "is_required": true
         },
         {
+            "id": "horizontal_label",
             "type": "horizontal_label",
             "is_required": true
         },
         {
+            "id" : "area_label",
             "type": "area_label",
             "is_required": true
         }

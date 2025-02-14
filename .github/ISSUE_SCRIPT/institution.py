@@ -27,7 +27,9 @@ def similarity(name1, name2):
 
 
 def run(issue,packet):
-    print('issue',issue)
+    # print('issue',issue)
+    
+    git.update_summary(f"### issue content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
     ror = issue['ror']
     acronym = issue['acronym']
@@ -53,6 +55,9 @@ def run(issue,packet):
 
         ranking = similarity(issue['full_name_of_the_organisation'], data['long_label'])
         
+        git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the long label ({data['long_label']}) is {ranking}%")
+        
+        
         if ranking < 80:
             git.update_issue(f"Warning: The similarity between the full name of the organisation and the long label is {ranking}%")
             
@@ -68,6 +73,4 @@ def run(issue,packet):
 
     git.update_summary(f"### data content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
-    
-    # issue {'issue_type': 'institution', 'acronym': 'test', 'full_name_of_the_organisation.': 'test', 'ror': '1w897891273', 'other_notes': 'hello'}
     

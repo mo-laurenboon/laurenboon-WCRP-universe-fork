@@ -41,7 +41,7 @@ body:
     type: input
 -   id: long_label
     attributes:
-        label: Full name of the organisation. 
+        label: Full name of the organisation 
         description: |
             Please provide a full name for the organisation, namely to perform a series of checks, and allow users to better understand the acronym above. 
         placeholder: 'e.g. University of York (UK)'

@@ -29,7 +29,7 @@ def similarity(name1, name2):
 def run(issue,packet):
     # print('issue',issue)
     
-    git.update_summary(f"### issue content\n ```json\n{json.dumps(data,indent=4)}\n```")
+    git.update_summary(f"### issue content\n ```json\n{json.dumps(issue,indent=4)}\n```")
     
     ror = issue['ror']
     acronym = issue['acronym']
@@ -74,3 +74,6 @@ def run(issue,packet):
     git.update_summary(f"### data content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
     
+    
+    
+    # git branch commit and push function

@@ -19,7 +19,7 @@ def get_institution(ror, acronym):
 
     ror_data = cmipld.utils.read_url(url)
 
-    assert ror_data, f"ROR data not found for {ror},{acronym}"
+    assert ror_data, f"ROR data not found for {ror},{acronym} in {url}. Exiting Now."
     
     # ensure the acronym has no _
     cmip_acronym = acronym.replace('_','-')

@@ -33,6 +33,9 @@ def run(issue,packet):
     acronym = issue['acronym']
     id = acronym.lower()
     
+    import os 
+    print(os.environ)
+    
     # update the issue title
     git.update_issue_title(f'{issue["issue_type"].capitalize()}: {acronym}')
     

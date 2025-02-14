@@ -47,8 +47,11 @@ def run(issue,packet):
             # testclass(id=id,ror=ror)
         except Exception as e:
             err = e.errors()[0]
-            print(e,err)
-            git.close_issue(f"Warning: The {err['loc'][0]} field is not valid. {err['msg']}")
+            print('-->',e)
+            print( '>>>>',e.errors())
+            
+            # git.close_issue
+            print(f"Warning: The {err['loc'][0]} field is not valid. {err['msg']}")
 
         data = update_ror.get_institution(ror, acronym)
 

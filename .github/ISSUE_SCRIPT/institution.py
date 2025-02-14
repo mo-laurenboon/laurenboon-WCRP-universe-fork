@@ -51,7 +51,7 @@ def run(issue,packet):
 
         data = update_ror.get_institution(ror, acronym)
 
-        ranking = similarity(data['full_name_of_the_organisation.'], data['long_label'])
+        ranking = similarity(data['full_name_of_the_organisation'], data['long_label'])
         
         if ranking < 80:
             git.update_issue(f"Warning: The similarity between the full name of the organisation and the long label is {ranking}%")

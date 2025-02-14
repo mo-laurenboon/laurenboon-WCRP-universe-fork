@@ -46,7 +46,8 @@ def run(issue,packet):
             ror_test(ror = ror)
             # testclass(id=id,ror=ror)
         except Exception as e:
-            git.close_issue(f"Warning: The {e['loc']} field is not valid. {e['msg']}")
+            err = e.errors()[0]
+            git.close_issue(f"Warning: The {err['loc']} field is not valid. {err['msg']}")
 
         data = update_ror.get_institution(ror, acronym)
 
@@ -60,7 +61,8 @@ def run(issue,packet):
         try:
             acronym_test(id = id)
         except Exception as e:
-            git.close_issue(f"Warning: The {e['loc']} field is not valid. {e['msg']}")
+            err = e.errors()[0]
+            git.close_issue(f"Warning: The {err['loc']} field is not valid. {err['msg']}")
         
         data = {
                     "id": f"{id}",

@@ -41,17 +41,10 @@ def run(issue,packet):
     # testclass = tests.multi_field_test([tests.organisation.ror.ror_field,tests.components.id.id_field])
     
     if ror != 'pending':
-        try:
-            acronym_test(id = id)
-            ror_test(ror = ror)
-            # testclass(id=id,ror=ror)
-        except Exception as e:
-            err = e.errors()[0]
-            print('-->',e)
-            print( '>>>>',e.errors())
-            
-            # git.close_issue
-            print(f"Warning: The {err['loc'][0]} field is not valid. {err['msg']}")
+    
+        tests.run_checks(acronym_test,{"id" : id})
+        tests.run_checks(ror_test,{"ror" : ror})
+        
 
         data = update_ror.get_institution(ror, acronym)
 
@@ -62,12 +55,7 @@ def run(issue,packet):
             
     else:
 
-        try:
-            acronym_test(id = id)
-        except Exception as e:
-            err = e.errors()[0]
-            print(e,err)
-            git.close_issue(f"Warning: The {err['loc']} field is not valid. {err['msg']}")
+        tests.run_checks(acronym_test,{"id" : id})
         
         data = {
                     "id": f"{id}",

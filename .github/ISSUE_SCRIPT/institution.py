@@ -42,11 +42,9 @@ def run(issue,packet):
     
     if ror != 'pending':
         try:
-            acronym_test(id)
-            ror_test(ror)
+            acronym_test(id = id)
+            ror_test(ror = ror)
             # testclass(id=id,ror=ror)
-            
-            
         except Exception as e:
             git.close_issue(f"Warning: The {e['loc']} field is not valid. {e['msg']}")
 
@@ -60,7 +58,7 @@ def run(issue,packet):
     else:
 
         try:
-            acronym_test(id)
+            acronym_test(id = id)
         except Exception as e:
             git.close_issue(f"Warning: The {e['loc']} field is not valid. {e['msg']}")
         

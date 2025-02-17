@@ -77,8 +77,9 @@ def run(issue,packet):
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
     # write the data to a file
+    print('writing to',path+id+'.json')
     json.dump(data,open(path+id+'.json','w'),indent=4)
-    
+    print('done')
     
     
     # git branch commit and push function
@@ -88,6 +89,8 @@ def run(issue,packet):
     if issue['submitter']: 
         # override the current author
         os.environ['OVERRIDE_AUTHOR'] = issue['submitter']
+    
+    
     
     # add files
     git.addall()

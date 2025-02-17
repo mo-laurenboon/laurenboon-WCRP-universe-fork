@@ -10,6 +10,9 @@ from  cmipld.tests import jsonld as tests
 from cmipld.tests.jsonld.organisation import ror
 
 
+path = './src-data/organisation/'
+
+
 def similarity(name1, name2):
     '''
     This function looks at the similarity between two strings and returns a percentage similarity.
@@ -73,6 +76,8 @@ def run(issue,packet):
 
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
+    # write the data to a file
+    json.dump(data,open(path+id+'.json','w'),indent=4)
     
     
     

@@ -4,7 +4,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
 
 import update_ror
-import json
+import json,os
 from cmipld.utils import git
 from  cmipld.tests import jsonld as tests
 from cmipld.tests.jsonld.organisation import ror
@@ -35,9 +35,7 @@ def run(issue,packet):
     acronym = issue['acronym']
     id = acronym.lower()
     
-    import os 
-    print(os.environ)
-    
+
     # update the issue title and create an issue branch
     title = f'{issue["issue_type"].capitalize()}_{acronym}'
     git.update_issue_title(title)
@@ -91,6 +89,8 @@ def run(issue,packet):
     # commmit them
     git.commit_override_author(acronym,issue["issue_type"])
     git.push()
+    
+    git.newpull(title,os.environ['OVERRIDE_AUTHOR'],json.dumps(issue,indent=4),title,os.environ['ISSUE_NUMBER'])
     
     
         

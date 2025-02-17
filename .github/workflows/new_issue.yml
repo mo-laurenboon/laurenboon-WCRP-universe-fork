@@ -8,6 +8,7 @@ permissions:
   issues: write
   contents: read
   id-token: write
+  pull-requests: write
 
 # concurrency:
 #   group: "pages"

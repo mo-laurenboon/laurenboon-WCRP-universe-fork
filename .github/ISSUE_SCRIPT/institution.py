@@ -38,8 +38,10 @@ def run(issue,packet):
     import os 
     print(os.environ)
     
-    # update the issue title
-    git.update_issue_title(f'{issue["issue_type"].capitalize()}: {acronym}')
+    # update the issue title and create an issue branch
+    title = f'{issue["issue_type"].capitalize()}_{acronym}'
+    git.update_issue_title(title)
+    git.newbranch(title)
     
     acronym_test = tests.field_test(tests.components.id.id_field)
     ror_test = tests.field_test(tests.organisation.ror.ror_field)
@@ -77,3 +79,19 @@ def run(issue,packet):
     
     
     # git branch commit and push function
+    
+    # if we are happy, and have gotten this far: 
+    
+    if issue['submitter']: 
+        # override the current author
+        os.environ['OVERRIDE_AUTHOR'] = issue['submitter']
+    
+    # add files
+    git.addall()
+    # commmit them
+    git.commit_override_author(acronym,issue["issue_type"])
+    git.push()
+    
+    
+        
+    

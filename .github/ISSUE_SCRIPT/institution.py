@@ -90,7 +90,7 @@ def run(issue,packet):
     
     # if we are happy, and have gotten this far: 
     
-    if issue['submitter']: 
+    if 'submitter' in issue: 
         # override the current author
         os.environ['OVERRIDE_AUTHOR'] = issue['submitter']
     

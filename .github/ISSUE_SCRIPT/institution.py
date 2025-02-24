@@ -105,7 +105,7 @@ def run(issue,packet):
     author = os.environ.get('OVERRIDE_AUTHOR')
     
     # git.commit_override_author(acronym,issue["issue_type"])
-    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue_type"]} files.' ,branch=title):
+    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue_type"]} files.' ,branch=title)
 
     
     git.newpull(title,author,json.dumps(issue,indent=4),title,os.environ['ISSUE_NUMBER'])

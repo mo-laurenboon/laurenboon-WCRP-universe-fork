@@ -77,10 +77,14 @@ def run(issue,packet):
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")
     
     # write the data to a file
-    print('writing to',path+id+'.json')
-    json.dump(data,open(path+id+'.json','w'),indent=4)
+
+    outfile = path+id+'.json'
+    print('writing to',outfile)
+    json.dump(data,open(outfile,'w'),indent=4)
     print('done')
-    
+
+
+    print(os.popen(f"less {outfile}").read())
     
     # git branch commit and push function
     
@@ -94,6 +98,8 @@ def run(issue,packet):
     
     # add files
     git.addall()
+
+    git.addfile(outfile)
     # commmit them
     git.commit_override_author(acronym,issue["issue_type"])
     git.push()

@@ -1,8 +1,8 @@
 {
-    "id": "tclmdc",
-    "label": "tclmdc",
-    "description": "diurnal cycle climatology",
+    "id": "tclm",
+    "label": "tclm",
+    "description": "climatology",
     "type": "temporal_label",
-    "drs_name": "tclmdc",
+    "drs_name": "tclm",
     "@context": "000_context.jsonld"
 }

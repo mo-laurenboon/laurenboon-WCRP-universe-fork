@@ -8,17 +8,17 @@
             "is_required": true
         },
         {
-            "id": "ls",
+            "id": "z0",
             "type": "vertical_label",
             "is_required": true
         },
         {
-            "id": "ht",
+            "id": "hxy",
             "type": "horizontal_label",
             "is_required": true
         },
         {
-            "id" : "ccl",
+            "id" : "lnd",
             "type": "area_label",
             "is_required": true
         }

@@ -1,7 +1,7 @@
 {
-    "id": "tavg",
-    "label": "tavg",
-    "description": "time-average",
+    "id": "tclmdc",
+    "label": "tclmdc",
+    "description": "diurnal cycle climatology",
     "type": "temporal_label",
     "drs_name": "tavg",
     "@context": "000_context.jsonld"

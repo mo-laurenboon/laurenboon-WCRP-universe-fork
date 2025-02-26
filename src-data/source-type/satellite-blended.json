@@ -3,7 +3,7 @@
     "description": "gridded product based on both in-situ instruments and satellite measurements",
     "id": "satellite-blended",
     "type": [
-        "wcrp:source_type",
+        "wcrp:source-type",
         "universal"
     ],
     "label": "satellite_blended"

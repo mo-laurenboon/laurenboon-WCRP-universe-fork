@@ -3,7 +3,7 @@
     "description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
     "id": "aogcm",
     "type": [
-        "wcrp:source_type",
+        "wcrp:source-type",
         "universal"
     ],
     "label": "AOGCM"

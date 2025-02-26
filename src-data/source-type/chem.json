@@ -3,7 +3,7 @@
     "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
     "id": "chem",
     "type": [
-        "wcrp:source_type",
+        "wcrp:source-type",
         "universal"
     ],
     "label": "CHEM"

@@ -3,7 +3,7 @@
     "description": "gridded product based on satellite measurements",
     "id": "satellite-retrieval",
     "type": [
-        "wcrp:source_type",
+        "wcrp:source-type",
         "universal"
     ],
     "label": "satellite_retrieval"

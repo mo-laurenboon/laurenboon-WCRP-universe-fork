@@ -3,7 +3,7 @@
     "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
     "id": "ogcm",
     "type": [
-        "wcrp:source_type",
+        "wcrp:source-type",
         "universal"
     ],
     "label": "OGCM"

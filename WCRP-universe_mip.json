@@ -1,0 +1,14 @@
+{
+    "CMIP5": {
+        "url": "https://wcrp-cmip.org/CMIP5"
+    },
+    "CMIP6": {
+        "url": "https://wcrp-cmip.org/CMIP6"
+    },
+    "CMIP6Plus": {
+        "url": "https://wcrp-cmip.org/CMIP6Plus"
+    },
+    "CMIP7": {
+        "url": "https://wcrp-cmip.org/CMIP7"
+    }
+}

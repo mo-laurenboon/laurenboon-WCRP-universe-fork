@@ -1,0 +1,34 @@
+{
+    "aerosol": {
+        "description": "Aerosol",
+        "long_label": "Aerosol"
+    },
+    "atmos": {
+        "description": "Atmosphere",
+        "long_label": "Atmosphere"
+    },
+    "atmosChem": {
+        "description": "Atmospheric Chemistry",
+        "long_label": "Atmospheric Chemistry"
+    },
+    "land": {
+        "description": "Land Surface and Subsurface",
+        "long_label": "Land Surface and Subsurface"
+    },
+    "landIce": {
+        "description": "Land Ice",
+        "long_label": "Land Ice"
+    },
+    "ocean": {
+        "description": "Ocean",
+        "long_label": "Ocean"
+    },
+    "ocnBgchem": {
+        "description": "Ocean Biogeochemistry",
+        "long_label": "Ocean Biogeochemistry"
+    },
+    "seaIce": {
+        "description": "Sea Ice",
+        "long_label": "Sea Ice"
+    }
+}

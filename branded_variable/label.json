@@ -8,7 +8,7 @@
             "is_required": true
         },
         {
-            "id": "label",
+            "id": "one_id",
             "type": "branded_suffix",
             "is_required": true
         }

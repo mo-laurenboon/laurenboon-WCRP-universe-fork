@@ -8,7 +8,7 @@ __pycache__/
 
 # OSes
 .DS_Store
-.thumbsdb
+thumbs.db
 
 # Distribution / packaging
 .Python

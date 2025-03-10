@@ -104,6 +104,16 @@
   "label": "LMIP"
 }
     ,{
+  "id": "none",
+  "type": [
+    "wcrp:activity",
+    "universal"
+  ],
+  "description": "'none' entry permissable only for the experiment parent id. ",
+  "url": "",
+  "label": "none"
+}
+    ,{
   "id": "pmip",
   "type": [
     "wcrp:activity",

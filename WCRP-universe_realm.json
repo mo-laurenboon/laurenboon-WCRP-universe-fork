@@ -1,34 +1,46 @@
 {
-    "aerosol": {
-        "description": "Aerosol",
-        "long_label": "Aerosol"
+    "Header": {
+        "file": "WCRP-universe_realm.json",
+        "file_creation_date": "2025-03-05T16:08:54.023570",
+        "version": "fatal: No names found, cannot describe anything.",
+        "checksum": "md5: 801c51b11fbc63dbe829239b90265740",
+        "repo_url": "https://github.com/WCRP-CMIP/WCRP-universe",
+        "repo_prefix": "universal",
+        "last_commit": "c4421196ed03564efb12ac517e95688a0d761767",
+        "comment": "This is an automatically generated file. Do not edit."
     },
-    "atmos": {
-        "description": "Atmosphere",
-        "long_label": "Atmosphere"
-    },
-    "atmosChem": {
-        "description": "Atmospheric Chemistry",
-        "long_label": "Atmospheric Chemistry"
-    },
-    "land": {
-        "description": "Land Surface and Subsurface",
-        "long_label": "Land Surface and Subsurface"
-    },
-    "landIce": {
-        "description": "Land Ice",
-        "long_label": "Land Ice"
-    },
-    "ocean": {
-        "description": "Ocean",
-        "long_label": "Ocean"
-    },
-    "ocnBgchem": {
-        "description": "Ocean Biogeochemistry",
-        "long_label": "Ocean Biogeochemistry"
-    },
-    "seaIce": {
-        "description": "Sea Ice",
-        "long_label": "Sea Ice"
+    "realm": {
+        "aerosol": {
+            "description": "Aerosol",
+            "long_label": "Aerosol"
+        },
+        "atmos": {
+            "description": "Atmosphere",
+            "long_label": "Atmosphere"
+        },
+        "atmosChem": {
+            "description": "Atmospheric Chemistry",
+            "long_label": "Atmospheric Chemistry"
+        },
+        "land": {
+            "description": "Land Surface and Subsurface",
+            "long_label": "Land Surface and Subsurface"
+        },
+        "landIce": {
+            "description": "Land Ice",
+            "long_label": "Land Ice"
+        },
+        "ocean": {
+            "description": "Ocean",
+            "long_label": "Ocean"
+        },
+        "ocnBgchem": {
+            "description": "Ocean Biogeochemistry",
+            "long_label": "Ocean Biogeochemistry"
+        },
+        "seaIce": {
+            "description": "Sea Ice",
+            "long_label": "Sea Ice"
+        }
     }
 }

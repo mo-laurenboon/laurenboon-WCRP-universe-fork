@@ -40,7 +40,7 @@ def run(issue,packet):
     
 
     # update the issue title and create an issue branch
-    title = f'{issue["issue_type"].capitalize()}_{acronym}'
+    title = f'{issue["issue-type"].capitalize()}_{acronym}'
     git.update_issue_title(title)
     git.newbranch(title)
     
@@ -70,7 +70,7 @@ def run(issue,packet):
         
         data = {
                     "id": f"{id}",
-                    "type": ['wcrp:organisation',f'wcrp:{issue['issue_type']}','universal'],
+                    "type": ['wcrp:organisation',f'wcrp:{issue['issue-type']}','universal'],
                     "label": acronym,    
                 }        
 
@@ -105,7 +105,7 @@ def run(issue,packet):
     author = os.environ.get('OVERRIDE_AUTHOR')
     
     # git.commit_override_author(acronym,issue["issue_type"])
-    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue_type"]} files.' ,branch=title)
+    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue-type"]} files.' ,branch=title)
 
     
     git.newpull(title,author,json.dumps(issue,indent=4),title,os.environ['ISSUE_NUMBER'])

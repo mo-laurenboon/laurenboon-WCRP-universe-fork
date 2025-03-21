@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "WCRP-universe_frequency.json",
-        "file_creation_date": "2025-03-05T16:08:53.080555",
+        "file_creation_date": "2025-03-10T12:43:47.774546",
         "version": "fatal: No names found, cannot describe anything.",
         "checksum": "md5: 08313508bc88642b68e713681dd19897",
         "repo_url": "https://github.com/WCRP-CMIP/WCRP-universe",
         "repo_prefix": "universal",
-        "last_commit": "c4421196ed03564efb12ac517e95688a0d761767",
+        "last_commit": "50064517d9da6544ea9fb72581aaa61d550079cd",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "frequency": {

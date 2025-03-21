@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "WCRP-universe_institution.json",
-        "file_creation_date": "2025-03-05T16:08:53.283809",
+        "file_creation_date": "2025-03-10T12:43:48.056316",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: e2ea3d7408c5efc0fa526510bf056597",
+        "checksum": "md5: 16f31b2859857b26c45bc9497926d67f",
         "repo_url": "https://github.com/WCRP-CMIP/WCRP-universe",
         "repo_prefix": "universal",
-        "last_commit": "c4421196ed03564efb12ac517e95688a0d761767",
+        "last_commit": "50064517d9da6544ea9fb72581aaa61d550079cd",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "institution": {
@@ -24,18 +24,22 @@
         },
         "AUoT": {
             "long_label": "Aristotle University of Thessaloniki",
-            "url": "https://www.auth.gr/en",
+            "url": "https://www.auth.gr",
             "ror": "02j61yw88"
         },
         "AWI": {
             "acronyms": "AWI",
-            "long_label": "Alfred Wegener Institute for Polar and Marine Research",
+            "long_label": "Alfred-Wegener-Institut Helmholtz-Zentrum f\u00fcr Polar- und Meeresforschung",
             "url": "https://www.awi.de",
             "ror": "032e6b942"
         },
         "AoR": {
+            "acronyms": [
+                "INAF-OAR",
+                "OAR"
+            ],
             "long_label": "Astronomical Observatory of Rome",
-            "url": "http://web.oa-roma.inaf.it/",
+            "url": "https://www.oa-roma.inaf.it",
             "ror": "02hnp4676"
         },
         "BAS": {
@@ -81,8 +85,8 @@
         },
         "CMCC": {
             "acronyms": "CMCC",
-            "long_label": "Euro-Mediterranean Center for Climate Change",
-            "url": "http://www.cmcc.it/",
+            "long_label": "CMCC Foundation - Euro-Mediterranean Center on Climate Change",
+            "url": "https://www.cmcc.it",
             "ror": "01tf11a61"
         },
         "CNES": {
@@ -112,7 +116,7 @@
         "EAWAG": {
             "acronyms": "EAWAG",
             "long_label": "Swiss Federal Institute of Aquatic Science and Technology",
-            "url": "http://www.eawag.ch/en/",
+            "url": "https://www.eawag.ch",
             "ror": "00pc48d59"
         },
         "ECMWF": {
@@ -147,7 +151,7 @@
         "IFM-GEOMAR": {
             "acronyms": "IFM-GEOMAR",
             "long_label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
-            "url": "http://www.geomar.de/en/",
+            "url": "https://www.geomar.de",
             "ror": "02h2x0161"
         },
         "INM": {
@@ -170,13 +174,13 @@
         },
         "ImperialCollege": {
             "long_label": "Imperial College London",
-            "url": "http://www.imperial.ac.uk/",
+            "url": "https://www.imperial.ac.uk",
             "ror": "041kmwe10"
         },
         "JAXA": {
             "acronyms": "JAXA",
             "long_label": "Japan Aerospace Exploration Agency",
-            "url": "http://global.jaxa.jp/",
+            "url": "https://www.jaxa.jp",
             "ror": "059yhyy33"
         },
         "KIOST": {
@@ -188,20 +192,23 @@
         "KIT": {
             "acronyms": "KIT",
             "long_label": "Karlsruhe Institute of Technology",
-            "url": "http://www.kit.edu/english/",
+            "url": "https://www.kit.edu",
             "ror": "04t3en479"
         },
         "LLNL": {
             "acronyms": [
-                "LLNL",
-                "LLL"
+                "LLL",
+                "LLNL"
             ],
             "long_label": "Lawrence Livermore National Laboratory",
-            "url": "https://www.llnl.gov/",
+            "url": "https://www.llnl.gov",
             "ror": "041nk4h53"
         },
         "LPC2E": {
-            "acronyms": "LPC2E",
+            "acronyms": [
+                "LPC2E",
+                "UMR LPC2E"
+            ],
             "long_label": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
             "url": "https://www.lpc2e.cnrs.fr",
             "ror": "049k66y27"
@@ -212,8 +219,9 @@
             "ror": "01ch2yn61"
         },
         "MPI-B": {
+            "acronyms": "MPI-BGC",
             "long_label": "Max Planck Institute for Biogeochemistry",
-            "url": "http://www.bgc-jena.mpg.de/",
+            "url": "https://www.bgc-jena.mpg.de",
             "ror": "051yxp643"
         },
         "MPI-M": {
@@ -260,7 +268,7 @@
         },
         "NCAR": {
             "acronyms": "NCAR",
-            "long_label": "National Center for Atmospheric Research",
+            "long_label": "NSF National Center for Atmospheric Research",
             "url": "https://ncar.ucar.edu/",
             "ror": "05cvfcr44"
         },
@@ -298,8 +306,8 @@
         },
         "NUIST": {
             "acronyms": [
-                "NU",
-                "NJU "
+                "NJU",
+                "NU"
             ],
             "long_label": "Nanjing University",
             "url": "http://www.nju.edu.cn/english/",
@@ -308,16 +316,16 @@
         "OSU": {
             "acronyms": "OSU",
             "long_label": "Oregon State University",
-            "url": "http://oregonstate.edu/",
+            "url": "https://oregonstate.edu",
             "ror": "00ysfqy60"
         },
         "PCMDI": {
             "acronyms": [
-                "LLNL",
-                "LLL"
+                "LLL",
+                "LLNL"
             ],
             "long_label": "Lawrence Livermore National Laboratory",
-            "url": "https://www.llnl.gov/",
+            "url": "https://www.llnl.gov",
             "ror": "041nk4h53"
         },
         "PMOD": {
@@ -329,7 +337,7 @@
         "PNNL-JGCRI": {
             "acronyms": "JGCRI",
             "long_label": "Joint Global Change Research Institute",
-            "url": "http://www.globalchange.umd.edu/",
+            "url": "https://www.pnnl.gov/projects/jgcri",
             "ror": "058cmd703"
         },
         "PNNL-WACCEM": {
@@ -347,13 +355,13 @@
         "SNU": {
             "acronyms": "SNU",
             "long_label": "Seoul National University",
-            "url": "http://www.snu.ac.kr/index.html",
+            "url": "https://www.snu.ac.kr",
             "ror": "04h9pn542"
         },
         "THU": {
             "acronyms": "THU",
             "long_label": "Tsinghua University",
-            "url": "http://www.tsinghua.edu.cn/publish/newthuen/",
+            "url": "https://www.tsinghua.edu.cn",
             "ror": "03cve4549"
         },
         "UA": {
@@ -371,7 +379,7 @@
         "UCSB": {
             "acronyms": "UCSB",
             "long_label": "University of California, Santa Barbara",
-            "url": "http://www.ucsb.edu/",
+            "url": "https://www.ucsb.edu",
             "ror": "02t274463"
         },
         "UColorado": {
@@ -388,13 +396,13 @@
         },
         "UReading": {
             "long_label": "University of Reading",
-            "url": "http://www.reading.ac.uk/",
+            "url": "https://www.reading.ac.uk",
             "ror": "05v62cm79"
         },
         "UW": {
             "acronyms": "UW",
             "long_label": "University of Washington",
-            "url": "http://www.washington.edu/",
+            "url": "https://www.washington.edu",
             "ror": "00cvxb145"
         },
         "UoBergen": {
@@ -405,7 +413,7 @@
         },
         "UoLeeds": {
             "long_label": "University of Leeds",
-            "url": "http://www.leeds.ac.uk/",
+            "url": "https://www.leeds.ac.uk",
             "ror": "024mrxd33"
         },
         "UoM": {
@@ -416,7 +424,7 @@
         "UoMontreal": {
             "acronyms": "UdeM",
             "long_label": "Universit\u00e9 de Montr\u00e9al",
-            "url": "http://www.umontreal.ca/english/",
+            "url": "https://www.umontreal.ca",
             "ror": "0161xgx34"
         },
         "UoOtago": {
@@ -426,13 +434,13 @@
         },
         "UoOulu": {
             "long_label": "University of Oulu",
-            "url": "http://www.oulu.fi/english/",
+            "url": "https://www.oulu.fi",
             "ror": "03yj89h83"
         },
         "UofMD": {
             "acronyms": "UMD",
             "long_label": "University of Maryland, College Park",
-            "url": "http://www.umd.edu/",
+            "url": "https://umd.edu",
             "ror": "047s2c258"
         },
         "VUA": {

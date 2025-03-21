@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "WCRP-universe_activity.json",
-        "file_creation_date": "2025-03-05T16:08:53.584434",
+        "file_creation_date": "2025-03-10T12:43:48.342899",
         "version": "fatal: No names found, cannot describe anything.",
-        "checksum": "md5: f354ba2b9af16147a5ade317d7166892",
+        "checksum": "md5: dfccb51d0cd5d5d3655b08975c8f4e4e",
         "repo_url": "https://github.com/WCRP-CMIP/WCRP-universe",
         "repo_prefix": "universal",
-        "last_commit": "c4421196ed03564efb12ac517e95688a0d761767",
+        "last_commit": "50064517d9da6544ea9fb72581aaa61d550079cd",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "activity": {
@@ -65,6 +65,10 @@
         "TIPMIP": {
             "description": "Tipping Point Model Intercomparison Project",
             "url": "https://tipmip.pik-potsdam.de/"
+        },
+        "none": {
+            "description": "'none' entry permissable only for the experiment parent id. ",
+            "url": ""
         }
     }
 }

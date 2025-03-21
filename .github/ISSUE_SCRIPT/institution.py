@@ -56,7 +56,7 @@ def run(issue,packet):
 
         data = update_ror.get_institution(ror, acronym)
 
-        ranking = similarity(issue['full_name_of_the_organisation'], data['long_label'])
+        ranking = similarity(issue['full-name-of-the-organisation'], data['long-label'])
         
         git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the long label ({data['long_label']}) is {ranking}%")
         
@@ -75,6 +75,12 @@ def run(issue,packet):
                 }        
 
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")
+    
+    
+    
+    
+    
+    
     
     # write the data to a file
 

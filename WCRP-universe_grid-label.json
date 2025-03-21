@@ -1,12 +1,12 @@
 {
     "Header": {
         "file": "WCRP-universe_grid-label.json",
-        "file_creation_date": "2025-03-05T16:08:53.718724",
+        "file_creation_date": "2025-03-10T12:43:48.463351",
         "version": "fatal: No names found, cannot describe anything.",
         "checksum": "md5: c48a5b9a26af190e58754b341b73f8d2",
         "repo_url": "https://github.com/WCRP-CMIP/WCRP-universe",
         "repo_prefix": "universal",
-        "last_commit": "c4421196ed03564efb12ac517e95688a0d761767",
+        "last_commit": "50064517d9da6544ea9fb72581aaa61d550079cd",
         "comment": "This is an automatically generated file. Do not edit."
     },
     "grid-label": {

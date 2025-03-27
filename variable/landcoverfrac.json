@@ -4,8 +4,6 @@
     "cmip_acronym": "landCoverFrac",
     "long_name": "Percentage of Area by Vegetation or Land-Cover Category",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "landCoverFrac",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

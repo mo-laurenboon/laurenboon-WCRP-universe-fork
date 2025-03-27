@@ -4,8 +4,6 @@
     "cmip_acronym": "prsnIs",
     "long_name": "Ice Sheet Snowfall Flux",
     "standard_name": "snowfall_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "prsnIs",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

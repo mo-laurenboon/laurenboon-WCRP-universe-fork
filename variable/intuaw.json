@@ -4,8 +4,6 @@
     "cmip_acronym": "intuaw",
     "long_name": "Vertically Integrated Eastward Moisture Transport",
     "standard_name": "eastward_atmosphere_water_transport_across_unit_distance",
-    "type": "variable",
-    "units": "kg m-1 s-1",
-    "drs_name": "intuaw",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-1 s-1"
 }

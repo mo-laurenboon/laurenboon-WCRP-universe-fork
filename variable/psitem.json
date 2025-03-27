@@ -4,8 +4,6 @@
     "cmip_acronym": "psitem",
     "long_name": "Transformed Eulerian Mean Mass Streamfunction",
     "standard_name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
-    "type": "variable",
-    "units": "kg s-1",
-    "drs_name": "psitem",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg s-1"
 }

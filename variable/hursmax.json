@@ -4,8 +4,6 @@
     "cmip_acronym": "hursmax",
     "long_name": "Daily Maximum Near-Surface Relative Humidity",
     "standard_name": "relative_humidity",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "hursmax",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

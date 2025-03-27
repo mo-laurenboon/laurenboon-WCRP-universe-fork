@@ -4,8 +4,6 @@
     "cmip_acronym": "vegHeightPasture",
     "long_name": "Height of Pastures",
     "standard_name": "canopy_height",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "vegHeightPasture",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

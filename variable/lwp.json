@@ -4,8 +4,6 @@
     "cmip_acronym": "lwp",
     "long_name": "Liquid Water Path",
     "standard_name": "atmosphere_mass_content_of_cloud_liquid_water",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "lwp",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

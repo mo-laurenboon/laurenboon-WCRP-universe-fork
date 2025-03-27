@@ -4,8 +4,6 @@
     "cmip_acronym": "jo3",
     "long_name": "Photolysis Rate of Ozone (O3)",
     "standard_name": "photolysis_rate_of_ozone",
-    "type": "variable",
-    "units": "s-1",
-    "drs_name": "jo3",
-    "variable_type": "real"
+    "type": "real",
+    "units": "s-1"
 }

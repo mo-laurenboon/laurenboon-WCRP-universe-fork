@@ -4,8 +4,6 @@
     "cmip_acronym": "hfgeoubed",
     "long_name": "Geothermal Heat Flux Beneath Land Ice",
     "standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "hfgeoubed",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

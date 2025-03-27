@@ -4,8 +4,6 @@
     "cmip_acronym": "cWood",
     "long_name": "Carbon Mass in Wood",
     "standard_name": "stem_mass_content_of_carbon",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "cWood",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

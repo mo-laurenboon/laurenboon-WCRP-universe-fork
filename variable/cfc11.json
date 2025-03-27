@@ -4,8 +4,6 @@
     "cmip_acronym": "cfc11",
     "long_name": "Mole Concentration of CFC11 in Sea Water",
     "standard_name": "mole_concentration_of_cfc11_in_sea_water",
-    "type": "variable",
-    "units": "mol m-3",
-    "drs_name": "cfc11",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3"
 }

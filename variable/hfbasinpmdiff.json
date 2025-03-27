@@ -4,8 +4,6 @@
     "cmip_acronym": "hfbasinpmdiff",
     "long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
     "standard_name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_diffusion",
-    "type": "variable",
-    "units": "W",
-    "drs_name": "hfbasinpmdiff",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "hfdsn",
     "long_name": "Downward Heat Flux into Snow Where Land over Land",
     "standard_name": "surface_downward_heat_flux_in_snow",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "hfdsn",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

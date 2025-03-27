@@ -4,8 +4,6 @@
     "cmip_acronym": "cVegGrass",
     "long_name": "Carbon Mass in Vegetation on Grass Tiles",
     "standard_name": "vegetation_carbon_content",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "cVegGrass",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

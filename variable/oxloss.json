@@ -4,8 +4,6 @@
     "cmip_acronym": "oxloss",
     "long_name": "Total Odd Oxygen (Ox) Loss Rate",
     "standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_destruction",
-    "type": "variable",
-    "units": "mol m-3 s-1",
-    "drs_name": "oxloss",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3 s-1"
 }

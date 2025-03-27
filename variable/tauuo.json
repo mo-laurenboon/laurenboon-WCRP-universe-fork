@@ -4,8 +4,6 @@
     "cmip_acronym": "tauuo",
     "long_name": "Sea Water Surface Downward X Stress",
     "standard_name": "downward_x_stress_at_sea_water_surface",
-    "type": "variable",
-    "units": "N m-2",
-    "drs_name": "tauuo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "N m-2"
 }

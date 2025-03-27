@@ -4,8 +4,6 @@
     "cmip_acronym": "mmraerh2o",
     "long_name": "Aerosol Water Mass Mixing Ratio",
     "standard_name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
-    "type": "variable",
-    "units": "kg kg-1",
-    "drs_name": "mmraerh2o",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg kg-1"
 }

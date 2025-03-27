@@ -4,8 +4,6 @@
     "cmip_acronym": "evspsbl",
     "long_name": "Evaporation Including Sublimation and Transpiration",
     "standard_name": "water_evapotranspiration_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "evspsbl",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

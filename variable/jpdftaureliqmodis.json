@@ -4,8 +4,6 @@
     "cmip_acronym": "jpdftaureliqmodis",
     "long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
     "standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "jpdftaureliqmodis",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "vegHeightShrub",
     "long_name": "Height of Shrubs",
     "standard_name": "canopy_height",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "vegHeightShrub",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

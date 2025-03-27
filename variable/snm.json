@@ -4,8 +4,6 @@
     "cmip_acronym": "snm",
     "long_name": "Surface Snow Melt",
     "standard_name": "surface_snow_melt_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "snm",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

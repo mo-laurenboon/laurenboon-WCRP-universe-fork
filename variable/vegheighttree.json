@@ -4,8 +4,6 @@
     "cmip_acronym": "vegHeightTree",
     "long_name": "Height of Trees",
     "standard_name": "canopy_height",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "vegHeightTree",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

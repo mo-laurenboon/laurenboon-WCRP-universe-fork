@@ -4,8 +4,6 @@
     "cmip_acronym": "ttop",
     "long_name": "Air Temperature at Cloud Top",
     "standard_name": "air_temperature_at_cloud_top",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "ttop",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

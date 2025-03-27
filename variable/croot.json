@@ -4,8 +4,6 @@
     "cmip_acronym": "cRoot",
     "long_name": "Carbon Mass in Roots",
     "standard_name": "root_mass_content_of_carbon",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "cRoot",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

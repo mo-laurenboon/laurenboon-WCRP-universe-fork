@@ -4,8 +4,6 @@
     "cmip_acronym": "dems",
     "long_name": "Stratiform Cloud Emissivity",
     "standard_name": "stratiform_cloud_longwave_emissivity",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "dems",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

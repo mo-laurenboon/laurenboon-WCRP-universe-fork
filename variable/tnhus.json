@@ -4,8 +4,6 @@
     "cmip_acronym": "tnhus",
     "long_name": "Tendency of Specific Humidity",
     "standard_name": "tendency_of_specific_humidity",
-    "type": "variable",
-    "units": "s-1",
-    "drs_name": "tnhus",
-    "variable_type": "real"
+    "type": "real",
+    "units": "s-1"
 }

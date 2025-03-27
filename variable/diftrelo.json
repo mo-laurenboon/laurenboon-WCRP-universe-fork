@@ -4,8 +4,6 @@
     "cmip_acronym": "diftrelo",
     "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
     "standard_name": "ocean_tracer_epineutral_laplacian_diffusivity",
-    "type": "variable",
-    "units": "m2 s-1",
-    "drs_name": "diftrelo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m2 s-1"
 }

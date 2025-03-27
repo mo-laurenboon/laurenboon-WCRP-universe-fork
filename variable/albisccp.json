@@ -4,8 +4,6 @@
     "cmip_acronym": "albisccp",
     "long_name": "ISCCP Mean Cloud Albedo",
     "standard_name": "cloud_albedo",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "albisccp",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "siflswutop",
     "long_name": "Upwelling Shortwave Flux over Sea Ice",
     "standard_name": "surface_upwelling_shortwave_flux_in_air",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "siflswutop",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "ta",
     "long_name": "Air Temperature",
     "standard_name": "air_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "ta",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

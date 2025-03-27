@@ -4,8 +4,6 @@
     "cmip_acronym": "wo",
     "long_name": "Sea Water Vertical Velocity",
     "standard_name": "upward_sea_water_velocity",
-    "type": "variable",
-    "units": "m s-1",
-    "drs_name": "wo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m s-1"
 }

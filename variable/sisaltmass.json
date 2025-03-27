@@ -4,8 +4,6 @@
     "cmip_acronym": "sisaltmass",
     "long_name": "Mass of Salt in Sea Ice per Area",
     "standard_name": "sea_ice_mass_content_of_salt",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "sisaltmass",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "ccn",
     "long_name": "Cloud Condensation Nuclei Concentration at Liquid Cloud Top",
     "standard_name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
-    "type": "variable",
-    "units": "m-3",
-    "drs_name": "ccn",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m-3"
 }

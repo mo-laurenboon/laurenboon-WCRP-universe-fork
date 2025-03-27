@@ -4,8 +4,6 @@
     "cmip_acronym": "sistresave",
     "long_name": "Average Normal Stress in Sea Ice",
     "standard_name": "sea_ice_average_normal_horizontal_stress",
-    "type": "variable",
-    "units": "N m-1",
-    "drs_name": "sistresave",
-    "variable_type": "real"
+    "type": "real",
+    "units": "N m-1"
 }

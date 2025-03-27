@@ -4,8 +4,6 @@
     "cmip_acronym": "zfullo",
     "long_name": "Depth Below Geoid of Ocean Layer",
     "standard_name": "depth_below_geoid",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "zfullo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "hursminCrop",
     "long_name": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
     "standard_name": "relative_humidity",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "hursminCrop",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

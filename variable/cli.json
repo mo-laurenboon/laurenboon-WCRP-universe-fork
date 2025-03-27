@@ -4,8 +4,6 @@
     "cmip_acronym": "cli",
     "long_name": "Mass Fraction of Cloud Ice",
     "standard_name": "mass_fraction_of_cloud_ice_in_air",
-    "type": "variable",
-    "units": "kg kg-1",
-    "drs_name": "cli",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg kg-1"
 }

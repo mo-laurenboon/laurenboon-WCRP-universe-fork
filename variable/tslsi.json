@@ -4,8 +4,6 @@
     "cmip_acronym": "tslsi",
     "long_name": "Surface Temperature Where Land or Sea Ice",
     "standard_name": "surface_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "tslsi",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

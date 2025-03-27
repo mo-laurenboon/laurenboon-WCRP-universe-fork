@@ -4,8 +4,6 @@
     "cmip_acronym": "meanage",
     "long_name": "Mean Age of Stratospheric Air",
     "standard_name": "age_of_stratospheric_air",
-    "type": "variable",
-    "units": "yr",
-    "drs_name": "meanage",
-    "variable_type": "real"
+    "type": "real",
+    "units": "yr"
 }

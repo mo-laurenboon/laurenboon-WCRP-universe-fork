@@ -4,8 +4,6 @@
     "cmip_acronym": "thkcello",
     "long_name": "Ocean Model Cell Thickness",
     "standard_name": "cell_thickness",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "thkcello",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

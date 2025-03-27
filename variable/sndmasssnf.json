@@ -4,8 +4,6 @@
     "cmip_acronym": "sndmasssnf",
     "long_name": "Snow Mass Change Through Snow Fall",
     "standard_name": "snowfall_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "sndmasssnf",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "tsland",
     "long_name": "Land Surface Temperature",
     "standard_name": "surface_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "tsland",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

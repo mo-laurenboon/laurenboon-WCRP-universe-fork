@@ -4,8 +4,6 @@
     "cmip_acronym": "siareas",
     "long_name": "Sea-Ice Area South",
     "standard_name": "sea_ice_area",
-    "type": "variable",
-    "units": "1e6 km2",
-    "drs_name": "siareas",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1e6 km2"
 }

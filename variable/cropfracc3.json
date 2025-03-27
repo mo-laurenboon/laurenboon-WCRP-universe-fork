@@ -4,8 +4,6 @@
     "cmip_acronym": "cropFracC3",
     "long_name": "Percentage Cover by C3 Crops",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "cropFracC3",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

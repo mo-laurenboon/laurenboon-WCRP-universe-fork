@@ -4,8 +4,6 @@
     "cmip_acronym": "sistrxdtop",
     "long_name": "X-Component of Atmospheric Stress on Sea Ice",
     "standard_name": "surface_downward_x_stress",
-    "type": "variable",
-    "units": "N m-2",
-    "drs_name": "sistrxdtop",
-    "variable_type": "real"
+    "type": "real",
+    "units": "N m-2"
 }

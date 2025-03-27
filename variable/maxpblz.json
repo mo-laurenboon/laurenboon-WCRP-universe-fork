@@ -4,8 +4,6 @@
     "cmip_acronym": "maxpblz",
     "long_name": "Maximum PBL Height",
     "standard_name": "atmosphere_boundary_layer_thickness",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "maxpblz",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

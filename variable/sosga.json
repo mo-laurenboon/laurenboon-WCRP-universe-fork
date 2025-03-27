@@ -4,8 +4,6 @@
     "cmip_acronym": "sosga",
     "long_name": "Global Average Sea Surface Salinity",
     "standard_name": "sea_surface_salinity",
-    "type": "variable",
-    "units": "0.001",
-    "drs_name": "sosga",
-    "variable_type": "real"
+    "type": "real",
+    "units": "0.001"
 }

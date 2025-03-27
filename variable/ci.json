@@ -4,8 +4,6 @@
     "cmip_acronym": "ci",
     "long_name": "Fraction of Time Convection Occurs in Cell",
     "standard_name": "convection_time_fraction",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "ci",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

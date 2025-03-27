@@ -4,8 +4,6 @@
     "cmip_acronym": "ugrido",
     "long_name": "UGRID Grid Specification",
     "standard_name": "longitude",
-    "type": "variable",
-    "units": "",
-    "drs_name": "ugrido",
-    "variable_type": "real"
+    "type": "real",
+    "units": ""
 }

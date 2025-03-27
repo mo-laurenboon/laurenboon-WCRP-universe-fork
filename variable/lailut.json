@@ -4,8 +4,6 @@
     "cmip_acronym": "laiLut",
     "long_name": "Leaf Area Index on Land-Use Tile",
     "standard_name": "leaf_area_index",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "laiLut",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

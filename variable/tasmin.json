@@ -4,8 +4,6 @@
     "cmip_acronym": "tasmin",
     "long_name": "Daily Minimum Near-Surface Air Temperature",
     "standard_name": "air_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "tasmin",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

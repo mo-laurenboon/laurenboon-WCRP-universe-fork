@@ -4,8 +4,6 @@
     "cmip_acronym": "rsutaf",
     "long_name": "TOA Outgoing Aerosol-Free Shortwave Radiation",
     "standard_name": "toa_outgoing_shortwave_flux",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "rsutaf",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

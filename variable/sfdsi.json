@@ -4,8 +4,6 @@
     "cmip_acronym": "sfdsi",
     "long_name": "Downward Sea Ice Basal Salt Flux",
     "standard_name": "downward_sea_ice_basal_salt_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "sfdsi",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

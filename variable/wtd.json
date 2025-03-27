@@ -4,8 +4,6 @@
     "cmip_acronym": "wtd",
     "long_name": "Water Table Depth",
     "standard_name": "water_table_depth",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "wtd",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

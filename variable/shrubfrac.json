@@ -4,8 +4,6 @@
     "cmip_acronym": "shrubFrac",
     "long_name": "Percentage Cover by Shrub",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "shrubFrac",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

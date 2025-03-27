@@ -4,8 +4,6 @@
     "cmip_acronym": "ph",
     "long_name": "pH",
     "standard_name": "sea_water_ph_reported_on_total_scale",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "ph",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

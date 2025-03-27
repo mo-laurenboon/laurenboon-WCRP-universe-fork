@@ -4,8 +4,6 @@
     "cmip_acronym": "wbptemp7h",
     "long_name": "Wet Bulb Potential Temperature",
     "standard_name": "wet_bulb_potential_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "wbptemp7h",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

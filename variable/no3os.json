@@ -4,8 +4,6 @@
     "cmip_acronym": "no3os",
     "long_name": "Surface Dissolved Nitrate Concentration",
     "standard_name": "mole_concentration_of_nitrate_in_sea_water",
-    "type": "variable",
-    "units": "mol m-3",
-    "drs_name": "no3os",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3"
 }

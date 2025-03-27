@@ -4,8 +4,6 @@
     "cmip_acronym": "siitdsnthick",
     "long_name": "Snow Thickness in Ice Thickness Categories",
     "standard_name": "surface_snow_thickness",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "siitdsnthick",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

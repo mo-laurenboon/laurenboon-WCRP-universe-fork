@@ -4,8 +4,6 @@
     "cmip_acronym": "icemIs",
     "long_name": "Ice Sheet Surface Ice Melt Flux",
     "standard_name": "land_ice_surface_melt_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "icemIs",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

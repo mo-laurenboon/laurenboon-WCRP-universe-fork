@@ -4,8 +4,6 @@
     "cmip_acronym": "vmo",
     "long_name": "Ocean Mass Y Transport",
     "standard_name": "ocean_mass_y_transport",
-    "type": "variable",
-    "units": "kg s-1",
-    "drs_name": "vmo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg s-1"
 }

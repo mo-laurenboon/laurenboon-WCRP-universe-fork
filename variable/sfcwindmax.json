@@ -4,8 +4,6 @@
     "cmip_acronym": "sfcWindmax",
     "long_name": "Daily Maximum Near-Surface Wind Speed",
     "standard_name": "wind_speed",
-    "type": "variable",
-    "units": "m s-1",
-    "drs_name": "sfcWindmax",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m s-1"
 }

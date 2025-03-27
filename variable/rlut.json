@@ -4,8 +4,6 @@
     "cmip_acronym": "rlut",
     "long_name": "TOA Outgoing Longwave Radiation",
     "standard_name": "toa_outgoing_longwave_flux",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "rlut",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

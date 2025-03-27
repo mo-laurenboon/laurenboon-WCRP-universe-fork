@@ -4,8 +4,6 @@
     "cmip_acronym": "rlu",
     "long_name": "Upwelling Longwave Radiation",
     "standard_name": "upwelling_longwave_flux_in_air",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "rlu",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

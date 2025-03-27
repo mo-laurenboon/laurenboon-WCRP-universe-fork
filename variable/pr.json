@@ -4,8 +4,6 @@
     "cmip_acronym": "pr",
     "long_name": "Precipitation",
     "standard_name": "precipitation_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "pr",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

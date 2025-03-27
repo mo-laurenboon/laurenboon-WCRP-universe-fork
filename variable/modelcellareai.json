@@ -4,8 +4,6 @@
     "cmip_acronym": "modelCellAreai",
     "long_name": "The Cell Area of the Ice Sheet Model",
     "standard_name": "cell_area",
-    "type": "variable",
-    "units": "m2",
-    "drs_name": "modelCellAreai",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m2"
 }

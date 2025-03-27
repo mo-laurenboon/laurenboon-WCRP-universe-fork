@@ -4,8 +4,6 @@
     "cmip_acronym": "simassacrossline",
     "long_name": "Sea Mass Area Flux Through Straits",
     "standard_name": "sea_ice_transport_across_line",
-    "type": "variable",
-    "units": "kg s-1",
-    "drs_name": "simassacrossline",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg s-1"
 }

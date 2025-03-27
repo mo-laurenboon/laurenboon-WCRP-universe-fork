@@ -4,8 +4,6 @@
     "cmip_acronym": "litempbotgr",
     "long_name": "Basal Temperature of Grounded Ice Sheet",
     "standard_name": "land_ice_basal_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "litempbotgr",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

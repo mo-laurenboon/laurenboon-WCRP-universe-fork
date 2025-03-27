@@ -4,8 +4,6 @@
     "cmip_acronym": "hfsso",
     "long_name": "Surface Downward Sensible Heat Flux",
     "standard_name": "surface_downward_sensible_heat_flux",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "hfsso",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

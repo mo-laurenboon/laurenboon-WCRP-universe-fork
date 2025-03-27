@@ -4,8 +4,6 @@
     "cmip_acronym": "vsf",
     "long_name": "Virtual Salt Flux into Sea Water",
     "standard_name": "virtual_salt_flux_into_sea_water",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "vsf",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

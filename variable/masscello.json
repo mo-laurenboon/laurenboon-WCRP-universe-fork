@@ -4,8 +4,6 @@
     "cmip_acronym": "masscello",
     "long_name": "Ocean Grid-Cell Mass per Area",
     "standard_name": "sea_water_mass_per_unit_area",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "masscello",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

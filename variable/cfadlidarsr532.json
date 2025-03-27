@@ -4,8 +4,6 @@
     "cmip_acronym": "cfadLidarsr532",
     "long_name": "CALIPSO Scattering Ratio CFAD",
     "standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "cfadLidarsr532",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

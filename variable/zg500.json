@@ -4,8 +4,6 @@
     "cmip_acronym": "zg500",
     "long_name": "Geopotential Height at 500hPa",
     "standard_name": "geopotential_height",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "zg500",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "msftbarot",
     "long_name": "Ocean Barotropic Mass Streamfunction",
     "standard_name": "ocean_barotropic_mass_streamfunction",
-    "type": "variable",
-    "units": "kg s-1",
-    "drs_name": "msftbarot",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg s-1"
 }

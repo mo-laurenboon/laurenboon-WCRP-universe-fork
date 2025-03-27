@@ -4,8 +4,6 @@
     "cmip_acronym": "rlus",
     "long_name": "Surface Upwelling Longwave Radiation",
     "standard_name": "surface_upwelling_longwave_flux_in_air",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "rlus",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

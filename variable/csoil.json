@@ -4,8 +4,6 @@
     "cmip_acronym": "cSoil",
     "long_name": "Carbon Mass in Model Soil Pool",
     "standard_name": "soil_mass_content_of_carbon",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "cSoil",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

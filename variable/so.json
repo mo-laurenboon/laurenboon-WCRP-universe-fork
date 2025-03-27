@@ -4,8 +4,6 @@
     "cmip_acronym": "so",
     "long_name": "Sea Water Salinity",
     "standard_name": "sea_water_salinity",
-    "type": "variable",
-    "units": "0.001",
-    "drs_name": "so",
-    "variable_type": "real"
+    "type": "real",
+    "units": "0.001"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "bddtdip",
     "long_name": "Rate of Change of Dissolved Phosphorus Due to Biological Activity",
     "standard_name": "tendency_of_mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water_due_to_biological_processes",
-    "type": "variable",
-    "units": "mol m-3 s-1",
-    "drs_name": "bddtdip",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3 s-1"
 }

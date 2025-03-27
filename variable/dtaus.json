@@ -4,8 +4,6 @@
     "cmip_acronym": "dtaus",
     "long_name": "Stratiform Cloud Optical Depth",
     "standard_name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "dtaus",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

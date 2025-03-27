@@ -4,8 +4,6 @@
     "cmip_acronym": "n2oglobal",
     "long_name": "Global Mean Mole Fraction of N2O",
     "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
-    "type": "variable",
-    "units": "1e-09",
-    "drs_name": "n2oglobal",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1e-09"
 }

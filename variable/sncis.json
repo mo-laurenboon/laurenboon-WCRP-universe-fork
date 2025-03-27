@@ -4,8 +4,6 @@
     "cmip_acronym": "sncIs",
     "long_name": "Ice Sheet Snow Cover Percentage",
     "standard_name": "surface_snow_area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "sncIs",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

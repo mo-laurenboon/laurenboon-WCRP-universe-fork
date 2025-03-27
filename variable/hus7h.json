@@ -4,8 +4,6 @@
     "cmip_acronym": "hus7h",
     "long_name": "Specific Humidity",
     "standard_name": "specific_humidity",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "hus7h",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "zhalfo",
     "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
     "standard_name": "depth_below_geoid",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "zhalfo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

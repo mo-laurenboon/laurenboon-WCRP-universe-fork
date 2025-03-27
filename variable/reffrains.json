@@ -4,8 +4,6 @@
     "cmip_acronym": "reffrains",
     "long_name": "Hydrometeor Effective Radius of Stratiform Rainfall",
     "standard_name": "effective_radius_of_stratiform_cloud_rain_particles",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "reffrains",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

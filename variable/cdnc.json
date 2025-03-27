@@ -4,8 +4,6 @@
     "cmip_acronym": "cdnc",
     "long_name": "Cloud Liquid Droplet Number Concentration",
     "standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air",
-    "type": "variable",
-    "units": "m-3",
-    "drs_name": "cdnc",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m-3"
 }

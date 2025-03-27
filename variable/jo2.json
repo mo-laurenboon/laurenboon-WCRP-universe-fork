@@ -4,8 +4,6 @@
     "cmip_acronym": "jo2",
     "long_name": "Photolysis Rate of Diatomic Molecular Oxygen",
     "standard_name": "photolysis_rate_of_molecular_oxygen",
-    "type": "variable",
-    "units": "s-1",
-    "drs_name": "jo2",
-    "variable_type": "real"
+    "type": "real",
+    "units": "s-1"
 }

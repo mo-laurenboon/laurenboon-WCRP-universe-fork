@@ -4,8 +4,6 @@
     "cmip_acronym": "evspsblveg",
     "long_name": "Evaporation from Canopy",
     "standard_name": "water_evaporation_flux_from_canopy",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "evspsblveg",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

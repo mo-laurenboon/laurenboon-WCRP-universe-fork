@@ -4,8 +4,6 @@
     "cmip_acronym": "physios",
     "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water",
     "standard_name": "mole_concentration_of_phytoplankton_expressed_as_silicon_in_sea_water",
-    "type": "variable",
-    "units": "mol m-3",
-    "drs_name": "physios",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3"
 }

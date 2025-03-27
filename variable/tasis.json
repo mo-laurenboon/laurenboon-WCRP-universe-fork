@@ -4,8 +4,6 @@
     "cmip_acronym": "tasIs",
     "long_name": "Ice Sheet Near-Surface Air Temperature",
     "standard_name": "air_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "tasIs",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "frfe",
     "long_name": "Iron Loss to Sediments",
     "standard_name": "minus_tendency_of_ocean_mole_content_of_iron_due_to_sedimentation",
-    "type": "variable",
-    "units": "mol m-2 s-1",
-    "drs_name": "frfe",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-2 s-1"
 }

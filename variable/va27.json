@@ -4,8 +4,6 @@
     "cmip_acronym": "va27",
     "long_name": "Northward Wind",
     "standard_name": "northward_wind",
-    "type": "variable",
-    "units": "m s-1",
-    "drs_name": "va27",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m s-1"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "ps",
     "long_name": "Surface Air Pressure",
     "standard_name": "surface_air_pressure",
-    "type": "variable",
-    "units": "Pa",
-    "drs_name": "ps",
-    "variable_type": "real"
+    "type": "real",
+    "units": "Pa"
 }

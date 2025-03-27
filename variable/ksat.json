@@ -4,8 +4,6 @@
     "cmip_acronym": "ksat",
     "long_name": "Saturated Hydraulic Conductivity",
     "standard_name": "soil_hydraulic_conductivity_at_saturation",
-    "type": "variable",
-    "units": "micron s-1",
-    "drs_name": "ksat",
-    "variable_type": "real"
+    "type": "real",
+    "units": "micron s-1"
 }

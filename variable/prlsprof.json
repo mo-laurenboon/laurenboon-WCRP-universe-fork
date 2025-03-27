@@ -4,8 +4,6 @@
     "cmip_acronym": "prlsprof",
     "long_name": "Stratiform Rainfall Flux",
     "standard_name": "stratiform_rainfall_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "prlsprof",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

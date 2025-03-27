@@ -4,8 +4,6 @@
     "cmip_acronym": "reffclws",
     "long_name": "Stratiform Cloud Liquid Droplet Effective Radius",
     "standard_name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "reffclws",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

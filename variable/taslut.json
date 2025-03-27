@@ -4,8 +4,6 @@
     "cmip_acronym": "tasLut",
     "long_name": "Near-Surface Air Temperature on Land Use Tile",
     "standard_name": "air_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "tasLut",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

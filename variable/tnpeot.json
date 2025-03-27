@@ -4,8 +4,6 @@
     "cmip_acronym": "tnpeot",
     "long_name": "Tendency of Ocean Potential Energy Content Due to Tides",
     "standard_name": "tendency_of_ocean_potential_energy_content_due_to_tides",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "tnpeot",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

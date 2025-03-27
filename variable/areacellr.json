@@ -4,8 +4,6 @@
     "cmip_acronym": "areacellr",
     "long_name": "Grid-Cell Area for River Model Variables",
     "standard_name": "cell_area",
-    "type": "variable",
-    "units": "m2",
-    "drs_name": "areacellr",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m2"
 }

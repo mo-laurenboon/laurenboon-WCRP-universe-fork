@@ -4,8 +4,6 @@
     "cmip_acronym": "o3prod",
     "long_name": "O3 Production Rate",
     "standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
-    "type": "variable",
-    "units": "mol m-3 s-1",
-    "drs_name": "o3prod",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-3 s-1"
 }

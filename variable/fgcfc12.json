@@ -4,8 +4,6 @@
     "cmip_acronym": "fgcfc12",
     "long_name": "Surface Downward CFC12 Flux",
     "standard_name": "surface_downward_mole_flux_of_cfc12",
-    "type": "variable",
-    "units": "mol m-2 s-1",
-    "drs_name": "fgcfc12",
-    "variable_type": "real"
+    "type": "real",
+    "units": "mol m-2 s-1"
 }

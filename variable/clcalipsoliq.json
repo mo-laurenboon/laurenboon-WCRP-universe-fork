@@ -4,8 +4,6 @@
     "cmip_acronym": "clcalipsoliq",
     "long_name": "CALIPSO Liquid Cloud Percentage",
     "standard_name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "clcalipsoliq",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

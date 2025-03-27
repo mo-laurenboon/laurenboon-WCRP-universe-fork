@@ -4,8 +4,6 @@
     "cmip_acronym": "wfonocorr",
     "long_name": "Water Flux into Sea Water Without Flux Correction",
     "standard_name": "water_flux_into_sea_water_without_flux_correction",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "wfonocorr",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

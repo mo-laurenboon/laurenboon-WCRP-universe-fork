@@ -4,8 +4,6 @@
     "cmip_acronym": "sirdgconc",
     "long_name": "Percentage Cover of Sea Ice by Ridging",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "sirdgconc",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

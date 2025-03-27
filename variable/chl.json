@@ -4,8 +4,6 @@
     "cmip_acronym": "chl",
     "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
     "standard_name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
-    "type": "variable",
-    "units": "kg m-3",
-    "drs_name": "chl",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-3"
 }

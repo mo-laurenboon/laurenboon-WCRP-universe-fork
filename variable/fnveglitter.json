@@ -4,8 +4,6 @@
     "cmip_acronym": "fNVegLitter",
     "long_name": "Total Nitrogen Mass Flux from Vegetation to Litter",
     "standard_name": "nitrogen_mass_flux_into_litter_from_vegetation",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "fNVegLitter",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

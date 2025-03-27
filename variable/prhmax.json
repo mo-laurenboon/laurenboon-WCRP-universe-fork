@@ -4,8 +4,6 @@
     "cmip_acronym": "prhmax",
     "long_name": "Maximum Hourly Precipitation Rate",
     "standard_name": "precipitation_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "prhmax",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

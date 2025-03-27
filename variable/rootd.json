@@ -4,8 +4,6 @@
     "cmip_acronym": "rootd",
     "long_name": "Maximum Root Depth",
     "standard_name": "root_depth",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "rootd",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

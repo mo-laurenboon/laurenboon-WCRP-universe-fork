@@ -4,8 +4,6 @@
     "cmip_acronym": "sivols",
     "long_name": "Sea-Ice Volume South",
     "standard_name": "sea_ice_volume",
-    "type": "variable",
-    "units": "1e3 km3",
-    "drs_name": "sivols",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1e3 km3"
 }

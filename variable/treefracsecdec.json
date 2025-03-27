@@ -4,8 +4,6 @@
     "cmip_acronym": "treeFracSecDec",
     "long_name": "Percentage Cover by Secondary Deciduous Trees",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "treeFracSecDec",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

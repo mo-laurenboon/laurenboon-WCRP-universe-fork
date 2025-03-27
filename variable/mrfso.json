@@ -4,8 +4,6 @@
     "cmip_acronym": "mrfso",
     "long_name": "Soil Frozen Water Content",
     "standard_name": "soil_frozen_water_content",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "mrfso",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

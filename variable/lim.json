@@ -4,8 +4,6 @@
     "cmip_acronym": "lim",
     "long_name": "Ice Sheet Mass",
     "standard_name": "land_ice_mass",
-    "type": "variable",
-    "units": "kg",
-    "drs_name": "lim",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg"
 }

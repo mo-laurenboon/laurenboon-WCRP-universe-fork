@@ -4,8 +4,6 @@
     "cmip_acronym": "ts",
     "long_name": "Surface Temperature",
     "standard_name": "surface_temperature",
-    "type": "variable",
-    "units": "K",
-    "drs_name": "ts",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K"
 }

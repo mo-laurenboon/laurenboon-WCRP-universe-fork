@@ -4,8 +4,6 @@
     "cmip_acronym": "aoanh",
     "long_name": "Northern Hemisphere Tracer Lifetime",
     "standard_name": "tracer_lifetime",
-    "type": "variable",
-    "units": "yr",
-    "drs_name": "aoanh",
-    "variable_type": "real"
+    "type": "real",
+    "units": "yr"
 }

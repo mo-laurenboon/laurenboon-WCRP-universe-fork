@@ -4,8 +4,6 @@
     "cmip_acronym": "zmswaero",
     "long_name": "Zonal Mean Shortwave Heating Rate Due to Volcanic Aerosols",
     "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_from_volcanic_ambient_aerosol_particles",
-    "type": "variable",
-    "units": "K s-1",
-    "drs_name": "zmswaero",
-    "variable_type": "real"
+    "type": "real",
+    "units": "K s-1"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "cProductLut",
     "long_name": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
     "standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "cProductLut",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

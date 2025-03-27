@@ -32,7 +32,7 @@ for key, value in variable_ids1.items():
     #print(value)
     res = {} 
     var_infos = variable_ids1.get(key,{})
-    print("    ",var_infos)
+    #print("    ",var_infos)
     ## NEED TO MODIFIY 2,3 THINGS
     res["@context"] = "000_context.jsonld"  
     res["id"] = key.lower()
@@ -47,6 +47,7 @@ for key, value in variable_ids1.items():
     file_path = os.path.join(save_dir, f"{key.lower()}.json")
     with open(file_path, 'w') as f:
         json.dump(res, f, indent=4)
+        print("..")
     
 
 

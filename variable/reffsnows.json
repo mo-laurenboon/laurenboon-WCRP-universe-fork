@@ -4,8 +4,6 @@
     "cmip_acronym": "reffsnows",
     "long_name": "Hydrometeor Effective Radius of Stratiform Snowfall",
     "standard_name": "effective_radius_of_stratiform_cloud_snow_particles",
-    "type": "variable",
-    "units": "m",
-    "drs_name": "reffsnows",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m"
 }

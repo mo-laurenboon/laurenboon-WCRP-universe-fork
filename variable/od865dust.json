@@ -4,8 +4,6 @@
     "cmip_acronym": "od865dust",
     "long_name": "Dust Optical Depth at 865nm",
     "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
-    "type": "variable",
-    "units": "1",
-    "drs_name": "od865dust",
-    "variable_type": "real"
+    "type": "real",
+    "units": "1"
 }

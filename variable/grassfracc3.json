@@ -4,8 +4,6 @@
     "cmip_acronym": "grassFracC3",
     "long_name": "C3 Natural Grass Area Percentage",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "grassFracC3",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "fracInLut",
     "long_name": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
     "standard_name": "area_fraction",
-    "type": "variable",
-    "units": "%",
-    "drs_name": "fracInLut",
-    "variable_type": "real"
+    "type": "real",
+    "units": "%"
 }

@@ -4,8 +4,6 @@
     "cmip_acronym": "prraIs",
     "long_name": "Ice Sheet Rainfall Rate",
     "standard_name": "rainfall_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "prraIs",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

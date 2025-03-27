@@ -4,8 +4,6 @@
     "cmip_acronym": "hflso",
     "long_name": "Surface Downward Latent Heat Flux",
     "standard_name": "surface_downward_latent_heat_flux",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "hflso",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

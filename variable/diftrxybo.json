@@ -4,8 +4,6 @@
     "cmip_acronym": "diftrxybo",
     "long_name": "Ocean Tracer XY Biharmonic Diffusivity",
     "standard_name": "ocean_tracer_xy_biharmonic_diffusivity",
-    "type": "variable",
-    "units": "m4 s-1",
-    "drs_name": "diftrxybo",
-    "variable_type": "real"
+    "type": "real",
+    "units": "m4 s-1"
 }

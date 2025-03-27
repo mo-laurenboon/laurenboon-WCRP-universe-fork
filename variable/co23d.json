@@ -4,8 +4,6 @@
     "cmip_acronym": "co23D",
     "long_name": "3D-Field of Transported CO2",
     "standard_name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
-    "type": "variable",
-    "units": "kg kg-1",
-    "drs_name": "co23D",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg kg-1"
 }

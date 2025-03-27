@@ -4,8 +4,6 @@
     "cmip_acronym": "prc",
     "long_name": "Convective Precipitation",
     "standard_name": "convective_precipitation_flux",
-    "type": "variable",
-    "units": "kg m-2 s-1",
-    "drs_name": "prc",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2 s-1"
 }

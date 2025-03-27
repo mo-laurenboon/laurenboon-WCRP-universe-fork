@@ -4,8 +4,6 @@
     "cmip_acronym": "rsu",
     "long_name": "Upwelling Shortwave Radiation",
     "standard_name": "upwelling_shortwave_flux_in_air",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "rsu",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

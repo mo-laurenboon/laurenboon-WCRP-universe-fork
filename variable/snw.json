@@ -4,8 +4,6 @@
     "cmip_acronym": "snw",
     "long_name": "Surface Snow Amount",
     "standard_name": "surface_snow_amount",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "snw",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

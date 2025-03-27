@@ -4,8 +4,6 @@
     "cmip_acronym": "hfmlt",
     "long_name": "Energy of Fusion",
     "standard_name": "surface_snow_and_ice_melt_heat_flux",
-    "type": "variable",
-    "units": "W m-2",
-    "drs_name": "hfmlt",
-    "variable_type": "real"
+    "type": "real",
+    "units": "W m-2"
 }

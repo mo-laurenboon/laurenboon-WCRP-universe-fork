@@ -4,8 +4,6 @@
     "cmip_acronym": "nSoil",
     "long_name": "Nitrogen Mass in Soil Pool",
     "standard_name": "soil_mass_content_of_nitrogen",
-    "type": "variable",
-    "units": "kg m-2",
-    "drs_name": "nSoil",
-    "variable_type": "real"
+    "type": "real",
+    "units": "kg m-2"
 }

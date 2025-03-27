@@ -41,6 +41,7 @@ for key, value in variable_ids1.items():
     res["standard_name"] = value["standard_name"]
     res["type"] = value["type"]
     res["units"] = value["units"]
+    res["drs_name"] = key.lower()
 
 
     

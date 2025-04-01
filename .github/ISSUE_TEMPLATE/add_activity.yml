@@ -12,7 +12,6 @@ body:
             ####
             ## Generic Activity information
             Please fill in the information below. 
-    
 -   id: label
     attributes:
         label: Activity ID
@@ -28,7 +27,7 @@ body:
         label: Activity Title
         description: |
             A short phrase that can help in interpreting the unique
-           id’s. This is often the expanded form of the ID”.
+           id’s. This is often the expanded form of the ID.
         placeholder: 'e.g., CMIP -> Coupled Model Intercomparison Project'
     validations:
         required: true

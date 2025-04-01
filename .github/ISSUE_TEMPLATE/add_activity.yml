@@ -9,45 +9,45 @@ body:
 -   type: markdown
     attributes:
         value: |
-            ####
-            ## Generic Activity information
-            Please fill in the information below. 
+            ## Generic Activity Information
+            Please fill in the details below.
+
 -   id: label
+    type: input
     attributes:
         label: Activity ID
         description: |
-            
-            Note: This name must be unique across all experiments
+            A unique identifier for the activity. This must be unique across all experiments.
         placeholder: 'e.g., CMIP, C4MIP, GeoMIP, CORDEX'
     validations:
         required: true
-    type: input
+
 -   id: long_label
+    type: input
     attributes:
         label: Activity Title
         description: |
-            A short phrase that can help in interpreting the unique
-           id’s. This is often the expanded form of the ID.
+            A short phrase that expands on the Activity ID. Typically, this is the full name of the activity.
         placeholder: 'e.g., CMIP -> Coupled Model Intercomparison Project'
     validations:
         required: true
-    type: input
+
 -   id: description
+    type: textarea
     attributes:
         label: Description
         description: |
-            Please provide a description of the activity and what its primary aims are for. 
-        placeholder: 'Describe the experiment configuration, conditions, and requirements...'
+            Provide a detailed description of the activity, including its primary aims, configuration, conditions, and requirements.
+        placeholder: 'Describe the activity’s purpose, scope, and relevant details...'
     validations:
         required: true
-    type: textarea
 
 -   id: url
-    attributes:
-        label: Activity webpage / citation. 
-        description: This is a mandatory field.
     type: input
+    attributes:
+        label: Activity Webpage / Citation
+        description: |
+            Provide a link to the activity’s webpage or relevant citation. This field is mandatory.
+        placeholder: 'e.g., https://example.com/activity-info'
     validations:
         required: true
-
-        

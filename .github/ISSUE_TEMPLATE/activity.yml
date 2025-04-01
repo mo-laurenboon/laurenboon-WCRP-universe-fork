@@ -1,0 +1,54 @@
+name: 'Add/Modify: Activity'
+description: 'Type: activity'
+title: 'Add/Modify: Activity <activity_id>'
+labels:
+    - delta
+    - activity
+body:
+
+-   type: markdown
+    attributes:
+        value: |
+            ####
+            ## Generic Activity information
+            Please fill in the information below. 
+    
+-   id: label
+    attributes:
+        label: Activity ID
+        description: |
+            
+            Note: This name must be unique across all experiments
+        placeholder: 'e.g., CMIP, C4MIP, GeoMIP, CORDEX'
+    validations:
+        required: true
+    type: input
+-   id: long_label
+    attributes:
+        label: Activity Title
+        description: |
+            A short phrase that can help in interpreting the unique
+           id’s. This is often the expanded form of the ID”.
+        placeholder: 'e.g., CMIP -> Coupled Model Intercomparison Project'
+    validations:
+        required: true
+    type: input
+-   id: description
+    attributes:
+        label: Description
+        description: |
+            Please provide a description of the activity and what its primary aims are for. 
+        placeholder: 'Describe the experiment configuration, conditions, and requirements...'
+    validations:
+        required: true
+    type: textarea
+
+-   id: url
+    attributes:
+        label: Activity webpage / citation. 
+        description: This is a mandatory field.
+    type: input
+    validations:
+        required: true
+
+        

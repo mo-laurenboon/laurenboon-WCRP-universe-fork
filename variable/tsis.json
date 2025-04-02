@@ -4,7 +4,7 @@
     "cmip_acronym": "tsIs",
     "long_name": "Ice Sheet Surface Temperature",
     "standard_name": "surface_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tsis"
 }

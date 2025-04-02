@@ -4,7 +4,7 @@
     "cmip_acronym": "vmrox",
     "long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
     "standard_name": "mole_fraction_of_ox_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
     "drs_name": "vmrox"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "tos",
     "long_name": "Sea Surface Temperature",
     "standard_name": "sea_surface_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
     "drs_name": "tos"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "clwc",
     "long_name": "Mass Fraction of Convective Cloud Liquid Water",
     "standard_name": "mass_fraction_of_convective_cloud_liquid_water_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "clwc"
 }

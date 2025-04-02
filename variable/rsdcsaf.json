@@ -4,7 +4,7 @@
     "cmip_acronym": "rsdcsaf",
     "long_name": "Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation",
     "standard_name": "downwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "rsdcsaf"
 }

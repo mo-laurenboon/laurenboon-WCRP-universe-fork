@@ -4,7 +4,7 @@
     "cmip_acronym": "rlds",
     "long_name": "Surface Downwelling Longwave Radiation",
     "standard_name": "surface_downwelling_longwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "rlds"
 }

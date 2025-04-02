@@ -4,7 +4,7 @@
     "cmip_acronym": "treeFracBdlDcd",
     "long_name": "Broadleaf Deciduous Tree Area Percentage",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "treefracbdldcd"
 }

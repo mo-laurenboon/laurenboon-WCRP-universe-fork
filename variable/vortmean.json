@@ -4,7 +4,7 @@
     "cmip_acronym": "vortmean",
     "long_name": "Relative Vorticity",
     "standard_name": "atmosphere_relative_vorticity",
-    "type": "real",
+    "type": "variable",
     "units": "s-1",
     "drs_name": "vortmean"
 }

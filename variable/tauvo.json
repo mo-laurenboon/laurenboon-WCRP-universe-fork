@@ -4,7 +4,7 @@
     "cmip_acronym": "tauvo",
     "long_name": "Sea Water Surface Downward Y Stress",
     "standard_name": "downward_y_stress_at_sea_water_surface",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
     "drs_name": "tauvo"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "sisnconc",
     "long_name": "Snow Area Percentage",
     "standard_name": "surface_snow_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "sisnconc"
 }

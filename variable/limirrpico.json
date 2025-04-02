@@ -4,7 +4,7 @@
     "cmip_acronym": "limirrpico",
     "long_name": "Irradiance Limitation of Picophytoplankton",
     "standard_name": "growth_limitation_of_picophytoplankton_due_to_solar_irradiance",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "limirrpico"
 }

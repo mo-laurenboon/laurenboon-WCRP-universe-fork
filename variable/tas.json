@@ -4,7 +4,7 @@
     "cmip_acronym": "tas",
     "long_name": "Near-Surface Air Temperature",
     "standard_name": "air_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tas"
 }

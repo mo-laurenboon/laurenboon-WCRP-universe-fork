@@ -4,7 +4,7 @@
     "cmip_acronym": "dms",
     "long_name": "Dimethyl Sulphide (DMS) Mole Fraction",
     "standard_name": "mole_fraction_of_dimethyl_sulfide_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
     "drs_name": "dms"
 }

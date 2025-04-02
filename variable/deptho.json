@@ -4,7 +4,7 @@
     "cmip_acronym": "deptho",
     "long_name": "Sea Floor Depth Below Geoid",
     "standard_name": "sea_floor_depth_below_geoid",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "deptho"
 }

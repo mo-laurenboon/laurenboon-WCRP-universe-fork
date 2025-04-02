@@ -4,7 +4,7 @@
     "cmip_acronym": "cLitterAbove",
     "long_name": "Carbon Mass in Above-Ground Litter",
     "standard_name": "surface_litter_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "clitterabove"
 }

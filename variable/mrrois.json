@@ -4,7 +4,7 @@
     "cmip_acronym": "mrroIs",
     "long_name": "Ice Sheet Total Runoff",
     "standard_name": "runoff_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "mrrois"
 }

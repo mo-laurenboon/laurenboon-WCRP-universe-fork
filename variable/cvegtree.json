@@ -4,7 +4,7 @@
     "cmip_acronym": "cVegTree",
     "long_name": "Carbon Mass in Vegetation on Tree Tiles",
     "standard_name": "vegetation_carbon_content",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "cvegtree"
 }

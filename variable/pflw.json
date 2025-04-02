@@ -4,7 +4,7 @@
     "cmip_acronym": "pflw",
     "long_name": "Liquid Water Content of Permafrost Layer",
     "standard_name": "liquid_water_content_of_permafrost_layer",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "pflw"
 }

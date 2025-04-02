@@ -4,7 +4,7 @@
     "cmip_acronym": "topg",
     "long_name": "Bedrock Altitude",
     "standard_name": "bedrock_altitude",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "topg"
 }

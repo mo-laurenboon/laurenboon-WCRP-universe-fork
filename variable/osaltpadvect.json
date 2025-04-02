@@ -4,7 +4,7 @@
     "cmip_acronym": "osaltpadvect",
     "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection",
     "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "osaltpadvect"
 }

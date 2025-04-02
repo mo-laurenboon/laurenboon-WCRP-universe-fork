@@ -4,7 +4,7 @@
     "cmip_acronym": "sftflf",
     "long_name": "Floating Ice Shelf Area Percentage",
     "standard_name": "floating_ice_shelf_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "sftflf"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "orogIs",
     "long_name": "Ice Sheet Surface Altitude",
     "standard_name": "surface_altitude",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "orogis"
 }

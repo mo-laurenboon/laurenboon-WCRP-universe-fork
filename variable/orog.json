@@ -4,7 +4,7 @@
     "cmip_acronym": "orog",
     "long_name": "Surface Altitude",
     "standard_name": "surface_altitude",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "orog"
 }

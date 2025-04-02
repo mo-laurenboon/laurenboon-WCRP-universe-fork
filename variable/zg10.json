@@ -4,7 +4,7 @@
     "cmip_acronym": "zg10",
     "long_name": "Geopotential Height at 10hPa",
     "standard_name": "geopotential_height",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "zg10"
 }

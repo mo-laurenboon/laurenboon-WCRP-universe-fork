@@ -4,7 +4,7 @@
     "cmip_acronym": "prcprof",
     "long_name": "Convective Rainfall Flux",
     "standard_name": "convective_rainfall_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "prcprof"
 }

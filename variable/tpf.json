@@ -4,7 +4,7 @@
     "cmip_acronym": "tpf",
     "long_name": "Permafrost Layer Thickness",
     "standard_name": "permafrost_layer_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "tpf"
 }

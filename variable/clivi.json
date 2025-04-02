@@ -4,7 +4,7 @@
     "cmip_acronym": "clivi",
     "long_name": "Ice Water Path",
     "standard_name": "atmosphere_mass_content_of_cloud_ice",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "clivi"
 }

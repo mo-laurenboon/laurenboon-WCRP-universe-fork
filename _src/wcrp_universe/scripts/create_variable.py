@@ -39,7 +39,7 @@ for key, value in variable_ids1.items():
     res["cmip_acronym"] = value["out_name"]
     res["long_name"] = value["long_name"]
     res["standard_name"] = value["standard_name"]
-    res["type"] = value["type"]
+    res["type"] = "variable"
     res["units"] = value["units"]
     res["drs_name"] = key.lower()
 

@@ -4,7 +4,7 @@
     "cmip_acronym": "sndmassmelt",
     "long_name": "Snow Mass Rate of Change Through Melt",
     "standard_name": "surface_snow_melt_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "sndmassmelt"
 }

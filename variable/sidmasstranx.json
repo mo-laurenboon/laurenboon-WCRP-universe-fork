@@ -4,7 +4,7 @@
     "cmip_acronym": "sidmasstranx",
     "long_name": "X-Component of Sea-Ice Mass Transport",
     "standard_name": "sea_ice_x_transport",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
     "drs_name": "sidmasstranx"
 }

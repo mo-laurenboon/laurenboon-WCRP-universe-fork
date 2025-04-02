@@ -4,7 +4,7 @@
     "cmip_acronym": "msftyrho",
     "long_name": "Ocean Y Overturning Mass Streamfunction",
     "standard_name": "ocean_y_overturning_mass_streamfunction",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
     "drs_name": "msftyrho"
 }

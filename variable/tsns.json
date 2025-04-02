@@ -4,7 +4,7 @@
     "cmip_acronym": "tsns",
     "long_name": "Snow Surface Temperature",
     "standard_name": "surface_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tsns"
 }

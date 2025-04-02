@@ -4,7 +4,7 @@
     "cmip_acronym": "solbnd",
     "long_name": "TOA Solar Irradiance for Each Band",
     "standard_name": "toa_incoming_shortwave_flux",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "solbnd"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "dslw",
     "long_name": "Change in Soil Moisture",
     "standard_name": "change_over_time_in_mass_content_of_water_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "dslw"
 }

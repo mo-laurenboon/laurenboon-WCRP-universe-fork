@@ -4,7 +4,7 @@
     "cmip_acronym": "drivw",
     "long_name": "Change in River Storage",
     "standard_name": "change_over_time_in_river_water_amount",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "drivw"
 }

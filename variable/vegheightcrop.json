@@ -4,7 +4,7 @@
     "cmip_acronym": "vegHeightCrop",
     "long_name": "Height of Crops",
     "standard_name": "canopy_height",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "vegheightcrop"
 }

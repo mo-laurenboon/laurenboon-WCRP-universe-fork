@@ -4,7 +4,7 @@
     "cmip_acronym": "ch4global",
     "long_name": "Global Mean Mole Fraction of CH4",
     "standard_name": "mole_fraction_of_methane_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "1e-09",
     "drs_name": "ch4global"
 }

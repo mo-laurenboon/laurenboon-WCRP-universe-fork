@@ -4,7 +4,7 @@
     "cmip_acronym": "ficeberg2d",
     "long_name": "Water Flux into Sea Water from Icebergs",
     "standard_name": "water_flux_into_sea_water_from_icebergs",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "ficeberg2d"
 }

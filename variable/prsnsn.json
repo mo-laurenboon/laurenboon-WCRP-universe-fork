@@ -4,7 +4,7 @@
     "cmip_acronym": "prsnsn",
     "long_name": "Fraction of Snowfall (Including Hail and Graupel) on Snow",
     "standard_name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "prsnsn"
 }

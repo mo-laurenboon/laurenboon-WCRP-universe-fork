@@ -4,7 +4,7 @@
     "cmip_acronym": "fgco2nat",
     "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
     "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "fgco2nat"
 }

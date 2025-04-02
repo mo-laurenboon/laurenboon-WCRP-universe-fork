@@ -4,7 +4,7 @@
     "cmip_acronym": "diftrxylo",
     "long_name": "Ocean Tracer XY Laplacian Diffusivity",
     "standard_name": "ocean_tracer_xy_laplacian_diffusivity",
-    "type": "real",
+    "type": "variable",
     "units": "m2 s-1",
     "drs_name": "diftrxylo"
 }

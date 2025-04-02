@@ -4,7 +4,7 @@
     "cmip_acronym": "limirrdiat",
     "long_name": "Irradiance Limitation of Diatoms",
     "standard_name": "growth_limitation_of_diatoms_due_to_solar_irradiance",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "limirrdiat"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "limfediaz",
     "long_name": "Iron Limitation of Diazotrophs",
     "standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "limfediaz"
 }

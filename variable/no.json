@@ -4,7 +4,7 @@
     "cmip_acronym": "no",
     "long_name": "NO Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_nitrogen_monoxide_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "mol mol-1",
     "drs_name": "no"
 }

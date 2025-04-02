@@ -4,7 +4,7 @@
     "cmip_acronym": "prra",
     "long_name": "Rainfall Flux over Land Ice",
     "standard_name": "rainfall_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "prra"
 }

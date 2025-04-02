@@ -4,7 +4,7 @@
     "cmip_acronym": "c4PftFrac",
     "long_name": "Percentage Cover by C4 Plant Functional Type",
     "standard_name": "area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "c4pftfrac"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "mc",
     "long_name": "Convective Mass Flux",
     "standard_name": "atmosphere_net_upward_convective_mass_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "mc"
 }

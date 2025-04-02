@@ -4,7 +4,7 @@
     "cmip_acronym": "tsl",
     "long_name": "Temperature of Soil",
     "standard_name": "soil_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tsl"
 }

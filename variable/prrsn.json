@@ -4,7 +4,7 @@
     "cmip_acronym": "prrsn",
     "long_name": "Fraction of Rainfall on Snow",
     "standard_name": "mass_fraction_of_rainfall_falling_onto_surface_snow",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "prrsn"
 }

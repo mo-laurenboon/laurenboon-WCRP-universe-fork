@@ -4,7 +4,7 @@
     "cmip_acronym": "rsdo",
     "long_name": "Downwelling Shortwave Radiation in Sea Water",
     "standard_name": "downwelling_shortwave_flux_in_sea_water",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "rsdo"
 }

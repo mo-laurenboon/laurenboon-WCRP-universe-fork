@@ -4,7 +4,7 @@
     "cmip_acronym": "sicompstren",
     "long_name": "Compressive Sea Ice Strength",
     "standard_name": "compressive_strength_of_sea_ice",
-    "type": "real",
+    "type": "variable",
     "units": "N m-1",
     "drs_name": "sicompstren"
 }

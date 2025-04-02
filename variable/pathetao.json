@@ -4,7 +4,7 @@
     "cmip_acronym": "pathetao",
     "long_name": "Sea Water Additional Potential Temperature",
     "standard_name": "sea_water_added_potential_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
     "drs_name": "pathetao"
 }

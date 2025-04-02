@@ -4,7 +4,7 @@
     "cmip_acronym": "thetaot",
     "long_name": "Vertically Averaged Sea Water Potential Temperature",
     "standard_name": "sea_water_potential_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
     "drs_name": "thetaot"
 }

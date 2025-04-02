@@ -4,7 +4,7 @@
     "cmip_acronym": "cltisccp",
     "long_name": "ISCCP Total Cloud Cover Percentage",
     "standard_name": "cloud_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "cltisccp"
 }

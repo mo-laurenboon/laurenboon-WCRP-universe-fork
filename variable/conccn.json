@@ -4,7 +4,7 @@
     "cmip_acronym": "conccn",
     "long_name": "Aerosol Number Concentration",
     "standard_name": "number_concentration_of_ambient_aerosol_particles_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "m-3",
     "drs_name": "conccn"
 }

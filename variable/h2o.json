@@ -4,7 +4,7 @@
     "cmip_acronym": "h2o",
     "long_name": "Mass Fraction of Water",
     "standard_name": "mass_fraction_of_water_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "h2o"
 }

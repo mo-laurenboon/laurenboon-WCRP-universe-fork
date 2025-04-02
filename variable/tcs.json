@@ -4,7 +4,7 @@
     "cmip_acronym": "tcs",
     "long_name": "Vegetation Canopy Temperature",
     "standard_name": "canopy_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tcs"
 }

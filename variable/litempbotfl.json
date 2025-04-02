@@ -4,7 +4,7 @@
     "cmip_acronym": "litempbotfl",
     "long_name": "Basal Temperature of Floating Ice Shelf",
     "standard_name": "land_ice_basal_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "litempbotfl"
 }

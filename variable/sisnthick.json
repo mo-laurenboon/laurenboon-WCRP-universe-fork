@@ -4,7 +4,7 @@
     "cmip_acronym": "sisnthick",
     "long_name": "Snow Thickness",
     "standard_name": "surface_snow_thickness",
-    "type": "real",
+    "type": "variable",
     "units": "m",
     "drs_name": "sisnthick"
 }

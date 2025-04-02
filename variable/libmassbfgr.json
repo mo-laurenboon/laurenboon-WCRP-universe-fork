@@ -4,7 +4,7 @@
     "cmip_acronym": "libmassbfgr",
     "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
     "standard_name": "land_ice_basal_specific_mass_balance_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "libmassbfgr"
 }

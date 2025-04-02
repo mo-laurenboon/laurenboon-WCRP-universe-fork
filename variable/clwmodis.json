@@ -4,7 +4,7 @@
     "cmip_acronym": "clwmodis",
     "long_name": "MODIS Liquid Cloud Percentage",
     "standard_name": "liquid_water_cloud_area_fraction",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "clwmodis"
 }

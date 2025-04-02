@@ -4,7 +4,7 @@
     "cmip_acronym": "hurs",
     "long_name": "Near-Surface Relative Humidity",
     "standard_name": "relative_humidity",
-    "type": "real",
+    "type": "variable",
     "units": "%",
     "drs_name": "hurs"
 }

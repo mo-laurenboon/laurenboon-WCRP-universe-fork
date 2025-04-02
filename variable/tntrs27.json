@@ -4,7 +4,7 @@
     "cmip_acronym": "tntrs27",
     "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
     "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
-    "type": "real",
+    "type": "variable",
     "units": "K s-1",
     "drs_name": "tntrs27"
 }

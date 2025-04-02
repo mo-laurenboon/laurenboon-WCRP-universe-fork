@@ -4,7 +4,7 @@
     "cmip_acronym": "snowmxrat27",
     "long_name": "Mass Fraction of Snow in Air",
     "standard_name": "mass_fraction_of_snow_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "snowmxrat27"
 }

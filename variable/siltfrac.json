@@ -4,7 +4,7 @@
     "cmip_acronym": "siltfrac",
     "long_name": "Silt Fraction",
     "standard_name": "volume_fraction_of_silt_in_soil",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "siltfrac"
 }

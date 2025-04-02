@@ -4,7 +4,7 @@
     "cmip_acronym": "pod0",
     "long_name": "Phytotoxic Ozone Dose",
     "standard_name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
-    "type": "real",
+    "type": "variable",
     "units": "mol m-2",
     "drs_name": "pod0"
 }

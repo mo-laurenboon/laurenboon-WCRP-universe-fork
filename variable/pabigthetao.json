@@ -4,7 +4,7 @@
     "cmip_acronym": "pabigthetao",
     "long_name": "Sea Water Added Conservative Temperature",
     "standard_name": "sea_water_added_conservative_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "degC",
     "drs_name": "pabigthetao"
 }

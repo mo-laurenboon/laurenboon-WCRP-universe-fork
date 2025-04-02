@@ -4,7 +4,7 @@
     "cmip_acronym": "hfsnthermds2d",
     "long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
     "standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "hfsnthermds2d"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "prsnc",
     "long_name": "Convective Snowfall Flux",
     "standard_name": "convective_snowfall_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "prsnc"
 }

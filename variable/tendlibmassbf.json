@@ -4,7 +4,7 @@
     "cmip_acronym": "tendlibmassbf",
     "long_name": "Total Basal Mass Balance Flux",
     "standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
-    "type": "real",
+    "type": "variable",
     "units": "kg s-1",
     "drs_name": "tendlibmassbf"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "prCrop",
     "long_name": "Precipitation over Crop Tile",
     "standard_name": "precipitation_flux",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "prcrop"
 }

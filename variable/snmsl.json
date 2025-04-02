@@ -4,7 +4,7 @@
     "cmip_acronym": "snmsl",
     "long_name": "Water Flowing out of Snowpack",
     "standard_name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "snmsl"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "hfdsnb",
     "long_name": "Downward Heat Flux at Snow Base",
     "standard_name": "downward_heat_flux_at_ground_level_in_snow",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "hfdsnb"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "loadbc",
     "long_name": "Load of Black Carbon Aerosol",
     "standard_name": "atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "loadbc"
 }

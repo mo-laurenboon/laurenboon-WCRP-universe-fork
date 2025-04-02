@@ -4,7 +4,7 @@
     "cmip_acronym": "cLitterGrass",
     "long_name": "Carbon Mass in Litter on Grass Tiles",
     "standard_name": "litter_mass_content_of_carbon",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "clittergrass"
 }

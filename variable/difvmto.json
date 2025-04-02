@@ -4,7 +4,7 @@
     "cmip_acronym": "difvmto",
     "long_name": "Ocean Vertical Momentum Diffusivity Due to Tides",
     "standard_name": "ocean_vertical_momentum_diffusivity_due_to_tides",
-    "type": "real",
+    "type": "variable",
     "units": "m2 s-1",
     "drs_name": "difvmto"
 }

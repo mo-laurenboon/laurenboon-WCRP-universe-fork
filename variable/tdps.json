@@ -4,7 +4,7 @@
     "cmip_acronym": "tdps",
     "long_name": "2m Dewpoint Temperature",
     "standard_name": "dew_point_temperature",
-    "type": "real",
+    "type": "variable",
     "units": "K",
     "drs_name": "tdps"
 }

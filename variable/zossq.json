@@ -4,7 +4,7 @@
     "cmip_acronym": "zossq",
     "long_name": "Square of Sea Surface Height Above Geoid",
     "standard_name": "square_of_sea_surface_height_above_geoid",
-    "type": "real",
+    "type": "variable",
     "units": "m2",
     "drs_name": "zossq"
 }

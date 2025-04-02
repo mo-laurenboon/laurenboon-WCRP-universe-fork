@@ -4,7 +4,7 @@
     "cmip_acronym": "vtem",
     "long_name": "Transformed Eulerian Mean Northward Wind",
     "standard_name": "northward_transformed_eulerian_mean_air_velocity",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
     "drs_name": "vtem"
 }

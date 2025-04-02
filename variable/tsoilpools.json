@@ -4,7 +4,7 @@
     "cmip_acronym": "tSoilPools",
     "long_name": "Turnover Rate of Each Model Soil Carbon Pool",
     "standard_name": "soil_pool_carbon_decay_rate",
-    "type": "real",
+    "type": "variable",
     "units": "s-1",
     "drs_name": "tsoilpools"
 }

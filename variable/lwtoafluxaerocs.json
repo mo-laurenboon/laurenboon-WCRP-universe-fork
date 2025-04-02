@@ -4,7 +4,7 @@
     "cmip_acronym": "lwtoafluxaerocs",
     "long_name": "TOA Outgoing Clear-Sky Longwave Flux Due to Volcanic Aerosols",
     "standard_name": "toa_outgoing_longwave_flux_due_to_volcanic_ambient_aerosol_particles_assuming_clear_sky",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "lwtoafluxaerocs"
 }

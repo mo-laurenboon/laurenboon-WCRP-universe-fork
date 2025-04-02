@@ -4,7 +4,7 @@
     "cmip_acronym": "dcw",
     "long_name": "Change in Interception Storage",
     "standard_name": "change_over_time_in_canopy_water_amount",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "dcw"
 }

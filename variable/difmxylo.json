@@ -4,7 +4,7 @@
     "cmip_acronym": "difmxylo",
     "long_name": "Ocean Momentum XY Laplacian Diffusivity",
     "standard_name": "ocean_momentum_xy_laplacian_diffusivity",
-    "type": "real",
+    "type": "variable",
     "units": "m2 s-1",
     "drs_name": "difmxylo"
 }

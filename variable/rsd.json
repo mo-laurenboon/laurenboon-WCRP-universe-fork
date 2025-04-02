@@ -4,7 +4,7 @@
     "cmip_acronym": "rsd",
     "long_name": "Downwelling Shortwave Radiation",
     "standard_name": "downwelling_shortwave_flux_in_air",
-    "type": "real",
+    "type": "variable",
     "units": "W m-2",
     "drs_name": "rsd"
 }

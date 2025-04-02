@@ -4,7 +4,7 @@
     "cmip_acronym": "sistrxubot",
     "long_name": "X-Component of Ocean Stress on Sea Ice",
     "standard_name": "upward_x_stress_at_sea_ice_base",
-    "type": "real",
+    "type": "variable",
     "units": "N m-2",
     "drs_name": "sistrxubot"
 }

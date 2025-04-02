@@ -4,7 +4,7 @@
     "cmip_acronym": "fsitherm",
     "long_name": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
     "standard_name": "water_flux_into_sea_water_due_to_sea_ice_thermodynamics",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "fsitherm"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "intvadse",
     "long_name": "Vertically Integrated Northward Dry Static Energy Transport",
     "standard_name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
-    "type": "real",
+    "type": "variable",
     "units": "MJ m-1 s-1",
     "drs_name": "intvadse"
 }

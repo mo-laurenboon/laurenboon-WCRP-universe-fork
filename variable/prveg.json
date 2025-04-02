@@ -4,7 +4,7 @@
     "cmip_acronym": "prveg",
     "long_name": "Precipitation onto Canopy",
     "standard_name": "precipitation_flux_onto_canopy",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2 s-1",
     "drs_name": "prveg"
 }

@@ -4,7 +4,7 @@
     "cmip_acronym": "cod",
     "long_name": "Cloud Optical Depth",
     "standard_name": "atmosphere_optical_thickness_due_to_cloud",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "cod"
 }

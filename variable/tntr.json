@@ -4,7 +4,7 @@
     "cmip_acronym": "tntr",
     "long_name": "Tendency of Air Temperature Due to Radiative Heating",
     "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
-    "type": "real",
+    "type": "variable",
     "units": "K s-1",
     "drs_name": "tntr"
 }

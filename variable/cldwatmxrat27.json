@@ -4,7 +4,7 @@
     "cmip_acronym": "cldwatmxrat27",
     "long_name": "Cloud Water Mixing Ratio",
     "standard_name": "cloud_liquid_water_mixing_ratio",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "cldwatmxrat27"
 }

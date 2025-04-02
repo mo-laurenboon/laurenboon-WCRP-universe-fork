@@ -4,7 +4,7 @@
     "cmip_acronym": "pfull",
     "long_name": "Pressure at Model Full-Levels",
     "standard_name": "air_pressure",
-    "type": "real",
+    "type": "variable",
     "units": "Pa",
     "drs_name": "pfull"
 }

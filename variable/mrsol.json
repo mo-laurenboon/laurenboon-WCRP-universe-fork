@@ -4,7 +4,7 @@
     "cmip_acronym": "mrsol",
     "long_name": "Total Water Content of Soil Layer",
     "standard_name": "mass_content_of_water_in_soil_layer",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "mrsol"
 }

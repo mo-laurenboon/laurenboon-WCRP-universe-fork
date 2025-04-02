@@ -4,7 +4,7 @@
     "cmip_acronym": "ua27",
     "long_name": "Eastward Wind",
     "standard_name": "eastward_wind",
-    "type": "real",
+    "type": "variable",
     "units": "m s-1",
     "drs_name": "ua27"
 }

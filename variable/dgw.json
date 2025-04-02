@@ -4,7 +4,7 @@
     "cmip_acronym": "dgw",
     "long_name": "Change in Groundwater",
     "standard_name": "change_over_time_in_groundwater_amount",
-    "type": "real",
+    "type": "variable",
     "units": "kg m-2",
     "drs_name": "dgw"
 }

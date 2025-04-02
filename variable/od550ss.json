@@ -4,7 +4,7 @@
     "cmip_acronym": "od550ss",
     "long_name": "Sea-Salt Aerosol Optical Depth at 550nm",
     "standard_name": "atmosphere_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
-    "type": "real",
+    "type": "variable",
     "units": "1",
     "drs_name": "od550ss"
 }

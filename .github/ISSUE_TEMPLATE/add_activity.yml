@@ -51,3 +51,25 @@ body:
         placeholder: 'e.g., https://example.com/activity-info'
     validations:
         required: true
+
+-   id: issue_category
+    type: dropdown
+    attributes:
+        label: "Issue Type"
+        #   description: "This is pre-set and cannot be changed."
+        options:
+            - "experiment"
+        default: 0
+    validations:
+        required: true
+
+-   id: issue_kind
+    type: dropdown
+    attributes:
+        label: "Issue Kind"
+        options:
+            - "new"
+            - "modify"
+        default: 0
+    validations:
+        required: true  

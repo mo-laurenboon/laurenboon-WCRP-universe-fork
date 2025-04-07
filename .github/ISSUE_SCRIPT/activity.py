@@ -55,7 +55,7 @@ def run(issue,packet):
             "label": acronym,    
             "long-label": issue['activity-title'],
             "description": issue['description'],
-            "url": issue['url']
+            "url": issue['activity-webpage-/-citation']
         }   
 
         

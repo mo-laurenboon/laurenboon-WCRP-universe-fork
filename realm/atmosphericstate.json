@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "atmosphericState",
+    "id": "atmosphericstate",
     "type": "realm",
     "drs_name": "atmosphericState",
     "name": "atmosphericState",

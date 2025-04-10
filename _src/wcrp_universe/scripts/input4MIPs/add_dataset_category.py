@@ -64,7 +64,7 @@ def convert() -> None:
             # Create term file
             term_data = {
                 "@context": "000_context.jsonld",
-                "id": term_id,
+                "id": term_id.lower(),
                 "type": "realm",  # here we have to tell the type from Universe DD to get the pydantic in esgvoc
                 "drs_name": term_id,  # mandatory to get esgvoc plain term working
                 "name": term_id,
@@ -72,7 +72,7 @@ def convert() -> None:
             }
 
             # Write term file
-            term_path = OUTPUT_DIR / f"{term_id}.json"
+            term_path = OUTPUT_DIR / f"{term_id.lower()}.json"
             with open(term_path, "w", encoding="utf-8") as f:
                 json.dump(term_data, f, indent=4)
 

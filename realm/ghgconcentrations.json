@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "GHGConcentrations",
+    "id": "ghgconcentrations",
     "type": "realm",
     "drs_name": "GHGConcentrations",
     "name": "GHGConcentrations",

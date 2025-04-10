@@ -7,7 +7,7 @@ on:
     branches-ignore:
       - production
       - esgvoc
-      - esgvoc-dev
+      - esgvoc_dev
 
 jobs:
   update-jsonld:

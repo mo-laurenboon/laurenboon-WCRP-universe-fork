@@ -2,7 +2,7 @@
     "@context": "000_context.jsonld",
     "id": "uofmd-landstate-3-0",
     "type": "source",
-    "drs_name": "uofmd-landstate-3-0",
+    "drs_name": "UofMD-landState-3-0",
     "activity_participation": [
         "input4MIPs"
     ],

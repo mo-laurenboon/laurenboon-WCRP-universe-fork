@@ -2,7 +2,7 @@
     "@context": "000_context.jsonld",
     "id": "uoexeter-cmip-1-3-0",
     "type": "source",
-    "drs_name": "uoexeter-cmip-1-3-0",
+    "drs_name": "UOEXETER-CMIP-1-3-0",
     "activity_participation": [
         "input4MIPs"
     ],

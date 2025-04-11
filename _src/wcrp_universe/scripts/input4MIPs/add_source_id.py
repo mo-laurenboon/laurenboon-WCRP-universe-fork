@@ -67,7 +67,7 @@ def convert() -> None:
                 "@context": "000_context.jsonld",
                 "id": term_id,
                 "type": "source",  # here we have to tell the type from Universe DD to get the pydantic in esgvoc
-                "drs_name": term_id,  # mandatory to get esgvoc plain term working
+                "drs_name": source_id,  # mandatory to get esgvoc plain term working
                 "activity_participation": [details.get("activity_id", "")],
                 "organisation_id": [details.get("institution_id", "")],
                 "label": term_id,

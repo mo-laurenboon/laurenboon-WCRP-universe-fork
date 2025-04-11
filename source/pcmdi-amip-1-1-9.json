@@ -2,7 +2,7 @@
     "@context": "000_context.jsonld",
     "id": "pcmdi-amip-1-1-9",
     "type": "source",
-    "drs_name": "pcmdi-amip-1-1-9",
+    "drs_name": "PCMDI-AMIP-1-1-9",
     "activity_participation": [
         "input4MIPs"
     ],

@@ -3,5 +3,5 @@
     "id": "ogcm",
     "type": "source_type",
     "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
-    "drs_name": "ogcm"
+    "drs_name": "OGCM"
 }

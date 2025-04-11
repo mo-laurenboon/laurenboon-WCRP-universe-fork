@@ -3,5 +3,5 @@
     "id": "chem",
     "type": "source_type",
     "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
-    "drs_name": "chem"
+    "drs_name": "CHEM"
 }

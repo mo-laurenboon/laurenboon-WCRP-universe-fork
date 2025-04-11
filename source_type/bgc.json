@@ -3,5 +3,5 @@
     "id": "bgc",
     "type": "source_type",
     "description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
-    "drs_name": "bgc"
+    "drs_name": "BGC"
 }

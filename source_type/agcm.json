@@ -3,5 +3,5 @@
     "id": "agcm",
     "type": "source_type",
     "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-    "drs_name": "agcm"
+    "drs_name": "AGCM"
 }

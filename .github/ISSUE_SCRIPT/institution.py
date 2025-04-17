@@ -40,7 +40,7 @@ def run(issue,packet):
     
 
     # update the issue title and create an issue branch
-    title = f'{issue["issue_type"].capitalize()}_{acronym}'
+    title = f'{issue["issue-type"].capitalize()}_{acronym}'
     git.update_issue_title(title)
     git.newbranch(title)
     
@@ -56,7 +56,7 @@ def run(issue,packet):
 
         data = update_ror.get_institution(ror, acronym)
 
-        ranking = similarity(issue['full_name_of_the_organisation'], data['long_label'])
+        ranking = similarity(issue['full-name-of-the-organisation'], data['long-label'])
         
         git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the long label ({data['long_label']}) is {ranking}%")
         
@@ -70,11 +70,17 @@ def run(issue,packet):
         
         data = {
                     "id": f"{id}",
-                    "type": ['wcrp:organisation',f'wcrp:{issue['issue_type']}','universal'],
+                    "type": ['wcrp:organisation',f'wcrp:{issue['issue-type']}','universal'],
                     "label": acronym,    
                 }        
 
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")
+    
+    
+    
+    
+    
+    
     
     # write the data to a file
 
@@ -105,7 +111,7 @@ def run(issue,packet):
     author = os.environ.get('OVERRIDE_AUTHOR')
     
     # git.commit_override_author(acronym,issue["issue_type"])
-    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue_type"]} files.' ,branch=title)
+    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue-type"]} files.' ,branch=title)
 
     
     git.newpull(title,author,json.dumps(issue,indent=4),title,os.environ['ISSUE_NUMBER'])

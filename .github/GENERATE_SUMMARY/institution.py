@@ -1,5 +1,6 @@
 import cmipld
 from cmipld.utils.ldparse import *
+from cmipld.utils.checksum import version
 
 me = __file__.split('/')[-1].replace('.py','')
 
@@ -17,4 +18,6 @@ def run(localhost,whoami,repopath,reponame):
     
     summary = name_extract(data,['acronyms', 'long_label','url','ror'])
     
-    cmipld.utils.io.wjsn(summary, f'{repopath}/{reponame}_{me}.json')
+    location = f'{repopath}/{reponame}_{me}.json'
+    summary = version(summary, me, location.split("/")[-1])
+    cmipld.utils.io.wjsn(summary,location)

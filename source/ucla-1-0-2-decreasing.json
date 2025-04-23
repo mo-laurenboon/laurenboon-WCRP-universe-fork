@@ -2,7 +2,7 @@
     "@context": "000_context.jsonld",
     "id": "ucla-1-0-2-decreasing",
     "type": "source",
-    "drs_name": "UCLA-1-0-2-decreasing",
+    "drs_name": "UCLA-1-0-2-DECREASING",
     "activity_participation": [
         "input4MIPs"
     ],

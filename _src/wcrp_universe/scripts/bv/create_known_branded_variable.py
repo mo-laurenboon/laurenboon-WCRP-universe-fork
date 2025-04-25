@@ -42,7 +42,10 @@ def download_and_modify_json(file_url):
         "id": original_json.get(
             "branded_variable", ""
         ).lower(),  # Use branded_variable as id
-        "description": original_json.get("description", ""),
+        "description": ""
+        if original_json.get("description") is None
+        or (isinstance(original_json.get("description"), float))
+        else original_json.get("description", ""),
         "dimensions": original_json.get("dimensions", []),
         "type": "known_branded_variable",
         "cell_methods": original_json.get("cell_methods", ""),

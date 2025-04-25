@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfgeoubed_ti-z0-hxy-gis",
-  "description": NaN,
+  "description": "",
   "dimensions": [
     "longitude",
     "latitude"

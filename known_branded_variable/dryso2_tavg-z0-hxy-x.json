@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dryso2_tavg-z0-hxy-x",
-  "description": NaN,
+  "description": "",
   "dimensions": [
     "longitude",
     "latitude",

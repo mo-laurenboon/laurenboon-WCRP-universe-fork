@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfibthermds_tavg-l-hxy-sea",
-  "description": NaN,
+  "description": "",
   "dimensions": [
     "longitude",
     "latitude",

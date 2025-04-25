@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "co2_tcla-z0-hm-x",
+  "description": "Total atmospheric mass of Carbon Dioxide",
+  "dimensions": [
+    "time2"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
+  "variable": "co2",
+  "label": "co2_tcla-z0-hm-x",
+  "drs_name": "co2_tcla-z0-hm-x"
+}

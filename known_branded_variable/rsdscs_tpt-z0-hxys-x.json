@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsdscs_tpt-z0-hxys-x",
+  "description": "Surface solar irradiance clear sky for UV calculations",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "rsdscs",
+  "label": "rsdscs_tpt-z0-hxys-x",
+  "drs_name": "rsdscs_tpt-z0-hxys-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "msftyzmpa_tavg-rhon-ht-sea",
+  "description": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations.",
+  "dimensions": [
+    "gridlatitude",
+    "rho",
+    "basin",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "grid_longitude: sum where sea time: mean",
+  "variable": "msftyzmpa",
+  "label": "msftyzmpa_tavg-rhon-ht-sea",
+  "drs_name": "msftyzmpa_tavg-rhon-ht-sea"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ffirenat_tavg-z0-hxy-lnd",
+  "description": "CO2 emissions from natural fires",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "fFireNat",
+  "label": "fFireNat_tavg-z0-hxy-lnd",
+  "drs_name": "fFireNat_tavg-z0-hxy-lnd"
+}

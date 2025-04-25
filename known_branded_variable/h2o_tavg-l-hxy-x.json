@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "h2o_tavg-l-hxy-x",
+  "description": "includes all phases of water",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "h2o",
+  "label": "h2o_tavg-l-hxy-x",
+  "drs_name": "h2o_tavg-l-hxy-x"
+}

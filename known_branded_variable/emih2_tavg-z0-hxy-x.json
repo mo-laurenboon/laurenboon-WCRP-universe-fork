@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emih2_tavg-z0-hxy-x",
+  "description": "This is the total emission rate of molecular hydrogen (H2) into the atmosphere (i.e., integrate 3D emission field vertically to 2d field)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emih2",
+  "label": "emih2_tavg-z0-hxy-x",
+  "drs_name": "emih2_tavg-z0-hxy-x"
+}

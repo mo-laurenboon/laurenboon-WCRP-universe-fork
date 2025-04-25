@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrnh4_tavg-z0-hxy-x",
+  "description": "Daily mean NH4 mass mixing ratio in lowest model layer",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrnh4",
+  "label": "mmrnh4_tavg-z0-hxy-x",
+  "drs_name": "mmrnh4_tavg-z0-hxy-x"
+}

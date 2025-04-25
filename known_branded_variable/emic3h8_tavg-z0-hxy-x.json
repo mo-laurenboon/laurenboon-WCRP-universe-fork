@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emic3h8_tavg-z0-hxy-x",
+  "description": "This is the total emission rate of propane (C3H8) into the atmosphere",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emic3h8",
+  "label": "emic3h8_tavg-z0-hxy-x",
+  "drs_name": "emic3h8_tavg-z0-hxy-x"
+}

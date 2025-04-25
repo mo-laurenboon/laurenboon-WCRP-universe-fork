@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fsitherm_tavg-z0-hxy-sea",
+  "description": "computed as the sea ice thermodynamic water flux into the ocean divided by the area of the ocean portion of the grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "fsitherm",
+  "label": "fsitherm_tavg-z0-hxy-sea",
+  "drs_name": "fsitherm_tavg-z0-hxy-sea"
+}

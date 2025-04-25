@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sftgif_ti-z0-hxy-x",
+  "description": "fraction of grid cell occupied by \"permanent\" ice (i.e., glaciers).",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean",
+  "variable": "sftgif",
+  "label": "sftgif_ti-z0-hxy-x",
+  "drs_name": "sftgif_ti-z0-hxy-x"
+}

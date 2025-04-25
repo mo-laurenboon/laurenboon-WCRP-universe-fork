@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrbc_tavg-l-hxy-x",
+  "description": "Dry mass fraction of black carbon aerosol particles in air.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrbc",
+  "label": "mmrbc_tavg-l-hxy-x",
+  "drs_name": "mmrbc_tavg-l-hxy-x"
+}

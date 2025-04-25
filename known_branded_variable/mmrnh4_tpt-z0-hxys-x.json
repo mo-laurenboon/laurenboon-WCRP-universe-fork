@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrnh4_tpt-z0-hxys-x",
+  "description": "This variable represents the instantaneous surface NH4 Aerosol Mass Mixing Ratio at CF sites, sampled every 3 hours",
+  "dimensions": [
+    "site",
+    "time1",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "mmrnh4",
+  "label": "mmrnh4_tpt-z0-hxys-x",
+  "drs_name": "mmrnh4_tpt-z0-hxys-x"
+}

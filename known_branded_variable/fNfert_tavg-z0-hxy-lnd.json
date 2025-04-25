@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fnfert_tavg-z0-hxy-lnd",
+  "description": "Total Nitrogen added for cropland fertilisation (artificial and manure). Relative to total land area of a grid cell, not relative to agricultural area",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "fNfert",
+  "label": "fNfert_tavg-z0-hxy-lnd",
+  "drs_name": "fNfert_tavg-z0-hxy-lnd"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ocontemprmadvect_tavg-l-hxy-sea",
+  "description": "Tendency of heat content for a grid cell from residual mean  (sum of Eulerian mean + parameterized eddy-induced) advection. Reported only for models that use conservative temperature as prognostic field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "ocontemprmadvect",
+  "label": "ocontemprmadvect_tavg-l-hxy-sea",
+  "drs_name": "ocontemprmadvect_tavg-l-hxy-sea"
+}

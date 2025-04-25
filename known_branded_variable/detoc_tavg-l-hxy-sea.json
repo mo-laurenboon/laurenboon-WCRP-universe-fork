@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "detoc_tavg-l-hxy-sea",
+  "description": "sum of detrital organic carbon component concentrations",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "detoc",
+  "label": "detoc_tavg-l-hxy-sea",
+  "drs_name": "detoc_tavg-l-hxy-sea"
+}

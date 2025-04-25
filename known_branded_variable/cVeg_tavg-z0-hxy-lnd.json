@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cveg_tavg-z0-hxy-lnd",
+  "description": "Carbon mass per unit area in vegetation.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "cVeg",
+  "label": "cVeg_tavg-z0-hxy-lnd",
+  "drs_name": "cVeg_tavg-z0-hxy-lnd"
+}

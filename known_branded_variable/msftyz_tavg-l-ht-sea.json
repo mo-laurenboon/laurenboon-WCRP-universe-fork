@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "msftyz_tavg-l-ht-sea",
+  "description": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",
+  "dimensions": [
+    "gridlatitude",
+    "olevel",
+    "basin",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "grid_longitude: sum where sea time: mean",
+  "variable": "msftyz",
+  "label": "msftyz_tavg-l-ht-sea",
+  "drs_name": "msftyz_tavg-l-ht-sea"
+}

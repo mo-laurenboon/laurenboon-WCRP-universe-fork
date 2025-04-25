@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "intppnano_tavg-z0-hxy-sea",
+  "description": "Vertically integrated total primary (organic carbon) production by nanophytoplankton.\n",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "depth: sum where sea (over entire ocean column) area: time: mean",
+  "variable": "intppnano",
+  "label": "intppnano_tavg-z0-hxy-sea",
+  "drs_name": "intppnano_tavg-z0-hxy-sea"
+}

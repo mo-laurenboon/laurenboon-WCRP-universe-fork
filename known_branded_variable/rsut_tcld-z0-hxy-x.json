@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsut_tcld-z0-hxy-x",
+  "description": "at the top of the atmosphere",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time3"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: mean within days time: mean over days",
+  "variable": "rsut",
+  "label": "rsut_tcld-z0-hxy-x",
+  "drs_name": "rsut_tcld-z0-hxy-x"
+}

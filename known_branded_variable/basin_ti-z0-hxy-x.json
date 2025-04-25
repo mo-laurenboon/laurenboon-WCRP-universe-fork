@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "basin_ti-z0-hxy-x",
+  "description": "A variable with the standard name of region contains strings which indicate geographical regions. These strings must be chosen from the standard region list.",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean",
+  "variable": "basin",
+  "label": "basin_ti-z0-hxy-x",
+  "drs_name": "basin_ti-z0-hxy-x"
+}

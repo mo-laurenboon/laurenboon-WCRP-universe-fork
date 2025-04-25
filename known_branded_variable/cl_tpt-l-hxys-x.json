@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cl_tpt-l-hxys-x",
+  "description": "Includes both large-scale and convective cloud.",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "cl",
+  "label": "cl_tpt-l-hxys-x",
+  "drs_name": "cl_tpt-l-hxys-x"
+}

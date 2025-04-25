@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "reffclwc_tpt-l-hxy-ccl",
+  "description": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where convective_cloud time: point",
+  "variable": "reffclwc",
+  "label": "reffclwc_tpt-l-hxy-ccl",
+  "drs_name": "reffclwc_tpt-l-hxy-ccl"
+}

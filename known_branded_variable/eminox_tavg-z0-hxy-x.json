@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "eminox_tavg-z0-hxy-x",
+  "description": "Store flux as Nitrogen. NOx=NO+NO2. Integrate 3D emission field vertically to 2d field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "eminox",
+  "label": "eminox_tavg-z0-hxy-x",
+  "drs_name": "eminox_tavg-z0-hxy-x"
+}

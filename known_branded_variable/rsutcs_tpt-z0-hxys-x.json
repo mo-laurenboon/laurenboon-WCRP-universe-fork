@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsutcs_tpt-z0-hxys-x",
+  "description": "Calculated in the absence of clouds.",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "rsutcs",
+  "label": "rsutcs_tpt-z0-hxys-x",
+  "drs_name": "rsutcs_tpt-z0-hxys-x"
+}

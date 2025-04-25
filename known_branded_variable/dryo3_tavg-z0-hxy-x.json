@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dryo3_tavg-z0-hxy-x",
+  "description": NaN,
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "dryo3",
+  "label": "dryo3_tavg-z0-hxy-x",
+  "drs_name": "dryo3_tavg-z0-hxy-x"
+}

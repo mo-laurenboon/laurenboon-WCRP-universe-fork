@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "libmassbfgr_tavg-z0-hxy-gis",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where grounded_ice_sheet",
+  "variable": "libmassbfgr",
+  "label": "libmassbfgr_tavg-z0-hxy-gis",
+  "drs_name": "libmassbfgr_tavg-z0-hxy-gis"
+}

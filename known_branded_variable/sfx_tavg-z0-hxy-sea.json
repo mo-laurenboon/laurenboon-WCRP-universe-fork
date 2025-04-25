@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfx_tavg-z0-hxy-sea",
+  "description": "Ocean salt mass x transport vertically integrated over the whole ocean depth. Contains all contributions to 'x-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+  "variable": "sfx",
+  "label": "sfx_tavg-z0-hxy-sea",
+  "drs_name": "sfx_tavg-z0-hxy-sea"
+}

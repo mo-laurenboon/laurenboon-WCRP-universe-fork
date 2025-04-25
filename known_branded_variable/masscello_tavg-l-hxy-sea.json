@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "masscello_tavg-l-hxy-sea",
+  "description": "For Boussinesq models, report this diagnostic as Boussinesq reference density times grid celll volume.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "masscello",
+  "label": "masscello_tavg-l-hxy-sea",
+  "drs_name": "masscello_tavg-l-hxy-sea"
+}

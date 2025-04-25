@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "osaltrmadvect_tavg-l-hxy-sea",
+  "description": "Tendency of salt content for a grid cell from residual mean  (sum of Eulerian mean + parameterized eddy-induced)  advection.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "osaltrmadvect",
+  "label": "osaltrmadvect_tavg-l-hxy-sea",
+  "drs_name": "osaltrmadvect_tavg-l-hxy-sea"
+}

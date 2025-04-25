@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "intdoc_tavg-z0-hxy-sea",
+  "description": "Vertically integrated DOC (explicit pools only)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "depth: sum where sea (over entire ocean column) area: time: mean",
+  "variable": "intdoc",
+  "label": "intdoc_tavg-z0-hxy-sea",
+  "drs_name": "intdoc_tavg-z0-hxy-sea"
+}

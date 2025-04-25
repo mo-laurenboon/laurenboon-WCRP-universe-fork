@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "abs550aer_tavg-z0-hxy-x",
+  "description": "Optical thickness of atmospheric aerosols at wavelength 550 nanometers.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "abs550aer",
+  "label": "abs550aer_tavg-z0-hxy-x",
+  "drs_name": "abs550aer_tavg-z0-hxy-x"
+}

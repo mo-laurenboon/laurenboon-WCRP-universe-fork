@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmraerh2o_tavg-z0-hxy-x",
+  "description": "Daily mean Aerosol water mass mixing ratio in lowest model layer",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmraerh2o",
+  "label": "mmraerh2o_tavg-z0-hxy-x",
+  "drs_name": "mmraerh2o_tavg-z0-hxy-x"
+}

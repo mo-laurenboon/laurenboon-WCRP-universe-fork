@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clcalipsoice_tavg-h40-hxy-air",
+  "description": "CALIPSO Ice Cloud Fraction",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "clcalipsoice",
+  "label": "clcalipsoice_tavg-h40-hxy-air",
+  "drs_name": "clcalipsoice_tavg-h40-hxy-air"
+}

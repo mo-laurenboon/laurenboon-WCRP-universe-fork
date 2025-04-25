@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rivo_tavg-z0-hxy-lnd",
+  "description": "water_flux_from_upstream",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "rivo",
+  "label": "rivo_tavg-z0-hxy-lnd",
+  "drs_name": "rivo_tavg-z0-hxy-lnd"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "n2o_tavg-z0-hm-x",
+  "description": "Global mean Nitrous Oxide (N2O)",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "height: sum (through atmospheric column) area: sum time: mean",
+  "variable": "n2o",
+  "label": "n2o_tavg-z0-hm-x",
+  "drs_name": "n2o_tavg-z0-hm-x"
+}

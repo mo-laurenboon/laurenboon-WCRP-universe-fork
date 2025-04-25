@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "intvadse_tavg-z0-hxy-x",
+  "description": "Vertically integrated northward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of northward wind by dry static_energy per mass unit)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "intvadse",
+  "label": "intvadse_tavg-z0-hxy-x",
+  "drs_name": "intvadse_tavg-z0-hxy-x"
+}

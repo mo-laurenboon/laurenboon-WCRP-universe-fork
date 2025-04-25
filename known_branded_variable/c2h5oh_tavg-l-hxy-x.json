@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c2h5oh_tavg-l-hxy-x",
+  "description": "Mole fraction of ethanol (C2H5OH) in air",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "c2h5oh",
+  "label": "c2h5oh_tavg-l-hxy-x",
+  "drs_name": "c2h5oh_tavg-l-hxy-x"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emibboa_tavg-z0-hxy-x",
+  "description": "Total emission rate of particulate organic matter (organic aerosol) into the atmosphere from all biomass burning (natural and anthropogenic)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emibboa",
+  "label": "emibboa_tavg-z0-hxy-x",
+  "drs_name": "emibboa_tavg-z0-hxy-x"
+}

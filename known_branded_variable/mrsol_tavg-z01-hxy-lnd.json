@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mrsol_tavg-z01-hxy-lnd",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "sdepth10"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "mrsol",
+  "label": "mrsol_tavg-z01-hxy-lnd",
+  "drs_name": "mrsol_tavg-z01-hxy-lnd"
+}

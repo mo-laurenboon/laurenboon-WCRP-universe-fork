@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "parasolrefl_tavg-z0-hxy-sea",
+  "description": "PARASOL Reflectance",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sza5",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "parasolRefl",
+  "label": "parasolRefl_tavg-z0-hxy-sea",
+  "drs_name": "parasolRefl_tavg-z0-hxy-sea"
+}

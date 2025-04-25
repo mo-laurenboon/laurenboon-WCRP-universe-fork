@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "co23d_tavg-l-hxy-x",
+  "description": "requested for all Emissions-driven runs",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "co23D",
+  "label": "co23D_tavg-l-hxy-x",
+  "drs_name": "co23D_tavg-l-hxy-x"
+}

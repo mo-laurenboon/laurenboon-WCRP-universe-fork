@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsdcs_tpt-l-hxys-x",
+  "description": "Downwelling clear-sky shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
+  "dimensions": [
+    "alevhalf",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "rsdcs",
+  "label": "rsdcs_tpt-l-hxys-x",
+  "drs_name": "rsdcs_tpt-l-hxys-x"
+}

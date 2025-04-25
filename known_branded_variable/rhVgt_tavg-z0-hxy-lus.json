@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rhvgt_tavg-z0-hxy-lus",
+  "description": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers), calculated on vegetation type.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "vegtype",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sector",
+  "variable": "rhVgt",
+  "label": "rhVgt_tavg-z0-hxy-lus",
+  "drs_name": "rhVgt_tavg-z0-hxy-lus"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "difmxylo_tavg-l-hxy-sea",
+  "description": "Lateral Laplacian viscosity applied to the momentum equations.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "difmxylo",
+  "label": "difmxylo_tavg-l-hxy-sea",
+  "drs_name": "difmxylo_tavg-l-hxy-sea"
+}

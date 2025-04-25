@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsdscsdiff_tavg-z0-hxy-x",
+  "description": "Surface downwelling solar irradiance from diffuse radiation for UV calculations in clear sky conditions",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rsdscsdiff",
+  "label": "rsdscsdiff_tavg-z0-hxy-x",
+  "drs_name": "rsdscsdiff_tavg-z0-hxy-x"
+}

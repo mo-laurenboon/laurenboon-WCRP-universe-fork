@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrpm1_tavg-l-hxy-x",
+  "description": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 1 micrometers",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrpm1",
+  "label": "mmrpm1_tavg-l-hxy-x",
+  "drs_name": "mmrpm1_tavg-l-hxy-x"
+}

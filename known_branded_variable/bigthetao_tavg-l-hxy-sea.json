@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "bigthetao_tavg-l-hxy-sea",
+  "description": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "bigthetao",
+  "label": "bigthetao_tavg-l-hxy-sea",
+  "drs_name": "bigthetao_tavg-l-hxy-sea"
+}

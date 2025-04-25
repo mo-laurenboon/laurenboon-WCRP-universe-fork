@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfss_tavg-z0-hxy-is",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "hfss",
+  "label": "hfss_tavg-z0-hxy-is",
+  "drs_name": "hfss_tavg-z0-hxy-is"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "prcrop_tavg-z0-hxy-crp",
+  "description": "includes both liquid and solid phases",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where crops",
+  "variable": "prCrop",
+  "label": "prCrop_tavg-z0-hxy-crp",
+  "drs_name": "prCrop_tavg-z0-hxy-crp"
+}

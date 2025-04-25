@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "bldepmin_tstat-z0-hxy-x",
+  "description": "minimum boundary layer height during the day (add cell_methods attribute: \"time: minimum\")",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: minimum",
+  "variable": "bldepmin",
+  "label": "bldepmin_tstat-z0-hxy-x",
+  "drs_name": "bldepmin_tstat-z0-hxy-x"
+}

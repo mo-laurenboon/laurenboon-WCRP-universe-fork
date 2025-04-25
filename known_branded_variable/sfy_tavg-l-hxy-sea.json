@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfy_tavg-l-hxy-sea",
+  "description": "Contains all contributions to 'y-ward' salt mass transport from resolved and parameterized processes. Report on native horizontal grid.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "sfy",
+  "label": "sfy_tavg-l-hxy-sea",
+  "drs_name": "sfy_tavg-l-hxy-sea"
+}

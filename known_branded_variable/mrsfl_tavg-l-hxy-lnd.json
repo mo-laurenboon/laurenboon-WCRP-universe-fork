@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mrsfl_tavg-l-hxy-lnd",
+  "description": "in each soil layer, the mass of water in ice phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\"",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "mrsfl",
+  "label": "mrsfl_tavg-l-hxy-lnd",
+  "drs_name": "mrsfl_tavg-l-hxy-lnd"
+}

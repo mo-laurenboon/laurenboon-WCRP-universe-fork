@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ocfriver_tavg-z0-hxy-sea",
+  "description": "Organic Carbon supply to ocean through runoff (separate from gas exchange)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "ocfriver",
+  "label": "ocfriver_tavg-z0-hxy-sea",
+  "drs_name": "ocfriver_tavg-z0-hxy-sea"
+}

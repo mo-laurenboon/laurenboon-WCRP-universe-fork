@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rhtree_tavg-z0-hxy-tree",
+  "description": "Total RH of trees in the grid cell",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where trees",
+  "variable": "rhTree",
+  "label": "rhTree_tavg-z0-hxy-tree",
+  "drs_name": "rhTree_tavg-z0-hxy-tree"
+}

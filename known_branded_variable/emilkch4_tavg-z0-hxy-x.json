@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emilkch4_tavg-z0-hxy-x",
+  "description": "This is the emission rate of methane (CH4) into the atmosphere from freshwater lakes",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emilkch4",
+  "label": "emilkch4_tavg-z0-hxy-x",
+  "drs_name": "emilkch4_tavg-z0-hxy-x"
+}

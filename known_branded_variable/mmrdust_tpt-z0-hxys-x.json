@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrdust_tpt-z0-hxys-x",
+  "description": "This variable represents the instantaneous surface Dust Aerosol Mass Mixing Ratio at CF sites, sampled every 3 hours",
+  "dimensions": [
+    "site",
+    "time1",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "mmrdust",
+  "label": "mmrdust_tpt-z0-hxys-x",
+  "drs_name": "mmrdust_tpt-z0-hxys-x"
+}

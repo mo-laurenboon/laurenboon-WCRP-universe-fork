@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "iareafl_tavg-z0-hm-fis",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum where floating_ice_shelf time: mean",
+  "variable": "iareafl",
+  "label": "iareafl_tavg-z0-hm-fis",
+  "drs_name": "iareafl_tavg-z0-hm-fis"
+}

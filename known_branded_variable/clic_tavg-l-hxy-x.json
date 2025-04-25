@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clic_tavg-l-hxy-x",
+  "description": "Calculated as the mass of convective cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "clic",
+  "label": "clic_tavg-l-hxy-x",
+  "drs_name": "clic_tavg-l-hxy-x"
+}

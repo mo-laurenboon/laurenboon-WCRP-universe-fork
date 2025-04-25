@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "loadpoa_tavg-z0-hxy-x",
+  "description": "The total dry mass of primary particulate organic aerosol particles per unit area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "loadpoa",
+  "label": "loadpoa_tavg-z0-hxy-x",
+  "drs_name": "loadpoa_tavg-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chldiaz_tavg-l-hxy-sea",
+  "description": "chlorophyll concentration from the diazotrophic phytoplankton component alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "chldiaz",
+  "label": "chldiaz_tavg-l-hxy-sea",
+  "drs_name": "chldiaz_tavg-l-hxy-sea"
+}

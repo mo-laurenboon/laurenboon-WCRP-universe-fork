@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfc134a_tavg-l-hxy-x",
+  "description": "This is the mole fraction of HFC134a in air",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "hfc134a",
+  "label": "hfc134a_tavg-l-hxy-x",
+  "drs_name": "hfc134a_tavg-l-hxy-x"
+}

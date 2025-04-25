@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "co_tavg-z0-hxy-x",
+  "description": "This is the daily mean for CO volume mixing ratio in lowest model layer",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "co",
+  "label": "co_tavg-z0-hxy-x",
+  "drs_name": "co_tavg-z0-hxy-x"
+}

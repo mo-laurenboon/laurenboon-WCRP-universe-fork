@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "pfull_tpt-l-hxy-x",
+  "description": "Air pressure on model levels",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "pfull",
+  "label": "pfull_tpt-l-hxy-x",
+  "drs_name": "pfull_tpt-l-hxy-x"
+}

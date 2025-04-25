@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "expc_tavg-l-hxy-sea",
+  "description": "Downward flux of particulate organic carbon",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "expc",
+  "label": "expc_tavg-l-hxy-sea",
+  "drs_name": "expc_tavg-l-hxy-sea"
+}

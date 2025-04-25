@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "depthl_ti-z0-hxy-x",
+  "description": "Depth of lakes, if this quantity is present in the model. If computed via volume and area, then this is lake volume divided by lake area.",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean",
+  "variable": "depthl",
+  "label": "depthl_ti-z0-hxy-x",
+  "drs_name": "depthl_ti-z0-hxy-x"
+}

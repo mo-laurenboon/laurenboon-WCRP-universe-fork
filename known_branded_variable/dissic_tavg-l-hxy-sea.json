@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dissic_tavg-l-hxy-sea",
+  "description": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "dissic",
+  "label": "dissic_tavg-l-hxy-sea",
+  "drs_name": "dissic_tavg-l-hxy-sea"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "osaltdiff_tavg-l-hxy-sea",
+  "description": "Tendency of salt content for a grid cell from parameterized dianeutral mixing.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "osaltdiff",
+  "label": "osaltdiff_tavg-l-hxy-sea",
+  "drs_name": "osaltdiff_tavg-l-hxy-sea"
+}

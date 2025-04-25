@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "pr_tpt-z0-hxys-x",
+  "description": "at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "pr",
+  "label": "pr_tpt-z0-hxys-x",
+  "drs_name": "pr_tpt-z0-hxys-x"
+}

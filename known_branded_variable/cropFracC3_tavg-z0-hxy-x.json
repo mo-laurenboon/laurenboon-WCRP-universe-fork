@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cropfracc3_tavg-z0-hxy-x",
+  "description": "Percentage of entire grid cell covered by C3 crops",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typec3crop"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "cropFracC3",
+  "label": "cropFracC3_tavg-z0-hxy-x",
+  "drs_name": "cropFracC3_tavg-z0-hxy-x"
+}

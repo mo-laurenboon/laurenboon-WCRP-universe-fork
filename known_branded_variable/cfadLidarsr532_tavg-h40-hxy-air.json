@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cfadlidarsr532_tavg-h40-hxy-air",
+  "description": "CALIPSO Scattering Ratio",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "scatratio",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "cfadLidarsr532",
+  "label": "cfadLidarsr532_tavg-h40-hxy-air",
+  "drs_name": "cfadLidarsr532_tavg-h40-hxy-air"
+}

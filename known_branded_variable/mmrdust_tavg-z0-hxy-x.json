@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrdust_tavg-z0-hxy-x",
+  "description": "Daily mean dust aerosol mass mixing ratio in lowest model layer",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrdust",
+  "label": "mmrdust_tavg-z0-hxy-x",
+  "drs_name": "mmrdust_tavg-z0-hxy-x"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fsfe_tavg-z0-hxy-sea",
+  "description": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "fsfe",
+  "label": "fsfe_tavg-z0-hxy-sea",
+  "drs_name": "fsfe_tavg-z0-hxy-sea"
+}

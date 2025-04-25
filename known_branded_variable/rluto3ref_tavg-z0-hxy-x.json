@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rluto3ref_tavg-z0-hxy-x",
+  "description": "This is outgoing longwave flux at the top-of-atmosphere for all-sky conditions from a diagnostic call to the radiation scheme using a reference ozone field",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rluto3ref",
+  "label": "rluto3ref_tavg-z0-hxy-x",
+  "drs_name": "rluto3ref_tavg-z0-hxy-x"
+}

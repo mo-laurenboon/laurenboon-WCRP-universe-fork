@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rlut4co2_tavg-z0-hxy-x",
+  "description": "Top-of-atmosphere outgoing longwave radiation calculated using carbon dioxide concentrations increased fourfold",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rlut4co2",
+  "label": "rlut4co2_tavg-z0-hxy-x",
+  "drs_name": "rlut4co2_tavg-z0-hxy-x"
+}

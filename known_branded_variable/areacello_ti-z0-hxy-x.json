@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "areacello_ti-z0-hxy-x",
+  "description": "Cell areas for any grid used to report ocean variables and variables which are requested as used on the model ocean grid (e.g. hfsso, which is a downward heat flux from the atmosphere interpolated onto the ocean grid). These cell areas should be defined to enable exact calculation of global integrals (e.g., of vertical fluxes of energy at the surface and top of the atmosphere).",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum",
+  "variable": "areacello",
+  "label": "areacello_ti-z0-hxy-x",
+  "drs_name": "areacello_ti-z0-hxy-x"
+}

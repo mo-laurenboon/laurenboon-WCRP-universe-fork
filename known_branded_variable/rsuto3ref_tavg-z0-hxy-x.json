@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsuto3ref_tavg-z0-hxy-x",
+  "description": "This is top-of-atmosphere outgoing shortwave flux for all-sky conditions from a diagnostic call to the radiation scheme, using a reference ozone field",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rsuto3ref",
+  "label": "rsuto3ref_tavg-z0-hxy-x",
+  "drs_name": "rsuto3ref_tavg-z0-hxy-x"
+}

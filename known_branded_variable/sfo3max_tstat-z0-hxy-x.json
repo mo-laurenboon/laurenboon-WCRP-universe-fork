@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfo3max_tstat-z0-hxy-x",
+  "description": "maximum near-surface ozone  (add cell_methods attribute \"time: maximum\")",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: maximum",
+  "variable": "sfo3max",
+  "label": "sfo3max_tstat-z0-hxy-x",
+  "drs_name": "sfo3max_tstat-z0-hxy-x"
+}

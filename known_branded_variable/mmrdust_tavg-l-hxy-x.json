@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrdust_tavg-l-hxy-x",
+  "description": "Dry mass fraction of dust aerosol particles in air.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrdust",
+  "label": "mmrdust_tavg-l-hxy-x",
+  "drs_name": "mmrdust_tavg-l-hxy-x"
+}

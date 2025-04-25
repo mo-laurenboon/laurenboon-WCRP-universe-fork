@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clisccp_tavg-p7c-hxy-air",
+  "description": "Percentage cloud cover in optical depth categories.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev7c",
+    "tau",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "clisccp",
+  "label": "clisccp_tavg-p7c-hxy-air",
+  "drs_name": "clisccp_tavg-p7c-hxy-air"
+}

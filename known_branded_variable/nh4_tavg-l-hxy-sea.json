@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "nh4_tavg-l-hxy-sea",
+  "description": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "nh4",
+  "label": "nh4_tavg-l-hxy-sea",
+  "drs_name": "nh4_tavg-l-hxy-sea"
+}

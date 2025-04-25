@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "evs_tavg-z0-hxy-ifs",
+  "description": "computed as the total mass of water vapor evaporating from the ice-free portion of the ocean  divided by the area of the ocean portion of the grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+  "variable": "evs",
+  "label": "evs_tavg-z0-hxy-ifs",
+  "drs_name": "evs_tavg-z0-hxy-ifs"
+}

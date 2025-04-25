@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "o3ref_tavg-l-hxy-x",
+  "description": "This is the ozone mole fraction that is used in a diagnostic call to the model's radiation scheme. It is only applicable when an ozone double call is active in the model.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean (monthly mean fixed annual cycle)",
+  "variable": "o3ref",
+  "label": "o3ref_tavg-l-hxy-x",
+  "drs_name": "o3ref_tavg-l-hxy-x"
+}

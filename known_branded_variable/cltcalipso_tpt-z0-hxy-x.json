@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cltcalipso_tpt-z0-hxy-x",
+  "description": "CALIPSO Total Cloud Fraction",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "cltcalipso",
+  "label": "cltcalipso_tpt-z0-hxy-x",
+  "drs_name": "cltcalipso_tpt-z0-hxy-x"
+}

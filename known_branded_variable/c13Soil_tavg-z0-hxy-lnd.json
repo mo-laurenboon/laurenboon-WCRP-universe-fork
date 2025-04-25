@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c13soil_tavg-z0-hxy-lnd",
+  "description": "Carbon-13 mass content per unit area in soil.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "c13Soil",
+  "label": "c13Soil_tavg-z0-hxy-lnd",
+  "drs_name": "c13Soil_tavg-z0-hxy-lnd"
+}

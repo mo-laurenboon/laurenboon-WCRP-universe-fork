@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clmodis_tavg-p7c-hxy-air",
+  "description": "Percentage of total cloud cover in optical depth categories, as seen by the MODIS instrument simulator. Dimensions of tau (optical depth) and cloud-top pressure are the same used by the ISCCP instrument simulator. This is the equivalent MODIS version of the ISCCP clisccp variable.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev7c",
+    "tau",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "clmodis",
+  "label": "clmodis_tavg-p7c-hxy-air",
+  "drs_name": "clmodis_tavg-p7c-hxy-air"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chlpico_tavg-l-hxy-sea",
+  "description": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "chlpico",
+  "label": "chlpico_tavg-l-hxy-sea",
+  "drs_name": "chlpico_tavg-l-hxy-sea"
+}

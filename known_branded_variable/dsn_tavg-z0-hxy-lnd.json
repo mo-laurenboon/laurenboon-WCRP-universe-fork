@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dsn_tavg-z0-hxy-lnd",
+  "description": NaN,
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "dsn",
+  "label": "dsn_tavg-z0-hxy-lnd",
+  "drs_name": "dsn_tavg-z0-hxy-lnd"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chepnh4_tavg-l-hxy-x",
+  "description": "Net chemical production rate of ammonium aerosol in the atmosphere.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "chepnh4",
+  "label": "chepnh4_tavg-l-hxy-x",
+  "drs_name": "chepnh4_tavg-l-hxy-x"
+}

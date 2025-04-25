@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfls_tpt-z0-hxys-x",
+  "description": "includes both evaporation and sublimation",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "hfls",
+  "label": "hfls_tpt-z0-hxys-x",
+  "drs_name": "hfls_tpt-z0-hxys-x"
+}

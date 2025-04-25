@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fharvesttoatmos_tavg-z0-hxy-lnd",
+  "description": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "fHarvestToAtmos",
+  "label": "fHarvestToAtmos_tavg-z0-hxy-lnd",
+  "drs_name": "fHarvestToAtmos_tavg-z0-hxy-lnd"
+}

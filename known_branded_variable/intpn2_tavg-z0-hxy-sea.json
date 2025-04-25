@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "intpn2_tavg-z0-hxy-sea",
+  "description": "Vertically integrated nitrogen fixation",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "intpn2",
+  "label": "intpn2_tavg-z0-hxy-sea",
+  "drs_name": "intpn2_tavg-z0-hxy-sea"
+}

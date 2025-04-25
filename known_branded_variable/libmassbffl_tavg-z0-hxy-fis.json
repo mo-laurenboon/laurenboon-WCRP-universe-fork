@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "libmassbffl_tavg-z0-hxy-fis",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where floating_ice_shelf",
+  "variable": "libmassbffl",
+  "label": "libmassbffl_tavg-z0-hxy-fis",
+  "drs_name": "libmassbffl_tavg-z0-hxy-fis"
+}

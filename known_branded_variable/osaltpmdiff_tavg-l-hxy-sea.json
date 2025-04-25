@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "osaltpmdiff_tavg-l-hxy-sea",
+  "description": "Tendency of salt content for a grid cell from parameterized mesoscale eddy diffusion.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "osaltpmdiff",
+  "label": "osaltpmdiff_tavg-l-hxy-sea",
+  "drs_name": "osaltpmdiff_tavg-l-hxy-sea"
+}

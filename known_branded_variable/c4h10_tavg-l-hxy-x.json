@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c4h10_tavg-l-hxy-x",
+  "description": "Mole fraction of butane (C4H10) in air",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "c4h10",
+  "label": "c4h10_tavg-l-hxy-x",
+  "drs_name": "c4h10_tavg-l-hxy-x"
+}

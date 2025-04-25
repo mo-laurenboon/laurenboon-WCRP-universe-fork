@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c13land_tavg-z0-hxy-lnd",
+  "description": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil, and forestry and agricultural products (e.g. paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "c13Land",
+  "label": "c13Land_tavg-z0-hxy-lnd",
+  "drs_name": "c13Land_tavg-z0-hxy-lnd"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dryno3_tavg-z0-hxy-x",
+  "description": "Loss rate of nitrate (NO3) aerosol from the atmosphere due to dry deposition",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "dryno3",
+  "label": "dryno3_tavg-z0-hxy-x",
+  "drs_name": "dryno3_tavg-z0-hxy-x"
+}

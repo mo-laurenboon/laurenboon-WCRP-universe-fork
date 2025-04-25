@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrno3_tavg-z0-hxy-x",
+  "description": "Daily mean NO3 aerosol mass mixing ratio in lowest model layer",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrno3",
+  "label": "mmrno3_tavg-z0-hxy-x",
+  "drs_name": "mmrno3_tavg-z0-hxy-x"
+}

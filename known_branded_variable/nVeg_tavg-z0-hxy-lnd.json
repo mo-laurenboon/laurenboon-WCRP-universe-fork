@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "nveg_tavg-z0-hxy-lnd",
+  "description": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "nVeg",
+  "label": "nVeg_tavg-z0-hxy-lnd",
+  "drs_name": "nVeg_tavg-z0-hxy-lnd"
+}

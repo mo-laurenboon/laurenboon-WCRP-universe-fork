@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "masso_tavg-z0-hm-sea",
+  "description": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum where sea time: mean",
+  "variable": "masso",
+  "label": "masso_tavg-z0-hm-sea",
+  "drs_name": "masso_tavg-z0-hm-sea"
+}

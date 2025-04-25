@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "loadno3_tavg-z0-hxy-x",
+  "description": "The total dry mass of nitrate aerosol particles per unit area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "loadno3",
+  "label": "loadno3_tavg-z0-hxy-x",
+  "drs_name": "loadno3_tavg-z0-hxy-x"
+}

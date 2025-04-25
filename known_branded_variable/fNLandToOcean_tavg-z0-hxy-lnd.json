@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fnlandtoocean_tavg-z0-hxy-lnd",
+  "description": "leached nitrogen etc that goes into run off or river routing and finds its way into ocean should be reported here.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "fNLandToOcean",
+  "label": "fNLandToOcean_tavg-z0-hxy-lnd",
+  "drs_name": "fNLandToOcean_tavg-z0-hxy-lnd"
+}

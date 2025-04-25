@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "reffclic_tpt-l-hxys-ccl",
+  "description": "alevel site time1",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where convective_cloud time: point",
+  "variable": "reffclic",
+  "label": "reffclic_tpt-l-hxys-ccl",
+  "drs_name": "reffclic_tpt-l-hxys-ccl"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emiaco_tavg-z0-hxy-x",
+  "description": "anthrophogenic  emission of CO",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emiaco",
+  "label": "emiaco_tavg-z0-hxy-x",
+  "drs_name": "emiaco_tavg-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hus_tpt-p7h-hxy-air",
+  "description": "Extra levels - 925, 700, 600, 300, 50",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev7h",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where air time: point",
+  "variable": "hus",
+  "label": "hus_tpt-p7h-hxy-air",
+  "drs_name": "hus_tpt-p7h-hxy-air"
+}

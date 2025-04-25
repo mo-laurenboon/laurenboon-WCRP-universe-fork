@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "shrubfrac_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typeshrub"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "shrubFrac",
+  "label": "shrubFrac_tavg-z0-hxy-x",
+  "drs_name": "shrubFrac_tavg-z0-hxy-x"
+}

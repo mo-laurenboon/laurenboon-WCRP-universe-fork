@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "difvho_tavg-l-hxy-sea",
+  "description": "Vertical/dianeutral diffusivity applied to prognostic temperature field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "difvho",
+  "label": "difvho_tavg-l-hxy-sea",
+  "drs_name": "difvho_tavg-l-hxy-sea"
+}

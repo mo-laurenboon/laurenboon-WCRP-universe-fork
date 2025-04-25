@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hus_tavg-l-hxy-x",
+  "description": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "hus",
+  "label": "hus_tavg-l-hxy-x",
+  "drs_name": "hus_tavg-l-hxy-x"
+}

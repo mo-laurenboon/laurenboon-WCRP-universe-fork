@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmroa_tpt-z0-hxys-x",
+  "description": "This variable represents the instantaneous surface organic aerosol\u00a0Mass Mixing Ratio at CF sites, sampled every 3 hours. ",
+  "dimensions": [
+    "site",
+    "time1",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "mmroa",
+  "label": "mmroa_tpt-z0-hxys-x",
+  "drs_name": "mmroa_tpt-z0-hxys-x"
+}

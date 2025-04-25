@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfc125_tavg-l-hxy-x",
+  "description": "This is the mole fraction of HFC125 in air",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "hfc125",
+  "label": "hfc125_tavg-l-hxy-x",
+  "drs_name": "hfc125_tavg-l-hxy-x"
+}

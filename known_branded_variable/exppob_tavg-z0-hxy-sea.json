@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "exppob_tavg-z0-hxy-sea",
+  "description": "Downward sinking flux of particulate organic phosphorus at seafloor",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "depthseafloor",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "exppob",
+  "label": "exppob_tavg-z0-hxy-sea",
+  "drs_name": "exppob_tavg-z0-hxy-sea"
+}

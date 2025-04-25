@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ravgt_tavg-z0-hxy-lnd",
+  "description": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on vegetation type.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "vegtype",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "raVgt",
+  "label": "raVgt_tavg-z0-hxy-lnd",
+  "drs_name": "raVgt_tavg-z0-hxy-lnd"
+}

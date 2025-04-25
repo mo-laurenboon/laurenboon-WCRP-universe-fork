@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "csoil_tpt-z0-hxy-lus",
+  "description": "end of year values (not annual mean)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sector time: point",
+  "variable": "cSoil",
+  "label": "cSoil_tpt-z0-hxy-lus",
+  "drs_name": "cSoil_tpt-z0-hxy-lus"
+}

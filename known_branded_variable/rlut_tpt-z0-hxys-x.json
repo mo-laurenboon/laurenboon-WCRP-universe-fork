@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rlut_tpt-z0-hxys-x",
+  "description": "at the top of the atmosphere (to be compared with satellite measurements)",
+  "dimensions": [
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "rlut",
+  "label": "rlut_tpt-z0-hxys-x",
+  "drs_name": "rlut_tpt-z0-hxys-x"
+}

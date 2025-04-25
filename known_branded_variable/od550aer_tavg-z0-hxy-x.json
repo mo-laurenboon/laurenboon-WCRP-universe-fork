@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "od550aer_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "od550aer",
+  "label": "od550aer_tavg-z0-hxy-x",
+  "drs_name": "od550aer_tavg-z0-hxy-x"
+}

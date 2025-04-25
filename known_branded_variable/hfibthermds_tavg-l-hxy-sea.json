@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfibthermds_tavg-l-hxy-sea",
+  "description": NaN,
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "hfibthermds",
+  "label": "hfibthermds_tavg-l-hxy-sea",
+  "drs_name": "hfibthermds_tavg-l-hxy-sea"
+}

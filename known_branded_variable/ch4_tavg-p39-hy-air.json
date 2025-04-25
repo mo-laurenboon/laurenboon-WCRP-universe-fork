@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ch4_tavg-p39-hy-air",
+  "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "ch4",
+  "label": "ch4_tavg-p39-hy-air",
+  "drs_name": "ch4_tavg-p39-hy-air"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cltisccp_tavg-z0-hxy-x",
+  "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the International Satellite Cloud Climatology Project (ISCCP) analysis. Includes both large-scale and convective cloud.  (MODIS). Includes both large-scale and convective cloud.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "cltisccp",
+  "label": "cltisccp_tavg-z0-hxy-x",
+  "drs_name": "cltisccp_tavg-z0-hxy-x"
+}

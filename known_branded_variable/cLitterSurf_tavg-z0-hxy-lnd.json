@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clittersurf_tavg-z0-hxy-lnd",
+  "description": "Surface or near-surface litter pool fed by leaf and above-ground litterfall",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "cLitterSurf",
+  "label": "cLitterSurf_tavg-z0-hxy-lnd",
+  "drs_name": "cLitterSurf_tavg-z0-hxy-lnd"
+}

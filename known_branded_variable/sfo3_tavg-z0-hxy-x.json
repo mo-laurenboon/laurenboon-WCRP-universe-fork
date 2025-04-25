@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfo3_tavg-z0-hxy-x",
+  "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "sfo3",
+  "label": "sfo3_tavg-z0-hxy-x",
+  "drs_name": "sfo3_tavg-z0-hxy-x"
+}

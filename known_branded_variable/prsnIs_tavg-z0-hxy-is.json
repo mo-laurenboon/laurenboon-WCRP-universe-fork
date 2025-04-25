@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "prsnis_tavg-z0-hxy-is",
+  "description": "quantity averaged over ice_sheet (meaning grounded ice sheet and floating ice shelf) only, to avoid contamination from other surfaces (eg: permafrost)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "prsnIs",
+  "label": "prsnIs_tavg-z0-hxy-is",
+  "drs_name": "prsnIs_tavg-z0-hxy-is"
+}

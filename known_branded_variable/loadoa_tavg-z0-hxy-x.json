@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "loadoa_tavg-z0-hxy-x",
+  "description": "atmosphere dry organic content: This is the vertically integrated sum of atmosphere_primary_organic_content and atmosphere_secondary_organic_content (see next two table entries).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "loadoa",
+  "label": "loadoa_tavg-z0-hxy-x",
+  "drs_name": "loadoa_tavg-z0-hxy-x"
+}

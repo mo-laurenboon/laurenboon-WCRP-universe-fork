@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "pr18o_tavg-z0-hxy-x",
+  "description": "Precipitation mass flux of water molecules that contain the oxygen-18 isotope (H2 18O), including solid and liquid phases.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "pr18O",
+  "label": "pr18O_tavg-z0-hxy-x",
+  "drs_name": "pr18O_tavg-z0-hxy-x"
+}

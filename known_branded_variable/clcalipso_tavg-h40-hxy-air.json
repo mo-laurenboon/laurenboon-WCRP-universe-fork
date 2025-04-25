@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clcalipso_tavg-h40-hxy-air",
+  "description": "Percentage cloud cover in CALIPSO standard atmospheric layers.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "clcalipso",
+  "label": "clcalipso_tavg-h40-hxy-air",
+  "drs_name": "clcalipso_tavg-h40-hxy-air"
+}

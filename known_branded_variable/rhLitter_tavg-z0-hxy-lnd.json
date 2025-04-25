@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rhlitter_tavg-z0-hxy-lnd",
+  "description": "Needed to calculate litter bulk turnover time. Includes respiration from CWD as well.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "rhLitter",
+  "label": "rhLitter_tavg-z0-hxy-lnd",
+  "drs_name": "rhLitter_tavg-z0-hxy-lnd"
+}

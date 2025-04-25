@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "difvso_tavg-l-hxy-sea",
+  "description": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "difvso",
+  "label": "difvso_tavg-l-hxy-sea",
+  "drs_name": "difvso_tavg-l-hxy-sea"
+}

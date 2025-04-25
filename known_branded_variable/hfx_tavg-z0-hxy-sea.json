@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfx_tavg-z0-hxy-sea",
+  "description": "Ocean heat x transport vertically integrated over the whole ocean depth. Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale. Report on native horizontal grid.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+  "variable": "hfx",
+  "label": "hfx_tavg-z0-hxy-sea",
+  "drs_name": "hfx_tavg-z0-hxy-sea"
+}

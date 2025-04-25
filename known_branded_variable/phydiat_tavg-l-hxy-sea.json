@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "phydiat_tavg-l-hxy-sea",
+  "description": "carbon from the diatom phytoplankton component concentration alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "phydiat",
+  "label": "phydiat_tavg-l-hxy-sea",
+  "drs_name": "phydiat_tavg-l-hxy-sea"
+}

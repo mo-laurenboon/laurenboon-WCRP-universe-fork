@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dmso_tavg-l-hxy-sea",
+  "description": "Mole concentration of dimethyl sulphide in water",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "dmso",
+  "label": "dmso_tavg-l-hxy-sea",
+  "drs_name": "dmso_tavg-l-hxy-sea"
+}

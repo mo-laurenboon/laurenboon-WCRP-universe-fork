@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "gpp_tavg-z0-hxy-shb",
+  "description": "Total GPP of shrubs in the grid cell",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where shrubs",
+  "variable": "gpp",
+  "label": "gpp_tavg-z0-hxy-shb",
+  "drs_name": "gpp_tavg-z0-hxy-shb"
+}

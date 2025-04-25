@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsutcsaf_tavg-z0-hxy-x",
+  "description": "Flux corresponding to rsutcs resulting fom aerosol-free call to radiation",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rsutcsaf",
+  "label": "rsutcsaf_tavg-z0-hxy-x",
+  "drs_name": "rsutcsaf_tavg-z0-hxy-x"
+}

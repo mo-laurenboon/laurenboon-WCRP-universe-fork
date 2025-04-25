@@ -3,12 +3,10 @@
     "separator": "_",
     "parts": [
         {
-            "id": "variable",
             "type" : "variable",
             "is_required": true
         },
         {
-            "id": "label",
             "type": "branded_suffix",
             "is_required": true
         }

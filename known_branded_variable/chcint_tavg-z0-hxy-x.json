@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chcint_tavg-z0-hxy-x",
+  "description": "This is the vertically-integrated heat content derived from conservative temperature (bigthetao).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "oplev4",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "The cell_methods should include a time \"method\" (is it \"time: mean\"?)",
+  "variable": "chcint",
+  "label": "chcint_tavg-z0-hxy-x",
+  "drs_name": "chcint_tavg-z0-hxy-x"
+}

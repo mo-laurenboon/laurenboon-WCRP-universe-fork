@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "lithk_ti-z0-hxy-is",
+  "description": "The thickness of the ice sheet",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where ice_sheet",
+  "variable": "lithk",
+  "label": "lithk_ti-z0-hxy-is",
+  "drs_name": "lithk_ti-z0-hxy-is"
+}

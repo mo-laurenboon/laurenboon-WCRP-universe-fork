@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emiaoa_tavg-z0-hxy-x",
+  "description": "anthropogenic part of emioa",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emiaoa",
+  "label": "emiaoa_tavg-z0-hxy-x",
+  "drs_name": "emiaoa_tavg-z0-hxy-x"
+}

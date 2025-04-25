@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rld4co2_tavg-l-hxy-x",
+  "description": "Downwelling longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rld4co2",
+  "label": "rld4co2_tavg-l-hxy-x",
+  "drs_name": "rld4co2_tavg-l-hxy-x"
+}

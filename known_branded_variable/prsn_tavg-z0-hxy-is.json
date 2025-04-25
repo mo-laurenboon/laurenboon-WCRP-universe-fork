@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "prsn_tavg-z0-hxy-is",
+  "description": "quantity averaged over ice sheet (grounded ice sheet and floating ice shelf) only. Needed to analyse the impact of downscaling methods",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "prsn",
+  "label": "prsn_tavg-z0-hxy-is",
+  "drs_name": "prsn_tavg-z0-hxy-is"
+}

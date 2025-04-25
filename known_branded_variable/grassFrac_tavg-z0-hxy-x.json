@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "grassfrac_tavg-z0-hxy-x",
+  "description": "Percentage of entire grid cell that is covered by natural grass.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typenatgr"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "grassFrac",
+  "label": "grassFrac_tavg-z0-hxy-x",
+  "drs_name": "grassFrac_tavg-z0-hxy-x"
+}

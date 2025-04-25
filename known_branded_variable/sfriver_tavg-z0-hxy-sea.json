@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfriver_tavg-z0-hxy-sea",
+  "description": "This field is physical, and it arises when rivers carry a nonzero salt content.  Often this is zero, with rivers assumed to be fresh.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "sfriver",
+  "label": "sfriver_tavg-z0-hxy-sea",
+  "drs_name": "sfriver_tavg-z0-hxy-sea"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "no2_tavg-l-hxy-x",
+  "description": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "no2",
+  "label": "no2_tavg-l-hxy-x",
+  "drs_name": "no2_tavg-l-hxy-x"
+}

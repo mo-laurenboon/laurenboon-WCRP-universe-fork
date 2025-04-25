@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mlotst_tavg-z0-hxy-sea",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "deltasigt"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "mlotst",
+  "label": "mlotst_tavg-z0-hxy-sea",
+  "drs_name": "mlotst_tavg-z0-hxy-sea"
+}

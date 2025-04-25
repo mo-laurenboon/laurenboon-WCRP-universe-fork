@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hfss_tavg-z0-hxy-lus",
+  "description": "Upward sensible heat flux on land use tiles. The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sector",
+  "variable": "hfss",
+  "label": "hfss_tavg-z0-hxy-lus",
+  "drs_name": "hfss_tavg-z0-hxy-lus"
+}

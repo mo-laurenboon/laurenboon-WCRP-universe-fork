@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rldcs_tavg-l-hxy-x",
+  "description": "Includes also the fluxes at the surface and TOA.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rldcs",
+  "label": "rldcs_tavg-l-hxy-x",
+  "drs_name": "rldcs_tavg-l-hxy-x"
+}

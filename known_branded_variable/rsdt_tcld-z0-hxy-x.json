@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsdt_tcld-z0-hxy-x",
+  "description": "Shortwave radiation incident at the top of the atmosphere",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time3"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: mean within days time: mean over days",
+  "variable": "rsdt",
+  "label": "rsdt_tcld-z0-hxy-x",
+  "drs_name": "rsdt_tcld-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mmrss_tavg-l-hxy-x",
+  "description": "Mass fraction in the atmosphere of sea salt aerosol (dry mass).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mmrss",
+  "label": "mmrss_tavg-l-hxy-x",
+  "drs_name": "mmrss_tavg-l-hxy-x"
+}

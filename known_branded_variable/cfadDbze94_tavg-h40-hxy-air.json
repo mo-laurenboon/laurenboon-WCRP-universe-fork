@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cfaddbze94_tavg-h40-hxy-air",
+  "description": "CloudSat Radar Reflectivity",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "dbze",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "cfadDbze94",
+  "label": "cfadDbze94_tavg-h40-hxy-air",
+  "drs_name": "cfadDbze94_tavg-h40-hxy-air"
+}

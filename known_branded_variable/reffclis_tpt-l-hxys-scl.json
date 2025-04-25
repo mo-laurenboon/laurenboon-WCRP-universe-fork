@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "reffclis_tpt-l-hxys-scl",
+  "description": "alevel site time1",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where stratiform_cloud time: point",
+  "variable": "reffclis",
+  "label": "reffclis_tpt-l-hxys-scl",
+  "drs_name": "reffclis_tpt-l-hxys-scl"
+}

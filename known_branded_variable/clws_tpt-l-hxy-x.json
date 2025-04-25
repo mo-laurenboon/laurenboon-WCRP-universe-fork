@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clws_tpt-l-hxy-x",
+  "description": "Calculated as the mass of stratiform cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "clws",
+  "label": "clws_tpt-l-hxy-x",
+  "drs_name": "clws_tpt-l-hxy-x"
+}

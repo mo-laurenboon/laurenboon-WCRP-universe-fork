@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "dissi13c_tavg-l-hxy-sea",
+  "description": "Dissolved inorganic 14carbon (CO3+HCO3+H2CO3) concentration",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "dissi13c",
+  "label": "dissi13c_tavg-l-hxy-sea",
+  "drs_name": "dissi13c_tavg-l-hxy-sea"
+}

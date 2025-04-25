@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "o3ste_tavg-l-hxy-x",
+  "description": "Ozone tracer intended to map out strat-trop exchange (STE) of ozone.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "o3ste",
+  "label": "o3ste_tavg-l-hxy-x",
+  "drs_name": "o3ste_tavg-l-hxy-x"
+}

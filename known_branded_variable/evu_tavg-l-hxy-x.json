@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "evu_tavg-l-hxy-x",
+  "description": "Vertical diffusion coefficient for momentum due to parametrised eddies",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "evu",
+  "label": "evu_tavg-l-hxy-x",
+  "drs_name": "evu_tavg-l-hxy-x"
+}

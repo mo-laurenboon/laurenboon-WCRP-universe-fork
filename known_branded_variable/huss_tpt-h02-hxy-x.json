@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "huss_tpt-h02-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "height2m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "huss",
+  "label": "huss_tpt-h02-hxy-x",
+  "drs_name": "huss_tpt-h02-hxy-x"
+}

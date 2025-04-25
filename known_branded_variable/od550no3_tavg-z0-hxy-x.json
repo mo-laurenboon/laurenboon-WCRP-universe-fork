@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "od550no3_tavg-z0-hxy-x",
+  "description": "Total aerosol AOD due to nitrate aerosol at a wavelength of 550 nanometres.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "od550no3",
+  "label": "od550no3_tavg-z0-hxy-x",
+  "drs_name": "od550no3_tavg-z0-hxy-x"
+}

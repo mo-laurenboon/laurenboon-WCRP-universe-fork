@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cltcalipso_tavg-z0-hxy-x",
+  "description": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "cltcalipso",
+  "label": "cltcalipso_tavg-z0-hxy-x",
+  "drs_name": "cltcalipso_tavg-z0-hxy-x"
+}

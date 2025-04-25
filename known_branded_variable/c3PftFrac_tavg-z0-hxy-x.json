@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c3pftfrac_tavg-z0-hxy-x",
+  "description": "Percentage of entire grid cell  that is covered by C3 PFTs (including grass, crops, and trees).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typec3pft"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "c3PftFrac",
+  "label": "c3PftFrac_tavg-z0-hxy-x",
+  "drs_name": "c3PftFrac_tavg-z0-hxy-x"
+}

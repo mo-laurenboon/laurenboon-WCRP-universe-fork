@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clwmodis_tavg-z0-hxy-x",
+  "description": "MODIS Liquid Cloud Fraction",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "clwmodis",
+  "label": "clwmodis_tavg-z0-hxy-x",
+  "drs_name": "clwmodis_tavg-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ocontemppadvect_tavg-l-hxy-sea",
+  "description": "Tendency of heat content for a grid cell from parameterized eddy advection (all forms of eddy advection). Reported only for models that use conservative temperature as prognostic field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "ocontemppadvect",
+  "label": "ocontemppadvect_tavg-l-hxy-sea",
+  "drs_name": "ocontemppadvect_tavg-l-hxy-sea"
+}

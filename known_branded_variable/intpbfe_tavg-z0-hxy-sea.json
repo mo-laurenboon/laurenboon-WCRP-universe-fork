@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "intpbfe_tavg-z0-hxy-sea",
+  "description": "Vertically integrated biogenic iron production",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "intpbfe",
+  "label": "intpbfe_tavg-z0-hxy-sea",
+  "drs_name": "intpbfe_tavg-z0-hxy-sea"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sftflf_ti-z0-hxy-x",
+  "description": "This is needed to distinguish between grounded glaciated ice (grounded = ice sheet and glacier) and ice shelves (floating over sea water), since land_ice is by definition ice sheet, glacier and ice shelves",
+  "dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean",
+  "variable": "sftflf",
+  "label": "sftflf_ti-z0-hxy-x",
+  "drs_name": "sftflf_ti-z0-hxy-x"
+}

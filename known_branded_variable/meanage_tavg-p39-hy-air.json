@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "meanage_tavg-p39-hy-air",
+  "description": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere.",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "meanage",
+  "label": "meanage_tavg-p39-hy-air",
+  "drs_name": "meanage_tavg-p39-hy-air"
+}

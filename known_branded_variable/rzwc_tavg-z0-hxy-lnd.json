@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rzwc_tavg-z0-hxy-lnd",
+  "description": "water_content_of_root_zone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "rzwc",
+  "label": "rzwc_tavg-z0-hxy-lnd",
+  "drs_name": "rzwc_tavg-z0-hxy-lnd"
+}

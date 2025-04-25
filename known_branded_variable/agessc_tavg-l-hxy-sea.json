@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "agessc_tavg-l-hxy-sea",
+  "description": "Time elapsed since water was last in surface layer of the ocean.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "agessc",
+  "label": "agessc_tavg-l-hxy-sea",
+  "drs_name": "agessc_tavg-l-hxy-sea"
+}

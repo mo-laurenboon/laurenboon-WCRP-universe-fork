@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "od865aer_tavg-z0-hxy-x",
+  "description": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 865 nm\"",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda865nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "od865aer",
+  "label": "od865aer_tavg-z0-hxy-x",
+  "drs_name": "od865aer_tavg-z0-hxy-x"
+}

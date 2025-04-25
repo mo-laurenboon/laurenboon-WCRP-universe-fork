@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "irr_tavg-z0-hxy-lus",
+  "description": "Mass flux of water due to irrigation.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sector",
+  "variable": "irr",
+  "label": "irr_tavg-z0-hxy-lus",
+  "drs_name": "irr_tavg-z0-hxy-lus"
+}

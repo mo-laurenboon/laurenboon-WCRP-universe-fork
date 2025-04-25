@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "opottemppsmadvect_tavg-l-hxy-sea",
+  "description": "Tendency of heat content for a grid cell from parameterized submesoscale eddy advection. Reported only for models that use potential temperature as prognostic field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "opottemppsmadvect",
+  "label": "opottemppsmadvect_tavg-l-hxy-sea",
+  "drs_name": "opottemppsmadvect_tavg-l-hxy-sea"
+}

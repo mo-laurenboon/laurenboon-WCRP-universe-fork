@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ocontempdiff_tavg-l-hxy-sea",
+  "description": "Tendency of heat content for a grid cell from parameterized dianeutral mixing. Reported only for models that use conservative temperature as prognostic field.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "ocontempdiff",
+  "label": "ocontempdiff_tavg-l-hxy-sea",
+  "drs_name": "ocontempdiff_tavg-l-hxy-sea"
+}

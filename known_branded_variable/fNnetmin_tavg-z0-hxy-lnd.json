@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fnnetmin_tavg-z0-hxy-lnd",
+  "description": "Loss of soil nitrogen through remineralization and immobilisation. Remineralization is the degradation of organic matter into inorganic forms of carbon, nitrogen, phosphorus and other micronutrients, which consumes oxygen and releases energy. Immobilisation of nitrogen refers to retention of nitrogen by micro-organisms under certain conditions, making it unavailable for plants.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "fNnetmin",
+  "label": "fNnetmin_tavg-z0-hxy-lnd",
+  "drs_name": "fNnetmin_tavg-z0-hxy-lnd"
+}

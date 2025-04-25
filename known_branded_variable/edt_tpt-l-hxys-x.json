@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "edt_tpt-l-hxys-x",
+  "description": "Vertical diffusion coefficient for temperature due to parametrised eddies",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "edt",
+  "label": "edt_tpt-l-hxys-x",
+  "drs_name": "edt_tpt-l-hxys-x"
+}

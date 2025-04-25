@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rsutch4ref_tavg-z0-hxy-x",
+  "description": "This is the outgoing shortwave flux at the top-of-atmosphere for all-sky conditions from a diagnostic call to the radiation scheme with a reference methane field",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rsutch4ref",
+  "label": "rsutch4ref_tavg-z0-hxy-x",
+  "drs_name": "rsutch4ref_tavg-z0-hxy-x"
+}

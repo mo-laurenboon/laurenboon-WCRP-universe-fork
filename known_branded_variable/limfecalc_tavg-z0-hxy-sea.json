@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "limfecalc_tavg-z0-hxy-sea",
+  "description": "\"Calcareous phytoplankton\" are phytoplankton that produce calcite. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Iron growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "limfecalc",
+  "label": "limfecalc_tavg-z0-hxy-sea",
+  "drs_name": "limfecalc_tavg-z0-hxy-sea"
+}

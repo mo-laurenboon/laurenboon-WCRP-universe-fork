@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "expcalc_tavg-l-hxy-sea",
+  "description": "Downward flux of Calcite",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "expcalc",
+  "label": "expcalc_tavg-l-hxy-sea",
+  "drs_name": "expcalc_tavg-l-hxy-sea"
+}

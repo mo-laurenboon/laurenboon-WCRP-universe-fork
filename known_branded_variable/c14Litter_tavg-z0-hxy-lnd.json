@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "c14litter_tavg-z0-hxy-lnd",
+  "description": "Carbon-14 mass content per unit area litter (dead plant material in or above the soil).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "c14Litter",
+  "label": "c14Litter_tavg-z0-hxy-lnd",
+  "drs_name": "c14Litter_tavg-z0-hxy-lnd"
+}

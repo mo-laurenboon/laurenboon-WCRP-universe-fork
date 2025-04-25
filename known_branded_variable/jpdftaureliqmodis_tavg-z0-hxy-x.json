@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "jpdftaureliqmodis_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "effectRadLi",
+    "tau",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "jpdftaureliqmodis",
+  "label": "jpdftaureliqmodis_tavg-z0-hxy-x",
+  "drs_name": "jpdftaureliqmodis_tavg-z0-hxy-x"
+}

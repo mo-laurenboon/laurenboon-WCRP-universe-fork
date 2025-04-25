@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "albc_tavg-z0-hxy-veg",
+  "description": "Canopy Albedo",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where vegetation (weighted by canopy area and by downwelling shortwave radiation at the surface)",
+  "variable": "albc",
+  "label": "albc_tavg-z0-hxy-veg",
+  "drs_name": "albc_tavg-z0-hxy-veg"
+}

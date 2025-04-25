@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fracoutlut_tavg-z0-hxy-x",
+  "description": "Cumulative percentage transitions over the year; note that percentage should be reported as percentage of atmospheric grid cell",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "fracOutLut",
+  "label": "fracOutLut_tavg-z0-hxy-x",
+  "drs_name": "fracOutLut_tavg-z0-hxy-x"
+}

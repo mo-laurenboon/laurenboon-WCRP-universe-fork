@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sfpm10_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height50m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "sfpm10",
+  "label": "sfpm10_tavg-z0-hxy-x",
+  "drs_name": "sfpm10_tavg-z0-hxy-x"
+}

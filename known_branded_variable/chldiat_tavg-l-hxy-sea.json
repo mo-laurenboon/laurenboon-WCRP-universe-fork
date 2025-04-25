@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chldiat_tavg-l-hxy-sea",
+  "description": "chlorophyll from diatom phytoplankton component concentration alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "chldiat",
+  "label": "chldiat_tavg-l-hxy-sea",
+  "drs_name": "chldiat_tavg-l-hxy-sea"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rldscs_tavg-z0-hxy-x",
+  "description": "Surface downwelling clear-sky longwave radiation",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "rldscs",
+  "label": "rldscs_tavg-z0-hxy-x",
+  "drs_name": "rldscs_tavg-z0-hxy-x"
+}

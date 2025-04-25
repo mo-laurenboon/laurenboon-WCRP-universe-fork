@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "loadso4_tavg-z0-hxy-x",
+  "description": "The total dry mass of sulfate aerosol particles per unit area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "loadso4",
+  "label": "loadso4_tavg-z0-hxy-x",
+  "drs_name": "loadso4_tavg-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "pp_tavg-l-hxy-sea",
+  "description": "total primary (organic carbon) production by phytoplankton",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "pp",
+  "label": "pp_tavg-l-hxy-sea",
+  "drs_name": "pp_tavg-l-hxy-sea"
+}

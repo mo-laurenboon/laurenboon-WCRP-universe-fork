@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rac14_tavg-z0-hxy-lnd",
+  "description": "Flux of carbon-14 into the atmosphere due to plant respiration. Plant respiration is the sum of respiration by parts of plants both above and below the soil. It is assumed that all the respired carbon dioxide is emitted to the atmosphere. ",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "rac14",
+  "label": "rac14_tavg-z0-hxy-lnd",
+  "drs_name": "rac14_tavg-z0-hxy-lnd"
+}

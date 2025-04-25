@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chegph2oo1d_tavg-l-hxy-x",
+  "description": "Primary production rate of the hydroxy (OH) radical via H2O+O1D",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "chegph2oo1d",
+  "label": "chegph2oo1d_tavg-l-hxy-x",
+  "drs_name": "chegph2oo1d_tavg-l-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ec550aer_tpt-z0-hxy-x",
+  "description": "Aerosol Extinction @550nm",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "lambda550nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean (weighted by downwelling solar radiation) time: point",
+  "variable": "ec550aer",
+  "label": "ec550aer_tpt-z0-hxy-x",
+  "drs_name": "ec550aer_tpt-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "chlmisc_tavg-z00-hxy-sea",
+  "description": "chlorophyll from additional phytoplankton component concentrations alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth0m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "chlmisc",
+  "label": "chlmisc_tavg-z00-hxy-sea",
+  "drs_name": "chlmisc_tavg-z00-hxy-sea"
+}

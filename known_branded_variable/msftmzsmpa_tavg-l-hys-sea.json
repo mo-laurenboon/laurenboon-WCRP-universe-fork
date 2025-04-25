@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "msftmzsmpa_tavg-l-hys-sea",
+  "description": "Report only if there is a submesoscale eddy parameterization.",
+  "dimensions": [
+    "latitude",
+    "olevel",
+    "basin",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: rho: sum where sea (along a zig-zag grid path spanning a basin) time: mean",
+  "variable": "msftmzsmpa",
+  "label": "msftmzsmpa_tavg-l-hys-sea",
+  "drs_name": "msftmzsmpa_tavg-l-hys-sea"
+}

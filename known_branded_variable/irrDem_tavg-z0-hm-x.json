@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "irrdem_tavg-z0-hm-x",
+  "description": "the total amount of irrigation water demand",
+  "dimensions": [
+    "area:",
+    "time:",
+    "mean"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean",
+  "variable": "irrDem",
+  "label": "irrDem_tavg-z0-hm-x",
+  "drs_name": "irrDem_tavg-z0-hm-x"
+}

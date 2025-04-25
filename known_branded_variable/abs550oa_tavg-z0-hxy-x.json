@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "abs550oa_tavg-z0-hxy-x",
+  "description": "This is the particular organic matter aerosol optical depth at 550nm due to absorption",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "lambda550nm"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "abs550oa",
+  "label": "abs550oa_tavg-z0-hxy-x",
+  "drs_name": "abs550oa_tavg-z0-hxy-x"
+}

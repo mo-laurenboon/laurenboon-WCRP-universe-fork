@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "lwp_tavg-z0-hxy-x",
+  "description": "The total mass of liquid water in cloud per unit area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "lwp",
+  "label": "lwp_tavg-z0-hxy-x",
+  "drs_name": "lwp_tavg-z0-hxy-x"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "mcd_tavg-l-hxy-x",
+  "description": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "mcd",
+  "label": "mcd_tavg-l-hxy-x",
+  "drs_name": "mcd_tavg-l-hxy-x"
+}

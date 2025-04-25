@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cltc_tavg-z0-hxy-x",
+  "description": "Convective cloud fraction",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "cltc",
+  "label": "cltc_tavg-z0-hxy-x",
+  "drs_name": "cltc_tavg-z0-hxy-x"
+}

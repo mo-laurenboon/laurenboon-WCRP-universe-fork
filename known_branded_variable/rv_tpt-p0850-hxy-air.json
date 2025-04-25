@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "rv_tpt-p0850-hxy-air",
+  "description": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "p850"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where air time: point",
+  "variable": "rv",
+  "label": "rv_tpt-p0850-hxy-air",
+  "drs_name": "rv_tpt-p0850-hxy-air"
+}

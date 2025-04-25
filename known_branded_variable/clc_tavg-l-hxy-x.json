@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "clc_tavg-l-hxy-x",
+  "description": "Include only convective cloud.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "clc",
+  "label": "clc_tavg-l-hxy-x",
+  "drs_name": "clc_tavg-l-hxy-x"
+}

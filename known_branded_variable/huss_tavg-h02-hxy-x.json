@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "huss_tavg-h02-hxy-x",
+  "description": "Near-surface (usually, 2 meter) specific humidity.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height2m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "huss",
+  "label": "huss_tavg-h02-hxy-x",
+  "drs_name": "huss_tavg-h02-hxy-x"
+}

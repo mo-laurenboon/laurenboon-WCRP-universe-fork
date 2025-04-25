@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hur_tavg-p0700-hxy-air",
+  "description": "Relative humidity at 700 hPa",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "p700"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "hur",
+  "label": "hur_tavg-p0700-hxy-air",
+  "drs_name": "hur_tavg-p0700-hxy-air"
+}

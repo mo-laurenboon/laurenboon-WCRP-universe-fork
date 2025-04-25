@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "emic3h6_tavg-z0-hxy-x",
+  "description": "This is the total emission rate of propene (C3H6) into the atmosphere",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "emic3h6",
+  "label": "emic3h6_tavg-z0-hxy-x",
+  "drs_name": "emic3h6_tavg-z0-hxy-x"
+}

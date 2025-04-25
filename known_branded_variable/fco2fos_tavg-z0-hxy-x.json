@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "fco2fos_tavg-z0-hxy-x",
+  "description": "This is the prescribed anthropogenic CO2 flux from fossil fuel use, including cement production, and flaring (but not from land-use changes, agricultural burning, forest regrowth, etc.)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "fco2fos",
+  "label": "fco2fos_tavg-z0-hxy-x",
+  "drs_name": "fco2fos_tavg-z0-hxy-x"
+}

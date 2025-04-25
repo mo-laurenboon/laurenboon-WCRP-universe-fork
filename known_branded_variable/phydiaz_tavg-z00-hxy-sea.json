@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "phydiaz_tavg-z00-hxy-sea",
+  "description": "carbon concentration from the diazotrophic phytoplankton component alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth0m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "phydiaz",
+  "label": "phydiaz_tavg-z00-hxy-sea",
+  "drs_name": "phydiaz_tavg-z00-hxy-sea"
+}

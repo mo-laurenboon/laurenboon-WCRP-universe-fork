@@ -118,7 +118,7 @@ def transform_json_files():
                 "@context": "000_context.jsonld",
                 "id": original_json.get(
                     "branded_variable", ""
-                ).lower(),  # Use branded_variable as id
+                ).lower(),  # Use branded_variable as id, lower ?
                 "description": ""
                 if original_json.get("description") is None
                 or (isinstance(original_json.get("description"), float))
@@ -132,7 +132,7 @@ def transform_json_files():
             }
 
             # Save the modified JSON
-            save_path = os.path.join(local_dir, filename)
+            save_path = os.path.join(local_dir, filename.lower())  # lower ?
             with open(save_path, "w") as f:
                 json.dump(modified_json, f, indent=2)
 

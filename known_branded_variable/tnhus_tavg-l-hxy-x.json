@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnhus_tavg-l-hxy-x",
+  "description": "Tendency of Specific Humidity",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tnhus",
+  "label": "tnhus_tavg-l-hxy-x",
+  "drs_name": "tnhus_tavg-l-hxy-x"
+}

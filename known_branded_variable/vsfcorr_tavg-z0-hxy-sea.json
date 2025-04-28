@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "vsfcorr_tavg-z0-hxy-sea",
+  "description": "It is set to zero in models which receive a real water flux.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "vsfcorr",
+  "label": "vsfcorr_tavg-z0-hxy-sea",
+  "drs_name": "vsfcorr_tavg-z0-hxy-sea"
+}

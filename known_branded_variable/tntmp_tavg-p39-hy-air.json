@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tntmp_tavg-p39-hy-air",
+  "description": "Zonal mean tendency of air temperature due to model physics, with the extended number of vertical levels",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "tntmp",
+  "label": "tntmp_tavg-p39-hy-air",
+  "drs_name": "tntmp_tavg-p39-hy-air"
+}

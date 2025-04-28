@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sigpp_tavg-z0-hxy-si",
+  "description": "Change in ice algal carbon mass due to photosynthesis per sea ice unit area per unit time.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sigpp",
+  "label": "sigpp_tavg-z0-hxy-si",
+  "drs_name": "sigpp_tavg-z0-hxy-si"
+}

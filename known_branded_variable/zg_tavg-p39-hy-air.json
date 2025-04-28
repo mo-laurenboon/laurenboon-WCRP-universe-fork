@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "zg_tavg-p39-hy-air",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "zg",
+  "label": "zg_tavg-p39-hy-air",
+  "drs_name": "zg_tavg-p39-hy-air"
+}

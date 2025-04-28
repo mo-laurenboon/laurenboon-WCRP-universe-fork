@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ua_tavg-h0100-hxy-x",
+  "description": "Zonal wind (positive in a eastward direction) at 100m",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height100m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "ua",
+  "label": "ua_tavg-h0100-hxy-x",
+  "drs_name": "ua_tavg-h0100-hxy-x"
+}

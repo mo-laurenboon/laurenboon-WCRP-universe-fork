@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sisndmassmelt_tavg-z0-hxy-si",
+  "description": "Rate of change of snow mass through melt divided by grid-cell area. Always negative or zero.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sisndmassmelt",
+  "label": "sisndmassmelt_tavg-z0-hxy-si",
+  "drs_name": "sisndmassmelt_tavg-z0-hxy-si"
+}

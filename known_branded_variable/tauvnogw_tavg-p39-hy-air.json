@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tauvnogw_tavg-p39-hy-air",
+  "description": "Zonal mean vertical wave flux of meridional momentum within the non-orographic gravity wave parameterization",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "tauvnogw",
+  "label": "tauvnogw_tavg-p39-hy-air",
+  "drs_name": "tauvnogw_tavg-p39-hy-air"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ts_tavg-z0-hxy-x",
+  "description": "Surface temperature (skin for open ocean)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "ts",
+  "label": "ts_tavg-z0-hxy-x",
+  "drs_name": "ts_tavg-z0-hxy-x"
+}

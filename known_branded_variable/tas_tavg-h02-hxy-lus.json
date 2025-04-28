@@ -1,0 +1,17 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tas_tavg-h02-hxy-lus",
+  "description": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time",
+    "height2m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sector",
+  "variable": "tas",
+  "label": "tas_tavg-h02-hxy-lus",
+  "drs_name": "tas_tavg-h02-hxy-lus"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wdirswell_tavg-z0-hxy-sea",
+  "description": "Mean direction of wave propagation (direction from which the wave is coming) derived from the swell component of the wave energy spectrum (i.e., waves that have propagated away from their generation area). This variable is usually expressed in degrees relative to true north.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "wdirswell",
+  "label": "wdirswell_tavg-z0-hxy-sea",
+  "drs_name": "wdirswell_tavg-z0-hxy-sea"
+}

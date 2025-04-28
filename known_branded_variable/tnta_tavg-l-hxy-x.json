@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnta_tavg-l-hxy-x",
+  "description": "Tendency of Air Temperature due to Advection",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tnta",
+  "label": "tnta_tavg-l-hxy-x",
+  "drs_name": "tnta_tavg-l-hxy-x"
+}

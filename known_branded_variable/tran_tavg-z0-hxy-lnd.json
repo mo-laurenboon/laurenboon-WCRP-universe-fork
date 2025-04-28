@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tran_tavg-z0-hxy-lnd",
+  "description": "Transpiration (may include dew formation as a negative flux).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "tran",
+  "label": "tran_tavg-z0-hxy-lnd",
+  "drs_name": "tran_tavg-z0-hxy-lnd"
+}

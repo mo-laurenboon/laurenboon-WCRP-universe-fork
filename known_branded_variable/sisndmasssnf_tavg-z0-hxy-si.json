@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sisndmasssnf_tavg-z0-hxy-si",
+  "description": "Rate of change of snow mass due to solid precipitation (i.e. snowfall) falling onto sea ice divided by grid-cell area. Always positive or zero.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sisndmasssnf",
+  "label": "sisndmasssnf_tavg-z0-hxy-si",
+  "drs_name": "sisndmasssnf_tavg-z0-hxy-si"
+}

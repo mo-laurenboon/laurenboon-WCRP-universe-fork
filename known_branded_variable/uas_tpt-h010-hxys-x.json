@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "uas_tpt-h010-hxys-x",
+  "description": "Eastward component of the near-surface (usually, 10 meters)  wind",
+  "dimensions": [
+    "site",
+    "time1",
+    "height10m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "uas",
+  "label": "uas_tpt-h010-hxys-x",
+  "drs_name": "uas_tpt-h010-hxys-x"
+}

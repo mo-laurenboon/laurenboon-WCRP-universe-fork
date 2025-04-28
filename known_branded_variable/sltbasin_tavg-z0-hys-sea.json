@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sltbasin_tavg-z0-hys-sea",
+  "description": "Northward Ocean Salt Transport from all physical processes affecting northward salt transport, resolved and parameterized. Diagnosed here as a function of latitude and basin.",
+  "dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean",
+  "variable": "sltbasin",
+  "label": "sltbasin_tavg-z0-hys-sea",
+  "drs_name": "sltbasin_tavg-z0-hys-sea"
+}

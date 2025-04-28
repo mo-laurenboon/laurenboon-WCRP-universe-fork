@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "siu_tavg-z0-hxy-si",
+  "description": "X-component of sea-ice velocity on native model grid.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea_ice time: point",
+  "variable": "siu",
+  "label": "siu_tavg-z0-hxy-si",
+  "drs_name": "siu_tavg-z0-hxy-si"
+}

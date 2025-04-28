@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnhuspbl_tpt-l-hxys-x",
+  "description": "alevel site time1",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "tnhuspbl",
+  "label": "tnhuspbl_tpt-l-hxys-x",
+  "drs_name": "tnhuspbl_tpt-l-hxys-x"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "va_tavg-p39-hy-air",
+  "description": "Meridional wind (positive in a northward direction).",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "va",
+  "label": "va_tavg-p39-hy-air",
+  "drs_name": "va_tavg-p39-hy-air"
+}

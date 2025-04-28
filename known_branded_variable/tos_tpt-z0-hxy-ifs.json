@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tos_tpt-z0-hxy-ifs",
+  "description": "temperature of surface of open ocean, sampled synoptically.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where ice_free_sea time: point",
+  "variable": "tos",
+  "label": "tos_tpt-z0-hxy-ifs",
+  "drs_name": "tos_tpt-z0-hxy-ifs"
+}

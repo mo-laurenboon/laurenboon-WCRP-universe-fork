@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "vmo_tavg-l-hxy-sea",
+  "description": "Y-ward mass transport from residual mean (resolved plus parameterized) advective transport.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "vmo",
+  "label": "vmo_tavg-l-hxy-sea",
+  "drs_name": "vmo_tavg-l-hxy-sea"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wetoa_tavg-z0-hxy-x",
+  "description": "Deposition rate of organic matter in aerosols (measured by the dry mass) due to wet processes",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "wetoa",
+  "label": "wetoa_tavg-z0-hxy-x",
+  "drs_name": "wetoa_tavg-z0-hxy-x"
+}

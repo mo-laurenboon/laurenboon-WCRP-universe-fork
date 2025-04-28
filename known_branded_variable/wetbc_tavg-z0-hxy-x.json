@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wetbc_tavg-z0-hxy-x",
+  "description": "Surface deposition rate of black carbon (dry mass) due to wet processes",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "wetbc",
+  "label": "wetbc_tavg-z0-hxy-x",
+  "drs_name": "wetbc_tavg-z0-hxy-x"
+}

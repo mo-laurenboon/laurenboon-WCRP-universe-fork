@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sistrxdtop_tavg-z0-hxy-si",
+  "description": "X-component of the atmospheric stress on the surface of sea ice divided by grid-cell area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea_ice time: point",
+  "variable": "sistrxdtop",
+  "label": "sistrxdtop_tavg-z0-hxy-si",
+  "drs_name": "sistrxdtop_tavg-z0-hxy-si"
+}

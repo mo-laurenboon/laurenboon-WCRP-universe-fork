@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "zostoga_tavg-z0-hm-sea",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "zostoga",
+  "label": "zostoga_tavg-z0-hm-sea",
+  "drs_name": "zostoga_tavg-z0-hm-sea"
+}

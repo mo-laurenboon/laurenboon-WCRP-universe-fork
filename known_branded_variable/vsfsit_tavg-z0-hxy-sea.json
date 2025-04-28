@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "vsfsit_tavg-z0-hxy-sea",
+  "description": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "vsfsit",
+  "label": "vsfsit_tavg-z0-hxy-sea",
+  "drs_name": "vsfsit_tavg-z0-hxy-sea"
+}

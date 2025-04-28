@@ -1,0 +1,21 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tropoz_tavg-z0-hm-x",
+  "description": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp).",
+  "dimensions": [
+    "area:",
+    "time:",
+    "mean",
+    "(reported",
+    "as",
+    "0",
+    "in",
+    "the",
+    "stratosphere)"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tropoz",
+  "label": "tropoz_tavg-z0-hm-x",
+  "drs_name": "tropoz_tavg-z0-hm-x"
+}

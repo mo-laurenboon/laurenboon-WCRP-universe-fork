@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sino3_tavg-z0-hxy-si",
+  "description": "Vertically-integrated amount of nitrate in ice algae, expressed in moles of nitrogen per square meter of sea ice.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sino3",
+  "label": "sino3_tavg-z0-hxy-si",
+  "drs_name": "sino3_tavg-z0-hxy-si"
+}

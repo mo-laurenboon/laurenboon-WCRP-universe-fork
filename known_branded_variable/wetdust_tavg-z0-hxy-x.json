@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wetdust_tavg-z0-hxy-x",
+  "description": "Surface deposition rate of dust (dry mass) due to wet processes",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "wetdust",
+  "label": "wetdust_tavg-z0-hxy-x",
+  "drs_name": "wetdust_tavg-z0-hxy-x"
+}

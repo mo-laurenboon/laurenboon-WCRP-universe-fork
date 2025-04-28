@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sialgc_tavg-z0-hxy-si",
+  "description": "Vertically-integrated content of carbon in ice algae, expressed as moles of carbon per square meter of sea ice.\n",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sialgc",
+  "label": "sialgc_tavg-z0-hxy-si",
+  "drs_name": "sialgc_tavg-z0-hxy-si"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tslsi_tavg-z0-hxy-x",
+  "description": "Surface temperature of all surfaces except open ocean.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean (where  land or sea ice or ice shelf)",
+  "variable": "tslsi",
+  "label": "tslsi_tavg-z0-hxy-x",
+  "drs_name": "tslsi_tavg-z0-hxy-x"
+}

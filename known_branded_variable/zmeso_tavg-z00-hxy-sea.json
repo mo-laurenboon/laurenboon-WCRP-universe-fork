@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "zmeso_tavg-z00-hxy-sea",
+  "description": "carbon  concentration from mesozooplankton (20-200 um) component alone",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth0m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "zmeso",
+  "label": "zmeso_tavg-z00-hxy-sea",
+  "drs_name": "zmeso_tavg-z00-hxy-sea"
+}

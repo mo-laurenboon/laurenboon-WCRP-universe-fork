@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tntrlcs_tavg-l-hxy-x",
+  "description": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tntrlcs",
+  "label": "tntrlcs_tavg-l-hxy-x",
+  "drs_name": "tntrlcs_tavg-l-hxy-x"
+}

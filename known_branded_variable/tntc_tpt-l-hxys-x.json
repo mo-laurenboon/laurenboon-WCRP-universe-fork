@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tntc_tpt-l-hxys-x",
+  "description": "Tendencies from cumulus convection scheme.",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "tntc",
+  "label": "tntc_tpt-l-hxys-x",
+  "drs_name": "tntc_tpt-l-hxys-x"
+}

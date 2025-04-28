@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "uos_tavg-z0-hxy-sea",
+  "description": "Daily surface prognostic x-ward velocity component resolved by the model.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "uos",
+  "label": "uos_tavg-z0-hxy-sea",
+  "drs_name": "uos_tavg-z0-hxy-sea"
+}

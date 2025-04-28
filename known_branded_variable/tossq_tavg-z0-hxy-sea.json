@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tossq_tavg-z0-hxy-sea",
+  "description": "Square of temperature of liquid ocean, averaged over the day.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "tossq",
+  "label": "tossq_tavg-z0-hxy-sea",
+  "drs_name": "tossq_tavg-z0-hxy-sea"
+}

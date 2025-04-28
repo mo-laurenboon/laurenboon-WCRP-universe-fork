@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tendacabf_tavg-z0-hm-is",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum where ice_sheet time: mean",
+  "variable": "tendacabf",
+  "label": "tendacabf_tavg-z0-hm-is",
+  "drs_name": "tendacabf_tavg-z0-hm-is"
+}

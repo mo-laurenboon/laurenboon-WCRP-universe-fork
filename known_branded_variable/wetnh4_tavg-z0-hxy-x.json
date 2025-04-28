@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wetnh4_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "wetnh4",
+  "label": "wetnh4_tavg-z0-hxy-x",
+  "drs_name": "wetnh4_tavg-z0-hxy-x"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "xvelmean_tavg-z0-hxy-is",
+  "description": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "xvelmean",
+  "label": "xvelmean_tavg-z0-hxy-is",
+  "drs_name": "xvelmean_tavg-z0-hxy-is"
+}

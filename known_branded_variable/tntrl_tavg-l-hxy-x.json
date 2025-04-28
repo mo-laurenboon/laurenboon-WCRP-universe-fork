@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tntrl_tavg-l-hxy-x",
+  "description": "longwave heating rates",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tntrl",
+  "label": "tntrl_tavg-l-hxy-x",
+  "drs_name": "tntrl_tavg-l-hxy-x"
+}

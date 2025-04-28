@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tntmp_tavg-l-hxy-x",
+  "description": "This includes sources and sinks from parametrized physics (e.g. radiation, convection, boundary layer, stratiform condensation/evaporation, etc.). It excludes sources and sinks from resolved dynamics and numerical diffusion not associated with parametrized physics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be included, while numerical diffusion applied in addition to physics or resolved dynamics should be excluded.  This term is required to check the closure of the heat budget.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tntmp",
+  "label": "tntmp_tavg-l-hxy-x",
+  "drs_name": "tntmp_tavg-l-hxy-x"
+}

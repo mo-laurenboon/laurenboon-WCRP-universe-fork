@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "toz_tavg-z0-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "toz",
+  "label": "toz_tavg-z0-hxy-x",
+  "drs_name": "toz_tavg-z0-hxy-x"
+}

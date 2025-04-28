@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "umo_tavg-l-hxy-sea",
+  "description": "X-ward mass transport from residual mean (resolved plus parameterized) advective transport.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "umo",
+  "label": "umo_tavg-l-hxy-sea",
+  "drs_name": "umo_tavg-l-hxy-sea"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "thetao_tavg-z02000-hxy-sea",
+  "description": "Upper 2000m, 2D field",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "olayer2000m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: depth: time: mean where sea",
+  "variable": "thetao",
+  "label": "thetao_tavg-z02000-hxy-sea",
+  "drs_name": "thetao_tavg-z02000-hxy-sea"
+}

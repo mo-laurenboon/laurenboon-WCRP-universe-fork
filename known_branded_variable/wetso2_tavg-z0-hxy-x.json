@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wetso2_tavg-z0-hxy-x",
+  "description": "Deposition rate of sulfur dioxide due to wet processes",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "wetso2",
+  "label": "wetso2_tavg-z0-hxy-x",
+  "drs_name": "wetso2_tavg-z0-hxy-x"
+}

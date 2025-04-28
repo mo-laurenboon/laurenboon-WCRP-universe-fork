@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sw17o_tavg-l-hxy-sea",
+  "description": "Ratio of abundance of oxygen-17 (17O) atoms to oxygen-16 (16O) atoms in sea water",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "sw17O",
+  "label": "sw17O_tavg-l-hxy-sea",
+  "drs_name": "sw17O_tavg-l-hxy-sea"
+}

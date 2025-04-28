@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sithickrdg_tavg-z0-hxy-sir",
+  "description": "Total volume of ridged sea ice divided by area of ridges, i.e. mean thickness of ridged sea ice.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice_ridges",
+  "variable": "sithickrdg",
+  "label": "sithickrdg_tavg-z0-hxy-sir",
+  "drs_name": "sithickrdg_tavg-z0-hxy-sir"
+}

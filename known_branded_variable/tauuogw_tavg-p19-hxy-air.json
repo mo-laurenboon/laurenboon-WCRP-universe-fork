@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tauuogw_tavg-p19-hxy-air",
+  "description": "The vertical flux of zonal momentum within the orographic gravity wave parameterization.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "plev19",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where air",
+  "variable": "tauuogw",
+  "label": "tauuogw_tavg-p19-hxy-air",
+  "drs_name": "tauuogw_tavg-p19-hxy-air"
+}

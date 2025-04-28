@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "zooc_tavg-z00-hxy-sea",
+  "description": "sum of zooplankton carbon component concentrations",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "depth0m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "zooc",
+  "label": "zooc_tavg-z00-hxy-sea",
+  "drs_name": "zooc_tavg-z00-hxy-sea"
+}

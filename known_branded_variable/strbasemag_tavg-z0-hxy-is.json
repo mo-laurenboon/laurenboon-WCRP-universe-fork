@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "strbasemag_tavg-z0-hxy-is",
+  "description": "Magnitude of basal drag at land ice base",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "strbasemag",
+  "label": "strbasemag_tavg-z0-hxy-is",
+  "drs_name": "strbasemag_tavg-z0-hxy-is"
+}

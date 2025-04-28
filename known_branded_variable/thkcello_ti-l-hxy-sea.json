@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "thkcello_ti-l-hxy-sea",
+  "description": "Thickness of ocean cells. \"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid-cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea",
+  "variable": "thkcello",
+  "label": "thkcello_ti-l-hxy-sea",
+  "drs_name": "thkcello_ti-l-hxy-sea"
+}

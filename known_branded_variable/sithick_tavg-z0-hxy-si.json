@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sithick_tavg-z0-hxy-si",
+  "description": "Actual (floe) thickness of sea ice averaged over the ice-covered part of a given grid cell, NOT volume divided by grid area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea_ice time: point",
+  "variable": "sithick",
+  "label": "sithick_tavg-z0-hxy-si",
+  "drs_name": "sithick_tavg-z0-hxy-si"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "slthick_ti-l-hxy-lnd",
+  "description": "Thickness of Soil Layers",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land",
+  "variable": "slthick",
+  "label": "slthick_ti-l-hxy-lnd",
+  "drs_name": "slthick_ti-l-hxy-lnd"
+}

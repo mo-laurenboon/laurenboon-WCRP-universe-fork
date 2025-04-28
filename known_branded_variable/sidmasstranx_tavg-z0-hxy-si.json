@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sidmasstranx_tavg-z0-hxy-si",
+  "description": "X-component of the sea-ice drift-induced transport of snow and sea ice mass.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice",
+  "variable": "sidmasstranx",
+  "label": "sidmasstranx_tavg-z0-hxy-si",
+  "drs_name": "sidmasstranx_tavg-z0-hxy-si"
+}

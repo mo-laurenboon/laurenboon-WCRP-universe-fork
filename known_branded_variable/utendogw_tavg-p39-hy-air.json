@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "utendogw_tavg-p39-hy-air",
+  "description": "Zonal mean tendency of eastward wind induced by the parameterized orographic gravity wave drag",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "utendogw",
+  "label": "utendogw_tavg-p39-hy-air",
+  "drs_name": "utendogw_tavg-p39-hy-air"
+}

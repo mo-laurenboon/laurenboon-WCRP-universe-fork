@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "utendvtem_tavg-p39-hy-air",
+  "description": "Zonal mean tendency of eastward wind due to TEM northward advection and Coriolis term",
+  "dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "longitude: time: mean where air",
+  "variable": "utendvtem",
+  "label": "utendvtem_tavg-p39-hy-air",
+  "drs_name": "utendvtem_tavg-p39-hy-air"
+}

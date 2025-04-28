@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "vas_tavg-h010-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height10m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "vas",
+  "label": "vas_tavg-h010-hxy-x",
+  "drs_name": "vas_tavg-h010-hxy-x"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sisnmass_tavg-z0-hm-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum time: mean",
+  "variable": "sisnmass",
+  "label": "sisnmass_tavg-z0-hm-x",
+  "drs_name": "sisnmass_tavg-z0-hm-x"
+}

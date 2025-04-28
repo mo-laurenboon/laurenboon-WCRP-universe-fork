@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "t17d_tavg-z0-hxy-sea",
+  "description": "Monthly 17C isotherm depth",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "t17d",
+  "label": "t17d_tavg-z0-hxy-sea",
+  "drs_name": "t17d_tavg-z0-hxy-sea"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnhusa_tavg-l-hxy-x",
+  "description": "Tendency of Specific Humidity due to Advection",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tnhusa",
+  "label": "tnhusa_tavg-l-hxy-x",
+  "drs_name": "tnhusa_tavg-l-hxy-x"
+}

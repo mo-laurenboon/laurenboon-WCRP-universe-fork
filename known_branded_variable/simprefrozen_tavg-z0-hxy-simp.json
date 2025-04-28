@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "simprefrozen_tavg-z0-hxy-simp",
+  "description": "Volume of refrozen ice on melt ponds divided by melt pond covered area.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where sea_ice_melt_pond",
+  "variable": "simprefrozen",
+  "label": "simprefrozen_tavg-z0-hxy-simp",
+  "drs_name": "simprefrozen_tavg-z0-hxy-simp"
+}

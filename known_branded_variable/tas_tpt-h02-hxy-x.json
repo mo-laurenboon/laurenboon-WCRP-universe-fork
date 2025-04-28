@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tas_tpt-h02-hxy-x",
+  "description": "This is sampled synoptically.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "height2m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "tas",
+  "label": "tas_tpt-h02-hxy-x",
+  "drs_name": "tas_tpt-h02-hxy-x"
+}

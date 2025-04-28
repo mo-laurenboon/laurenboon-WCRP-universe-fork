@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "snicefreez_tavg-z0-hxy-is",
+  "description": "Mass flux of surface meltwater which refreezes within the snowpack. Computed as the total refreezing on the land ice portion of the grid cell divided by land ice area in the grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where ice_sheet",
+  "variable": "snicefreez",
+  "label": "snicefreez_tavg-z0-hxy-is",
+  "drs_name": "snicefreez_tavg-z0-hxy-is"
+}

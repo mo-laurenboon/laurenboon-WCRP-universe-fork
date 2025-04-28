@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "smc_tavg-l-hxy-x",
+  "description": "The net mass flux represents the difference between the updraft and downdraft components.  For models with a distinct shallow convection scheme, this is calculated as convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevhalf",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "smc",
+  "label": "smc_tavg-l-hxy-x",
+  "drs_name": "smc_tavg-l-hxy-x"
+}

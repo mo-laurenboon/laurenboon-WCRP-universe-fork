@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "treefracbdlevg_tavg-z0-hxy-x",
+  "description": "This is the percentage of the entire grid cell that is covered by broadleaf evergreen trees.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typetreebe"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time:mean\" (or \"area time: mean\")",
+  "variable": "treeFracBdlEvg",
+  "label": "treeFracBdlEvg_tavg-z0-hxy-x",
+  "drs_name": "treeFracBdlEvg_tavg-z0-hxy-x"
+}

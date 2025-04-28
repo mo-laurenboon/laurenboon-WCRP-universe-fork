@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tsl_tavg-l-hxy-lnd",
+  "description": "Temperature of each soil layer.  Reported as \"missing\" for grid cells occupied entirely by \"sea\".",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "sdepth",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "tsl",
+  "label": "tsl_tavg-l-hxy-lnd",
+  "drs_name": "tsl_tavg-l-hxy-lnd"
+}

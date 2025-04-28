@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "snd_tavg-z0-hxy-si",
+  "description": "Actual thickness of snow averaged over the snow-covered part of the sea ice. This thickness is usually directly available within the model formulation. It can also be derived by dividing the total volume of snow by the area of the snow.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea_ice (weighted by area of snow on sea ice) time: mean",
+  "variable": "snd",
+  "label": "snd_tavg-z0-hxy-si",
+  "drs_name": "snd_tavg-z0-hxy-si"
+}

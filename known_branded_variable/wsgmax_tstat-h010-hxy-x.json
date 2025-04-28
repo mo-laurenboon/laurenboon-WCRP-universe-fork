@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wsgmax_tstat-h010-hxy-x",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height10m"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: maximum",
+  "variable": "wsgmax",
+  "label": "wsgmax_tstat-h010-hxy-x",
+  "drs_name": "wsgmax_tstat-h010-hxy-x"
+}

@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wfo_tavg-z0-hxy-sea",
+  "description": "Computed as the water flux into the ocean divided by the area of the ocean portion of the grid cell. This is the sum *wfonocorr* and *wfcorr*.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "wfo",
+  "label": "wfo_tavg-z0-hxy-sea",
+  "drs_name": "wfo_tavg-z0-hxy-sea"
+}

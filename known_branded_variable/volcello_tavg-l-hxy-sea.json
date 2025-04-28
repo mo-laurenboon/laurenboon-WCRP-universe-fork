@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "volcello_tavg-l-hxy-sea",
+  "description": "For oceans with more than 1 mesh (e.g. staggered grids), report areas that apply to surface vertical fluxes of energy. If this field is time-dependent then save it instead as one of your Omon and Odec fields",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum where sea time: mean",
+  "variable": "volcello",
+  "label": "volcello_tavg-l-hxy-sea",
+  "drs_name": "volcello_tavg-l-hxy-sea"
+}

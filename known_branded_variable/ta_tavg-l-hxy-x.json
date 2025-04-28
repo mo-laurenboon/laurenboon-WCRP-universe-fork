@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ta_tavg-l-hxy-x",
+  "description": "Air Temperature",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "ta",
+  "label": "ta_tavg-l-hxy-x",
+  "drs_name": "ta_tavg-l-hxy-x"
+}

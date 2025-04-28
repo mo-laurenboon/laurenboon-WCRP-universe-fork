@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "wmo_tavg-l-hxy-sea",
+  "description": "Upward mass transport from residual mean (resolved plus parameterized) advective transport.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: sum where sea time: mean",
+  "variable": "wmo",
+  "label": "wmo_tavg-l-hxy-sea",
+  "drs_name": "wmo_tavg-l-hxy-sea"
+}

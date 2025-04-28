@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnhusc_tavg-l-hxy-x",
+  "description": "Tendencies from cumulus convection scheme.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean",
+  "variable": "tnhusc",
+  "label": "tnhusc_tavg-l-hxy-x",
+  "drs_name": "tnhusc_tavg-l-hxy-x"
+}

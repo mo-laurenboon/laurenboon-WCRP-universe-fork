@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "vegheight_tavg-z0-hxy-veg",
+  "description": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: time: mean where vegetation",
+  "variable": "vegHeight",
+  "label": "vegHeight_tavg-z0-hxy-veg",
+  "drs_name": "vegHeight_tavg-z0-hxy-veg"
+}

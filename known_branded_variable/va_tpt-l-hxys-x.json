@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "va_tpt-l-hxys-x",
+  "description": "Meridional wind (positive in a northward direction).",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "va",
+  "label": "va_tpt-l-hxys-x",
+  "drs_name": "va_tpt-l-hxys-x"
+}

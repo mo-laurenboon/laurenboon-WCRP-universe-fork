@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tnhusscpbl_tpt-l-hxys-x",
+  "description": "To be specified only in  models which do not separate budget terms for stratiform cloud, precipitation and boundary layer schemes.  Includes all bounday layer terms including and diffusive terms.",
+  "dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: point time: point",
+  "variable": "tnhusscpbl",
+  "label": "tnhusscpbl_tpt-l-hxys-x",
+  "drs_name": "tnhusscpbl_tpt-l-hxys-x"
+}

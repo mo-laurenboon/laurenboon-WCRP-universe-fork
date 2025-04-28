@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "t20d_tavg-z0-hxy-sea",
+  "description": "TBC (clashes in original table)",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "t20d",
+  "label": "t20d_tavg-z0-hxy-sea",
+  "drs_name": "t20d_tavg-z0-hxy-sea"
+}

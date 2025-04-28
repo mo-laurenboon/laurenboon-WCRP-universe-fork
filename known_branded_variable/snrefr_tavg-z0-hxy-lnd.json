@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "snrefr_tavg-z0-hxy-lnd",
+  "description": "surface_snow_and_ice_refreezing_flux",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where land time: mean",
+  "variable": "snrefr",
+  "label": "snrefr_tavg-z0-hxy-lnd",
+  "drs_name": "snrefr_tavg-z0-hxy-lnd"
+}

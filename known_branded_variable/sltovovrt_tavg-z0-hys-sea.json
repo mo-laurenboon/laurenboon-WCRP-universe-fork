@@ -1,0 +1,15 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "sltovovrt_tavg-z0-hys-sea",
+  "description": "From all advective mass transport processes, resolved and parameterized.",
+  "dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "depth: longitude: sum where sea (along a zig-zag grid path spanning a basin)  time: mean",
+  "variable": "sltovovrt",
+  "label": "sltovovrt_tavg-z0-hys-sea",
+  "drs_name": "sltovovrt_tavg-z0-hys-sea"
+}

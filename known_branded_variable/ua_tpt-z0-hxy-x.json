@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ua_tpt-z0-hxy-x",
+  "description": "Zonal wind (positive in a eastward direction) at 200 hPa, 6hourly instantaneous",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "p200"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean time: point",
+  "variable": "ua",
+  "label": "ua_tpt-z0-hxy-x",
+  "drs_name": "ua_tpt-z0-hxy-x"
+}

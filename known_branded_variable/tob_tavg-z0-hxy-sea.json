@@ -1,0 +1,16 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "tob_tavg-z0-hxy-sea",
+  "description": "Potential temperature at the ocean bottom-most grid cell.",
+  "dimensions": [
+    "longitude",
+    "latitude",
+    "depthseafloor",
+    "time"
+  ],
+  "type": "known_branded_variable",
+  "cell_methods": "area: mean where sea time: mean",
+  "variable": "tob",
+  "label": "tob_tavg-z0-hxy-sea",
+  "drs_name": "tob_tavg-z0-hxy-sea"
+}

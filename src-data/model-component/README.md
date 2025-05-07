@@ -1,4 +1,4 @@
-Please describe the dynamic model component, which are those that dynamically simulate their processes and interact with each other either directly or indirectly. Direct interactions between components can be characterised as either "embedded" or "coupled."
+The dynamic model component(s), which are those that dynamically simulate their processes and interact with each other either directly or indirectly. Direct interactions between components can be characterised as either "embedded" or "coupled."
 
 What are the characteristics of an "embedded" component? 
 <details>
@@ -12,7 +12,7 @@ What are the characteristics of an "embedded" component?
 
 </details>
 
-What are the characteristics of an "coupled" component? 
+What are the characteristics of a "coupled" component? 
 <details>
 <summary>Click the arrow to learn more.</summary>
 

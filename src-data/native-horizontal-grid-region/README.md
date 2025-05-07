@@ -1,7 +1,7 @@
 Native horizontal grid regions. A geographical region is a contiguous part of the Earth’s surface over which a model component is simulated.
 
 <details>
-<summary>Click the arrow to learn more.</summary>
+<summary>Click the arrow to learn more about the options.</summary>
 
   - antarctica: the geographical region of Antarctica, as defined by the CF standardised regions.
   - global: the geographical region of the whole of the Earth’s surface, as defined by the CF standardised regions.

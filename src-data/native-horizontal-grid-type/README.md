@@ -1,7 +1,7 @@
 The native horizontal grid type, i.e., methods for distributing grid points over the sphere.
 
 <details>
-<summary>Click the arrow to learn more about the options for the native horizontal grid type property.</summary>
+<summary>Click the arrow to learn more about the native horizontal grid type property options.</summary>
 
   - regular_latitude_longitude: a rectilinear latitude-longitude grid with evenly spaced latitude points and evenly spaced longitude points.
   - regular_gaussian: a Gaussian grid for which the number of longitudinal points is constant for each latitude.

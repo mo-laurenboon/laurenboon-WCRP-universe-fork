@@ -1,7 +1,7 @@
 Native vertical grid coordinate type.
 
 <details>
-<summary>Click the arrow to learn more.</summary>
+<summary>Click the arrow to learn more about the options.</summary>
 
   - none: (Not a standard name) There is no vertical dimension.
   - height: Height is the vertical distance above the earth’s surface.

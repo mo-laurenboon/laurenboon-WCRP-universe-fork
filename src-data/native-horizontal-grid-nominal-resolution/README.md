@@ -1,7 +1,11 @@
 The nominal resolution (in km) characterises the resolution of a model’s native horizontal grid.
 
+The mean resolution (in km) property must first be calculated because the nominal resolution (in km) is a function of the value of the mean resolution.
+
+The nominal resolution is obtained from the table below.
+
 <details>
-<summary>Click the arrow to learn more about the options for the native horizontal grid nominal resolution property, which are defined as a function of the value of the mean resolution km property.</summary>
+<summary>Click the arrow to see the table.</summary>
 
 | for mean resolution, R, in the range (km): | nominal resolution is:|
 | -------- | ------- |

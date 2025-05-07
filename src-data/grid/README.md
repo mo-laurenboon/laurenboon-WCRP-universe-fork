@@ -1,4 +1,4 @@
-Grid properties are specific to the native grid of each model component, which is the grid on which the component is integrated and is split into separate horizontal and vertical parts. 
+Grid properties are specific to the native grid of each model component on which the component is integrated.
 
 The horizontal and vertical parts of the grid are described with a standardised specification that is based on selections from controlled vocabularies or the provision of numerical values. 
 

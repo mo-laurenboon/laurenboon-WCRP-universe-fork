@@ -1,27 +1,18 @@
 {
     "@context": "000_context.jsonld",
     "id": "ceda",
-    "acronyms": [
+    "type": "institution",
+    "drs_name": "CEDA",
+    "name": "CEDA",
+    "acronym": [
         "CEDA"
     ],
     "aliases": [],
-    "cmip-acronym": "CEDA",
-    "established": 2005,
-    "labels": [],
-    "location": {
-        "city": "Harwell",
-        "country": [
-            "United Kingdom",
-            "GB"
-        ],
-        "lat": 53.41667,
-        "lon": -0.96667
-    },
-    "name": "Centre for Environmental Data Analysis",
-    "ror": "04j4kad11",
-    "url": [
-        "https://www.ceda.ac.uk/"
+    "established": null,
+    "labels": [
+        "Centre for Environmental Data Analysis, RAL Space, STFC Rutherford Appleton Laboratory, Chilton, Didcot; National Centre for Earth Observation, UK"
     ],
-    "type": "institution",
-    "drs_name": "CEDA"
+    "location": {},
+    "ror": null,
+    "url": []
 }

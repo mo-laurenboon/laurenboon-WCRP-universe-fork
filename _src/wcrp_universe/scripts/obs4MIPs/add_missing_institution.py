@@ -44,4 +44,5 @@ for term, desc in source_data["institution_id"].items():
     # Write term file
     term_path = OUTPUT_DIR / f"{term.lower()}.json"
     with open(term_path, "w", encoding="utf-8") as f:
+        print("create", term_path)
         json.dump(term_data, f, indent=4)

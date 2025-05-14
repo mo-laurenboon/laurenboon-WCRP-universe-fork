@@ -1,5 +1,5 @@
 {
-    "required_global_attributes":[
+    "required_global_attributes": [
         "Conventions",
         "activity_id",
         "contact",

@@ -19,23 +19,23 @@ logger = logging.getLogger(__name__)
 
 # GitHub repository information
 GITHUB_BASE_URL = "https://raw.githubusercontent.com/PCMDI/obs4MIPs-cmor-tables"
-GITHUB_BRANCH = "main"
-GITHUB_CV_PATH = "CVs"
+GITHUB_BRANCH = "master"
+GITHUB_CV_PATH = "."
 
 # List of CV files to fetch
 CV_FILES = [
-    "input4MIPs_activity_id.json",
-    "input4MIPs_target_mip.json",
-    "input4MIPs_source_id.json",
-    "input4MIPs_dataset_category.json",
-    "input4MIPs_license.json",
-    "input4MIPs_mip_era.json",
-    "input4MIPs_product.json",
-    "input4MIPs_publication_status.json",
-    "input4MIPs_tracking_id.json",
-    "input4MIPs_required_global_attributes.json",
-    "input4MIPs_institution_id.json",
-    "input4MIPs_DRS.json",
+    "obs4MIPs_frequency.json",
+    "obs4MIPs_grid_label.json",
+    "obs4MIPs_institution_id.json",
+    "obs4MIPs_license.json",
+    "obs4MIPs_nominal_resolution.json",
+    "obs4MIPs_product.json",
+    "obs4MIPs_realm.json",
+    "obs4MIPs_region.json",
+    "obs4MIPs_required_global_attributes.json",
+    "obs4MIPs_source_id.json",
+    "obs4MIPs_source_type.json",
+    "obs4MIPs_table_id.json",
 ]
 # script path
 script_dir = Path(__file__).resolve().parent

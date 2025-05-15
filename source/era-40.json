@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "ECMWF-ERA-40"
-    ],
+    "label": "ECMWF-ERA-40",
     "label_extended": "ECMWF - ERA-40 (European ReAnalysis 1957-2002)",
     "license": {},
     "model_component": null,

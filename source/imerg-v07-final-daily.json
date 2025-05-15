@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "IMERG-V07-Final-Daily"
-    ],
+    "label": "IMERG-V07-Final-Daily",
     "label_extended": "NASA IMERG Daily Averages",
     "license": {},
     "model_component": null,

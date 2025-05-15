@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "GNSS-RO"
-    ],
+    "label": "GNSS-RO",
     "label_extended": "Global Navigation Satellite Systems Radio Occultation",
     "license": {},
     "model_component": null,

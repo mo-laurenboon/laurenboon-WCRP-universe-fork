@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "CMAP"
-    ],
+    "label": "CMAP",
     "label_extended": "CMAP Precipitation",
     "license": {},
     "model_component": null,

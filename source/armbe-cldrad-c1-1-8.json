@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "ARMBE"
-    ],
+    "label": "ARMBE",
     "label_extended": "DOE ARM Best Estimate Data Products for Atmosphere and Cloud properties",
     "license": {},
     "model_component": null,

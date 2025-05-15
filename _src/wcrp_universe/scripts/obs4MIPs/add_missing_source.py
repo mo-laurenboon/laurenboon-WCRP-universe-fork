@@ -46,7 +46,7 @@ for term, dic in source_data["source_id"].items():
         "activity_participation": ["obs4mips"],
         "cohort": [],
         "organisation_id": [],
-        "label": [dic["source_label"]],
+        "label": dic["source_label"],
         "label_extended": dic["source_description"],
         "license": {},
         "model_component": None,

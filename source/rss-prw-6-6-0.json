@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-PRW"
-    ],
+    "label": "RSS-PRW",
     "label_extended": "RSS-PRW 6.6.0 (2017): Water Vapor Path",
     "license": {},
     "model_component": null,

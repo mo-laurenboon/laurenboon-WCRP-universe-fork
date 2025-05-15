@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "GLODAP"
-    ],
+    "label": "GLODAP",
     "label_extended": "Global Ocean Data Analysis Project Version 2",
     "license": {},
     "model_component": null,

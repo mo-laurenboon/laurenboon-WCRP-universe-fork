@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA-NCEI-GridSat"
-    ],
+    "label": "NOAA-NCEI-GridSat",
     "label_extended": "Gridded Satellite ISCCP B1 11 Micron Brightness Temperature",
     "license": {},
     "model_component": null,

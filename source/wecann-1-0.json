@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "WECANN"
-    ],
+    "label": "WECANN",
     "label_extended": "Water, Energy, and Carbon with Artificial Neural Networks",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "IMERG v06B Final"
-    ],
+    "label": "IMERG v06B Final",
     "label_extended": "Integrated Multi-satellitE Retrievals for Global Precipitation Measurement (IMERG)",
     "license": {},
     "model_component": null,

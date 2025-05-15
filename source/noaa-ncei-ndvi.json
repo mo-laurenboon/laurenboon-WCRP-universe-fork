@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA NCEI NDVI"
-    ],
+    "label": "NOAA NCEI NDVI",
     "label_extended": "Normalized Difference Vegetation Index",
     "license": {},
     "model_component": null,

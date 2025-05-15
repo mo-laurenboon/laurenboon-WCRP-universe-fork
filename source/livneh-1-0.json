@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "livneh"
-    ],
+    "label": "livneh",
     "label_extended": "Livneh daily CONUS near-surface gridded meteorological and derived hydrometeorological data data provided by the NOAA PSL",
     "license": {},
     "model_component": null,

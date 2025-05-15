@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "HWSD"
-    ],
+    "label": "HWSD",
     "label_extended": "Harmonized World Soil Database version 2",
     "license": {},
     "model_component": null,

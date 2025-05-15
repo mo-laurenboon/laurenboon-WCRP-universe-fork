@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA-NCEI-PERSIANN"
-    ],
+    "label": "NOAA-NCEI-PERSIANN",
     "label_extended": "Precipitation Estimation from Remotely Sensed Information using Artificial Neural Network",
     "license": {},
     "model_component": null,

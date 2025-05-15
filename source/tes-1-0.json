@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "TES 1 0"
-    ],
+    "label": "TES 1 0",
     "label_extended": "Mole Fraction of O3",
     "license": {},
     "model_component": null,

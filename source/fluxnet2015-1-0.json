@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "FLUXNET2015"
-    ],
+    "label": "FLUXNET2015",
     "label_extended": "FLUXNET Community Product",
     "license": {},
     "model_component": null,

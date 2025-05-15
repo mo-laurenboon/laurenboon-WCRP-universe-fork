@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "IMERG-V07-Final-3hr"
-    ],
+    "label": "IMERG-V07-Final-3hr",
     "label_extended": "NASA IMERG averaged to 3-hourly maps",
     "license": {},
     "model_component": null,

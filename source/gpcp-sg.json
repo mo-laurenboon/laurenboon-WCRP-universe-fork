@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "GPCP SG"
-    ],
+    "label": "GPCP SG",
     "label_extended": "Global Precipitation Climatology Project Satellite-Gauge",
     "license": {},
     "model_component": null,

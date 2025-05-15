@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "MUR25"
-    ],
+    "label": "MUR25",
     "label_extended": "Multiscale Ultrahigh Resolution L4 Sea-Surface Temperature",
     "license": {},
     "model_component": null,

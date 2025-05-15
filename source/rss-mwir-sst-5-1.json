@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-MWIR-SST"
-    ],
+    "label": "RSS-MWIR-SST",
     "label_extended": "RSS MWIR v5.1 Foundation OISST",
     "license": {},
     "model_component": null,

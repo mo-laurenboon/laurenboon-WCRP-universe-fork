@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "PRISM"
-    ],
+    "label": "PRISM",
     "label_extended": "PRISM Spatial Climate Datasets for CONUS",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "livneh_unsplit"
-    ],
+    "label": "livneh_unsplit",
     "label_extended": "Livneh daily CONUS unsplit",
     "license": {},
     "model_component": null,

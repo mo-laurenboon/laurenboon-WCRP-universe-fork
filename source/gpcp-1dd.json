@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "GPCP 1DD"
-    ],
+    "label": "GPCP 1DD",
     "label_extended": "Global Precipitation Climatology Project One Degree Daily",
     "license": {},
     "model_component": null,

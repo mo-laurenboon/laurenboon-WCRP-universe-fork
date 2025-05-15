@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "ESA CCI SST"
-    ],
+    "label": "ESA CCI SST",
     "label_extended": "Sea Surface Temperature (SST) from the European Space Agency Climate Change Initiative (ESA CCI)",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA NCEI SeaIce"
-    ],
+    "label": "NOAA NCEI SeaIce",
     "label_extended": "SSMI Passive Microwave Sea Ice Area Fraction",
     "license": {},
     "model_component": null,

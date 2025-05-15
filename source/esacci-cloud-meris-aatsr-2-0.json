@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "ESACCI-CLOUD-MERIS-AATSR"
-    ],
+    "label": "ESACCI-CLOUD-MERIS-AATSR",
     "label_extended": "Cloud properties derived from MERIS and AATSR (aboard ENVISAT) measurements. This dataset belongs to the ESA Cloud_cci suite of long-term coherent cloud property datasets.",
     "license": {},
     "model_component": null,

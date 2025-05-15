@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "QuikSCAT"
-    ],
+    "label": "QuikSCAT",
     "label_extended": "QuikSCAT winds monthly climatology derived from QuikSCAT L2B using the 2006 model function and processing algorithms.",
     "license": {},
     "model_component": null,

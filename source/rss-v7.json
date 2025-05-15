@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-v7"
-    ],
+    "label": "RSS-v7",
     "label_extended": "Satellite derived fields produced by RSS",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "LORA"
-    ],
+    "label": "LORA",
     "label_extended": "Linear Optimal Runoff Aggregate",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "TropFlux-1-0"
-    ],
+    "label": "TropFlux-1-0",
     "label_extended": "TropFlux - Air-Sea Fluxes for the Global Tropical Oceans",
     "license": {},
     "model_component": null,

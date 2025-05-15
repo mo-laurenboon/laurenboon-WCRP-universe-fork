@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "Aura-MLS"
-    ],
+    "label": "Aura-MLS",
     "label_extended": "EOS Aura Microwave Limb Sounder",
     "license": {},
     "model_component": null,

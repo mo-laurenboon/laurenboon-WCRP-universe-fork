@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "ESACCI-CLOUD-ATSR2-AATSR"
-    ],
+    "label": "ESACCI-CLOUD-ATSR2-AATSR",
     "label_extended": "Cloud properties derived from ATSR2 and AATSR (aboard ERS2 and ENVISAT) measurements. This dataset belongs to the ESA Cloud_cci suite of long-term coherent cloud property datasets.",
     "license": {},
     "model_component": null,

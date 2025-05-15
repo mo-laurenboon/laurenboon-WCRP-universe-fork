@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "TRMM"
-    ],
+    "label": "TRMM",
     "label_extended": "NASA-TRMM (observation 2000-2009)",
     "license": {},
     "model_component": null,

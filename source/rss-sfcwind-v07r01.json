@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-sfcWind"
-    ],
+    "label": "RSS-sfcWind",
     "label_extended": "RSS-sfcWind 7.0 (2021): 10m Surface Wind",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-SMAP-SSS"
-    ],
+    "label": "RSS-SMAP-SSS",
     "label_extended": "Satellite derived SSS produced by RSS",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "AIRS"
-    ],
+    "label": "AIRS",
     "label_extended": "Atmospheric Infrared Sounder",
     "license": {},
     "model_component": null,

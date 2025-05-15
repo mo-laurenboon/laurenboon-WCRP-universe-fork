@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "PERSIANN"
-    ],
+    "label": "PERSIANN",
     "label_extended": "PERSIANN-CDRv1r1 (2019): Precipitation",
     "license": {},
     "model_component": null,

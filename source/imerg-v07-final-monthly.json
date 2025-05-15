@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "IMERG-V07-Final-Monthly"
-    ],
+    "label": "IMERG-V07-Final-Monthly",
     "label_extended": "NASA IMERG Monthly Maps",
     "license": {},
     "model_component": null,

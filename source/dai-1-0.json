@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "DAI"
-    ],
+    "label": "DAI",
     "label_extended": "Dai and Trenberth Global River Flow and Continental Discharge Dataset",
     "license": {},
     "model_component": null,

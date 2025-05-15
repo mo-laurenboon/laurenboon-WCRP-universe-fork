@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "GSMAP"
-    ],
+    "label": "GSMAP",
     "label_extended": "JAXA GSMAP prepared for FROGS",
     "license": {},
     "model_component": null,

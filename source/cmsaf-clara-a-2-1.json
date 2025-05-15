@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "CMSAF-CLARA-A"
-    ],
+    "label": "CMSAF-CLARA-A",
     "label_extended": "CM SAF cLoud, Albedo and surface RAdiation dataset from AVHRR data",
     "license": {},
     "model_component": null,

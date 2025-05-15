@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA-NCEI-SeaWinds"
-    ],
+    "label": "NOAA-NCEI-SeaWinds",
     "label_extended": "Blended Sea Surface Winds",
     "license": {},
     "model_component": null,

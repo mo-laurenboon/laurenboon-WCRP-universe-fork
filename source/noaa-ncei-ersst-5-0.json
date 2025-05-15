@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "NOAA NCEI ERSST"
-    ],
+    "label": "NOAA NCEI ERSST",
     "label_extended": "Extended Reconstructed Sea Surface Temperatures",
     "license": {},
     "model_component": null,

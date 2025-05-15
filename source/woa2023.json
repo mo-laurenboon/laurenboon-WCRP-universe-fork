@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "WOA"
-    ],
+    "label": "WOA",
     "label_extended": "World Ocean Atlas",
     "license": {},
     "model_component": null,

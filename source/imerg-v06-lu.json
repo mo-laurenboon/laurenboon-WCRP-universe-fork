@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "IMERG-V06-LU"
-    ],
+    "label": "IMERG-V06-LU",
     "label_extended": "NASA IMERG prepared for FROGS",
     "license": {},
     "model_component": null,

@@ -8,9 +8,7 @@
     ],
     "cohort": [],
     "organisation_id": [],
-    "label": [
-        "RSS-MSU-TMT"
-    ],
+    "label": "RSS-MSU-TMT",
     "label_extended": "RSS MSU Temperature Middle Troposphere v4.0",
     "license": {},
     "model_component": null,

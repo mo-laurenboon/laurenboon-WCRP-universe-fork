@@ -1,0 +1,10 @@
+{
+    "id": "regular-gaussian",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "validation-key": "regular-gaussian",
+    "description": "a Gaussian grid for which the number of longitudinal points is constant for each latitude",
+    "ui-label": "Regular gaussian"
+}

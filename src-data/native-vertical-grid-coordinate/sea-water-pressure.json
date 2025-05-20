@@ -1,0 +1,10 @@
+{
+    "id": "sea-water-pressure",
+    "type": [
+        "wcrp:native-vertical-grid-coordinate",
+        "universal"
+    ],
+    "validation-key": "sea-water-pressure",
+    "description": "Sea water pressure is the pressure that exists in the medium of sea water",
+    "ui-label": "Sea water pressure"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "cubed-sphere",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "validation-key": "cubed-sphere",
+    "description": "the spherical surface is defined as six coupled \u201clogically square\u201d regions",
+    "ui-label": "Cubed sphere"
+}

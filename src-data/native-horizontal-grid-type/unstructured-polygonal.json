@@ -1,0 +1,10 @@
+{
+    "id": "unstructured-polygonal",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "validation-key": "unstructured-polygonal",
+    "description": "an unstructured mesh consisting of arbitrary polygons",
+    "ui-label": "Unstructured polygonal"
+}

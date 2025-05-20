@@ -1,0 +1,10 @@
+{
+    "id": "ocean",
+    "type": [
+        "wcrp:model-component-type",
+        "universal"
+    ],
+    "validation-key": "ocean",
+    "description": "dynamical, thermodynamical, and physical processes in the ocean",
+    "ui-label": "Ocean"
+}

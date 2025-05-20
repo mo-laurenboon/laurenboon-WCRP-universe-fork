@@ -1,0 +1,10 @@
+{
+    "id": "none",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "validation-key": "none",
+    "description": "there is no horizontal grid",
+    "ui-label": "None"
+}

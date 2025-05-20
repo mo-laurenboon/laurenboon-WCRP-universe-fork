@@ -1,0 +1,10 @@
+{
+    "id": "none",
+    "type": [
+        "wcrp:model-calendar",
+        "universal"
+    ],
+    "validation-key": "none",
+    "description": "no calendar",
+    "ui-label": "None"
+}

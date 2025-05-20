@@ -1,0 +1,10 @@
+{
+    "id": "greenland",
+    "type": [
+        "wcrp:native-horizontal-grid-region",
+        "universal"
+    ],
+    "validation-key": "greenland",
+    "description": "the geographical region of Greenland, as defined by the CF standardised regions",
+    "ui-label": "Greenland"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "reduced-gaussian",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "validation-key": "reduced-gaussian",
+    "description": "a Gaussian grid for which the number of longitudinal points is reduced as the poles are approached",
+    "ui-label": "Reduced gaussian"
+}

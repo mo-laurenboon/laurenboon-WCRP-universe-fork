@@ -1,0 +1,10 @@
+{
+    "id": "atmosphere-sleve-coordinate",
+    "type": [
+        "wcrp:native-vertical-grid-coordinate",
+        "universal"
+    ],
+    "validation-key": "atmosphere-sleve-coordinate",
+    "description": "Parametric atmosphere smooth vertical level coordinate",
+    "ui-label": "Atmosphere sleve coordinate"
+}

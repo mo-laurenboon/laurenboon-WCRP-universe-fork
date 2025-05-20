@@ -1,0 +1,10 @@
+{
+    "id": "standard",
+    "type": [
+        "wcrp:model-calendar",
+        "universal"
+    ],
+    "validation-key": "standard",
+    "description": "mixed Gregorian/Julian calendar which is Gregorian after 1582-10-15, and Julian before",
+    "ui-label": "Standard"
+}

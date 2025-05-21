@@ -6,7 +6,6 @@
   "established": 1974,
   "id": "rss",
   "kind": "Company",
-  "validation-key": "RSS",
   "labels": [],
   "location": {
     "city": "Santa Rosa",
@@ -19,7 +18,7 @@
     "lon": 38.44047,
     "type": "wcrp:location"
   },
-  "long_label": "Remote Sensing Systems (United States)",
+  "ui-label": "Remote Sensing Systems (United States)",
   "ror": "01vp8h012",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.remss.com/"
-  ]
+  ],
+  "validation-key": "RSS"
 }

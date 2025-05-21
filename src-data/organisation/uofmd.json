@@ -6,7 +6,6 @@
   "established": 1856,
   "id": "uofmd",
   "kind": "Education",
-  "validation-key": "UofMD",
   "labels": [],
   "location": {
     "city": "College Park",
@@ -19,7 +18,7 @@
     "lon": 38.98067,
     "type": "wcrp:location"
   },
-  "long_label": "University of Maryland, College Park",
+  "ui-label": "University of Maryland, College Park",
   "ror": "047s2c258",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://umd.edu"
-  ]
+  ],
+  "validation-key": "UofMD"
 }

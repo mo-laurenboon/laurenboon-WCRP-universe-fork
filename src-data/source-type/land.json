@@ -2,9 +2,9 @@
   "@context": "_context_",
   "description": "land model run uncoupled from the atmosphere",
   "id": "land",
-  "validation-key": "LAND",
   "type": [
     "wcrp:source-type",
     "universal"
-  ]
+  ],
+  "validation-key": "LAND"
 }

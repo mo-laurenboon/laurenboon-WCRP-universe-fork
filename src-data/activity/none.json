@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "'none' entry permissable only for the experiment parent id. ",
   "id": "none",
-  "validation-key": "none",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": ""
+  "url": "",
+  "validation-key": "none"
 }

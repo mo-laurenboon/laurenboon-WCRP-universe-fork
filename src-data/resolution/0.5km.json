@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "Resolution of 0.5 km",
   "id": "0.5km",
-  "validation-key": "0.5 km",
   "type": [
     "wcrp:resolution",
     "universal"
   ],
   "unit": "km",
+  "validation-key": "0.5 km",
   "value": "0.5"
 }

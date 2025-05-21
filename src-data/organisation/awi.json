@@ -9,7 +9,6 @@
   "established": 1980,
   "id": "awi",
   "kind": "Facility",
-  "validation-key": "AWI",
   "labels": [],
   "location": {
     "city": "Bremerhaven",
@@ -22,7 +21,7 @@
     "lon": 53.53615,
     "type": "wcrp:location"
   },
-  "long_label": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+  "ui-label": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
   "ror": "032e6b942",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.awi.de"
-  ]
+  ],
+  "validation-key": "AWI"
 }

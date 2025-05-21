@@ -7,7 +7,6 @@
   "established": 1965,
   "id": "pnnl-waccem",
   "kind": "Facility",
-  "validation-key": "PNNL-WACCEM",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/05h992307",
     "type": "location"
   },
-  "long_label": "Pacific Northwest National Laboratory",
+  "ui-label": "Pacific Northwest National Laboratory",
   "ror": "05h992307",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.pnnl.gov/"
-  ]
+  ],
+  "validation-key": "PNNL-WACCEM"
 }

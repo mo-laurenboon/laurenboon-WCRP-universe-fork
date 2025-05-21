@@ -7,7 +7,6 @@
   "established": 1961,
   "id": "nasa-giss",
   "kind": "Facility",
-  "validation-key": "NASA-GISS",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/01cyfxe35",
     "type": "location"
   },
-  "long_label": "Goddard Institute for Space Studies",
+  "ui-label": "Goddard Institute for Space Studies",
   "ror": "01cyfxe35",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.giss.nasa.gov/"
-  ]
+  ],
+  "validation-key": "NASA-GISS"
 }

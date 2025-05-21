@@ -6,7 +6,6 @@
   "established": 1952,
   "id": "dwd",
   "kind": "Facility",
-  "validation-key": "DWD",
   "labels": [],
   "location": {
     "city": "Offenbach",
@@ -19,7 +18,7 @@
     "lon": 50.10061,
     "type": "wcrp:location"
   },
-  "long_label": "German Meteorological Service",
+  "ui-label": "German Meteorological Service",
   "ror": "02nrqs528",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.dwd.de/"
-  ]
+  ],
+  "validation-key": "DWD"
 }

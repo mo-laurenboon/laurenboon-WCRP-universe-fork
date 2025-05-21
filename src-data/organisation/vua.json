@@ -8,7 +8,6 @@
   "established": 1880,
   "id": "vua",
   "kind": "Education",
-  "validation-key": "VUA",
   "labels": [],
   "location": {
     "city": "Amsterdam",
@@ -21,7 +20,7 @@
     "lon": 52.37403,
     "type": "wcrp:location"
   },
-  "long_label": "Vrije Universiteit Amsterdam",
+  "ui-label": "Vrije Universiteit Amsterdam",
   "ror": "008xxew50",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://vu.nl/"
-  ]
+  ],
+  "validation-key": "VUA"
 }

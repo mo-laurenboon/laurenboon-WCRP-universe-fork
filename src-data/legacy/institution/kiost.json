@@ -9,7 +9,6 @@
   "established": 1973,
   "id": "kiost",
   "kind": "Facility",
-  "validation-key": "KIOST",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/032m55064",
     "type": "location"
   },
-  "long_label": "Korea Institute of Ocean Science and Technology",
+  "ui-label": "Korea Institute of Ocean Science and Technology",
   "ror": "032m55064",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "http://eng.kiost.ac/"
-  ]
+  ],
+  "validation-key": "KIOST"
 }

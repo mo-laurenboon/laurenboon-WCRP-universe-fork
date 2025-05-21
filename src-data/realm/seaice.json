@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Sea Ice",
   "id": "seaice",
-  "validation-key": "seaIce",
-  "long_label": "Sea Ice",
+  "ui-label": "Sea Ice",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "seaIce"
 }

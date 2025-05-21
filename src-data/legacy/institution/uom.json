@@ -7,7 +7,6 @@
   "established": 1853,
   "id": "uom",
   "kind": "Education",
-  "validation-key": "UoM",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/01ej9dk98",
     "type": "location"
   },
-  "long_label": "University of Melbourne",
+  "ui-label": "University of Melbourne",
   "ror": "01ej9dk98",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.unimelb.edu.au/"
-  ]
+  ],
+  "validation-key": "UoM"
 }

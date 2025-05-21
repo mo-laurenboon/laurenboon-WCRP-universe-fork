@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "irrmip",
-  "validation-key": "IRRMIP",
-  "ui-label": "Irrigation Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://hydr.vub.be/projects/irrmip"
+  "ui-label": "Irrigation Model Intercomparison Project",
+  "url": "https://hydr.vub.be/projects/irrmip",
+  "validation-key": "IRRMIP"
 }

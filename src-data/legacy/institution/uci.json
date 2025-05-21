@@ -9,7 +9,6 @@
   "established": 1965,
   "id": "uci",
   "kind": "Education",
-  "validation-key": "UCI",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/04gyf1771",
     "type": "location"
   },
-  "long_label": "University of California, Irvine",
+  "ui-label": "University of California, Irvine",
   "ror": "04gyf1771",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "http://uci.edu/"
-  ]
+  ],
+  "validation-key": "UCI"
 }

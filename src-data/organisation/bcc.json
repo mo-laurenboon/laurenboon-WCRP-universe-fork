@@ -4,7 +4,6 @@
   "established": 2008,
   "id": "bcc",
   "kind": "Company",
-  "validation-key": "BCC",
   "labels": [],
   "location": {
     "city": "Beijing",
@@ -17,7 +16,7 @@
     "lon": 39.9075,
     "type": "wcrp:location"
   },
-  "long_label": "Beijing Biocytogen (China)",
+  "ui-label": "Beijing Biocytogen (China)",
   "ror": "01spyyb53",
   "type": [
     "wcrp:organisation",
@@ -26,5 +25,6 @@
   ],
   "url": [
     "http://www.bbctg.com.cn/"
-  ]
+  ],
+  "validation-key": "BCC"
 }

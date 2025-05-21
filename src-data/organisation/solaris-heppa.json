@@ -2,8 +2,7 @@
   "@context": "_context_",
   "changes": "",
   "id": "solaris-heppa",
-  "validation-key": "SOLARIS HEPPA",
-  "long_label": "SOLARIS HEPPA Consortium",
+  "ui-label": "SOLARIS HEPPA Consortium",
   "members": {
     "aor": {
       "current": true,
@@ -187,5 +186,6 @@
     "universal",
     "wcrp:organisation"
   ],
-  "url": "https://solarisheppa.geomar.de"
+  "url": "https://solarisheppa.geomar.de",
+  "validation-key": "SOLARIS HEPPA"
 }

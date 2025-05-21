@@ -10,7 +10,6 @@
   "established": 1958,
   "id": "nasa",
   "kind": "Funder",
-  "validation-key": "NASA",
   "labels": [],
   "location": {
     "city": "Washington",
@@ -23,7 +22,7 @@
     "lon": 38.89511,
     "type": "wcrp:location"
   },
-  "long_label": "National Aeronautics and Space Administration",
+  "ui-label": "National Aeronautics and Space Administration",
   "ror": "027ka1x80",
   "type": [
     "wcrp:organisation",
@@ -32,5 +31,6 @@
   ],
   "url": [
     "http://www.nasa.gov"
-  ]
+  ],
+  "validation-key": "NASA"
 }

@@ -9,7 +9,6 @@
   "established": 1956,
   "id": "mri",
   "kind": "Other",
-  "validation-key": "MRI",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/02772kk97",
     "type": "location"
   },
-  "long_label": "Japan Meteorological Agency",
+  "ui-label": "Japan Meteorological Agency",
   "ror": "02772kk97",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "http://www.jma.go.jp/jma/indexe.html"
-  ]
+  ],
+  "validation-key": "MRI"
 }

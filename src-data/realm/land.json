@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Land Surface and Subsurface",
   "id": "land",
-  "validation-key": "land",
-  "long_label": "Land Surface and Subsurface",
+  "ui-label": "Land Surface and Subsurface",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "land"
 }

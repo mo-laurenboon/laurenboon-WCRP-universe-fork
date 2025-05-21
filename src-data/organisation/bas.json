@@ -6,7 +6,6 @@
   "established": 1962,
   "id": "bas",
   "kind": "Government",
-  "validation-key": "BAS",
   "labels": [],
   "location": {
     "city": "Cambridge",
@@ -19,7 +18,7 @@
     "lon": 52.2,
     "type": "wcrp:location"
   },
-  "long_label": "British Antarctic Survey",
+  "ui-label": "British Antarctic Survey",
   "ror": "01rhff309",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.bas.ac.uk/"
-  ]
+  ],
+  "validation-key": "BAS"
 }

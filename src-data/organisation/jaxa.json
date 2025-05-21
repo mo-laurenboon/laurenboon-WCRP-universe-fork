@@ -9,7 +9,6 @@
   "established": 2003,
   "id": "jaxa",
   "kind": "Facility",
-  "validation-key": "JAXA",
   "labels": [],
   "location": {
     "city": "Tokyo",
@@ -22,7 +21,7 @@
     "lon": 35.6895,
     "type": "wcrp:location"
   },
-  "long_label": "Japan Aerospace Exploration Agency",
+  "ui-label": "Japan Aerospace Exploration Agency",
   "ror": "059yhyy33",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.jaxa.jp"
-  ]
+  ],
+  "validation-key": "JAXA"
 }

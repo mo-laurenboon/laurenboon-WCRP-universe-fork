@@ -14,7 +14,6 @@
   "established": 1989,
   "id": "pcmdi",
   "kind": "Facility",
-  "validation-key": "PCMDI",
   "labels": [],
   "location": {
     "city": "Livermore",
@@ -27,7 +26,7 @@
     "lon": 37.68187,
     "type": "wcrp:location"
   },
-  "long_label": "PCMDI: Earth System Model Evaluation Project",
+  "ui-label": "PCMDI: Earth System Model Evaluation Project",
   "ror": "02k3nmd98",
   "type": [
     "wcrp:organisation",
@@ -36,5 +35,6 @@
   ],
   "url": [
     "https://pcmdi.llnl.gov"
-  ]
+  ],
+  "validation-key": "PCMDI"
 }

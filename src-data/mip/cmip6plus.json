@@ -2,11 +2,11 @@
   "@context": "_context_",
   "end": 2999,
   "id": "cmip6plus",
-  "validation-key": "CMIP6Plus",
   "start": 2023,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP6Plus"
+  "url": "https://wcrp-cmip.org/CMIP6Plus",
+  "validation-key": "CMIP6Plus"
 }

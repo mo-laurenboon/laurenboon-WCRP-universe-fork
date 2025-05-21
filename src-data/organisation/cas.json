@@ -6,7 +6,6 @@
   "established": 1949,
   "id": "cas",
   "kind": "Funder",
-  "validation-key": "CAS",
   "labels": [],
   "location": {
     "city": "Beijing",
@@ -19,7 +18,7 @@
     "lon": 39.9075,
     "type": "wcrp:location"
   },
-  "long_label": "Chinese Academy of Sciences",
+  "ui-label": "Chinese Academy of Sciences",
   "ror": "034t30j35",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://english.cas.cn/"
-  ]
+  ],
+  "validation-key": "CAS"
 }

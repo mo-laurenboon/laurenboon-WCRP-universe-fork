@@ -6,7 +6,6 @@
   "established": null,
   "id": "as-rcec",
   "kind": "Facility",
-  "validation-key": "AS-RCEC",
   "labels": [],
   "location": {
     "city": "Taipei",
@@ -19,7 +18,7 @@
     "lon": 25.05306,
     "type": "wcrp:location"
   },
-  "long_label": "Research Center for Environmental Changes, Academia Sinica",
+  "ui-label": "Research Center for Environmental Changes, Academia Sinica",
   "ror": "050qpg053",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.rcec.sinica.edu.tw/"
-  ]
+  ],
+  "validation-key": "AS-RCEC"
 }

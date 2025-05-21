@@ -2,11 +2,11 @@
   "@context": "_context_",
   "end": 2999,
   "id": "cmip7",
-  "validation-key": "CMIP7",
   "start": 2025,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP7"
+  "url": "https://wcrp-cmip.org/CMIP7",
+  "validation-key": "CMIP7"
 }

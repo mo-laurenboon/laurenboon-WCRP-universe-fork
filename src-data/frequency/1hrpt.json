@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "sampled hourly, at specified time point within an hour",
   "id": "1hrpt",
-  "validation-key": "1hrPt",
   "long_name": "1 Hour Point",
   "type": [
     "wcrp:frequency",
     "universal"
   ],
-  "unit": "hour"
+  "unit": "hour",
+  "validation-key": "1hrPt"
 }

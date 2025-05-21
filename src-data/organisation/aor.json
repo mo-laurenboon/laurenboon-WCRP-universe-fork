@@ -7,7 +7,6 @@
   "established": 1938,
   "id": "aor",
   "kind": "Facility",
-  "validation-key": "AoR",
   "labels": [],
   "location": {
     "city": "Rome",
@@ -20,7 +19,7 @@
     "lon": 41.89193,
     "type": "wcrp:location"
   },
-  "long_label": "Astronomical Observatory of Rome",
+  "ui-label": "Astronomical Observatory of Rome",
   "ror": "02hnp4676",
   "type": [
     "wcrp:organisation",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "https://www.oa-roma.inaf.it"
-  ]
+  ],
+  "validation-key": "AoR"
 }

@@ -6,7 +6,6 @@
   "established": 1936,
   "id": "eawag",
   "kind": "Facility",
-  "validation-key": "EAWAG",
   "labels": [],
   "location": {
     "city": "Dübendorf",
@@ -19,7 +18,7 @@
     "lon": 47.39724,
     "type": "wcrp:location"
   },
-  "long_label": "Swiss Federal Institute of Aquatic Science and Technology",
+  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
   "ror": "00pc48d59",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.eawag.ch"
-  ]
+  ],
+  "validation-key": "EAWAG"
 }

@@ -1,11 +1,11 @@
 {
   "@context": "_context_",
   "id": "cc-by-4.0",
-  "validation-key": "CC BY 4.0",
-  "long_label": "Creative Commons Attribution 4.0 International",
+  "ui-label": "Creative Commons Attribution 4.0 International",
   "type": [
     "wcrp:license",
     "universal"
   ],
-  "url": "https://creativecommons.org/licenses/by/4.0/"
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "validation-key": "CC BY 4.0"
 }

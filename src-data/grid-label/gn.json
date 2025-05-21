@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "data reported on a model's native grid",
   "id": "gn",
-  "validation-key": "gn",
-  "long_label": "Grid Native Greenland",
+  "ui-label": "Grid Native Greenland",
   "region": "greenland",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ]
+  ],
+  "validation-key": "gn"
 }

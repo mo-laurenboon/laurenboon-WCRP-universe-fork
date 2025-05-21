@@ -10,7 +10,6 @@
   "established": 2005,
   "id": "cmcc",
   "kind": "Funder",
-  "validation-key": "CMCC",
   "labels": [],
   "location": {
     "city": "Lecce",
@@ -23,7 +22,7 @@
     "lon": 40.35481,
     "type": "wcrp:location"
   },
-  "long_label": "CMCC Foundation - Euro-Mediterranean Center on Climate Change",
+  "ui-label": "CMCC Foundation - Euro-Mediterranean Center on Climate Change",
   "ror": "01tf11a61",
   "type": [
     "wcrp:organisation",
@@ -32,5 +31,6 @@
   ],
   "url": [
     "https://www.cmcc.it"
-  ]
+  ],
+  "validation-key": "CMCC"
 }

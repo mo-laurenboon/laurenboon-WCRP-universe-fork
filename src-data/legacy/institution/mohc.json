@@ -7,7 +7,6 @@
   "established": 1854,
   "id": "mohc",
   "kind": "Government",
-  "validation-key": "MOHC",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/01ch2yn61",
     "type": "location"
   },
-  "long_label": "Met Office",
+  "ui-label": "Met Office",
   "ror": "01ch2yn61",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.metoffice.gov.uk/"
-  ]
+  ],
+  "validation-key": "MOHC"
 }

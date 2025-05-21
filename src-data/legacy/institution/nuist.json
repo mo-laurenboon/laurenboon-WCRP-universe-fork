@@ -10,7 +10,6 @@
   "established": 1902,
   "id": "nuist",
   "kind": "Education",
-  "validation-key": "NUIST",
   "labels": [],
   "location": {
     "@nest": {
@@ -25,7 +24,7 @@
     "id": "universal:location/01rxvg760",
     "type": "location"
   },
-  "long_label": "Nanjing University",
+  "ui-label": "Nanjing University",
   "ror": "01rxvg760",
   "type": [
     "universal",
@@ -34,5 +33,6 @@
   ],
   "url": [
     "http://www.nju.edu.cn/english/"
-  ]
+  ],
+  "validation-key": "NUIST"
 }

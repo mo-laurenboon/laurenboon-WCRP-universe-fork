@@ -9,7 +9,6 @@
   "established": 1936,
   "id": "nasa-jpl",
   "kind": "Facility",
-  "validation-key": "NASA-JPL",
   "labels": [],
   "location": {
     "city": "La Cañada Flintridge",
@@ -22,7 +21,7 @@
     "lon": 34.19917,
     "type": "wcrp:location"
   },
-  "long_label": "Jet Propulsion Laboratory",
+  "ui-label": "Jet Propulsion Laboratory",
   "ror": "027k65916",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.jpl.nasa.gov/"
-  ]
+  ],
+  "validation-key": "NASA-JPL"
 }

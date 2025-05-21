@@ -9,7 +9,6 @@
   "established": 1919,
   "id": "uhh",
   "kind": "Education",
-  "validation-key": "UHH",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/00g30e956",
     "type": "location"
   },
-  "long_label": "Universität Hamburg",
+  "ui-label": "Universität Hamburg",
   "ror": "00g30e956",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "http://www.uni-hamburg.de"
-  ]
+  ],
+  "validation-key": "UHH"
 }

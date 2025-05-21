@@ -5,7 +5,6 @@
   "established": 1938,
   "id": "aor",
   "kind": "Facility",
-  "validation-key": "AoR",
   "labels": [],
   "location": {
     "@nest": {
@@ -20,7 +19,7 @@
     "id": "universal:location/02hnp4676",
     "type": "location"
   },
-  "long_label": "Astronomical Observatory of Rome",
+  "ui-label": "Astronomical Observatory of Rome",
   "ror": "02hnp4676",
   "type": [
     "universal",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "http://web.oa-roma.inaf.it/"
-  ]
+  ],
+  "validation-key": "AoR"
 }

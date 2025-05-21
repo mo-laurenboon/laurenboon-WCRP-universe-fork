@@ -6,7 +6,6 @@
   "established": 1885,
   "id": "ua",
   "kind": "Education",
-  "validation-key": "UA",
   "labels": [],
   "location": {
     "city": "Tucson",
@@ -19,7 +18,7 @@
     "lon": 32.22174,
     "type": "wcrp:location"
   },
-  "long_label": "University of Arizona",
+  "ui-label": "University of Arizona",
   "ror": "03m2x1q45",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.arizona.edu/"
-  ]
+  ],
+  "validation-key": "UA"
 }

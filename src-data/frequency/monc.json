@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "monthly climatology computed from monthly mean samples",
   "id": "monc",
-  "validation-key": "monC",
   "long_name": "Monthly Climatology",
   "type": [
     "wcrp:frequency",
     "universal"
   ],
-  "unit": "month"
+  "unit": "month",
+  "validation-key": "monC"
 }

@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Land Ice",
   "id": "landice",
-  "validation-key": "landIce",
-  "long_label": "Land Ice",
+  "ui-label": "Land Ice",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "landIce"
 }

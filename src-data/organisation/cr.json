@@ -10,7 +10,6 @@
   "established": 2020,
   "id": "cr",
   "kind": "Company",
-  "validation-key": "CR",
   "labels": [],
   "location": {
     "city": "Melbourne",
@@ -23,7 +22,7 @@
     "lon": -37.814,
     "type": "wcrp:location"
   },
-  "long_label": "Climate Resource (Australia)",
+  "ui-label": "Climate Resource (Australia)",
   "ror": "01kk86953",
   "type": [
     "wcrp:organisation",
@@ -32,5 +31,6 @@
   ],
   "url": [
     "https://www.climate-resource.com"
-  ]
+  ],
+  "validation-key": "CR"
 }

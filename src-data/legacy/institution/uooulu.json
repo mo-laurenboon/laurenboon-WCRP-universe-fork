@@ -5,7 +5,6 @@
   "established": 1958,
   "id": "uooulu",
   "kind": "Education",
-  "validation-key": "UoOulu",
   "labels": [],
   "location": {
     "@nest": {
@@ -20,7 +19,7 @@
     "id": "universal:location/03yj89h83",
     "type": "location"
   },
-  "long_label": "University of Oulu",
+  "ui-label": "University of Oulu",
   "ror": "03yj89h83",
   "type": [
     "universal",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "http://www.oulu.fi/english/"
-  ]
+  ],
+  "validation-key": "UoOulu"
 }

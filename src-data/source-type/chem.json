@@ -2,9 +2,9 @@
   "@context": "_context_",
   "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
   "id": "chem",
-  "validation-key": "CHEM",
   "type": [
     "wcrp:source-type",
     "universal"
-  ]
+  ],
+  "validation-key": "CHEM"
 }

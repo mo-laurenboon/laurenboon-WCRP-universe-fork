@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "regridded data reported on the data provider's preferred target grid",
   "id": "gr",
-  "validation-key": "gr",
-  "long_label": "Regridded Greenland",
+  "ui-label": "Regridded Greenland",
   "region": "greenland",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ]
+  ],
+  "validation-key": "gr"
 }

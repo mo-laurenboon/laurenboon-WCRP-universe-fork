@@ -11,24 +11,24 @@
   },
   "license": {
     "CC BY 4.0": {
-      "validation-key": "CC BY 4.0",
-      "long_label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/"
+      "ui-label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "validation-key": "CC BY 4.0"
     },
     "CC BY-NC-SA 4.0": {
-      "validation-key": "CC BY-NC-SA 4.0",
-      "long_label": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      "ui-label": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "validation-key": "CC BY-NC-SA 4.0"
     },
     "CC BY-SA 4.0": {
-      "validation-key": "CC BY-SA 4.0",
-      "long_label": "Creative Commons Attribution-ShareAlike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "ui-label": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "validation-key": "CC BY-SA 4.0"
     },
     "CC0 1.0": {
-      "validation-key": "CC0 1.0",
-      "long_label": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
-      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "ui-label": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "validation-key": "CC0 1.0"
     }
   }
 }

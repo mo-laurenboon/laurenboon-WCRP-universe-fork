@@ -4,7 +4,6 @@
   "established": 1997,
   "id": "ncas",
   "kind": "Facility",
-  "validation-key": "NCAS",
   "labels": [],
   "location": {
     "city": "Islamabad",
@@ -17,7 +16,7 @@
     "lon": 33.72148,
     "type": "wcrp:location"
   },
-  "long_label": "Uks",
+  "ui-label": "Uks",
   "ror": "03q36cn05",
   "type": [
     "wcrp:organisation",
@@ -26,5 +25,6 @@
   ],
   "url": [
     "http://www.uksresearch.com/"
-  ]
+  ],
+  "validation-key": "NCAS"
 }

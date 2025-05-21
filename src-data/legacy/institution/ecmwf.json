@@ -7,7 +7,6 @@
   "established": 1975,
   "id": "ecmwf",
   "kind": "Other",
-  "validation-key": "ECMWF",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/014w0fd65",
     "type": "location"
   },
-  "long_label": "European Centre for Medium-Range Weather Forecasts",
+  "ui-label": "European Centre for Medium-Range Weather Forecasts",
   "ror": "014w0fd65",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.ecmwf.int/"
-  ]
+  ],
+  "validation-key": "ECMWF"
 }

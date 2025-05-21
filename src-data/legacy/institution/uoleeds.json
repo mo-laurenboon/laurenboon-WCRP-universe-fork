@@ -5,7 +5,6 @@
   "established": 1904,
   "id": "uoleeds",
   "kind": "Education",
-  "validation-key": "UoLeeds",
   "labels": [],
   "location": {
     "@nest": {
@@ -20,7 +19,7 @@
     "id": "universal:location/024mrxd33",
     "type": "location"
   },
-  "long_label": "University of Leeds",
+  "ui-label": "University of Leeds",
   "ror": "024mrxd33",
   "type": [
     "universal",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "http://www.leeds.ac.uk/"
-  ]
+  ],
+  "validation-key": "UoLeeds"
 }

@@ -9,7 +9,6 @@
   "established": 1948,
   "id": "fuberlin",
   "kind": "Education",
-  "validation-key": "FUBerlin",
   "labels": [],
   "location": {
     "city": "Berlin",
@@ -22,7 +21,7 @@
     "lon": 52.52437,
     "type": "wcrp:location"
   },
-  "long_label": "Freie Universität Berlin",
+  "ui-label": "Freie Universität Berlin",
   "ror": "046ak2485",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.fu-berlin.de"
-  ]
+  ],
+  "validation-key": "FUBerlin"
 }

@@ -7,7 +7,6 @@
   "established": 2012,
   "id": "lpc2e",
   "kind": "Facility",
-  "validation-key": "LPC2E",
   "labels": [],
   "location": {
     "city": "Orléans",
@@ -20,7 +19,7 @@
     "lon": 47.90289,
     "type": "wcrp:location"
   },
-  "long_label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
+  "ui-label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
   "ror": "049k66y27",
   "type": [
     "wcrp:organisation",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "https://www.lpc2e.cnrs.fr"
-  ]
+  ],
+  "validation-key": "LPC2E"
 }

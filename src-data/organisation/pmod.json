@@ -6,7 +6,6 @@
   "established": 1907,
   "id": "pmod",
   "kind": "Facility",
-  "validation-key": "PMOD",
   "labels": [],
   "location": {
     "city": "Davos",
@@ -19,7 +18,7 @@
     "lon": 46.80429,
     "type": "wcrp:location"
   },
-  "long_label": "Physikalisch-Meteorologisches Observatorium Davos",
+  "ui-label": "Physikalisch-Meteorologisches Observatorium Davos",
   "ror": "02gtrqv93",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.pmodwrc.ch/"
-  ]
+  ],
+  "validation-key": "PMOD"
 }

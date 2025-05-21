@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Ocean",
   "id": "ocean",
-  "validation-key": "ocean",
-  "long_label": "Ocean",
+  "ui-label": "Ocean",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "ocean"
 }

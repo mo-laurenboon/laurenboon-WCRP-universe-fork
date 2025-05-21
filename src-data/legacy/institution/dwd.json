@@ -7,7 +7,6 @@
   "established": 1952,
   "id": "dwd",
   "kind": "Facility",
-  "validation-key": "DWD",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/02nrqs528",
     "type": "location"
   },
-  "long_label": "German Meteorological Service",
+  "ui-label": "German Meteorological Service",
   "ror": "02nrqs528",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.dwd.de/"
-  ]
+  ],
+  "validation-key": "DWD"
 }

@@ -12,24 +12,24 @@
   "institution": {
     "AER": {
       "acronyms": "AER",
-      "long_label": "Atmospheric and Environmental Research",
+      "ui-label": "Atmospheric and Environmental Research",
       "ror": "04cg70g73",
       "url": "http://www.aer.com/"
     },
     "AS-RCEC": {
       "acronyms": "RCEC",
-      "long_label": "Research Center for Environmental Changes, Academia Sinica",
+      "ui-label": "Research Center for Environmental Changes, Academia Sinica",
       "ror": "050qpg053",
       "url": "http://www.rcec.sinica.edu.tw/"
     },
     "AUoT": {
-      "long_label": "Aristotle University of Thessaloniki",
+      "ui-label": "Aristotle University of Thessaloniki",
       "ror": "02j61yw88",
       "url": "https://www.auth.gr"
     },
     "AWI": {
       "acronyms": "AWI",
-      "long_label": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+      "ui-label": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
       "ror": "032e6b942",
       "url": "https://www.awi.de"
     },
@@ -38,160 +38,160 @@
         "INAF-OAR",
         "OAR"
       ],
-      "long_label": "Astronomical Observatory of Rome",
+      "ui-label": "Astronomical Observatory of Rome",
       "ror": "02hnp4676",
       "url": "https://www.oa-roma.inaf.it"
     },
     "BAS": {
       "acronyms": "BAS",
-      "long_label": "British Antarctic Survey",
+      "ui-label": "British Antarctic Survey",
       "ror": "01rhff309",
       "url": "https://www.bas.ac.uk/"
     },
     "BCC": {
-      "long_label": "Beijing Biocytogen (China)",
+      "ui-label": "Beijing Biocytogen (China)",
       "ror": "01spyyb53",
       "url": "http://www.bbctg.com.cn/"
     },
     "CAMS": {
       "acronyms": "CAMS",
-      "long_label": "Chinese Academy of Meteorological Sciences",
+      "ui-label": "Chinese Academy of Meteorological Sciences",
       "ror": "034b53w38",
       "url": "http://www.camscma.cn/en.html"
     },
     "CAS": {
       "acronyms": "CAS",
-      "long_label": "Chinese Academy of Sciences",
+      "ui-label": "Chinese Academy of Sciences",
       "ror": "034t30j35",
       "url": "http://english.cas.cn/"
     },
     "CCCR-IITM": {
       "acronyms": "IITM",
-      "long_label": "Indian Institute of Tropical Meteorology",
+      "ui-label": "Indian Institute of Tropical Meteorology",
       "ror": "03jf2m686",
       "url": "http://www.tropmet.res.in/"
     },
     "CCCma": {
       "acronyms": "ECCC",
-      "long_label": "Environment and Climate Change Canada",
+      "ui-label": "Environment and Climate Change Canada",
       "ror": "026ny0e17",
       "url": "https://www.canada.ca/en/environment-climate-change.html"
     },
     "CEDA": {
       "acronyms": "CEDA",
-      "long_label": "Centre for Environmental Data Analysis",
+      "ui-label": "Centre for Environmental Data Analysis",
       "ror": "04j4kad11",
       "url": "https://www.ceda.ac.uk/"
     },
     "CMCC": {
       "acronyms": "CMCC",
-      "long_label": "CMCC Foundation - Euro-Mediterranean Center on Climate Change",
+      "ui-label": "CMCC Foundation - Euro-Mediterranean Center on Climate Change",
       "ror": "01tf11a61",
       "url": "https://www.cmcc.it"
     },
     "CNES": {
       "acronyms": "CNES",
-      "long_label": "Centre National d'Études Spatiales",
+      "ui-label": "Centre National d'Études Spatiales",
       "ror": "04h1h0y33",
       "url": "https://www.cnes.fr"
     },
     "CSIRO": {
       "acronyms": "CSIRO",
-      "long_label": "Commonwealth Scientific and Industrial Research Organisation",
+      "ui-label": "Commonwealth Scientific and Industrial Research Organisation",
       "ror": "03qn8fb07",
       "url": "http://www.csiro.au/"
     },
     "DKRZ": {
       "acronyms": "DKRZ",
-      "long_label": "German Climate Computing Centre",
+      "ui-label": "German Climate Computing Centre",
       "ror": "03ztgj037",
       "url": "https://www.dkrz.de/"
     },
     "DWD": {
       "acronyms": "DWD",
-      "long_label": "German Meteorological Service",
+      "ui-label": "German Meteorological Service",
       "ror": "02nrqs528",
       "url": "http://www.dwd.de/"
     },
     "EAWAG": {
       "acronyms": "EAWAG",
-      "long_label": "Swiss Federal Institute of Aquatic Science and Technology",
+      "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
       "ror": "00pc48d59",
       "url": "https://www.eawag.ch"
     },
     "ECMWF": {
       "acronyms": "ECMWF",
-      "long_label": "European Centre for Medium-Range Weather Forecasts",
+      "ui-label": "European Centre for Medium-Range Weather Forecasts",
       "ror": "014w0fd65",
       "url": "http://www.ecmwf.int/"
     },
     "ESSO": {
       "acronyms": "INCOIS",
-      "long_label": "Indian National Centre for Ocean Information Services",
+      "ui-label": "Indian National Centre for Ocean Information Services",
       "ror": "04xbqmj23",
       "url": "http://www.incois.gov.in/portal/index.jsp"
     },
     "FMI": {
       "acronyms": "FMI",
-      "long_label": "Finnish Meteorological Institute",
+      "ui-label": "Finnish Meteorological Institute",
       "ror": "05hppb561",
       "url": "http://en.ilmatieteenlaitos.fi/"
     },
     "FUBerlin": {
       "acronyms": "FU",
-      "long_label": "Freie Universität Berlin",
+      "ui-label": "Freie Universität Berlin",
       "ror": "046ak2485",
       "url": "https://www.fu-berlin.de"
     },
     "IACETH": {
-      "long_label": "ETH Zurich",
+      "ui-label": "ETH Zurich",
       "ror": "05a28rw58",
       "url": "https://ethz.ch"
     },
     "IFM-GEOMAR": {
       "acronyms": "IFM-GEOMAR",
-      "long_label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+      "ui-label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
       "ror": "02h2x0161",
       "url": "https://www.geomar.de"
     },
     "INM": {
       "acronyms": "INM RAS",
-      "long_label": "Institute of Numerical Mathematics",
+      "ui-label": "Institute of Numerical Mathematics",
       "ror": "00520ey40",
       "url": "http://www.inm.ras.ru/inm_en_ver/index.htm"
     },
     "IPSL": {
       "acronyms": "IPSL",
-      "long_label": "Institut Pierre-Simon Laplace",
+      "ui-label": "Institut Pierre-Simon Laplace",
       "ror": "02haar591",
       "url": "https://www.ipsl.fr/en/"
     },
     "ISSI": {
       "acronyms": "ISSI",
-      "long_label": "International Space Science Institute",
+      "ui-label": "International Space Science Institute",
       "ror": "01xm30661",
       "url": "http://www.issibern.ch/"
     },
     "ImperialCollege": {
-      "long_label": "Imperial College London",
+      "ui-label": "Imperial College London",
       "ror": "041kmwe10",
       "url": "https://www.imperial.ac.uk"
     },
     "JAXA": {
       "acronyms": "JAXA",
-      "long_label": "Japan Aerospace Exploration Agency",
+      "ui-label": "Japan Aerospace Exploration Agency",
       "ror": "059yhyy33",
       "url": "https://www.jaxa.jp"
     },
     "KIOST": {
       "acronyms": "KIOST",
-      "long_label": "Korea Institute of Ocean Science and Technology",
+      "ui-label": "Korea Institute of Ocean Science and Technology",
       "ror": "032m55064",
       "url": "http://eng.kiost.ac/"
     },
     "KIT": {
       "acronyms": "KIT",
-      "long_label": "Karlsruhe Institute of Technology",
+      "ui-label": "Karlsruhe Institute of Technology",
       "ror": "04t3en479",
       "url": "https://www.kit.edu"
     },
@@ -200,7 +200,7 @@
         "LLL",
         "LLNL"
       ],
-      "long_label": "Lawrence Livermore National Laboratory",
+      "ui-label": "Lawrence Livermore National Laboratory",
       "ror": "041nk4h53",
       "url": "https://www.llnl.gov"
     },
@@ -209,83 +209,83 @@
         "LPC2E",
         "UMR LPC2E"
       ],
-      "long_label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
+      "ui-label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
       "ror": "049k66y27",
       "url": "https://www.lpc2e.cnrs.fr"
     },
     "MOHC": {
-      "long_label": "Met Office",
+      "ui-label": "Met Office",
       "ror": "01ch2yn61",
       "url": "http://www.metoffice.gov.uk/"
     },
     "MPI-B": {
       "acronyms": "MPI-BGC",
-      "long_label": "Max Planck Institute for Biogeochemistry",
+      "ui-label": "Max Planck Institute for Biogeochemistry",
       "ror": "051yxp643",
       "url": "https://www.bgc-jena.mpg.de"
     },
     "MPI-M": {
       "acronyms": "MPI-M",
-      "long_label": "Max Planck Institute for Meteorology",
+      "ui-label": "Max Planck Institute for Meteorology",
       "ror": "05esem239",
       "url": "http://www.mpimet.mpg.de/en/home.html"
     },
     "MPS": {
       "acronyms": "MPS",
-      "long_label": "Max Planck Institute for Solar System Research",
+      "ui-label": "Max Planck Institute for Solar System Research",
       "ror": "02j6gm739",
       "url": "http://www.mps.mpg.de/en"
     },
     "MRI": {
       "acronyms": "JMA",
-      "long_label": "Japan Meteorological Agency",
+      "ui-label": "Japan Meteorological Agency",
       "ror": "02772kk97",
       "url": "http://www.jma.go.jp/jma/indexe.html"
     },
     "NASA-GISS": {
       "acronyms": "GISS",
-      "long_label": "Goddard Institute for Space Studies",
+      "ui-label": "Goddard Institute for Space Studies",
       "ror": "01cyfxe35",
       "url": "http://www.giss.nasa.gov/"
     },
     "NASA-GSFC": {
       "acronyms": "GSFC",
-      "long_label": "Goddard Space Flight Center",
+      "ui-label": "Goddard Space Flight Center",
       "ror": "0171mag52",
       "url": "https://www.nasa.gov/centers/goddard/home/index.html"
     },
     "NASA-JPL": {
       "acronyms": "JPL",
-      "long_label": "Jet Propulsion Laboratory",
+      "ui-label": "Jet Propulsion Laboratory",
       "ror": "027k65916",
       "url": "http://www.jpl.nasa.gov/"
     },
     "NASA-LaRC": {
       "acronyms": "LaRC",
-      "long_label": "Langley Research Center",
+      "ui-label": "Langley Research Center",
       "ror": "0399mhs52",
       "url": "http://www.nasa.gov/langley"
     },
     "NCAR": {
       "acronyms": "NCAR",
-      "long_label": "NSF National Center for Atmospheric Research",
+      "ui-label": "NSF National Center for Atmospheric Research",
       "ror": "05cvfcr44",
       "url": "https://ncar.ucar.edu/"
     },
     "NCAS": {
-      "long_label": "Uks",
+      "ui-label": "Uks",
       "ror": "03q36cn05",
       "url": "http://www.uksresearch.com/"
     },
     "NERC": {
       "acronyms": "NERC",
-      "long_label": "Natural Environment Research Council",
+      "ui-label": "Natural Environment Research Council",
       "ror": "02b5d8509",
       "url": "https://www.ukri.org/councils/nerc/"
     },
     "NIWA": {
       "acronyms": "NIWA",
-      "long_label": "National Institute of Water and Atmospheric Research",
+      "ui-label": "National Institute of Water and Atmospheric Research",
       "ror": "04hxcaz34",
       "url": "https://www.niwa.co.nz/"
     },
@@ -294,13 +294,13 @@
         "NCEI",
         "NOAA NCEI"
       ],
-      "long_label": "NOAA National Centers for Environmental Information",
+      "ui-label": "NOAA National Centers for Environmental Information",
       "ror": "04r0wrp59",
       "url": "https://www.ncei.noaa.gov"
     },
     "NTU": {
       "acronyms": "NTU",
-      "long_label": "National Taiwan University",
+      "ui-label": "National Taiwan University",
       "ror": "05bqach95",
       "url": "http://www.ntu.edu.tw/english/"
     },
@@ -309,13 +309,13 @@
         "NJU",
         "NU"
       ],
-      "long_label": "Nanjing University",
+      "ui-label": "Nanjing University",
       "ror": "01rxvg760",
       "url": "http://www.nju.edu.cn/english/"
     },
     "OSU": {
       "acronyms": "OSU",
-      "long_label": "Oregon State University",
+      "ui-label": "Oregon State University",
       "ror": "00ysfqy60",
       "url": "https://oregonstate.edu"
     },
@@ -324,128 +324,128 @@
         "LLL",
         "LLNL"
       ],
-      "long_label": "Lawrence Livermore National Laboratory",
+      "ui-label": "Lawrence Livermore National Laboratory",
       "ror": "041nk4h53",
       "url": "https://www.llnl.gov"
     },
     "PMOD": {
       "acronyms": "PMOD",
-      "long_label": "Physikalisch-Meteorologisches Observatorium Davos",
+      "ui-label": "Physikalisch-Meteorologisches Observatorium Davos",
       "ror": "02gtrqv93",
       "url": "https://www.pmodwrc.ch/"
     },
     "PNNL-JGCRI": {
       "acronyms": "JGCRI",
-      "long_label": "Joint Global Change Research Institute",
+      "ui-label": "Joint Global Change Research Institute",
       "ror": "058cmd703",
       "url": "https://www.pnnl.gov/projects/jgcri"
     },
     "PNNL-WACCEM": {
       "acronyms": "PNNL",
-      "long_label": "Pacific Northwest National Laboratory",
+      "ui-label": "Pacific Northwest National Laboratory",
       "ror": "05h992307",
       "url": "http://www.pnnl.gov/"
     },
     "RSS": {
       "acronyms": "RSS",
-      "long_label": "Remote Sensing Systems (United States)",
+      "ui-label": "Remote Sensing Systems (United States)",
       "ror": "01vp8h012",
       "url": "http://www.remss.com/"
     },
     "SNU": {
       "acronyms": "SNU",
-      "long_label": "Seoul National University",
+      "ui-label": "Seoul National University",
       "ror": "04h9pn542",
       "url": "https://www.snu.ac.kr"
     },
     "THU": {
       "acronyms": "THU",
-      "long_label": "Tsinghua University",
+      "ui-label": "Tsinghua University",
       "ror": "03cve4549",
       "url": "https://www.tsinghua.edu.cn"
     },
     "UA": {
       "acronyms": "UA",
-      "long_label": "University of Arizona",
+      "ui-label": "University of Arizona",
       "ror": "03m2x1q45",
       "url": "http://www.arizona.edu/"
     },
     "UCI": {
       "acronyms": "UCI",
-      "long_label": "University of California, Irvine",
+      "ui-label": "University of California, Irvine",
       "ror": "04gyf1771",
       "url": "http://uci.edu/"
     },
     "UCSB": {
       "acronyms": "UCSB",
-      "long_label": "University of California, Santa Barbara",
+      "ui-label": "University of California, Santa Barbara",
       "ror": "02t274463",
       "url": "https://www.ucsb.edu"
     },
     "UColorado": {
       "acronyms": "CU",
-      "long_label": "University of Colorado System",
+      "ui-label": "University of Colorado System",
       "ror": "00jc20583",
       "url": "http://www.cu.edu/"
     },
     "UHH": {
       "acronyms": "UHH",
-      "long_label": "Universität Hamburg",
+      "ui-label": "Universität Hamburg",
       "ror": "00g30e956",
       "url": "http://www.uni-hamburg.de"
     },
     "UReading": {
-      "long_label": "University of Reading",
+      "ui-label": "University of Reading",
       "ror": "05v62cm79",
       "url": "https://www.reading.ac.uk"
     },
     "UW": {
       "acronyms": "UW",
-      "long_label": "University of Washington",
+      "ui-label": "University of Washington",
       "ror": "00cvxb145",
       "url": "https://www.washington.edu"
     },
     "UoBergen": {
       "acronyms": "UiB",
-      "long_label": "University of Bergen",
+      "ui-label": "University of Bergen",
       "ror": "03zga2b32",
       "url": "http://www.uib.no/"
     },
     "UoLeeds": {
-      "long_label": "University of Leeds",
+      "ui-label": "University of Leeds",
       "ror": "024mrxd33",
       "url": "https://www.leeds.ac.uk"
     },
     "UoM": {
-      "long_label": "University of Melbourne",
+      "ui-label": "University of Melbourne",
       "ror": "01ej9dk98",
       "url": "http://www.unimelb.edu.au/"
     },
     "UoMontreal": {
       "acronyms": "UdeM",
-      "long_label": "Université de Montréal",
+      "ui-label": "Université de Montréal",
       "ror": "0161xgx34",
       "url": "https://www.umontreal.ca"
     },
     "UoOtago": {
-      "long_label": "University of Otago",
+      "ui-label": "University of Otago",
       "ror": "01jmxt844",
       "url": "http://www.otago.ac.nz/"
     },
     "UoOulu": {
-      "long_label": "University of Oulu",
+      "ui-label": "University of Oulu",
       "ror": "03yj89h83",
       "url": "https://www.oulu.fi"
     },
     "UofMD": {
       "acronyms": "UMD",
-      "long_label": "University of Maryland, College Park",
+      "ui-label": "University of Maryland, College Park",
       "ror": "047s2c258",
       "url": "https://umd.edu"
     },
     "VUA": {
       "acronyms": "VU",
-      "long_label": "Vrije Universiteit Amsterdam",
+      "ui-label": "Vrije Universiteit Amsterdam",
       "ror": "008xxew50",
       "url": "https://vu.nl/"
     }

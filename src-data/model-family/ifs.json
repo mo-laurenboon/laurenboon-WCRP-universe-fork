@@ -1,10 +1,10 @@
 {
   "description": "Integrated Forecasting System",
   "id": "ifs",
-  "validation-key": "IFS",
   "origin": "ECMWF (European Centre for Medium-Range Weather Forecasts)",
   "permissible_realms": [
     "atmos"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "IFS"
 }

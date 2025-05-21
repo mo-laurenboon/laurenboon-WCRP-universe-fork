@@ -6,7 +6,6 @@
   "established": 1907,
   "id": "imperialcollege",
   "kind": "Education",
-  "validation-key": "ImperialCollege",
   "labels": [],
   "location": {
     "city": "London",
@@ -19,7 +18,7 @@
     "lon": 51.50853,
     "type": "wcrp:location"
   },
-  "long_label": "Imperial College London",
+  "ui-label": "Imperial College London",
   "ror": "041kmwe10",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.imperial.ac.uk"
-  ]
+  ],
+  "validation-key": "ImperialCollege"
 }

@@ -12,35 +12,35 @@
   "realm": {
     "aerosol": {
       "description": "Aerosol",
-      "long_label": "Aerosol"
+      "ui-label": "Aerosol"
     },
     "atmos": {
       "description": "Atmosphere",
-      "long_label": "Atmosphere"
+      "ui-label": "Atmosphere"
     },
     "atmosChem": {
       "description": "Atmospheric Chemistry",
-      "long_label": "Atmospheric Chemistry"
+      "ui-label": "Atmospheric Chemistry"
     },
     "land": {
       "description": "Land Surface and Subsurface",
-      "long_label": "Land Surface and Subsurface"
+      "ui-label": "Land Surface and Subsurface"
     },
     "landIce": {
       "description": "Land Ice",
-      "long_label": "Land Ice"
+      "ui-label": "Land Ice"
     },
     "ocean": {
       "description": "Ocean",
-      "long_label": "Ocean"
+      "ui-label": "Ocean"
     },
     "ocnBgchem": {
       "description": "Ocean Biogeochemistry",
-      "long_label": "Ocean Biogeochemistry"
+      "ui-label": "Ocean Biogeochemistry"
     },
     "seaIce": {
       "description": "Sea Ice",
-      "long_label": "Sea Ice"
+      "ui-label": "Sea Ice"
     }
   }
 }

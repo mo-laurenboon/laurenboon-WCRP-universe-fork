@@ -8,7 +8,6 @@
   "established": 1997,
   "id": "mpi-b",
   "kind": "Facility",
-  "validation-key": "MPI-B",
   "labels": [],
   "location": {
     "city": "Jena",
@@ -21,7 +20,7 @@
     "lon": 50.92878,
     "type": "wcrp:location"
   },
-  "long_label": "Max Planck Institute for Biogeochemistry",
+  "ui-label": "Max Planck Institute for Biogeochemistry",
   "ror": "051yxp643",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://www.bgc-jena.mpg.de"
-  ]
+  ],
+  "validation-key": "MPI-B"
 }

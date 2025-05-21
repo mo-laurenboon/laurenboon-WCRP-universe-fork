@@ -8,7 +8,6 @@
   "established": 2004,
   "id": "ifm-geomar",
   "kind": "Facility",
-  "validation-key": "IFM-GEOMAR",
   "labels": [],
   "location": {
     "city": "Kiel",
@@ -21,7 +20,7 @@
     "lon": 54.32133,
     "type": "wcrp:location"
   },
-  "long_label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+  "ui-label": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
   "ror": "02h2x0161",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://www.geomar.de"
-  ]
+  ],
+  "validation-key": "IFM-GEOMAR"
 }

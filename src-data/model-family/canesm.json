@@ -1,7 +1,6 @@
 {
   "description": "Canadian Earth System Model (developed by CCCma)",
   "id": "canesm",
-  "validation-key": "CanESM",
   "origin": "CCCma (Canadian Centre for Climate Modelling and Analysis)",
   "permissible_realms": [
     "atmos",
@@ -9,5 +8,6 @@
     "ocean",
     "ocnbgchem"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "CanESM"
 }

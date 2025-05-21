@@ -7,7 +7,6 @@
   "established": 1917,
   "id": "nasa-larc",
   "kind": "Facility",
-  "validation-key": "NASA-LaRC",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/0399mhs52",
     "type": "location"
   },
-  "long_label": "Langley Research Center",
+  "ui-label": "Langley Research Center",
   "ror": "0399mhs52",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.nasa.gov/langley"
-  ]
+  ],
+  "validation-key": "NASA-LaRC"
 }

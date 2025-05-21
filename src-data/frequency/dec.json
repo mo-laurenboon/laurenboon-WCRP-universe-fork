@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "decadal mean samples",
   "id": "dec",
-  "validation-key": "dec",
   "long_name": "Decadal Frequency",
   "type": [
     "wcrp:frequency",
     "universal"
   ],
-  "unit": "decade"
+  "unit": "decade",
+  "validation-key": "dec"
 }

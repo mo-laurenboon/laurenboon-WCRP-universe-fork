@@ -6,7 +6,6 @@
   "established": 1987,
   "id": "dkrz",
   "kind": "Facility",
-  "validation-key": "DKRZ",
   "labels": [],
   "location": {
     "city": "Hamburg",
@@ -19,7 +18,7 @@
     "lon": 53.55073,
     "type": "wcrp:location"
   },
-  "long_label": "German Climate Computing Centre",
+  "ui-label": "German Climate Computing Centre",
   "ror": "03ztgj037",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.dkrz.de/"
-  ]
+  ],
+  "validation-key": "DKRZ"
 }

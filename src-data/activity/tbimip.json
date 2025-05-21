@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "tbimip",
-  "validation-key": "TBIMIP",
-  "ui-label": "Tropical Basin Interaction Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://www.clivar.org/research-foci/basin-interaction"
+  "ui-label": "Tropical Basin Interaction Model Intercomparison Project",
+  "url": "https://www.clivar.org/research-foci/basin-interaction",
+  "validation-key": "TBIMIP"
 }

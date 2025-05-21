@@ -6,7 +6,6 @@
   "established": 1911,
   "id": "thu",
   "kind": "Education",
-  "validation-key": "THU",
   "labels": [],
   "location": {
     "city": "Beijing",
@@ -19,7 +18,7 @@
     "lon": 39.9075,
     "type": "wcrp:location"
   },
-  "long_label": "Tsinghua University",
+  "ui-label": "Tsinghua University",
   "ror": "03cve4549",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.tsinghua.edu.cn"
-  ]
+  ],
+  "validation-key": "THU"
 }

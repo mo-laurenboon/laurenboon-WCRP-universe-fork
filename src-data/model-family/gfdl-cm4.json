@@ -1,7 +1,6 @@
 {
   "description": "NOAA Geophysical Fluid Dynamics Laboratory model",
   "id": "gfdl-cm4",
-  "validation-key": "GFDL-CM4",
   "origin": "NOAA GFDL (National Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory)",
   "permissible_realms": [
     "atmos",
@@ -9,5 +8,6 @@
     "ocean",
     "ocnbgchem"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "GFDL-CM4"
 }

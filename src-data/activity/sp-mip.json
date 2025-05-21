@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "sp-mip",
-  "validation-key": "SP-MIP",
-  "ui-label": "Soil Parameter Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": ""
+  "ui-label": "Soil Parameter Model Intercomparison Project",
+  "url": "",
+  "validation-key": "SP-MIP"
 }

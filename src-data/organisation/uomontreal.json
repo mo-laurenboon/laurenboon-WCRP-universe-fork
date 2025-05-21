@@ -6,7 +6,6 @@
   "established": 1878,
   "id": "uomontreal",
   "kind": "Education",
-  "validation-key": "UoMontreal",
   "labels": [],
   "location": {
     "city": "Montreal",
@@ -19,7 +18,7 @@
     "lon": 45.50884,
     "type": "wcrp:location"
   },
-  "long_label": "Université de Montréal",
+  "ui-label": "Université de Montréal",
   "ror": "0161xgx34",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.umontreal.ca"
-  ]
+  ],
+  "validation-key": "UoMontreal"
 }

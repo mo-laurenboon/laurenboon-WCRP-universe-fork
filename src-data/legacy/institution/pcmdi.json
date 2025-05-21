@@ -13,7 +13,6 @@
   "established": 1952,
   "id": "pcmdi",
   "kind": "Facility",
-  "validation-key": "PCMDI",
   "labels": [],
   "location": {
     "@nest": {
@@ -28,7 +27,7 @@
     "id": "universal:location/041nk4h53",
     "type": "location"
   },
-  "long_label": "Lawrence Livermore National Laboratory",
+  "ui-label": "Lawrence Livermore National Laboratory",
   "ror": "041nk4h53",
   "type": [
     "universal",
@@ -37,5 +36,6 @@
   ],
   "url": [
     "https://www.llnl.gov/"
-  ]
+  ],
+  "validation-key": "PCMDI"
 }

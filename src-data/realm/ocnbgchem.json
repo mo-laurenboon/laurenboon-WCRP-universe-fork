@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Ocean Biogeochemistry",
   "id": "ocnbgchem",
-  "validation-key": "ocnBgchem",
-  "long_label": "Ocean Biogeochemistry",
+  "ui-label": "Ocean Biogeochemistry",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "ocnBgchem"
 }

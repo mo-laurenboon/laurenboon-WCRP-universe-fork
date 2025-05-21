@@ -7,7 +7,6 @@
   "established": 1949,
   "id": "cas",
   "kind": "Government",
-  "validation-key": "CAS",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/034t30j35",
     "type": "location"
   },
-  "long_label": "Chinese Academy of Sciences",
+  "ui-label": "Chinese Academy of Sciences",
   "ror": "034t30j35",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://english.cas.cn/"
-  ]
+  ],
+  "validation-key": "CAS"
 }

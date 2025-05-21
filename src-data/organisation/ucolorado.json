@@ -6,7 +6,6 @@
   "established": 1876,
   "id": "ucolorado",
   "kind": "Education",
-  "validation-key": "UColorado",
   "labels": [],
   "location": {
     "city": "Boulder",
@@ -19,7 +18,7 @@
     "lon": 40.01499,
     "type": "wcrp:location"
   },
-  "long_label": "University of Colorado System",
+  "ui-label": "University of Colorado System",
   "ror": "00jc20583",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.cu.edu/"
-  ]
+  ],
+  "validation-key": "UColorado"
 }

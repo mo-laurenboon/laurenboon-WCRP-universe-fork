@@ -6,7 +6,6 @@
   "established": 1995,
   "id": "issi",
   "kind": "Nonprofit",
-  "validation-key": "ISSI",
   "labels": [],
   "location": {
     "city": "Bern",
@@ -19,7 +18,7 @@
     "lon": 46.94809,
     "type": "wcrp:location"
   },
-  "long_label": "International Space Science Institute",
+  "ui-label": "International Space Science Institute",
   "ror": "01xm30661",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.issibern.ch/"
-  ]
+  ],
+  "validation-key": "ISSI"
 }

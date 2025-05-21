@@ -6,7 +6,6 @@
   "established": 1934,
   "id": "mps",
   "kind": "Facility",
-  "validation-key": "MPS",
   "labels": [],
   "location": {
     "city": "Göttingen",
@@ -19,7 +18,7 @@
     "lon": 51.53443,
     "type": "wcrp:location"
   },
-  "long_label": "Max Planck Institute for Solar System Research",
+  "ui-label": "Max Planck Institute for Solar System Research",
   "ror": "02j6gm739",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.mps.mpg.de/en"
-  ]
+  ],
+  "validation-key": "MPS"
 }

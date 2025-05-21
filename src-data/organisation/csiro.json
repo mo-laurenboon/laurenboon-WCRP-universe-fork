@@ -6,7 +6,6 @@
   "established": 1926,
   "id": "csiro",
   "kind": "Funder",
-  "validation-key": "CSIRO",
   "labels": [],
   "location": {
     "city": "Canberra",
@@ -19,7 +18,7 @@
     "lon": -35.28346,
     "type": "wcrp:location"
   },
-  "long_label": "Commonwealth Scientific and Industrial Research Organisation",
+  "ui-label": "Commonwealth Scientific and Industrial Research Organisation",
   "ror": "03qn8fb07",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.csiro.au/"
-  ]
+  ],
+  "validation-key": "CSIRO"
 }

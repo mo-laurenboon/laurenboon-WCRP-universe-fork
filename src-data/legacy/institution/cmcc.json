@@ -7,7 +7,6 @@
   "established": 2005,
   "id": "cmcc",
   "kind": "Nonprofit",
-  "validation-key": "CMCC",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/01tf11a61",
     "type": "location"
   },
-  "long_label": "Euro-Mediterranean Center for Climate Change",
+  "ui-label": "Euro-Mediterranean Center for Climate Change",
   "ror": "01tf11a61",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.cmcc.it/"
-  ]
+  ],
+  "validation-key": "CMCC"
 }

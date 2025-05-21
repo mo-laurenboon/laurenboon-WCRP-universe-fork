@@ -2,9 +2,9 @@
   "@context": "_context_",
   "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
   "id": "ogcm",
-  "validation-key": "OGCM",
   "type": [
     "wcrp:source-type",
     "universal"
-  ]
+  ],
+  "validation-key": "OGCM"
 }

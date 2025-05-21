@@ -7,7 +7,6 @@
   "established": 1936,
   "id": "eawag",
   "kind": "Facility",
-  "validation-key": "EAWAG",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/00pc48d59",
     "type": "location"
   },
-  "long_label": "Swiss Federal Institute of Aquatic Science and Technology",
+  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
   "ror": "00pc48d59",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.eawag.ch/en/"
-  ]
+  ],
+  "validation-key": "EAWAG"
 }

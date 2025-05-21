@@ -8,7 +8,6 @@
   "established": 1891,
   "id": "ucsb",
   "kind": "Education",
-  "validation-key": "UCSB",
   "labels": [],
   "location": {
     "city": "Santa Barbara",
@@ -21,7 +20,7 @@
     "lon": 34.42083,
     "type": "wcrp:location"
   },
-  "long_label": "University of California, Santa Barbara",
+  "ui-label": "University of California, Santa Barbara",
   "ror": "02t274463",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://www.ucsb.edu"
-  ]
+  ],
+  "validation-key": "UCSB"
 }

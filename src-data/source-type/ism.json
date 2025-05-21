@@ -2,9 +2,9 @@
   "@context": "_context_",
   "description": "ice-sheet model that includes ice-flow",
   "id": "ism",
-  "validation-key": "ISM",
   "type": [
     "wcrp:source-type",
     "universal"
-  ]
+  ],
+  "validation-key": "ISM"
 }

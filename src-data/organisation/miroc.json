@@ -2,8 +2,7 @@
   "@context": "_context_",
   "changes": "",
   "id": "miroc",
-  "validation-key": "MIROC",
-  "long_label": "MIROC Consortium",
+  "ui-label": "MIROC Consortium",
   "members": {
     "aori": {
       "current": false,
@@ -44,5 +43,6 @@
     "universal",
     "wcrp:organisation"
   ],
-  "url": ""
+  "url": "",
+  "validation-key": "MIROC"
 }

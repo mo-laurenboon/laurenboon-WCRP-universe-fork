@@ -10,7 +10,6 @@
   "established": 1936,
   "id": "nasa-jpl",
   "kind": "Facility",
-  "validation-key": "NASA-JPL",
   "labels": [],
   "location": {
     "@nest": {
@@ -25,7 +24,7 @@
     "id": "universal:location/027k65916",
     "type": "location"
   },
-  "long_label": "Jet Propulsion Laboratory",
+  "ui-label": "Jet Propulsion Laboratory",
   "ror": "027k65916",
   "type": [
     "universal",
@@ -34,5 +33,6 @@
   ],
   "url": [
     "http://www.jpl.nasa.gov/"
-  ]
+  ],
+  "validation-key": "NASA-JPL"
 }

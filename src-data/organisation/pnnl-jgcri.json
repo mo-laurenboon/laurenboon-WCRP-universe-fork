@@ -6,7 +6,6 @@
   "established": 2001,
   "id": "pnnl-jgcri",
   "kind": "Facility",
-  "validation-key": "PNNL-JGCRI",
   "labels": [],
   "location": {
     "city": "Riverdale Park",
@@ -19,7 +18,7 @@
     "lon": 38.96344,
     "type": "wcrp:location"
   },
-  "long_label": "Joint Global Change Research Institute",
+  "ui-label": "Joint Global Change Research Institute",
   "ror": "058cmd703",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.pnnl.gov/projects/jgcri"
-  ]
+  ],
+  "validation-key": "PNNL-JGCRI"
 }

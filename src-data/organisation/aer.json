@@ -6,7 +6,6 @@
   "established": 1977,
   "id": "aer",
   "kind": "Facility",
-  "validation-key": "AER",
   "labels": [],
   "location": {
     "city": "Lexington",
@@ -19,7 +18,7 @@
     "lon": 42.44732,
     "type": "wcrp:location"
   },
-  "long_label": "Atmospheric and Environmental Research",
+  "ui-label": "Atmospheric and Environmental Research",
   "ror": "04cg70g73",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.aer.com/"
-  ]
+  ],
+  "validation-key": "AER"
 }

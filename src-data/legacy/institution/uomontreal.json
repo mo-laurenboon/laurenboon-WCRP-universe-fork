@@ -7,7 +7,6 @@
   "established": 1878,
   "id": "uomontreal",
   "kind": "Education",
-  "validation-key": "UoMontreal",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/0161xgx34",
     "type": "location"
   },
-  "long_label": "Université de Montréal",
+  "ui-label": "Université de Montréal",
   "ror": "0161xgx34",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.umontreal.ca/english/"
-  ]
+  ],
+  "validation-key": "UoMontreal"
 }

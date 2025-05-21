@@ -8,7 +8,6 @@
   "established": 1973,
   "id": "kiost",
   "kind": "Facility",
-  "validation-key": "KIOST",
   "labels": [],
   "location": {
     "city": "Busan",
@@ -21,7 +20,7 @@
     "lon": 35.10168,
     "type": "wcrp:location"
   },
-  "long_label": "Korea Institute of Ocean Science and Technology",
+  "ui-label": "Korea Institute of Ocean Science and Technology",
   "ror": "032m55064",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "http://eng.kiost.ac/"
-  ]
+  ],
+  "validation-key": "KIOST"
 }

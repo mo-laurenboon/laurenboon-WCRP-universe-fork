@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "monthly mean samples",
   "id": "mon",
-  "validation-key": "mon",
   "long_name": "Monthly Frequency",
   "type": [
     "wcrp:frequency",
     "universal"
   ],
-  "unit": "month"
+  "unit": "month",
+  "validation-key": "mon"
 }

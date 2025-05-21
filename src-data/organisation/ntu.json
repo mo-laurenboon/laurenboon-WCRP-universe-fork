@@ -6,7 +6,6 @@
   "established": 1928,
   "id": "ntu",
   "kind": "Education",
-  "validation-key": "NTU",
   "labels": [],
   "location": {
     "city": "Taipei",
@@ -19,7 +18,7 @@
     "lon": 25.05306,
     "type": "wcrp:location"
   },
-  "long_label": "National Taiwan University",
+  "ui-label": "National Taiwan University",
   "ror": "05bqach95",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.ntu.edu.tw/english/"
-  ]
+  ],
+  "validation-key": "NTU"
 }

@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
   "id": "gr1",
-  "validation-key": "gr1",
-  "long_label": "Regridded Greenland Alternate 1",
+  "ui-label": "Regridded Greenland Alternate 1",
   "region": "greenland",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ]
+  ],
+  "validation-key": "gr1"
 }

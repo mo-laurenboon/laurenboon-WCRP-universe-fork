@@ -5,7 +5,6 @@
   "established": 1997,
   "id": "ncas",
   "kind": "Facility",
-  "validation-key": "NCAS",
   "labels": [],
   "location": {
     "@nest": {
@@ -20,7 +19,7 @@
     "id": "universal:location/03q36cn05",
     "type": "location"
   },
-  "long_label": "Uks",
+  "ui-label": "Uks",
   "ror": "03q36cn05",
   "type": [
     "universal",
@@ -29,5 +28,6 @@
   ],
   "url": [
     "http://www.uksresearch.com/"
-  ]
+  ],
+  "validation-key": "NCAS"
 }

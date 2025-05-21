@@ -6,7 +6,6 @@
   "established": 1956,
   "id": "fzj",
   "kind": "Facility",
-  "validation-key": "FZJ",
   "labels": [],
   "location": {
     "city": "Jülich",
@@ -19,7 +18,7 @@
     "lon": 50.92149,
     "type": "wcrp:location"
   },
-  "long_label": "Forschungszentrum Jülich",
+  "ui-label": "Forschungszentrum Jülich",
   "ror": "02nv7yv05",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.fz-juelich.de"
-  ]
+  ],
+  "validation-key": "FZJ"
 }

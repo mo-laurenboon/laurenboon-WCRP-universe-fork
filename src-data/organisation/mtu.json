@@ -8,7 +8,6 @@
   "established": 1885,
   "id": "mtu",
   "kind": "Education",
-  "validation-key": "MTU",
   "labels": [],
   "location": {
     "city": "Houghton",
@@ -21,7 +20,7 @@
     "lon": 47.12187,
     "type": "wcrp:location"
   },
-  "long_label": "Michigan Technological University",
+  "ui-label": "Michigan Technological University",
   "ror": "0036rpn28",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://www.mtu.edu"
-  ]
+  ],
+  "validation-key": "MTU"
 }

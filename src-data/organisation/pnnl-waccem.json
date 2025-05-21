@@ -9,7 +9,6 @@
   "established": 1965,
   "id": "pnnl-waccem",
   "kind": "Facility",
-  "validation-key": "PNNL-WACCEM",
   "labels": [],
   "location": {
     "city": "Richland",
@@ -22,7 +21,7 @@
     "lon": 46.28569,
     "type": "wcrp:location"
   },
-  "long_label": "Pacific Northwest National Laboratory",
+  "ui-label": "Pacific Northwest National Laboratory",
   "ror": "05h992307",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.pnnl.gov/"
-  ]
+  ],
+  "validation-key": "PNNL-WACCEM"
 }

@@ -6,7 +6,6 @@
   "established": 1971,
   "id": "cccma",
   "kind": "Government",
-  "validation-key": "CCCma",
   "labels": [],
   "location": {
     "city": "Gatineau",
@@ -19,7 +18,7 @@
     "lon": 45.47723,
     "type": "wcrp:location"
   },
-  "long_label": "Environment and Climate Change Canada",
+  "ui-label": "Environment and Climate Change Canada",
   "ror": "026ny0e17",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.canada.ca/en/environment-climate-change.html"
-  ]
+  ],
+  "validation-key": "CCCma"
 }

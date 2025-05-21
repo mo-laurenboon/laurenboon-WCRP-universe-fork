@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "omip",
-  "validation-key": "OMIP",
-  "ui-label": "Ocean Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://OceanMIP.github.io"
+  "ui-label": "Ocean Model Intercomparison Project",
+  "url": "https://OceanMIP.github.io",
+  "validation-key": "OMIP"
 }

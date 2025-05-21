@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "data reported on a native grid in the region of Greenland",
   "id": "gng",
-  "validation-key": "gng",
-  "long_label": "Grid Native Greenland",
+  "ui-label": "Grid Native Greenland",
   "region": "greenland",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ]
+  ],
+  "validation-key": "gng"
 }

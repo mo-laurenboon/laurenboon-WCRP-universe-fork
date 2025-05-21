@@ -14,7 +14,6 @@
   "established": 1934,
   "id": "noaa-ncei",
   "kind": "Government",
-  "validation-key": "NOAA-NCEI",
   "labels": [],
   "location": {
     "@nest": {
@@ -29,7 +28,7 @@
     "id": "universal:location/04r0wrp59",
     "type": "location"
   },
-  "long_label": "NOAA National Centers for Environmental Information",
+  "ui-label": "NOAA National Centers for Environmental Information",
   "ror": "04r0wrp59",
   "type": [
     "universal",
@@ -38,5 +37,6 @@
   ],
   "url": [
     "https://www.ncei.noaa.gov"
-  ]
+  ],
+  "validation-key": "NOAA-NCEI"
 }

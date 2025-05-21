@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "fishmip",
-  "validation-key": "FishMIP",
-  "ui-label": "Fisheries and Marine Ecosystem Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://fishmip.org/"
+  "ui-label": "Fisheries and Marine Ecosystem Model Intercomparison Project",
+  "url": "https://fishmip.org/",
+  "validation-key": "FishMIP"
 }

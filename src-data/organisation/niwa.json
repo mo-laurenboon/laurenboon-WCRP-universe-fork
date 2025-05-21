@@ -8,7 +8,6 @@
   "established": 1992,
   "id": "niwa",
   "kind": "Facility",
-  "validation-key": "NIWA",
   "labels": [],
   "location": {
     "city": "Auckland",
@@ -21,7 +20,7 @@
     "lon": -36.84853,
     "type": "wcrp:location"
   },
-  "long_label": "National Institute of Water and Atmospheric Research",
+  "ui-label": "National Institute of Water and Atmospheric Research",
   "ror": "04hxcaz34",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "https://www.niwa.co.nz/"
-  ]
+  ],
+  "validation-key": "NIWA"
 }

@@ -6,7 +6,6 @@
   "established": 1925,
   "id": "auot",
   "kind": "Education",
-  "validation-key": "AUoT",
   "labels": [],
   "location": {
     "city": "Thessaloniki",
@@ -19,7 +18,7 @@
     "lon": 40.64361,
     "type": "wcrp:location"
   },
-  "long_label": "Aristotle University of Thessaloniki",
+  "ui-label": "Aristotle University of Thessaloniki",
   "ror": "02j61yw88",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.auth.gr"
-  ]
+  ],
+  "validation-key": "AUoT"
 }

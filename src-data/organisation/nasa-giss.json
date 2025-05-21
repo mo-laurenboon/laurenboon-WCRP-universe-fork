@@ -6,7 +6,6 @@
   "established": 1961,
   "id": "nasa-giss",
   "kind": "Facility",
-  "validation-key": "NASA-GISS",
   "labels": [],
   "location": {
     "city": "New York",
@@ -19,7 +18,7 @@
     "lon": 40.71427,
     "type": "wcrp:location"
   },
-  "long_label": "Goddard Institute for Space Studies",
+  "ui-label": "Goddard Institute for Space Studies",
   "ror": "01cyfxe35",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.giss.nasa.gov/"
-  ]
+  ],
+  "validation-key": "NASA-GISS"
 }

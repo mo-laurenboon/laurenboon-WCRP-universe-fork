@@ -1,7 +1,6 @@
 {
   "description": "UK Earth System Model (based on HadGEM3)",
   "id": "ukesm1",
-  "validation-key": "UKESM1",
   "origin": "Met Office Hadley Centre (Met Office Hadley Centre)",
   "permissible_realms": [
     "atmos",
@@ -9,5 +8,6 @@
     "ocean",
     "ocnbgchem"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "UKESM1"
 }

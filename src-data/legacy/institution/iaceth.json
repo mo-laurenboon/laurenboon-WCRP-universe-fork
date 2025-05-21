@@ -10,7 +10,6 @@
   "established": 1855,
   "id": "iaceth",
   "kind": "Education",
-  "validation-key": "IACETH",
   "labels": [],
   "location": {
     "@nest": {
@@ -25,7 +24,7 @@
     "id": "universal:location/05a28rw58",
     "type": "location"
   },
-  "long_label": "ETH Zurich",
+  "ui-label": "ETH Zurich",
   "ror": "05a28rw58",
   "type": [
     "universal",
@@ -34,5 +33,6 @@
   ],
   "url": [
     "https://ethz.ch"
-  ]
+  ],
+  "validation-key": "IACETH"
 }

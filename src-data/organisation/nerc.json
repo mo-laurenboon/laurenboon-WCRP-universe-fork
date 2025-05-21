@@ -6,7 +6,6 @@
   "established": 1965,
   "id": "nerc",
   "kind": "Government",
-  "validation-key": "NERC",
   "labels": [],
   "location": {
     "city": "Swindon",
@@ -19,7 +18,7 @@
     "lon": 51.55797,
     "type": "wcrp:location"
   },
-  "long_label": "Natural Environment Research Council",
+  "ui-label": "Natural Environment Research Council",
   "ror": "02b5d8509",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "https://www.ukri.org/councils/nerc/"
-  ]
+  ],
+  "validation-key": "NERC"
 }

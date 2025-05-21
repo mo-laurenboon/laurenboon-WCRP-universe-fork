@@ -9,7 +9,6 @@
   "established": 1992,
   "id": "niwa",
   "kind": "Facility",
-  "validation-key": "NIWA",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/04hxcaz34",
     "type": "location"
   },
-  "long_label": "National Institute of Water and Atmospheric Research",
+  "ui-label": "National Institute of Water and Atmospheric Research",
   "ror": "04hxcaz34",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "https://www.niwa.co.nz/"
-  ]
+  ],
+  "validation-key": "NIWA"
 }

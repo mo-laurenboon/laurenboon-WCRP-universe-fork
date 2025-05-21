@@ -7,7 +7,6 @@
   "established": 1991,
   "id": "ipsl",
   "kind": "Facility",
-  "validation-key": "IPSL",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/02haar591",
     "type": "location"
   },
-  "long_label": "Institut Pierre-Simon Laplace",
+  "ui-label": "Institut Pierre-Simon Laplace",
   "ror": "02haar591",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.ipsl.fr/en/"
-  ]
+  ],
+  "validation-key": "IPSL"
 }

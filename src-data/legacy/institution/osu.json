@@ -7,7 +7,6 @@
   "established": 1868,
   "id": "osu",
   "kind": "Education",
-  "validation-key": "OSU",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/00ysfqy60",
     "type": "location"
   },
-  "long_label": "Oregon State University",
+  "ui-label": "Oregon State University",
   "ror": "00ysfqy60",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://oregonstate.edu/"
-  ]
+  ],
+  "validation-key": "OSU"
 }

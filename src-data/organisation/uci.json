@@ -8,7 +8,6 @@
   "established": 1965,
   "id": "uci",
   "kind": "Education",
-  "validation-key": "UCI",
   "labels": [],
   "location": {
     "city": "Irvine",
@@ -21,7 +20,7 @@
     "lon": 33.66946,
     "type": "wcrp:location"
   },
-  "long_label": "University of California, Irvine",
+  "ui-label": "University of California, Irvine",
   "ror": "04gyf1771",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "http://uci.edu/"
-  ]
+  ],
+  "validation-key": "UCI"
 }

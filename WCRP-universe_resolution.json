@@ -12,92 +12,92 @@
   "resolution": {
     "0.5 km": {
       "description": "Resolution of 0.5 km",
-      "validation-key": "0.5 km",
       "unit": "km",
+      "validation-key": "0.5 km",
       "value": "0.5"
     },
     "1 km": {
       "description": "Resolution of 1 km",
-      "validation-key": "1 km",
       "unit": "km",
+      "validation-key": "1 km",
       "value": "1"
     },
     "10 km": {
       "description": "Resolution of 10 km",
-      "validation-key": "10 km",
       "unit": "km",
+      "validation-key": "10 km",
       "value": "10"
     },
     "100 km": {
       "description": "Resolution of 100 km",
-      "validation-key": "100 km",
       "unit": "km",
+      "validation-key": "100 km",
       "value": "100"
     },
     "1000 km": {
       "description": "Resolution of 1000 km",
-      "validation-key": "1000 km",
       "unit": "km",
+      "validation-key": "1000 km",
       "value": "1000"
     },
     "10000 km": {
       "description": "Resolution of 10000 km",
-      "validation-key": "10000 km",
       "unit": "km",
+      "validation-key": "10000 km",
       "value": "10000"
     },
     "1x1 degree": {
       "description": "Resolution of 1x1 degree",
-      "validation-key": "1x1 degree",
       "unit": "degree",
+      "validation-key": "1x1 degree",
       "value": "1x1"
     },
     "2.5 km": {
       "description": "Resolution of 2.5 km",
-      "validation-key": "2.5 km",
       "unit": "km",
+      "validation-key": "2.5 km",
       "value": "2.5"
     },
     "25 km": {
       "description": "Resolution of 25 km",
-      "validation-key": "25 km",
       "unit": "km",
+      "validation-key": "25 km",
       "value": "25"
     },
     "250 km": {
       "description": "Resolution of 250 km",
-      "validation-key": "250 km",
       "unit": "km",
+      "validation-key": "250 km",
       "value": "250"
     },
     "2500 km": {
       "description": "Resolution of 2500 km",
-      "validation-key": "2500 km",
       "unit": "km",
+      "validation-key": "2500 km",
       "value": "2500"
     },
     "5 km": {
       "description": "Resolution of 5 km",
-      "validation-key": "5 km",
       "unit": "km",
+      "validation-key": "5 km",
       "value": "5"
     },
     "50 km": {
       "description": "Resolution of 50 km",
-      "validation-key": "50 km",
       "unit": "km",
+      "validation-key": "50 km",
       "value": "50"
     },
     "500 km": {
       "description": "Resolution of 500 km",
-      "validation-key": "500 km",
       "unit": "km",
+      "validation-key": "500 km",
       "value": "500"
     },
     "5000 km": {
       "description": "Resolution of 5000 km",
-      "validation-key": "5000 km",
       "unit": "km",
+      "validation-key": "5000 km",
       "value": "5000"
     }
   }

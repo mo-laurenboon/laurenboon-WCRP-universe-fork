@@ -4,7 +4,6 @@
   "established": 1926,
   "id": "ureading",
   "kind": "Education",
-  "validation-key": "UReading",
   "labels": [],
   "location": {
     "city": "Reading",
@@ -17,7 +16,7 @@
     "lon": 51.45625,
     "type": "wcrp:location"
   },
-  "long_label": "University of Reading",
+  "ui-label": "University of Reading",
   "ror": "05v62cm79",
   "type": [
     "wcrp:organisation",
@@ -26,5 +25,6 @@
   ],
   "url": [
     "https://www.reading.ac.uk"
-  ]
+  ],
+  "validation-key": "UReading"
 }

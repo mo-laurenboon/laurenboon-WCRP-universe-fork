@@ -6,7 +6,6 @@
   "established": 1975,
   "id": "ecmwf",
   "kind": "Other",
-  "validation-key": "ECMWF",
   "labels": [],
   "location": {
     "city": "Reading",
@@ -19,7 +18,7 @@
     "lon": 51.45625,
     "type": "wcrp:location"
   },
-  "long_label": "European Centre for Medium-Range Weather Forecasts",
+  "ui-label": "European Centre for Medium-Range Weather Forecasts",
   "ror": "014w0fd65",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.ecmwf.int/"
-  ]
+  ],
+  "validation-key": "ECMWF"
 }

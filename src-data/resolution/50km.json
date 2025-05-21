@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "Resolution of 50 km",
   "id": "50km",
-  "validation-key": "50 km",
   "type": [
     "wcrp:resolution",
     "universal"
   ],
   "unit": "km",
+  "validation-key": "50 km",
   "value": "50"
 }

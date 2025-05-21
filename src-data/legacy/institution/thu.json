@@ -7,7 +7,6 @@
   "established": 1911,
   "id": "thu",
   "kind": "Education",
-  "validation-key": "THU",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/03cve4549",
     "type": "location"
   },
-  "long_label": "Tsinghua University",
+  "ui-label": "Tsinghua University",
   "ror": "03cve4549",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.tsinghua.edu.cn/publish/newthuen/"
-  ]
+  ],
+  "validation-key": "THU"
 }

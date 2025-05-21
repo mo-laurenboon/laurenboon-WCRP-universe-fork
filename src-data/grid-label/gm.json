@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "global mean data",
   "id": "gm",
-  "validation-key": "gm",
-  "long_label": "Greenland",
+  "ui-label": "Greenland",
   "region": "greenland",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ]
+  ],
+  "validation-key": "gm"
 }

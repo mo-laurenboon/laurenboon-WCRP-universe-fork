@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "",
   "id": "cdrmip",
-  "validation-key": "CDRMIP",
-  "ui-label": "Carbon Dioxide Removal Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://cdrmip.carbondioxide-removal.eu/"
+  "ui-label": "Carbon Dioxide Removal Model Intercomparison Project",
+  "url": "https://cdrmip.carbondioxide-removal.eu/",
+  "validation-key": "CDRMIP"
 }

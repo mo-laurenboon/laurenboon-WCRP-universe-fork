@@ -1,7 +1,6 @@
 {
   "description": "Community Earth System Model",
   "id": "cesm",
-  "validation-key": "CESM",
   "origin": "NCAR (National Center for Atmospheric Research)",
   "permissible_realms": [
     "atmos",
@@ -10,5 +9,6 @@
     "seaice",
     "ocnbgchem"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "CESM"
 }

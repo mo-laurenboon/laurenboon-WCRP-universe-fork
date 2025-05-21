@@ -6,7 +6,6 @@
   "established": 1980,
   "id": "inm",
   "kind": "Facility",
-  "validation-key": "INM",
   "labels": [],
   "location": {
     "city": "Moscow",
@@ -19,7 +18,7 @@
     "lon": 55.75222,
     "type": "wcrp:location"
   },
-  "long_label": "Institute of Numerical Mathematics",
+  "ui-label": "Institute of Numerical Mathematics",
   "ror": "00520ey40",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.inm.ras.ru/inm_en_ver/index.htm"
-  ]
+  ],
+  "validation-key": "INM"
 }

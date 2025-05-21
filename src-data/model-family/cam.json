@@ -1,10 +1,10 @@
 {
   "description": "Community Atmosphere Model",
   "id": "cam",
-  "validation-key": "CAM",
   "origin": "NCAR (National Center for Atmospheric Research)",
   "permissible_realms": [
     "atmos"
   ],
-  "type": "wcrp:model-family"
+  "type": "wcrp:model-family",
+  "validation-key": "CAM"
 }

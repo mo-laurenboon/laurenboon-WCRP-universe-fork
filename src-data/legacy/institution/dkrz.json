@@ -7,7 +7,6 @@
   "established": 1987,
   "id": "dkrz",
   "kind": "Facility",
-  "validation-key": "DKRZ",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/03ztgj037",
     "type": "location"
   },
-  "long_label": "German Climate Computing Centre",
+  "ui-label": "German Climate Computing Centre",
   "ror": "03ztgj037",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.dkrz.de/"
-  ]
+  ],
+  "validation-key": "DKRZ"
 }

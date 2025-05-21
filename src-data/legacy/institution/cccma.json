@@ -7,7 +7,6 @@
   "established": 1971,
   "id": "cccma",
   "kind": "Government",
-  "validation-key": "CCCma",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/026ny0e17",
     "type": "location"
   },
-  "long_label": "Environment and Climate Change Canada",
+  "ui-label": "Environment and Climate Change Canada",
   "ror": "026ny0e17",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.canada.ca/en/environment-climate-change.html"
-  ]
+  ],
+  "validation-key": "CCCma"
 }

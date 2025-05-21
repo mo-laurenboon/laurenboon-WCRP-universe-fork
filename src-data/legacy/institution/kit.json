@@ -10,7 +10,6 @@
   "established": 2009,
   "id": "kit",
   "kind": "Education",
-  "validation-key": "KIT",
   "labels": [],
   "location": {
     "@nest": {
@@ -25,7 +24,7 @@
     "id": "universal:location/04t3en479",
     "type": "location"
   },
-  "long_label": "Karlsruhe Institute of Technology",
+  "ui-label": "Karlsruhe Institute of Technology",
   "ror": "04t3en479",
   "type": [
     "universal",
@@ -34,5 +33,6 @@
   ],
   "url": [
     "http://www.kit.edu/english/"
-  ]
+  ],
+  "validation-key": "KIT"
 }

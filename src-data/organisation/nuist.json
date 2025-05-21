@@ -9,7 +9,6 @@
   "established": 1902,
   "id": "nuist",
   "kind": "Education",
-  "validation-key": "NUIST",
   "labels": [],
   "location": {
     "city": "Nanjing",
@@ -22,7 +21,7 @@
     "lon": 32.06167,
     "type": "wcrp:location"
   },
-  "long_label": "Nanjing University",
+  "ui-label": "Nanjing University",
   "ror": "01rxvg760",
   "type": [
     "wcrp:organisation",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.nju.edu.cn/english/"
-  ]
+  ],
+  "validation-key": "NUIST"
 }

@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "Aerosol",
   "id": "aerosol",
-  "validation-key": "aerosol",
-  "long_label": "Aerosol",
+  "ui-label": "Aerosol",
   "type": [
     "wcrp:realm",
     "universal"
-  ]
+  ],
+  "validation-key": "aerosol"
 }

@@ -8,7 +8,6 @@
   "established": 1956,
   "id": "mri",
   "kind": "Other",
-  "validation-key": "MRI",
   "labels": [],
   "location": {
     "city": "Tokyo",
@@ -21,7 +20,7 @@
     "lon": 35.6895,
     "type": "wcrp:location"
   },
-  "long_label": "Japan Meteorological Agency",
+  "ui-label": "Japan Meteorological Agency",
   "ror": "02772kk97",
   "type": [
     "wcrp:organisation",
@@ -30,5 +29,6 @@
   ],
   "url": [
     "http://www.jma.go.jp/jma/indexe.html"
-  ]
+  ],
+  "validation-key": "MRI"
 }

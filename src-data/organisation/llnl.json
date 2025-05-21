@@ -12,7 +12,6 @@
   "established": 1952,
   "id": "llnl",
   "kind": "Facility",
-  "validation-key": "LLNL",
   "labels": [],
   "location": {
     "city": "Livermore",
@@ -25,7 +24,7 @@
     "lon": 37.68187,
     "type": "wcrp:location"
   },
-  "long_label": "Lawrence Livermore National Laboratory",
+  "ui-label": "Lawrence Livermore National Laboratory",
   "ror": "041nk4h53",
   "type": [
     "wcrp:organisation",
@@ -34,5 +33,6 @@
   ],
   "url": [
     "https://www.llnl.gov"
-  ]
+  ],
+  "validation-key": "LLNL"
 }

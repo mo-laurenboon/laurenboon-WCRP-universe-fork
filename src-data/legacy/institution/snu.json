@@ -9,7 +9,6 @@
   "established": 1946,
   "id": "snu",
   "kind": "Education",
-  "validation-key": "SNU",
   "labels": [],
   "location": {
     "@nest": {
@@ -24,7 +23,7 @@
     "id": "universal:location/04h9pn542",
     "type": "location"
   },
-  "long_label": "Seoul National University",
+  "ui-label": "Seoul National University",
   "ror": "04h9pn542",
   "type": [
     "universal",
@@ -33,5 +32,6 @@
   ],
   "url": [
     "http://www.snu.ac.kr/index.html"
-  ]
+  ],
+  "validation-key": "SNU"
 }

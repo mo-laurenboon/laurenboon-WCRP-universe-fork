@@ -2,10 +2,10 @@
   "@context": "_context_",
   "description": "CMIP DECK: 1pctCO2, abrupt-4xCO2, amip, esm-piControl, esm-historical, historical, and piControl experiments",
   "id": "cmip",
-  "validation-key": "CMIP",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.pdf"
+  "url": "https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.pdf",
+  "validation-key": "CMIP"
 }

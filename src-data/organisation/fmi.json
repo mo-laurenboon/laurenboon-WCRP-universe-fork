@@ -6,7 +6,6 @@
   "established": 1838,
   "id": "fmi",
   "kind": "Government",
-  "validation-key": "FMI",
   "labels": [],
   "location": {
     "city": "Helsinki",
@@ -19,7 +18,7 @@
     "lon": 60.16952,
     "type": "wcrp:location"
   },
-  "long_label": "Finnish Meteorological Institute",
+  "ui-label": "Finnish Meteorological Institute",
   "ror": "05hppb561",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://en.ilmatieteenlaitos.fi/"
-  ]
+  ],
+  "validation-key": "FMI"
 }

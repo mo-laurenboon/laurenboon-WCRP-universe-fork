@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
   "id": "1hrcm",
-  "validation-key": "1hrCM",
   "long_name": "1 Hour Climatology Monthly",
   "type": [
     "wcrp:frequency",
     "universal"
   ],
-  "unit": "hour"
+  "unit": "hour",
+  "validation-key": "1hrCM"
 }

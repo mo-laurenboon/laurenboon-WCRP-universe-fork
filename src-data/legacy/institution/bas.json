@@ -7,7 +7,6 @@
   "established": 1962,
   "id": "bas",
   "kind": "Government",
-  "validation-key": "BAS",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/01rhff309",
     "type": "location"
   },
-  "long_label": "British Antarctic Survey",
+  "ui-label": "British Antarctic Survey",
   "ror": "01rhff309",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.bas.ac.uk/"
-  ]
+  ],
+  "validation-key": "BAS"
 }

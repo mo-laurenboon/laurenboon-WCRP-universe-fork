@@ -7,7 +7,6 @@
   "established": 1962,
   "id": "cccr-iitm",
   "kind": "Facility",
-  "validation-key": "CCCR-IITM",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/03jf2m686",
     "type": "location"
   },
-  "long_label": "Indian Institute of Tropical Meteorology",
+  "ui-label": "Indian Institute of Tropical Meteorology",
   "ror": "03jf2m686",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.tropmet.res.in/"
-  ]
+  ],
+  "validation-key": "CCCR-IITM"
 }

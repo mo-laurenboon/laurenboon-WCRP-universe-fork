@@ -6,7 +6,6 @@
   "established": 1946,
   "id": "uobergen",
   "kind": "Education",
-  "validation-key": "UoBergen",
   "labels": [],
   "location": {
     "city": "Bergen",
@@ -19,7 +18,7 @@
     "lon": 60.39299,
     "type": "wcrp:location"
   },
-  "long_label": "University of Bergen",
+  "ui-label": "University of Bergen",
   "ror": "03zga2b32",
   "type": [
     "wcrp:organisation",
@@ -28,5 +27,6 @@
   ],
   "url": [
     "http://www.uib.no/"
-  ]
+  ],
+  "validation-key": "UoBergen"
 }

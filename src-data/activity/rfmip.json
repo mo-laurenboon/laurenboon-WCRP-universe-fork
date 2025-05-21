@@ -2,11 +2,11 @@
   "@context": "_context_",
   "description": "RFMIP assesses the radiative forcing of climate change with experiments such as piClim-aer, piClim-histaer, and piClim-histall.",
   "id": "rfmip",
-  "validation-key": "RFMIP",
-  "ui-label": "Radiative Forcing Model Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "https://gmd.copernicus.org/articles/13/169/2020/gmd-13-169-2020.pdf"
+  "ui-label": "Radiative Forcing Model Intercomparison Project",
+  "url": "https://gmd.copernicus.org/articles/13/169/2020/gmd-13-169-2020.pdf",
+  "validation-key": "RFMIP"
 }

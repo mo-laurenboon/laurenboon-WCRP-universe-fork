@@ -2,11 +2,11 @@
   "@context": "_context_",
   "end": 2020,
   "id": "cmip5",
-  "validation-key": "CMIP5",
   "start": 2006,
   "type": [
     "wcrp:mip",
     "universal"
   ],
-  "url": "https://wcrp-cmip.org/CMIP5"
+  "url": "https://wcrp-cmip.org/CMIP5",
+  "validation-key": "CMIP5"
 }

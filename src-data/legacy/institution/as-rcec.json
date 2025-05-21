@@ -7,7 +7,6 @@
   "established": 0,
   "id": "as-rcec",
   "kind": "Facility",
-  "validation-key": "AS-RCEC",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/050qpg053",
     "type": "location"
   },
-  "long_label": "Research Center for Environmental Changes, Academia Sinica",
+  "ui-label": "Research Center for Environmental Changes, Academia Sinica",
   "ror": "050qpg053",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "http://www.rcec.sinica.edu.tw/"
-  ]
+  ],
+  "validation-key": "AS-RCEC"
 }

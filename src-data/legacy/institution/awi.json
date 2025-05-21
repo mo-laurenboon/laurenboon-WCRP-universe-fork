@@ -7,7 +7,6 @@
   "established": 1980,
   "id": "awi",
   "kind": "Facility",
-  "validation-key": "AWI",
   "labels": [],
   "location": {
     "@nest": {
@@ -22,7 +21,7 @@
     "id": "universal:location/032e6b942",
     "type": "location"
   },
-  "long_label": "Alfred Wegener Institute for Polar and Marine Research",
+  "ui-label": "Alfred Wegener Institute for Polar and Marine Research",
   "ror": "032e6b942",
   "type": [
     "universal",
@@ -31,5 +30,6 @@
   ],
   "url": [
     "https://www.awi.de"
-  ]
+  ],
+  "validation-key": "AWI"
 }

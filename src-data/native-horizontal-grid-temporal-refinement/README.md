@@ -63,20 +63,20 @@ Native horizontal grid temporal refinement types, i.e., how the distribution of 
 
 ![GitHub Badge](https://img.shields.io/badge/View_on-GitHub-24292e?logo=github&logoColor=white)
 
-<s>
+<section>
 
 ## Summary
 
 Native horizontal grid temporal refinement types, i.e., how the distribution of grid cells varies with time.
 
-</s> --- <s>
+</section> --- <section>
 
 ## Key Definitions
 
 - `static`: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
 - `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
 - `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-</s>
+</section>
 ---
 
 ## Dependencies

@@ -1,10 +1,10 @@
 {
-    "id": "atmosphere-ln-pressure-coordinate",
-    "type": [
-        "wcrp:native-vertical-grid-coordinate",
-        "universal"
-    ],
-    "validation-key": "atmosphere-ln-pressure-coordinate",
-    "description": "Parametric atmosphere natural log pressure coordinate",
-    "ui-label": "Atmosphere ln pressure coordinate"
+  "description": "Parametric atmosphere natural log pressure coordinate",
+  "id": "atmosphere-ln-pressure-coordinate",
+  "type": [
+    "wcrp:native-vertical-grid-coordinate",
+    "universal"
+  ],
+  "ui-label": "Atmosphere ln pressure coordinate",
+  "validation-key": "atmosphere-ln-pressure-coordinate"
 }

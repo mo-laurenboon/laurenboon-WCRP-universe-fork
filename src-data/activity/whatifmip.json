@@ -1,12 +1,12 @@
 {
   "@context": "_context_",
+  "description": "",
   "id": "whatifmip",
+  "validation-key": "WhatIfMIP",
+  "ui-label": "What If Modeling Intercomparison Project",
   "type": [
     "wcrp:activity",
     "universal"
   ],
-  "url": "In",
-  "label": "WhatIfMIP",
-  "long-label": "What If Modeling Intercomparison Project",
-  "description": ""
+  "url": "In"
 }

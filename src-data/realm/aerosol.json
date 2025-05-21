@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
-    "description": "Aerosol",
-    "id": "aerosol",
-    "type": [
-        "wcrp:realm",
-        "universal"
-    ],
-    "label": "aerosol",
-    "long_label": "Aerosol"
+  "@context": "_context_",
+  "description": "Aerosol",
+  "id": "aerosol",
+  "validation-key": "aerosol",
+  "long_label": "Aerosol",
+  "type": [
+    "wcrp:realm",
+    "universal"
+  ]
 }

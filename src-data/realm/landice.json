@@ -1,11 +1,11 @@
 {
-    "@context": "_context_",
-    "description": "Land Ice",
-    "id": "landice",
-    "type": [
-        "wcrp:realm",
-        "universal"
-    ],
-    "label": "landIce",
-    "long_label": "Land Ice"
+  "@context": "_context_",
+  "description": "Land Ice",
+  "id": "landice",
+  "validation-key": "landIce",
+  "long_label": "Land Ice",
+  "type": [
+    "wcrp:realm",
+    "universal"
+  ]
 }

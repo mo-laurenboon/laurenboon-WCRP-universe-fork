@@ -44,10 +44,10 @@ Native horizontal grid temporal refinement types, i.e., how the distribution of 
 
 
 <section id='contents'>
-<h4> Contents </h4>
+<h3> Contents </h4>
 <details id='keys'>
 
-<summary>Show Files</summary>
+<summary><h3>View Files</h3></summary>
 
   - <a href = id1>`id`</a>: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
   - ``: the total number of grid points stays constant, but grid points can be dynamically relocated.

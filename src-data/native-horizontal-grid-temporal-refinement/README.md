@@ -1,9 +1,23 @@
 
 <h2 id='title'> native-horizontal-grid-temporal-refinement </h2>
 
+
 <section id='summary'>
 Native horizontal grid temporal refinement types, i.e., how the distribution of grid cells varies with time.
 </section>
+
+#### Keys
+
+
+
+# Repository Summary
+
+| **Attribute**      | **Details**                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| **Prefix**         | wcrp:native-horizontal-grid-temporal-refinement                             |
+| **IO URL**         | [native-horizontal-grid-temporal-refinement](https://ub Folder**  | [native-horizontal-grid-temporal-refinement](https://github.com/efix `wcrp:native-horizontal-grid-temporal-refinement` is used for the repository.
+
+
 
 
 <section id='keys'>

@@ -69,7 +69,11 @@ Native horizontal grid temporal refinement types, i.e., how the distribution of 
 
 Native horizontal grid temporal refinement types, i.e., how the distribution of grid cells varies with time.
 
-</section> --- <section>
+</section> 
+
+--- 
+
+<section>
 
 ## Key Definitions
 

@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "cmip6dr_version",
     "type": "data_spec_version",
-    "regex": "^\\[0-9\\]{2,2}\\.\\[0-9\\]{2,2}\\.\\[0-9\\]{2,2}$"
+    "regex": "^\\d{2}\\.\\d{2}\\.\\d{2}$"
 }

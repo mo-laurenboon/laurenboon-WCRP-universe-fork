@@ -1,0 +1,35 @@
+{
+  "@context": "_context_",
+  "acronyms": [
+    "EAWAG"
+  ],
+  "aliases": [],
+  "established": 1936,
+  "id": "eawag",
+  "kind": "Facility",
+  "labels": [],
+  "location": {
+    "@nest": {
+      "city": "Dübendorf",
+      "country": [
+        "Switzerland",
+        "CH"
+      ],
+      "lat": 47.39724,
+      "lon": 47.39724
+    },
+    "id": "universal:location/00pc48d59",
+    "type": "location"
+  },
+  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
+  "ror": "00pc48d59",
+  "type": [
+    "universal",
+    "wcrp:institution",
+    "wcrp:organisation"
+  ],
+  "url": [
+    "http://www.eawag.ch/en/"
+  ],
+  "validation-key": "EAWAG"
+}

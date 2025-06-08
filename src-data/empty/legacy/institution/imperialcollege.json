@@ -1,0 +1,33 @@
+{
+  "@context": "_context_",
+  "acronyms": [],
+  "aliases": [],
+  "established": 1907,
+  "id": "imperialcollege",
+  "kind": "Education",
+  "labels": [],
+  "location": {
+    "@nest": {
+      "city": "London",
+      "country": [
+        "United Kingdom",
+        "GB"
+      ],
+      "lat": 51.4986,
+      "lon": -0.175478
+    },
+    "id": "universal:location/041kmwe10",
+    "type": "location"
+  },
+  "ui-label": "Imperial College London",
+  "ror": "041kmwe10",
+  "type": [
+    "universal",
+    "wcrp:institution",
+    "wcrp:organisation"
+  ],
+  "url": [
+    "http://www.imperial.ac.uk/"
+  ],
+  "validation-key": "ImperialCollege"
+}

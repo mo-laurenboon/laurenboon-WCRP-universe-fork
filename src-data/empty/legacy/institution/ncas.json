@@ -1,0 +1,33 @@
+{
+  "@context": "_context_",
+  "acronyms": [],
+  "aliases": [],
+  "established": 1997,
+  "id": "ncas",
+  "kind": "Facility",
+  "labels": [],
+  "location": {
+    "@nest": {
+      "city": "Islamabad",
+      "country": [
+        "Pakistan",
+        "PK"
+      ],
+      "lat": 33.72148,
+      "lon": 73.04329
+    },
+    "id": "universal:location/03q36cn05",
+    "type": "location"
+  },
+  "ui-label": "Uks",
+  "ror": "03q36cn05",
+  "type": [
+    "universal",
+    "wcrp:institution",
+    "wcrp:organisation"
+  ],
+  "url": [
+    "http://www.uksresearch.com/"
+  ],
+  "validation-key": "NCAS"
+}

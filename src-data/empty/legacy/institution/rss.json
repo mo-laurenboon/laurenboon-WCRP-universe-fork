@@ -1,0 +1,35 @@
+{
+  "@context": "_context_",
+  "acronyms": [
+    "RSS"
+  ],
+  "aliases": [],
+  "established": 1974,
+  "id": "rss",
+  "kind": "Company",
+  "labels": [],
+  "location": {
+    "@nest": {
+      "city": "Santa Rosa",
+      "country": [
+        "United States",
+        "US"
+      ],
+      "lat": 38.443733,
+      "lon": -122.717185
+    },
+    "id": "universal:location/01vp8h012",
+    "type": "location"
+  },
+  "ui-label": "Remote Sensing Systems (United States)",
+  "ror": "01vp8h012",
+  "type": [
+    "universal",
+    "wcrp:institution",
+    "wcrp:organisation"
+  ],
+  "url": [
+    "http://www.remss.com/"
+  ],
+  "validation-key": "RSS"
+}

@@ -29,17 +29,17 @@
 ## Content Schema
 
 - **`id`** (**str**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 - **`type`** (**str**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 - **`kind`** (**str**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 - **`license`** (**str | None**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 - **`url`** (**str | None**) 
-  << No description in model >>
+  << No description in pydantic model (see esgvoc) >>
 
 
 

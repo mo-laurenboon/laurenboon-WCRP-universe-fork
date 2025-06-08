@@ -1,112 +1,84 @@
 
-<h2 id='title'> native-horizontal-grid-temporal-refinement </h2>
+
+<section id="info">
+
+# Native Horizontal Grid Temporal Refinement  (universal)
+
+|  | uri |
+| --- | --- |
+| Type | `wrcp:native-horizontal-grid-temporal-refinement` |
+| Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
+| | |
+| JSON-LD | `universal:native-horizontal-grid-temporal-refinement` |
+| Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-temporal-refinement](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-temporal-refinement) |
+| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-temporal-refinement) |
 
 
-<section id='summary'>
-Native horizontal grid temporal refinement types, i.e., how the distribution of grid cells varies with time.
 </section>
+    
 
-#### Keys
+<section id="description">
 
-
-
-# Repository Summary
-
-| **Attribute**      | **Details**                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| **Prefix**         | wcrp:native-horizontal-grid-temporal-refinement                             |
-| **IO URL**         | [native-horizontal-grid-temporal-refinement](https://ub Folder**  | [native-horizontal-grid-temporal-refinement](https://github.com/efix `wcrp:native-horizontal-grid-temporal-refinement` is used for the repository.
-
-
-
-
-<section id='keys'>
-<h4> Key definitions </h4>
-<details id='keys'>
-
-<summary>Expand definitions</summary>
-
-  - `static`: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-  - `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
-  - `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-
-</details>
-
+## Description
 
 </section>
 
 
+<section id="schema">
+
+## Content Schema
+
+- **`id`** (**str**) 
+  << No description in model >>
+- **`type`** (**str**) 
+  << No description in model >>
+- **`drs_name`** (**str**) 
+  << No description in model >>
+- **`name`** (**str**) 
+  << No description in model >>
+- **`long_name`** (**str**) 
+  << No description in model >>
+- **`url`** (**str | None**) 
+  << No description in model >>
 
 
 
-<section id='keys'>
-<h4> Dependancies </h4>
-<details id='keys'>
-
-<summary>View dependencies</summary>
-
-  - `static`: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-  - `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
-  - `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-
-</details>
 
 
+</section>   
+
+<section id="usage">
+
+## Usage
+
+### Online Viewer 
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-temporal-refinement/.json
+
+### Getting a File. 
+
+A short example of how to integrate the computed ld file into your code. 
+
+### Framing
+```js
+frame = {
+            "@context": "https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-temporal-refinement/_context_",
+            "@type": "wcrp:native-horizontal-grid-temporal-refinement/",
+            "keys we want": "",
+            "@explicit": True
+
+        }
+        
+
+print(usage)
+
+```
+
+```python
+
+import cmipld
+cmipld.frame( universal:native-horizontal-grid-temporal-refinement )
+
+```
 </section>
 
-
-
-
-<section id='contents'>
-<h3> Contents </h4>
-<details id='keys'>
-
-<summary><h3>View Files</h3></summary>
-
-  - <a href = id1>`id`</a>: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-  - ``: the total number of grid points stays constant, but grid points can be dynamically relocated.
-  - `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-
-</details>
-
-
-</section>
-
-
-# native-horizontal-grid-temporal-refinement
-
-![GitHub Badge](https://img.shields.io/badge/View_on-GitHub-24292e?logo=github&logoColor=white)
-
-<section>
-
-## Summary
-
-Native horizontal grid temporal refinement types, i.e., how the distribution of grid cells varies with time.
-
-</section> 
-
---- 
-<section>
-
-## Key Definitions
-
-- `static`: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-- `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
-- `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-</section>
-
----
-
-## Dependencies
-
-- `static`: the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-- `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
-- `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
-
----
-
-## Contents
-
-- [`id`](#id1): the total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.
-- `dynamically_stretched`: the total number of grid points stays constant, but grid points can be dynamically relocated.
-- `adaptive`: the total number of grid points varies during the model run. The grid is refined locally when important physical processes occur that need additional grid resolution, and coarsened when the additional resolution is no longer needed.
+    

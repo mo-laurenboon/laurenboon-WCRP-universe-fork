@@ -2,16 +2,16 @@
 
 <section id="info">
 
-# Model Calendar  (universal)
+# Mip  (universal)
 
 |  | uri |
 | --- | --- |
-| Type | `wrcp:model-calendar` |
+| Type | `wrcp:mip` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
-| JSON-LD | `universal:model-calendar` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/model-calendar](https://wcrp-cmip.github.io/WCRP-universe/model-calendar) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-calendar) |
+| JSON-LD | `universal:mip` |
+| Content | [https://wcrp-cmip.github.io/WCRP-universe/mip](https://wcrp-cmip.github.io/WCRP-universe/mip) |
+| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/mip) |
 
 
 </section>
@@ -36,6 +36,8 @@
   << No description in model >>
 - **`description`** (**str**) 
   << No description in model >>
+- **`kind`** (**str**) 
+  << No description in model >>
 
 
 
@@ -48,7 +50,7 @@
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-calendar/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/mip/.json
 
 ### Getting a File. 
 
@@ -57,8 +59,8 @@ A short example of how to integrate the computed ld file into your code.
 ### Framing
 ```js
 frame = {
-            "@context": "https://wcrp-cmip.github.io/WCRP-universe/model-calendar/_context_",
-            "@type": "wcrp:model-calendar/",
+            "@context": "https://wcrp-cmip.github.io/WCRP-universe/mip/_context_",
+            "@type": "wcrp:mip/",
             "keys we want": "",
             "@explicit": True
 
@@ -72,7 +74,7 @@ print(usage)
 ```python
 
 import cmipld
-cmipld.frame( universal:model-calendar )
+cmipld.frame( universal:mip )
 
 ```
 </section>

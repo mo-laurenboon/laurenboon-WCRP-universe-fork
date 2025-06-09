@@ -22,7 +22,7 @@
         "universal"
       ],
       "url": "https://wcrp-cmip.org/CMIP5",
-      "label": "CMIP5"
+      "validation-key": "CMIP5"
     },
     {
       "end": 2024,
@@ -33,7 +33,7 @@
         "universal"
       ],
       "url": "https://wcrp-cmip.org/CMIP6",
-      "label": "CMIP6"
+      "validation-key": "CMIP6"
     },
     {
       "end": 2999,
@@ -44,7 +44,7 @@
         "universal"
       ],
       "url": "https://wcrp-cmip.org/CMIP6Plus",
-      "label": "CMIP6Plus"
+      "validation-key": "CMIP6Plus"
     },
     {
       "end": 2999,
@@ -55,7 +55,7 @@
         "universal"
       ],
       "url": "https://wcrp-cmip.org/CMIP7",
-      "label": "CMIP7"
+      "validation-key": "CMIP7"
     }
   ]
 }

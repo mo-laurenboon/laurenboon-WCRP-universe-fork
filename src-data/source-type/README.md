@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Source Type  (universal)
@@ -7,6 +8,8 @@
 Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,11 +20,11 @@ Classifies the type and configuration of climate models, indicating the componen
 | | |
 | JSON-LD | `universal:source-type` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/source-type](https://wcrp-cmip.github.io/WCRP-universe/source-type) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/source-type) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/source-type) |
+
 
 </section>
-
-
+    
 <section id="schema">
 
 ## Content Schema
@@ -46,31 +49,36 @@ Classifies the type and configuration of climate models, indicating the componen
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/source-type/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/source-type/aer.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:source-type/aer")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/source-type/_context_",
-            "@type": "wcrp:source-type/",
+            "@type": "wcrp:source-type",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:source-type )
+cmipld.frame( "universal:source-type/aer" , frame)
 
 ```
 </section>

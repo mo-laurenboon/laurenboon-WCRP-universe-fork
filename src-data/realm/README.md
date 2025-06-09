@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Realm  (universal)
@@ -7,6 +8,8 @@
 Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,11 +20,11 @@ Defines the physical domains or realms of the Earth system that model variables 
 | | |
 | JSON-LD | `universal:realm` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/realm](https://wcrp-cmip.github.io/WCRP-universe/realm) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/realm) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/realm) |
+
 
 </section>
-
-
+    
 <section id="schema">
 
 ## Content Schema
@@ -48,31 +51,36 @@ Defines the physical domains or realms of the Earth system that model variables 
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/realm/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/realm/aerosol.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:realm/aerosol")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/realm/_context_",
-            "@type": "wcrp:realm/",
+            "@type": "wcrp:realm",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:realm )
+cmipld.frame( "universal:realm/aerosol" , frame)
 
 ```
 </section>

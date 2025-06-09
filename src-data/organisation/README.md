@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Organisation  (universal)
@@ -7,6 +8,8 @@
 Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,11 +20,11 @@ Identifies the institutions or organizations responsible for developing and main
 | | |
 | JSON-LD | `universal:organisation` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/organisation](https://wcrp-cmip.github.io/WCRP-universe/organisation) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/organisation) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/organisation) |
+
 
 </section>
-
-
+    
 <section id="schema">
 
 ## Content Schema
@@ -44,31 +47,36 @@ Identifies the institutions or organizations responsible for developing and main
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/organisation/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/organisation/aer.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:organisation/aer")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/organisation/_context_",
-            "@type": "wcrp:organisation/",
+            "@type": "wcrp:organisation",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:organisation )
+cmipld.frame( "universal:organisation/aer" , frame)
 
 ```
 </section>

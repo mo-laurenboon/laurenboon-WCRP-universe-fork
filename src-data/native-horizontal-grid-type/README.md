@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Native Horizontal Grid Type  (universal)
@@ -7,6 +8,8 @@
 Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,26 +20,34 @@ Specifies the horizontal grid types used by model components, following the EMD 
 | | |
 | JSON-LD | `universal:native-horizontal-grid-type` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-type) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-type) |
+
 
 </section>
-
-
+    
 <section id="schema">
 
 ## Content Schema
 
-- **`id`** (**str**) 
-  << No description in model >>
-- **`type`** (**str**) 
-  << No description in model >>
-- **`drs_name`** (**str**) 
-  << No description in model >>
-- **`description`** (**str**) 
-  << No description in model >>
-- **`name`** (**str**) 
-  << No description in model >>
-
+- **`validation-key`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`ui-label`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`type`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`id`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`description`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`@context`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  
 
 
 
@@ -48,31 +59,36 @@ Specifies the horizontal grid types used by model components, following the EMD 
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-type/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-type/cubed-sphere.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:native-horizontal-grid-type/cubed-sphere")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type/_context_",
-            "@type": "wcrp:native-horizontal-grid-type/",
+            "@type": "wcrp:native-horizontal-grid-type",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:native-horizontal-grid-type )
+cmipld.frame( "universal:native-horizontal-grid-type/cubed-sphere" , frame)
 
 ```
 </section>

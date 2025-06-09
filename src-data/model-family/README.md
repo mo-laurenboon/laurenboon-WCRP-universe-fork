@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Model Family  (universal)
@@ -7,6 +8,8 @@
 Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,26 +20,37 @@ Groups related climate models into families that share similar code bases or mod
 | | |
 | JSON-LD | `universal:model-family` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-family](https://wcrp-cmip.github.io/WCRP-universe/model-family) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-family) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-family) |
+
 
 </section>
-
-
+    
 <section id="schema">
 
 ## Content Schema
 
-- **`id`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-
+- **`validation-key`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`type`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`origin`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`id`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`description`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`@context`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`permissible_realms`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  
 
 
 
@@ -48,31 +62,36 @@ Groups related climate models into families that share similar code bases or mod
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-family/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-family/acce.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:model-family/acce")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/model-family/_context_",
-            "@type": "wcrp:model-family/",
+            "@type": "wcrp:model-family",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:model-family )
+cmipld.frame( "universal:model-family/acce" , frame)
 
 ```
 </section>

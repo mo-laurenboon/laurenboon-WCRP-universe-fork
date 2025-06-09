@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Model Calendar  (universal)
@@ -7,6 +8,8 @@
 Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,56 +20,77 @@ Specifies the calendar system used by climate models to define valid dates and t
 | | |
 | JSON-LD | `universal:model-calendar` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-calendar](https://wcrp-cmip.github.io/WCRP-universe/model-calendar) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-calendar) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-calendar) |
+
 
 </section>
-
+    
 <section id="schema">
 
 ## Content Schema
 
-- **`id`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
+- **`validation-key`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`ui-label`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`type`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`id`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`description`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`@context`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  
 
-</section>
+
+
+
+</section>   
 
 <section id="usage">
 
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-calendar/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-calendar/360-day.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:model-calendar/360-day")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/model-calendar/_context_",
-            "@type": "wcrp:model-calendar/",
+            "@type": "wcrp:model-calendar",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:model-calendar )
+cmipld.frame( "universal:model-calendar/360-day" , frame)
 
 ```
-
 </section>
+
+    

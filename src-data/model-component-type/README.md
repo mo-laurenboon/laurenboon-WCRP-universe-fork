@@ -1,4 +1,5 @@
 
+
 <section id="description">
 
 # Model Component Type  (universal)
@@ -7,6 +8,8 @@
 Classifies the types of model components that make up earth system models, corresponding to the EMD component controlled vocabulary (e.g., atmosphere, ocean, land_surface, sea_ice, etc.).
 
 </section>
+
+
 
 <section id="info">
 
@@ -17,62 +20,77 @@ Classifies the types of model components that make up earth system models, corre
 | | |
 | JSON-LD | `universal:model-component-type` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-component-type](https://wcrp-cmip.github.io/WCRP-universe/model-component-type) |
-| Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-component-type) |
+| Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-component-type) |
+
 
 </section>
-
+    
 <section id="schema">
 
 ## Content Schema
 
-- **`id`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`short_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`region`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
+- **`validation-key`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`ui-label`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`type`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`id`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`description`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  - **`@context`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+  
 
-</section>
+
+
+
+</section>   
 
 <section id="usage">
 
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-component-type/.json
+To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-component-type/aerosol.json
 
 ### Getting a File. 
 
 A short example of how to integrate the computed ld file into your code. 
 
+```python
+
+import cmipld
+cmipld.get( "universal:model-component-type/aerosol")
+
+```
+
 ### Framing
+Framing is a way we can filter the downloaded data to match what we want. 
 ```js
 frame = {
             "@context": "https://wcrp-cmip.github.io/WCRP-universe/model-component-type/_context_",
-            "@type": "wcrp:model-component-type/",
+            "@type": "wcrp:model-component-type",
             "keys we want": "",
             "@explicit": True
 
         }
         
-
-print(usage)
-
 ```
 
 ```python
 
 import cmipld
-cmipld.frame( universal:model-component-type )
+cmipld.frame( "universal:model-component-type/aerosol" , frame)
 
 ```
-
 </section>
+
+    

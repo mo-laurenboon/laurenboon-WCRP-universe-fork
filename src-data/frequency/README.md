@@ -7,13 +7,15 @@
 ## Description
 Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:frequency` |
 | Pydantic class | [`frequency`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/frequency.py): Frequency |

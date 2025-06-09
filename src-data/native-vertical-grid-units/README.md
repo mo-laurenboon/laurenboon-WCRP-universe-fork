@@ -7,13 +7,15 @@
 ## Description
 Specifies the physical units for vertical grid measurements, following the EMD vertical_units controlled vocabulary (e.g., m for metres, Pa for pascals, K for kelvin).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:native-vertical-grid-units` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

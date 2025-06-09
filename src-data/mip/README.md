@@ -7,13 +7,15 @@
 ## Description
 Identifies Model Intercomparison Projects (MIPs) that coordinate and define specific climate modeling experiments and data requirements within the CMIP framework.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:mip` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

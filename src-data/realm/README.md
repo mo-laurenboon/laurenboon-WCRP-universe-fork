@@ -7,13 +7,15 @@
 ## Description
 Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:realm` |
 | Pydantic class | [`realm`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/realm.py): Realm |

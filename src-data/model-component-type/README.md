@@ -7,13 +7,15 @@
 ## Description
 Classifies the types of model components that make up earth system models, corresponding to the EMD component controlled vocabulary (e.g., atmosphere, ocean, land_surface, sea_ice, etc.).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:model-component-type` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

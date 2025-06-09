@@ -7,13 +7,15 @@
 ## Description
 Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:source-type` |
 | Pydantic class | [`source_type`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/source_type.py): SourceType |

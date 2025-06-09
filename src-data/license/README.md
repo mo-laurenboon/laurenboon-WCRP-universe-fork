@@ -7,13 +7,15 @@
 ## Description
 Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:license` |
 | Pydantic class | [`license`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/license.py): License |

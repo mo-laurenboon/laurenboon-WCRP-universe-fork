@@ -7,13 +7,15 @@
 ## Description
 Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:organisation` |
 | Pydantic class | [`organisation`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/organisation.py): Organisation |

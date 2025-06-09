@@ -7,13 +7,15 @@
 ## Description
 Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:model-family` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

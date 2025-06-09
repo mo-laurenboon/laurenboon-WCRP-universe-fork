@@ -7,13 +7,15 @@
 ## Description
 Defines the type of climate modeling activity or experiment being performed. Activities represent different categories of climate experiments such as historical simulations, future projections, or paleoclimate studies.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:activity` |
 | Pydantic class | [`activity`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/activity.py): Activity |

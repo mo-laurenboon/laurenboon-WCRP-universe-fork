@@ -7,13 +7,15 @@
 ## Description
 Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:native-horizontal-grid-type` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

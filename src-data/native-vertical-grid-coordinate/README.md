@@ -7,13 +7,15 @@
 ## Description
 Defines the vertical coordinate systems used by model components, based on the EMD coordinate controlled vocabulary (e.g., height, air_pressure, ocean_s_coordinate, land_ice_sigma_coordinate).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:native-vertical-grid-coordinate` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

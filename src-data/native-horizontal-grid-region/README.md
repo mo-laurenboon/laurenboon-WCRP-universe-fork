@@ -7,13 +7,15 @@
 ## Description
 Defines the geographical regions over which model components operate, based on the EMD region controlled vocabulary (e.g., global, antarctica, greenland, limited_area).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:native-horizontal-grid-region` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

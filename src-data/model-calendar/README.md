@@ -7,13 +7,15 @@
 ## Description
 Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:model-calendar` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

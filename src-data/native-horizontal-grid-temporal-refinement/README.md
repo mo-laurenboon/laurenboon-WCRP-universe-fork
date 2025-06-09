@@ -7,13 +7,15 @@
 ## Description
 Defines how horizontal grid cell distribution varies over time, based on the EMD temporal_refinement controlled vocabulary (e.g., static, dynamically_stretched, adaptive).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:native-horizontal-grid-temporal-refinement` |
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |

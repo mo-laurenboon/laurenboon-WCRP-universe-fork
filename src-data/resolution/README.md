@@ -7,13 +7,15 @@
 ## Description
 Specifies the spatial resolution characteristics of climate model grids, corresponding to the EMD nominal resolution controlled vocabulary with standardized resolution categories (e.g., 100 km, 25 km, 5 km).
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:resolution` |
 | Pydantic class | [`resolution`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/resolution.py): Resolution |

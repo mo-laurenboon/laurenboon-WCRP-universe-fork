@@ -7,13 +7,15 @@
 ## Description
 Categorizes different types of climate model output products, distinguishing between various data processing levels and output formats.
 
+
 </section>
 
 
 
 <section id="info">
 
-|  | uri |
+
+| Item | Reference |
 | --- | --- |
 | Type | `wrcp:product` |
 | Pydantic class | [`product`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/product.py): Product |

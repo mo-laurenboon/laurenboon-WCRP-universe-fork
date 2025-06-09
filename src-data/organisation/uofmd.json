@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "UMD"
-  ],
-  "aliases": [],
-  "established": 1856,
-  "id": "uofmd",
-  "kind": "Education",
-  "labels": [],
-  "location": {
-    "city": "College Park",
-    "country": [
-      "United States",
-      "US"
+    "acronyms": [
+        "UMD"
     ],
-    "id": "universal:location/047s2c258",
-    "lat": 38.98067,
-    "lon": 38.98067,
-    "type": "wcrp:location"
-  },
-  "ui-label": "University of Maryland, College Park",
-  "ror": "047s2c258",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://umd.edu"
-  ],
-  "validation-key": "UofMD"
+    "aliases": [],
+    "established": 1856,
+    "id": "uofmd",
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "city": "College Park",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "id": "universal:location/047s2c258",
+        "lat": 38.98067,
+        "lon": 38.98067,
+        "type": "wcrp:location"
+    },
+    "ui-label": "University of Maryland, College Park",
+    "ror": "047s2c258",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://umd.edu"
+    ],
+    "validation-key": "UofMD",
+    "@context": "_context_"
 }

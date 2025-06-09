@@ -1,7 +1,8 @@
 {
-  "description": "Beijing Climate Center Climate System Model",
-  "id": "bcc-csm",
-  "origin": "BCC (Beijing Climate Center)",
-  "type": "wcrp:model-family",
-  "validation-key": "BCC-CSM"
+    "description": "Beijing Climate Center Climate System Model",
+    "id": "bcc-csm",
+    "origin": "BCC (Beijing Climate Center)",
+    "type": "wcrp:model-family",
+    "validation-key": "BCC-CSM",
+    "@context": "_context_"
 }

@@ -1,30 +1,31 @@
 {
-  "acronyms": [],
-  "aliases": [],
-  "established": 1904,
-  "id": "uoleeds",
-  "kind": "Education",
-  "labels": [],
-  "location": {
-    "city": "Leeds",
-    "country": [
-      "United Kingdom",
-      "GB"
+    "acronyms": [],
+    "aliases": [],
+    "established": 1904,
+    "id": "uoleeds",
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "city": "Leeds",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "id": "universal:location/024mrxd33",
+        "lat": 53.79648,
+        "lon": 53.79648,
+        "type": "wcrp:location"
+    },
+    "ui-label": "University of Leeds",
+    "ror": "024mrxd33",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ],
-    "id": "universal:location/024mrxd33",
-    "lat": 53.79648,
-    "lon": 53.79648,
-    "type": "wcrp:location"
-  },
-  "ui-label": "University of Leeds",
-  "ror": "024mrxd33",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.leeds.ac.uk"
-  ],
-  "validation-key": "UoLeeds"
+    "url": [
+        "https://www.leeds.ac.uk"
+    ],
+    "validation-key": "UoLeeds",
+    "@context": "_context_"
 }

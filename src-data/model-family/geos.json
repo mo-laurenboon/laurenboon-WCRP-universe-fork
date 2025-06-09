@@ -1,11 +1,12 @@
 {
-  "description": "Goddard Earth Observing System",
-  "id": "geos",
-  "origin": "NASA (National Aeronautics and Space Administration)",
-  "permissible_realms": [
-    "atmos",
-    "land"
-  ],
-  "type": "wcrp:model-family",
-  "validation-key": "GEOS"
+    "description": "Goddard Earth Observing System",
+    "id": "geos",
+    "origin": "NASA (National Aeronautics and Space Administration)",
+    "permissible_realms": [
+        "atmos",
+        "land"
+    ],
+    "type": "wcrp:model-family",
+    "validation-key": "GEOS",
+    "@context": "_context_"
 }

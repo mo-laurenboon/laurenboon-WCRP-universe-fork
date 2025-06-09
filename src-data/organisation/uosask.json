@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "USASK"
-  ],
-  "aliases": [],
-  "established": 1907,
-  "id": "uosask",
-  "kind": "Education",
-  "labels": [],
-  "location": {
-    "city": "Saskatoon",
-    "country": [
-      "Canada",
-      "CA"
+    "acronyms": [
+        "USASK"
     ],
-    "id": "universal:location/010x8gc63",
-    "lat": 52.13238,
-    "lon": 52.13238,
-    "type": "wcrp:location"
-  },
-  "ui-label": "University of Saskatchewan",
-  "ror": "010x8gc63",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.usask.ca/"
-  ],
-  "validation-key": "UoSask"
+    "aliases": [],
+    "established": 1907,
+    "id": "uosask",
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "city": "Saskatoon",
+        "country": [
+            "Canada",
+            "CA"
+        ],
+        "id": "universal:location/010x8gc63",
+        "lat": 52.13238,
+        "lon": 52.13238,
+        "type": "wcrp:location"
+    },
+    "ui-label": "University of Saskatchewan",
+    "ror": "010x8gc63",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.usask.ca/"
+    ],
+    "validation-key": "UoSask",
+    "@context": "_context_"
 }

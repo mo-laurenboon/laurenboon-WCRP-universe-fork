@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "DWD"
-  ],
-  "aliases": [],
-  "established": 1952,
-  "id": "dwd",
-  "kind": "Facility",
-  "labels": [],
-  "location": {
-    "city": "Offenbach",
-    "country": [
-      "Germany",
-      "DE"
+    "acronyms": [
+        "DWD"
     ],
-    "id": "universal:location/02nrqs528",
-    "lat": 50.10061,
-    "lon": 50.10061,
-    "type": "wcrp:location"
-  },
-  "ui-label": "German Meteorological Service",
-  "ror": "02nrqs528",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "http://www.dwd.de/"
-  ],
-  "validation-key": "DWD"
+    "aliases": [],
+    "established": 1952,
+    "id": "dwd",
+    "kind": "Facility",
+    "labels": [],
+    "location": {
+        "city": "Offenbach",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "id": "universal:location/02nrqs528",
+        "lat": 50.10061,
+        "lon": 50.10061,
+        "type": "wcrp:location"
+    },
+    "ui-label": "German Meteorological Service",
+    "ror": "02nrqs528",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "http://www.dwd.de/"
+    ],
+    "validation-key": "DWD",
+    "@context": "_context_"
 }

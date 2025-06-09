@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "GISS"
-  ],
-  "aliases": [],
-  "established": 1961,
-  "id": "nasa-giss",
-  "kind": "Facility",
-  "labels": [],
-  "location": {
-    "city": "New York",
-    "country": [
-      "United States",
-      "US"
+    "acronyms": [
+        "GISS"
     ],
-    "id": "universal:location/01cyfxe35",
-    "lat": 40.71427,
-    "lon": 40.71427,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Goddard Institute for Space Studies",
-  "ror": "01cyfxe35",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "http://www.giss.nasa.gov/"
-  ],
-  "validation-key": "NASA-GISS"
+    "aliases": [],
+    "established": 1961,
+    "id": "nasa-giss",
+    "kind": "Facility",
+    "labels": [],
+    "location": {
+        "city": "New York",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "id": "universal:location/01cyfxe35",
+        "lat": 40.71427,
+        "lon": 40.71427,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Goddard Institute for Space Studies",
+    "ror": "01cyfxe35",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "http://www.giss.nasa.gov/"
+    ],
+    "validation-key": "NASA-GISS",
+    "@context": "_context_"
 }

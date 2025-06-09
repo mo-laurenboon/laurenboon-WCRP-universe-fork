@@ -1,35 +1,36 @@
 {
-  "acronyms": [
-    "FU"
-  ],
-  "aliases": [
-    "FU Berlin",
-    "Free University of Berlin"
-  ],
-  "established": 1948,
-  "id": "fuberlin",
-  "kind": "Education",
-  "labels": [],
-  "location": {
-    "city": "Berlin",
-    "country": [
-      "Germany",
-      "DE"
+    "acronyms": [
+        "FU"
     ],
-    "id": "universal:location/046ak2485",
-    "lat": 52.52437,
-    "lon": 52.52437,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Freie Universität Berlin",
-  "ror": "046ak2485",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.fu-berlin.de"
-  ],
-  "validation-key": "FUBerlin"
+    "aliases": [
+        "FU Berlin",
+        "Free University of Berlin"
+    ],
+    "established": 1948,
+    "id": "fuberlin",
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "city": "Berlin",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "id": "universal:location/046ak2485",
+        "lat": 52.52437,
+        "lon": 52.52437,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Freie Universit\u00e4t Berlin",
+    "ror": "046ak2485",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.fu-berlin.de"
+    ],
+    "validation-key": "FUBerlin",
+    "@context": "_context_"
 }

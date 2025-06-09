@@ -1,13 +1,14 @@
 {
-  "description": "Institut Pierre-Simon Laplace model",
-  "id": "ipsl-cm",
-  "origin": "IPSL (Institut Pierre-Simon Laplace)",
-  "permissible_realms": [
-    "atmos",
-    "land",
-    "ocean",
-    "ocnbgchem"
-  ],
-  "type": "wcrp:model-family",
-  "validation-key": "IPSL-CM"
+    "description": "Institut Pierre-Simon Laplace model",
+    "id": "ipsl-cm",
+    "origin": "IPSL (Institut Pierre-Simon Laplace)",
+    "permissible_realms": [
+        "atmos",
+        "land",
+        "ocean",
+        "ocnbgchem"
+    ],
+    "type": "wcrp:model-family",
+    "validation-key": "IPSL-CM",
+    "@context": "_context_"
 }

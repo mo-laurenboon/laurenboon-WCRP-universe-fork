@@ -1,36 +1,37 @@
 {
-  "acronyms": [
-    "CR"
-  ],
-  "aliases": [
-    "Climate Resource",
-    "Climate Resource Ltd",
-    "Climate Resource Pty Ltd"
-  ],
-  "established": 2020,
-  "id": "cr",
-  "kind": "Company",
-  "labels": [],
-  "location": {
-    "city": "Melbourne",
-    "country": [
-      "Australia",
-      "AU"
+    "acronyms": [
+        "CR"
     ],
-    "id": "universal:location/01kk86953",
-    "lat": -37.814,
-    "lon": -37.814,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Climate Resource (Australia)",
-  "ror": "01kk86953",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.climate-resource.com"
-  ],
-  "validation-key": "CR"
+    "aliases": [
+        "Climate Resource",
+        "Climate Resource Ltd",
+        "Climate Resource Pty Ltd"
+    ],
+    "established": 2020,
+    "id": "cr",
+    "kind": "Company",
+    "labels": [],
+    "location": {
+        "city": "Melbourne",
+        "country": [
+            "Australia",
+            "AU"
+        ],
+        "id": "universal:location/01kk86953",
+        "lat": -37.814,
+        "lon": -37.814,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Climate Resource (Australia)",
+    "ror": "01kk86953",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.climate-resource.com"
+    ],
+    "validation-key": "CR",
+    "@context": "_context_"
 }

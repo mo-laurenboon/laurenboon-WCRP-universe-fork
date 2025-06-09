@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "CEDA"
-  ],
-  "aliases": [],
-  "established": 2005,
-  "id": "ceda",
-  "kind": "Government",
-  "labels": [],
-  "location": {
-    "city": "Harwell",
-    "country": [
-      "United Kingdom",
-      "GB"
+    "acronyms": [
+        "CEDA"
     ],
-    "id": "universal:location/04j4kad11",
-    "lat": 53.41667,
-    "lon": 53.41667,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Centre for Environmental Data Analysis",
-  "ror": "04j4kad11",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.ceda.ac.uk/"
-  ],
-  "validation-key": "CEDA"
+    "aliases": [],
+    "established": 2005,
+    "id": "ceda",
+    "kind": "Government",
+    "labels": [],
+    "location": {
+        "city": "Harwell",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "id": "universal:location/04j4kad11",
+        "lat": 53.41667,
+        "lon": 53.41667,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Centre for Environmental Data Analysis",
+    "ror": "04j4kad11",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.ceda.ac.uk/"
+    ],
+    "validation-key": "CEDA",
+    "@context": "_context_"
 }

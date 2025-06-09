@@ -1,10 +1,11 @@
 {
-  "description": "an unstructured mesh consisting solely of triangles",
-  "id": "unstructured-triangular",
-  "type": [
-    "wcrp:native-horizontal-grid-type",
-    "universal"
-  ],
-  "ui-label": "Unstructured triangular",
-  "validation-key": "unstructured-triangular"
+    "description": "an unstructured mesh consisting solely of triangles",
+    "id": "unstructured-triangular",
+    "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+    ],
+    "ui-label": "Unstructured triangular",
+    "validation-key": "unstructured-triangular",
+    "@context": "_context_"
 }

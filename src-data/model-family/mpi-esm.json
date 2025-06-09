@@ -1,13 +1,14 @@
 {
-  "description": "Max Planck Institute Earth System Model",
-  "id": "mpi-esm",
-  "origin": "MPI-M (Max Planck Institute for Meteorology)",
-  "permissible_realms": [
-    "atmos",
-    "land",
-    "ocean",
-    "ocnbgchem"
-  ],
-  "type": "wcrp:model-family",
-  "validation-key": "MPI-ESM"
+    "description": "Max Planck Institute Earth System Model",
+    "id": "mpi-esm",
+    "origin": "MPI-M (Max Planck Institute for Meteorology)",
+    "permissible_realms": [
+        "atmos",
+        "land",
+        "ocean",
+        "ocnbgchem"
+    ],
+    "type": "wcrp:model-family",
+    "validation-key": "MPI-ESM",
+    "@context": "_context_"
 }

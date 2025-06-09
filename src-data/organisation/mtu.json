@@ -1,34 +1,35 @@
 {
-  "acronyms": [
-    "MTU"
-  ],
-  "aliases": [
-    "Michigan Tech"
-  ],
-  "established": 1885,
-  "id": "mtu",
-  "kind": "Education",
-  "labels": [],
-  "location": {
-    "city": "Houghton",
-    "country": [
-      "United States",
-      "US"
+    "acronyms": [
+        "MTU"
     ],
-    "id": "universal:location/0036rpn28",
-    "lat": 47.12187,
-    "lon": 47.12187,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Michigan Technological University",
-  "ror": "0036rpn28",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.mtu.edu"
-  ],
-  "validation-key": "MTU"
+    "aliases": [
+        "Michigan Tech"
+    ],
+    "established": 1885,
+    "id": "mtu",
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "city": "Houghton",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "id": "universal:location/0036rpn28",
+        "lat": 47.12187,
+        "lon": 47.12187,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Michigan Technological University",
+    "ror": "0036rpn28",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.mtu.edu"
+    ],
+    "validation-key": "MTU",
+    "@context": "_context_"
 }

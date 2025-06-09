@@ -1,13 +1,14 @@
 {
-  "description": "Icosahedral Nonhydrostatic model",
-  "id": "icon",
-  "origin": "DWD/MPI-M (Deutscher Wetterdienst/Max Planck Institute for Meteorology)",
-  "permissible_realms": [
-    "atmos",
-    "land",
-    "ocean",
-    "seaice"
-  ],
-  "type": "wcrp:model-family",
-  "validation-key": "ICON"
+    "description": "Icosahedral Nonhydrostatic model",
+    "id": "icon",
+    "origin": "DWD/MPI-M (Deutscher Wetterdienst/Max Planck Institute for Meteorology)",
+    "permissible_realms": [
+        "atmos",
+        "land",
+        "ocean",
+        "seaice"
+    ],
+    "type": "wcrp:model-family",
+    "validation-key": "ICON",
+    "@context": "_context_"
 }

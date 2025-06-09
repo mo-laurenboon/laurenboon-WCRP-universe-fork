@@ -20,7 +20,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "AER"
+      "validation-key": "AER"
     },
     {
       "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
@@ -29,7 +29,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "AGCM"
+      "validation-key": "AGCM"
     },
     {
       "description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
@@ -38,7 +38,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "AOGCM"
+      "validation-key": "AOGCM"
     },
     {
       "description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
@@ -47,7 +47,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "BGC"
+      "validation-key": "BGC"
     },
     {
       "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
@@ -56,7 +56,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "CHEM"
+      "validation-key": "CHEM"
     },
     {
       "description": "gridded product based on measurements collected from in-situ instruments",
@@ -65,7 +65,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "gridded_insitu"
+      "validation-key": "gridded_insitu"
     },
     {
       "description": "ice-sheet model that includes ice-flow",
@@ -74,7 +74,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "ISM"
+      "validation-key": "ISM"
     },
     {
       "description": "land model run uncoupled from the atmosphere",
@@ -83,7 +83,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "LAND"
+      "validation-key": "LAND"
     },
     {
       "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
@@ -92,7 +92,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "OGCM"
+      "validation-key": "OGCM"
     },
     {
       "description": "radiation component of an atmospheric model run 'offline'",
@@ -101,7 +101,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "RAD"
+      "validation-key": "RAD"
     },
     {
       "description": "gridded product generated from a model reanalysis based on in-situ instruments and possibly satellite measurements",
@@ -110,7 +110,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "reanalysis"
+      "validation-key": "reanalysis"
     },
     {
       "description": "gridded product based on both in-situ instruments and satellite measurements",
@@ -119,7 +119,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "satellite_blended"
+      "validation-key": "satellite_blended"
     },
     {
       "description": "gridded product based on satellite measurements",
@@ -128,7 +128,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "satellite_retrieval"
+      "validation-key": "satellite_retrieval"
     },
     {
       "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
@@ -137,7 +137,7 @@
         "wcrp:source-type",
         "universal"
       ],
-      "label": "SLAB"
+      "validation-key": "SLAB"
     }
   ]
 }

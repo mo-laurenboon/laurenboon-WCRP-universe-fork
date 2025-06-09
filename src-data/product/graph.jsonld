@@ -20,7 +20,7 @@
         "wcrp:product",
         "universal"
       ],
-      "label": "derived"
+      "validation-key": "derived"
     },
     {
       "description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
@@ -29,7 +29,7 @@
         "wcrp:product",
         "universal"
       ],
-      "label": "forcing-dataset"
+      "validation-key": "forcing-dataset"
     },
     {
       "description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
@@ -38,7 +38,7 @@
         "wcrp:product",
         "universal"
       ],
-      "label": "model-output"
+      "validation-key": "model-output"
     },
     {
       "description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
@@ -47,7 +47,7 @@
         "wcrp:product",
         "universal"
       ],
-      "label": "observations"
+      "validation-key": "observations"
     }
   ]
 }

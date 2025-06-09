@@ -1,32 +1,33 @@
 {
-  "acronyms": [
-    "CNES"
-  ],
-  "aliases": [],
-  "established": 1961,
-  "id": "cnes",
-  "kind": "Funder",
-  "labels": [],
-  "location": {
-    "city": "Paris",
-    "country": [
-      "France",
-      "FR"
+    "acronyms": [
+        "CNES"
     ],
-    "id": "universal:location/04h1h0y33",
-    "lat": 48.85341,
-    "lon": 48.85341,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Centre National d'Études Spatiales",
-  "ror": "04h1h0y33",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.cnes.fr"
-  ],
-  "validation-key": "CNES"
+    "aliases": [],
+    "established": 1961,
+    "id": "cnes",
+    "kind": "Funder",
+    "labels": [],
+    "location": {
+        "city": "Paris",
+        "country": [
+            "France",
+            "FR"
+        ],
+        "id": "universal:location/04h1h0y33",
+        "lat": 48.85341,
+        "lon": 48.85341,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Centre National d'\u00c9tudes Spatiales",
+    "ror": "04h1h0y33",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.cnes.fr"
+    ],
+    "validation-key": "CNES",
+    "@context": "_context_"
 }

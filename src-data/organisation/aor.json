@@ -1,33 +1,34 @@
 {
-  "acronyms": [
-    "INAF-OAR",
-    "OAR"
-  ],
-  "aliases": [],
-  "established": 1938,
-  "id": "aor",
-  "kind": "Facility",
-  "labels": [],
-  "location": {
-    "city": "Rome",
-    "country": [
-      "Italy",
-      "IT"
+    "acronyms": [
+        "INAF-OAR",
+        "OAR"
     ],
-    "id": "universal:location/02hnp4676",
-    "lat": 41.89193,
-    "lon": 41.89193,
-    "type": "wcrp:location"
-  },
-  "ui-label": "Astronomical Observatory of Rome",
-  "ror": "02hnp4676",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "url": [
-    "https://www.oa-roma.inaf.it"
-  ],
-  "validation-key": "AoR"
+    "aliases": [],
+    "established": 1938,
+    "id": "aor",
+    "kind": "Facility",
+    "labels": [],
+    "location": {
+        "city": "Rome",
+        "country": [
+            "Italy",
+            "IT"
+        ],
+        "id": "universal:location/02hnp4676",
+        "lat": 41.89193,
+        "lon": 41.89193,
+        "type": "wcrp:location"
+    },
+    "ui-label": "Astronomical Observatory of Rome",
+    "ror": "02hnp4676",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ],
+    "url": [
+        "https://www.oa-roma.inaf.it"
+    ],
+    "validation-key": "AoR",
+    "@context": "_context_"
 }

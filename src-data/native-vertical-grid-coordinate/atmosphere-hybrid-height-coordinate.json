@@ -1,10 +1,11 @@
 {
-  "description": "Parametric atmosphere hybrid height coordinate",
-  "id": "atmosphere-hybrid-height-coordinate",
-  "type": [
-    "wcrp:native-vertical-grid-coordinate",
-    "universal"
-  ],
-  "ui-label": "Atmosphere hybrid height coordinate",
-  "validation-key": "atmosphere-hybrid-height-coordinate"
+    "description": "Parametric atmosphere hybrid height coordinate",
+    "id": "atmosphere-hybrid-height-coordinate",
+    "type": [
+        "wcrp:native-vertical-grid-coordinate",
+        "universal"
+    ],
+    "ui-label": "Atmosphere hybrid height coordinate",
+    "validation-key": "atmosphere-hybrid-height-coordinate",
+    "@context": "_context_"
 }

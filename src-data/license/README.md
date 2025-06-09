@@ -55,7 +55,8 @@ Defines the licensing terms and conditions under which climate model data and do
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/license/cc-by-4.0.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/license/cc-by-4.0.json
 
 ### Getting a File. 
 

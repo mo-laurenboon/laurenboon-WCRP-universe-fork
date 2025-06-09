@@ -51,7 +51,8 @@ Classifies the type and configuration of climate models, indicating the componen
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/source-type/aer.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/source-type/aer.json
 
 ### Getting a File. 
 

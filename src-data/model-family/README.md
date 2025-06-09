@@ -34,25 +34,25 @@ Groups related climate models into families that share similar code bases or mod
 - **`validation-key`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`type`**  
+- **`type`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`origin`**  
+- **`origin`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`id`**  
+- **`id`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`description`**  
+- **`description`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`@context`**  
+- **`@context`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`permissible_realms`**  
+- **`permissible_realms`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  
+
 
 
 
@@ -64,7 +64,8 @@ Groups related climate models into families that share similar code bases or mod
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-family/acce.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-family/acce.json
 
 ### Getting a File. 
 

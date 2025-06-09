@@ -57,7 +57,8 @@ Provides labels for different grid configurations used in climate models, helpin
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/grid-label/gm.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/grid-label/gm.json
 
 ### Getting a File. 
 

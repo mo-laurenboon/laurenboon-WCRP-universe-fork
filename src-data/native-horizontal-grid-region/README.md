@@ -34,22 +34,22 @@ Defines the geographical regions over which model components operate, based on t
 - **`validation-key`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`ui-label`**  
+- **`ui-label`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`type`**  
+- **`type`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`id`**  
+- **`id`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`description`**  
+- **`description`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`@context`**  
+- **`@context`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  
+
 
 
 
@@ -61,7 +61,8 @@ Defines the geographical regions over which model components operate, based on t
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-region/antarctica.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-region/antarctica.json
 
 ### Getting a File. 
 

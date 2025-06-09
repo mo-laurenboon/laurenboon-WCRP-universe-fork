@@ -21,6 +21,8 @@
 
 ## Description
 
+Defines how horizontal grid cell distribution varies over time, based on the EMD temporal_refinement controlled vocabulary (e.g., static, dynamically_stretched, adaptive).
+
 </section>
 
 

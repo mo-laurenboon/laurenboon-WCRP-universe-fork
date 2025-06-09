@@ -21,6 +21,8 @@
 
 ## Description
 
+Defines the geographical regions over which model components operate, based on the EMD region controlled vocabulary (e.g., global, antarctica, greenland, limited_area).
+
 </section>
 
 

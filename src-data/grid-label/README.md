@@ -21,6 +21,8 @@
 
 ## Description
 
+Provides labels for different grid configurations used in climate models, helping to identify and categorize the spatial grid arrangements for data output.
+
 </section>
 
 

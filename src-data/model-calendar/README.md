@@ -21,6 +21,8 @@
 
 ## Description
 
+Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
+
 </section>
 
 

@@ -21,6 +21,8 @@
 
 ## Description
 
+Categorizes different types of climate model output products, distinguishing between various data processing levels and output formats.
+
 </section>
 
 

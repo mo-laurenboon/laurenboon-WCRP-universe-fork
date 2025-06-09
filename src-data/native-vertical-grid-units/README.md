@@ -21,6 +21,8 @@
 
 ## Description
 
+Specifies the physical units for vertical grid measurements, following the EMD vertical_units controlled vocabulary (e.g., m for metres, Pa for pascals, K for kelvin).
+
 </section>
 
 

@@ -21,6 +21,8 @@
 
 ## Description
 
+Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
+
 </section>
 
 

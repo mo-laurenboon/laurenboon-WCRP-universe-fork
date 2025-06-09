@@ -21,6 +21,8 @@
 
 ## Description
 
+Identifies Model Intercomparison Projects (MIPs) that coordinate and define specific climate modeling experiments and data requirements within the CMIP framework.
+
 </section>
 
 

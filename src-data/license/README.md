@@ -21,6 +21,8 @@
 
 ## Description
 
+Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
+
 </section>
 
 

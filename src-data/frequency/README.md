@@ -21,6 +21,8 @@
 
 ## Description
 
+Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
+
 </section>
 
 

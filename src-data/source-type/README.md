@@ -21,6 +21,8 @@
 
 ## Description
 
+Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
+
 </section>
 
 

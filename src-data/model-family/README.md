@@ -21,6 +21,8 @@
 
 ## Description
 
+Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
+
 </section>
 
 

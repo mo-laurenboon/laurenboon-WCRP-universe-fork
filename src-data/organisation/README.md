@@ -21,6 +21,8 @@
 
 ## Description
 
+Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
+
 </section>
 
 

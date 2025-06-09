@@ -21,6 +21,8 @@
 
 ## Description
 
+Defines the vertical coordinate systems used by model components, based on the EMD coordinate controlled vocabulary (e.g., height, air_pressure, ocean_s_coordinate, land_ice_sigma_coordinate).
+
 </section>
 
 

@@ -53,7 +53,8 @@ Categorizes different types of climate model output products, distinguishing bet
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/product/derived.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/product/derived.json
 
 ### Getting a File. 
 

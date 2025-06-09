@@ -57,7 +57,8 @@ Specifies the temporal sampling frequency for climate model output data, definin
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/frequency/1hr.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/frequency/1hr.json
 
 ### Getting a File. 
 

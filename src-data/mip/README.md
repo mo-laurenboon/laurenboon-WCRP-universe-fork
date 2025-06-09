@@ -34,25 +34,25 @@ Identifies Model Intercomparison Projects (MIPs) that coordinate and define spec
 - **`validation-key`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`url`**  
+- **`url`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`type`**  
+- **`type`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`start`**  
+- **`start`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`id`**  
+- **`id`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`end`**  
+- **`end`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  - **`@context`**  
+- **`@context`**  
   ? (**NoType**)
   No Linked Pydantic Model 
-  
+
 
 
 
@@ -64,7 +64,8 @@ Identifies Model Intercomparison Projects (MIPs) that coordinate and define spec
 ## Usage
 
 ### Online Viewer 
-To view a file in a browser use the content link with `.json` appended. eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/mip/cmip5.json
+To view a file in a browser use the content link with `.json` appended. 
+eg. https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/mip/cmip5.json
 
 ### Getting a File. 
 

@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Source Type  (universal)
+
+## Description
+Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:source-type` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/source-type](https://wcrp-cmip.github.io/WCRP-universe/source-type) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/source-type) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
 
 </section>
 

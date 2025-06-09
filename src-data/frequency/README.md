@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Frequency  (universal)
+
+## Description
+Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/frequency](https://wcrp-cmip.github.io/WCRP-universe/frequency) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/frequency) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
-
-</section>
-
 
 <section id="schema">
 
@@ -49,7 +44,7 @@ Specifies the temporal sampling frequency for climate model output data, definin
 
 
 
-</section>   
+</section>
 
 <section id="usage">
 
@@ -83,6 +78,5 @@ import cmipld
 cmipld.frame( universal:frequency )
 
 ```
-</section>
 
-    
+</section>

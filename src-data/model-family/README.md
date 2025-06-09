@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Model Family  (universal)
+
+## Description
+Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:model-family` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-family](https://wcrp-cmip.github.io/WCRP-universe/model-family) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-family) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
 
 </section>
 

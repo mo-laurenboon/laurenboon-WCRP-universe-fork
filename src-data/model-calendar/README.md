@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Model Calendar  (universal)
+
+## Description
+Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-calendar](https://wcrp-cmip.github.io/WCRP-universe/model-calendar) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-calendar) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
-
-</section>
-
 
 <section id="schema">
 
@@ -39,11 +34,7 @@ Specifies the calendar system used by climate models to define valid dates and t
 - **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
-
-
-
-
-</section>   
+</section>
 
 <section id="usage">
 
@@ -77,6 +68,5 @@ import cmipld
 cmipld.frame( universal:model-calendar )
 
 ```
-</section>
 
-    
+</section>

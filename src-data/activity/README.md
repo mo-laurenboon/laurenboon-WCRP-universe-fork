@@ -1,8 +1,14 @@
 
 
-<section id="info">
-
+<section id="description">
 # Activity  (universal)
+
+## Description
+Defines the type of climate modeling activity or experiment being performed. Activities represent different categories of climate experiments such as historical simulations, future projections, or paleoclimate studies.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,17 +19,8 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/activity](https://wcrp-cmip.github.io/WCRP-universe/activity) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/activity) |
 
-
 </section>
-    
 
-<section id="description">
-
-## Description
-
-Defines the type of climate modeling activity or experiment being performed. Activities represent different categories of climate experiments such as historical simulations, future projections, or paleoclimate studies.
-
-</section>
 
 
 <section id="schema">
@@ -47,7 +44,7 @@ Defines the type of climate modeling activity or experiment being performed. Act
 
 
 
-</section>   
+</section>
 
 <section id="usage">
 
@@ -81,6 +78,5 @@ import cmipld
 cmipld.frame( universal:activity )
 
 ```
-</section>
 
-    
+</section>

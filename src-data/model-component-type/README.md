@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Model Component Type  (universal)
+
+## Description
+Classifies the types of model components that make up earth system models, corresponding to the EMD component controlled vocabulary (e.g., atmosphere, ocean, land_surface, sea_ice, etc.).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/model-component-type](https://wcrp-cmip.github.io/WCRP-universe/model-component-type) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/model-component-type) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Classifies the types of model components that make up earth system models, corresponding to the EMD component controlled vocabulary (e.g., atmosphere, ocean, land_surface, sea_ice, etc.).
-
-</section>
-
 
 <section id="schema">
 
@@ -45,11 +40,7 @@ Classifies the types of model components that make up earth system models, corre
 - **`region`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
-
-
-
-
-</section>   
+</section>
 
 <section id="usage">
 
@@ -83,6 +74,5 @@ import cmipld
 cmipld.frame( universal:model-component-type )
 
 ```
-</section>
 
-    
+</section>

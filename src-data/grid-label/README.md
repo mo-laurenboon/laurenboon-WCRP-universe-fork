@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Grid Label  (universal)
+
+## Description
+Provides labels for different grid configurations used in climate models, helping to identify and categorize the spatial grid arrangements for data output.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/grid-label](https://wcrp-cmip.github.io/WCRP-universe/grid-label) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/grid-label) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Provides labels for different grid configurations used in climate models, helping to identify and categorize the spatial grid arrangements for data output.
-
-</section>
-
 
 <section id="schema">
 
@@ -45,11 +40,7 @@ Provides labels for different grid configurations used in climate models, helpin
 - **`region`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
-
-
-
-
-</section>   
+</section>
 
 <section id="usage">
 
@@ -83,6 +74,5 @@ import cmipld
 cmipld.frame( universal:grid-label )
 
 ```
-</section>
 
-    
+</section>

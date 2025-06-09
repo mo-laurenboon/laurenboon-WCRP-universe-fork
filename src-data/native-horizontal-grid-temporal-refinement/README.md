@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Native Horizontal Grid Temporal Refinement  (universal)
+
+## Description
+Defines how horizontal grid cell distribution varies over time, based on the EMD temporal_refinement controlled vocabulary (e.g., static, dynamically_stretched, adaptive).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:native-horizontal-grid-temporal-refinement` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-temporal-refinement](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-temporal-refinement) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-temporal-refinement) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Defines how horizontal grid cell distribution varies over time, based on the EMD temporal_refinement controlled vocabulary (e.g., static, dynamically_stretched, adaptive).
 
 </section>
 

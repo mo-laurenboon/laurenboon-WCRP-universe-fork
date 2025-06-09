@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Native Horizontal Grid Type  (universal)
+
+## Description
+Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:native-horizontal-grid-type` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-horizontal-grid-type) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
 
 </section>
 

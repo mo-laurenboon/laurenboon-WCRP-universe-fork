@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Mip  (universal)
+
+## Description
+Identifies Model Intercomparison Projects (MIPs) that coordinate and define specific climate modeling experiments and data requirements within the CMIP framework.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/mip](https://wcrp-cmip.github.io/WCRP-universe/mip) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/mip) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Identifies Model Intercomparison Projects (MIPs) that coordinate and define specific climate modeling experiments and data requirements within the CMIP framework.
-
-</section>
-
 
 <section id="schema">
 
@@ -41,11 +36,7 @@ Identifies Model Intercomparison Projects (MIPs) that coordinate and define spec
 - **`kind`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
-
-
-
-
-</section>   
+</section>
 
 <section id="usage">
 
@@ -79,6 +70,5 @@ import cmipld
 cmipld.frame( universal:mip )
 
 ```
-</section>
 
-    
+</section>

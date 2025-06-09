@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Realm  (universal)
+
+## Description
+Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:realm` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/realm](https://wcrp-cmip.github.io/WCRP-universe/realm) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/realm) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
 
 </section>
 

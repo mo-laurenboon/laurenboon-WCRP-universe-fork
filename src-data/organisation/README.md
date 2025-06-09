@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Organisation  (universal)
+
+## Description
+Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:organisation` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/organisation](https://wcrp-cmip.github.io/WCRP-universe/organisation) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/organisation) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
 
 </section>
 

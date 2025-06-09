@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # License  (universal)
+
+## Description
+Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -13,18 +19,7 @@
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/license](https://wcrp-cmip.github.io/WCRP-universe/license) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/license) |
 
-
 </section>
-    
-
-<section id="description">
-
-## Description
-
-Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
-
-</section>
-
 
 <section id="schema">
 
@@ -43,11 +38,7 @@ Defines the licensing terms and conditions under which climate model data and do
 - **`url`** (**str | None**) 
   << No description in pydantic model (see esgvoc) >>
 
-
-
-
-
-</section>   
+</section>
 
 <section id="usage">
 
@@ -81,6 +72,5 @@ import cmipld
 cmipld.frame( universal:license )
 
 ```
-</section>
 
-    
+</section>

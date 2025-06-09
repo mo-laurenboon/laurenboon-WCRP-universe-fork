@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Native Vertical Grid Coordinate  (universal)
+
+## Description
+Defines the vertical coordinate systems used by model components, based on the EMD coordinate controlled vocabulary (e.g., height, air_pressure, ocean_s_coordinate, land_ice_sigma_coordinate).
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:native-vertical-grid-coordinate` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/native-vertical-grid-coordinate) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Defines the vertical coordinate systems used by model components, based on the EMD coordinate controlled vocabulary (e.g., height, air_pressure, ocean_s_coordinate, land_ice_sigma_coordinate).
 
 </section>
 

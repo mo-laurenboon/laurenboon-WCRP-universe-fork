@@ -1,8 +1,14 @@
 
-
-<section id="info">
+<section id="description">
 
 # Product  (universal)
+
+## Description
+Categorizes different types of climate model output products, distinguishing between various data processing levels and output formats.
+
+</section>
+
+<section id="info">
 
 |  | uri |
 | --- | --- |
@@ -12,16 +18,6 @@
 | JSON-LD | `universal:product` |
 | Content | [https://wcrp-cmip.github.io/WCRP-universe/product](https://wcrp-cmip.github.io/WCRP-universe/product) |
 | Developer Reoo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/wcrp-cmip/WCRP-universe/tree/main/src-data/product) |
-
-
-</section>
-    
-
-<section id="description">
-
-## Description
-
-Categorizes different types of climate model output products, distinguishing between various data processing levels and output formats.
 
 </section>
 

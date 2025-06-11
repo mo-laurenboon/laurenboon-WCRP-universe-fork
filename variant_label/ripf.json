@@ -2,28 +2,6 @@
     "@context": "000_context.jsonld",
     "id": "ripf",
     "type": "variant_label",
-    "separator": "",
-    "parts": [
-        {
-            "id": "one_digit",
-            "type": "realisation_index",
-            "is_required": true
-        },
-        {
-            "id": "one_digit",
-            "type": "initialisation_index",
-            "is_required": true
-        },
-        {
-            "id": "one_digit",
-            "type": "physic_index",
-            "is_required": true
-        },
-        {
-            "id": "one_digit",
-            "type": "forcing_index",
-            "is_required": true
-        }
-    ],
-    "description": "TODO IMPROVE THIS"
+    "regex" : "^r\\d+i\\d+p\\d+f\\d+$",
+    "description": "ripf = r (realization: simulation run), i (initialization: initial conditions), p (physics: model configuration), f (forcing: external forcing dataset), together uniquely identifying a specific model simulation."
 }

@@ -14,44 +14,44 @@
   },
   "@graph": [
     {
-      "description": "the geographical region of Antarctica, as defined by the CF standardised regions",
       "id": "antarctica",
-      "type": [
-        "wcrp:native-horizontal-grid-region",
-        "universal"
-      ],
+      "validation-key": "antarctica",
       "ui-label": "Antarctica",
-      "validation-key": "antarctica"
+      "description": "the geographical region of Antarctica, as defined by the CF standardised regions",
+      "type": [
+        "wcrp:native-horizontal-grid-region",
+        "universal"
+      ]
     },
     {
-      "description": "the geographical region of the whole of the Earth’s surface, as defined by the CF standardised regions",
       "id": "global",
-      "type": [
-        "wcrp:native-horizontal-grid-region",
-        "universal"
-      ],
+      "validation-key": "global",
       "ui-label": "Global",
-      "validation-key": "global"
+      "description": "the geographical region of the whole of the Earth’s surface, as defined by the CF standardised regions",
+      "type": [
+        "wcrp:native-horizontal-grid-region",
+        "universal"
+      ]
     },
     {
-      "description": "the geographical region of Greenland, as defined by the CF standardised regions",
       "id": "greenland",
+      "validation-key": "greenland",
+      "ui-label": "Greenland",
+      "description": "the geographical region of Greenland, as defined by the CF standardised regions",
       "type": [
         "wcrp:native-horizontal-grid-region",
         "universal"
-      ],
-      "ui-label": "Greenland",
-      "validation-key": "greenland"
+      ]
     },
     {
-      "description": "any contiguous subregion of the Earth’s surface, used to indicate a limited area model that may be placed over different geographical regions independently of the model formulation",
       "id": "limited-area",
+      "validation-key": "limited-area",
+      "ui-label": "Limited area",
+      "description": "any contiguous subregion of the Earth’s surface, used to indicate a limited area model that may be placed over different geographical regions independently of the model formulation",
       "type": [
         "wcrp:native-horizontal-grid-region",
         "universal"
-      ],
-      "ui-label": "Limited area",
-      "validation-key": "limited-area"
+      ]
     }
   ]
 }

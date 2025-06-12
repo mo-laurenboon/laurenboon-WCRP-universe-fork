@@ -14,499 +14,499 @@
   },
   "@graph": [
     {
-      "description": "global mean data",
       "id": "gm",
+      "validation-key": "gm",
       "ui-label": "Greenland",
+      "description": "global mean data",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gm"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "data reported on a model's native grid",
       "id": "gn",
+      "validation-key": "gn",
       "ui-label": "Grid Native Greenland",
+      "description": "data reported on a model's native grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gn"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "data reported on a native grid in the region of Antarctica",
       "id": "gna",
+      "validation-key": "gna",
       "ui-label": "Grid Native Antarctica Greenland",
+      "description": "data reported on a native grid in the region of Antarctica",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gna"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "data reported on a native grid in the region of Greenland",
       "id": "gng",
+      "validation-key": "gng",
       "ui-label": "Grid Native Greenland",
+      "description": "data reported on a native grid in the region of Greenland",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gng"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "zonal mean data reported on a model's native latitude grid",
       "id": "gnz",
+      "validation-key": "gnz",
       "ui-label": "Grid Native Greenland Zonal Mean",
+      "description": "zonal mean data reported on a model's native latitude grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gnz"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on the data provider's preferred target grid",
       "id": "gr",
+      "validation-key": "gr",
       "ui-label": "Regridded Greenland",
+      "description": "regridded data reported on the data provider's preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr1",
+      "validation-key": "gr1",
       "ui-label": "Regridded Greenland Alternate 1",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr1"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr1a",
+      "validation-key": "gr1a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr1a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr1g",
+      "validation-key": "gr1g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr1g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr1z",
+      "validation-key": "gr1z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr1z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr2",
+      "validation-key": "gr2",
       "ui-label": "Regridded Greenland Alternate 2",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr2"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr2a",
+      "validation-key": "gr2a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr2a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr2g",
+      "validation-key": "gr2g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr2g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr2z",
+      "validation-key": "gr2z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr2z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr3",
+      "validation-key": "gr3",
       "ui-label": "Regridded Greenland Alternate 3",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr3"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr3a",
+      "validation-key": "gr3a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr3a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr3g",
+      "validation-key": "gr3g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr3g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr3z",
+      "validation-key": "gr3z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr3z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr4",
+      "validation-key": "gr4",
       "ui-label": "Regridded Greenland Alternate 4",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr4"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr4a",
+      "validation-key": "gr4a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr4a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr4g",
+      "validation-key": "gr4g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr4g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr4z",
+      "validation-key": "gr4z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr4z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr5",
+      "validation-key": "gr5",
       "ui-label": "Regridded Greenland Alternate 5",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr5"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr5a",
+      "validation-key": "gr5a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr5a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr5g",
+      "validation-key": "gr5g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr5g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr5z",
+      "validation-key": "gr5z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr5z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr6",
+      "validation-key": "gr6",
       "ui-label": "Regridded Greenland Alternate 6",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr6"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr6a",
+      "validation-key": "gr6a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr6a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr6g",
+      "validation-key": "gr6g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr6g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr6z",
+      "validation-key": "gr6z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr6z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr7",
+      "validation-key": "gr7",
       "ui-label": "Regridded Greenland Alternate 7",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr7"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "id": "gr7a",
+      "validation-key": "gr7a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr7a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "id": "gr7g",
+      "validation-key": "gr7g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr7g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "id": "gr7z",
+      "validation-key": "gr7z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr7z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
       "id": "gr8",
+      "validation-key": "gr8",
       "ui-label": "Regridded Greenland Alternate 8",
-      "region": "greenland",
-      "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr8"
-    },
-    {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
-      "id": "gr8a",
-      "ui-label": "Regridded Antarctica Greenland Alternate a",
-      "region": "antarctica",
-      "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr8a"
-    },
-    {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
-      "id": "gr8g",
-      "ui-label": "Regridded Greenland Alternate g",
-      "region": "greenland",
-      "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr8g"
-    },
-    {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
-      "id": "gr8z",
-      "ui-label": "Regridded Greenland Zonal Mean Alternate z",
-      "region": "greenland",
-      "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr8z"
-    },
-    {
       "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
-      "id": "gr9",
-      "ui-label": "Regridded Greenland Alternate 9",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr9"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
-      "id": "gr9a",
+      "id": "gr8a",
+      "validation-key": "gr8a",
       "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr9a"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
-      "id": "gr9g",
+      "id": "gr8g",
+      "validation-key": "gr8g",
       "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr9g"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
-      "id": "gr9z",
+      "id": "gr8z",
+      "validation-key": "gr8z",
       "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gr9z"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data in the region of Antarctica reported on the data provider's preferred target grid",
-      "id": "gra",
-      "ui-label": "Regridded Antarctica Greenland",
+      "id": "gr9",
+      "validation-key": "gr9",
+      "ui-label": "Regridded Greenland Alternate 9",
+      "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+      "region": "greenland",
+      "type": [
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
+    },
+    {
+      "id": "gr9a",
+      "validation-key": "gr9a",
+      "ui-label": "Regridded Antarctica Greenland Alternate a",
+      "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
       "region": "antarctica",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "gra"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded data in the region of Greenland reported on the data provider's preferred target grid",
+      "id": "gr9g",
+      "validation-key": "gr9g",
+      "ui-label": "Regridded Greenland Alternate g",
+      "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+      "region": "greenland",
+      "type": [
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
+    },
+    {
+      "id": "gr9z",
+      "validation-key": "gr9z",
+      "ui-label": "Regridded Greenland Zonal Mean Alternate z",
+      "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+      "region": "greenland",
+      "type": [
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
+    },
+    {
+      "id": "gra",
+      "validation-key": "gra",
+      "ui-label": "Regridded Antarctica Greenland",
+      "description": "regridded data in the region of Antarctica reported on the data provider's preferred target grid",
+      "region": "antarctica",
+      "type": [
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
+    },
+    {
       "id": "grg",
+      "validation-key": "grg",
       "ui-label": "Regridded Greenland",
+      "description": "regridded data in the region of Greenland reported on the data provider's preferred target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "grg"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     },
     {
-      "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
       "id": "grz",
+      "validation-key": "grz",
       "ui-label": "Regridded Greenland Zonal Mean",
+      "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
       "region": "greenland",
       "type": [
-        "wcrp:grid_label",
-        "universal"
-      ],
-      "validation-key": "grz"
+        "wcrp:grid-label:['wcrp:grid_label', 'universal']",
+        "wcrp:grid-label"
+      ]
     }
   ]
 }

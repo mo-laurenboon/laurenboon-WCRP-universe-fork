@@ -14,84 +14,84 @@
   },
   "@graph": [
     {
-      "description": "Aerosol",
       "id": "aerosol",
+      "validation-key": "aerosol",
       "ui-label": "Aerosol",
+      "description": "Aerosol",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "aerosol"
+      ]
     },
     {
-      "description": "Atmosphere",
       "id": "atmos",
+      "validation-key": "atmos",
       "ui-label": "Atmosphere",
+      "description": "Atmosphere",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "atmos"
+      ]
     },
     {
-      "description": "Atmospheric Chemistry",
       "id": "atmoschem",
+      "validation-key": "atmosChem",
       "ui-label": "Atmospheric Chemistry",
+      "description": "Atmospheric Chemistry",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "atmosChem"
+      ]
     },
     {
-      "description": "Land Surface and Subsurface",
       "id": "land",
+      "validation-key": "land",
       "ui-label": "Land Surface and Subsurface",
+      "description": "Land Surface and Subsurface",
       "type": [
-        "wcrp:realm",
-        "universal"
-      ],
-      "validation-key": "land"
+        "universal",
+        "wcrp:realm"
+      ]
     },
     {
-      "description": "Land Ice",
       "id": "landice",
+      "validation-key": "landIce",
       "ui-label": "Land Ice",
+      "description": "Land Ice",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "landIce"
+      ]
     },
     {
-      "description": "Ocean",
       "id": "ocean",
+      "validation-key": "ocean",
       "ui-label": "Ocean",
+      "description": "Ocean",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "ocean"
+      ]
     },
     {
-      "description": "Ocean Biogeochemistry",
       "id": "ocnbgchem",
+      "validation-key": "ocnBgchem",
       "ui-label": "Ocean Biogeochemistry",
+      "description": "Ocean Biogeochemistry",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "ocnBgchem"
+      ]
     },
     {
-      "description": "Sea Ice",
       "id": "seaice",
+      "validation-key": "seaIce",
       "ui-label": "Sea Ice",
+      "description": "Sea Ice",
       "type": [
         "wcrp:realm",
         "universal"
-      ],
-      "validation-key": "seaIce"
+      ]
     }
   ]
 }

@@ -4,11 +4,12 @@
 
 # Native Vertical Grid Units  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-units/native-vertical-grid-units)
+
 
 ## Description
 Specifies the physical units for vertical grid measurements, following the EMD vertical_units controlled vocabulary (e.g., m for metres, Pa for pascals, K for kelvin).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-units/native-vertical-grid-units)
 
 </section>
 

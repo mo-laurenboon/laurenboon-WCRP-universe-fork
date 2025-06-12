@@ -4,11 +4,12 @@
 
 # Model Component Type  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-component-type/model-component-type)
+
 
 ## Description
 Classifies the types of model components that make up earth system models, corresponding to the EMD component controlled vocabulary (e.g., atmosphere, ocean, land_surface, sea_ice, etc.).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-component-type/model-component-type)
 
 </section>
 

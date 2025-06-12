@@ -4,11 +4,12 @@
 
 # Native Horizontal Grid Region  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region/native-horizontal-grid-region)
+
 
 ## Description
 Defines the geographical regions over which model components operate, based on the EMD region controlled vocabulary (e.g., global, antarctica, greenland, limited_area).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region/native-horizontal-grid-region)
 
 </section>
 

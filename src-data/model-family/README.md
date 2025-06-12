@@ -4,11 +4,12 @@
 
 # Model Family  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-family/model-family)
+
 
 ## Description
 Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-family/model-family)
 
 </section>
 

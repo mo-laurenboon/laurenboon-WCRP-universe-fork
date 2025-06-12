@@ -4,11 +4,12 @@
 
 # Native Horizontal Grid Type  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type/native-horizontal-grid-type)
+
 
 ## Description
 Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type/native-horizontal-grid-type)
 
 </section>
 

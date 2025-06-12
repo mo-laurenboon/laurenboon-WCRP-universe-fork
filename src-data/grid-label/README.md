@@ -4,11 +4,12 @@
 
 # Grid Label  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/grid-label/grid-label)
+
 
 ## Description
 Provides labels for different grid configurations used in climate models, helping to identify and categorize the spatial grid arrangements for data output.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/grid-label/grid-label)
 
 </section>
 

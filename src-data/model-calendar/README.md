@@ -4,11 +4,12 @@
 
 # Model Calendar  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-calendar/model-calendar)
+
 
 ## Description
 Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-calendar/model-calendar)
 
 </section>
 

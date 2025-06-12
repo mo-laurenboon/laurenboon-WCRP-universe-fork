@@ -4,11 +4,12 @@
 
 # License  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/license/license)
+
 
 ## Description
 Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/license/license)
 
 </section>
 

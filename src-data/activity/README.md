@@ -4,11 +4,12 @@
 
 # Activity  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/activity/activity)
+
 
 ## Description
 Defines the type of climate modeling activity or experiment being performed. Activities represent different categories of climate experiments such as historical simulations, future projections, or paleoclimate studies.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/activity/activity)
 
 </section>
 

@@ -4,11 +4,12 @@
 
 # Frequency  (universal)
 
-[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/frequency/frequency)
+
 
 ## Description
 Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/frequency/frequency)
 
 </section>
 

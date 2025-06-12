@@ -28,17 +28,7 @@ Defines the vertical coordinate systems used by model components, based on the E
 
 
 </section>
-    <section id="links">
-
- </section>
-
-## External Contexts and Key Mappings
-
- </section>
-
-
-## 🏛️ Organization and Repository Breakdown
-
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

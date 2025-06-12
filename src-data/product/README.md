@@ -28,17 +28,7 @@ Categorizes different types of climate model output products, distinguishing bet
 
 
 </section>
-    <section id="links">
-
- </section>
-
-## External Contexts and Key Mappings
-
- </section>
-
-
-## 🏛️ Organization and Repository Breakdown
-
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

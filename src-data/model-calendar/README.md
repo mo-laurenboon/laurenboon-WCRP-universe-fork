@@ -28,17 +28,7 @@ Specifies the calendar system used by climate models to define valid dates and t
 
 
 </section>
-    <section id="links">
-
- </section>
-
-## External Contexts and Key Mappings
-
- </section>
-
-
-## 🏛️ Organization and Repository Breakdown
-
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

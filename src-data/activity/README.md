@@ -28,17 +28,7 @@ Defines the type of climate modeling activity or experiment being performed. Act
 
 
 </section>
-    <section id="links">
-
- </section>
-
-## External Contexts and Key Mappings
-
- </section>
-
-
-## 🏛️ Organization and Repository Breakdown
-
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

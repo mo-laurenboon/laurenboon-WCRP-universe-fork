@@ -36,17 +36,17 @@ Provides labels for different grid configurations used in climate models, helpin
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`short_name`** (**str**) 
+- **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`region`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`short_name`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

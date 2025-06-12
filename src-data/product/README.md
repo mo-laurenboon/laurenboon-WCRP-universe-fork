@@ -36,13 +36,13 @@ Categorizes different types of climate model output products, distinguishing bet
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
+- **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`kind`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

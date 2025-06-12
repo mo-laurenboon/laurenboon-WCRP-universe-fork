@@ -36,15 +36,15 @@ Defines the type of climate modeling activity or experiment being performed. Act
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`long_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
+- **`name`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
 - **`url`** (**str | None**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

@@ -63,30 +63,30 @@ Groups related climate models into families that share similar code bases or mod
 
 ## Content Schema
 
-- **`validation-key`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`ui-label`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`type`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`origin`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
 - **`id`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`validation-key`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`ui-label`**  
+   [**unknown**]
+  No Pydantic model found.
 - **`description`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`@context`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`origin`**  
+   [**unknown**]
+  No Pydantic model found.
 - **`permissible_realms`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`@context`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`type`**  
+   [**unknown**]
+  No Pydantic model found.
 
 
 

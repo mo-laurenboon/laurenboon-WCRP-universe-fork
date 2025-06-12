@@ -36,11 +36,11 @@ Classifies the type and configuration of climate models, indicating the componen
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
+- **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

@@ -36,13 +36,13 @@ Defines the physical domains or realms of the Earth system that model variables 
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
+- **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`name`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

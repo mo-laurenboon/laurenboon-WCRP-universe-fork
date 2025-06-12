@@ -36,17 +36,17 @@ Specifies the temporal sampling frequency for climate model output data, definin
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
+- **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`long_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`unit`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

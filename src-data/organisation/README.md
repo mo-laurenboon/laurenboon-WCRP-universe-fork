@@ -36,9 +36,9 @@ Identifies the institutions or organizations responsible for developing and main
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

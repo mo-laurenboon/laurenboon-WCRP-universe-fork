@@ -5,7 +5,7 @@
   "description": "Land Surface and Subsurface",
   "@context": "_context_",
   "type": [
-    "wcrp:realm",
-    "universal"
+    "universal",
+    "wcrp:realm"
   ]
 }

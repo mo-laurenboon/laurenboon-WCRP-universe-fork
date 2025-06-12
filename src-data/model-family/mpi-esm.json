@@ -11,5 +11,7 @@
     "ocnbgchem"
   ],
   "@context": "_context_",
-  "type": "wcrp:model-family"
+  "type": [
+    "wcrp:model-family"
+  ]
 }

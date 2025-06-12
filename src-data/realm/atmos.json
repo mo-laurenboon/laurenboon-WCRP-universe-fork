@@ -1,11 +1,11 @@
 {
-  "@context": "_context_",
-  "description": "Atmosphere",
   "id": "atmos",
+  "validation-key": "atmos",
   "ui-label": "Atmosphere",
+  "description": "Atmosphere",
+  "@context": "_context_",
   "type": [
     "wcrp:realm",
     "universal"
-  ],
-  "validation-key": "atmos"
+  ]
 }

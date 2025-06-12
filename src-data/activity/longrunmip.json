@@ -1,12 +1,12 @@
 {
-  "@context": "_context_",
-  "description": "",
   "id": "longrunmip",
+  "validation-key": "LongRunMIP",
+  "ui-label": "LongRunMIP",
+  "description": "",
+  "url": "https://www.longrunmip.org/",
+  "@context": "_context_",
   "type": [
     "wcrp:activity",
     "universal"
-  ],
-  "ui-label": "LongRunMIP",
-  "url": "https://www.longrunmip.org/",
-  "validation-key": "LongRunMIP"
+  ]
 }

@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "mpi-m",
+  "validation-key": "MPI-M",
+  "ui-label": "Max Planck Institute for Meteorology",
+  "description": "",
   "acronyms": [
     "MPI-M"
   ],
   "aliases": [],
   "established": 1975,
-  "id": "mpi-m",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/05esem239",
     "type": "location"
   },
-  "ui-label": "Max Planck Institute for Meteorology",
   "ror": "05esem239",
+  "url": [
+    "http://www.mpimet.mpg.de/en/home.html"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.mpimet.mpg.de/en/home.html"
-  ],
-  "validation-key": "MPI-M"
+  ]
 }

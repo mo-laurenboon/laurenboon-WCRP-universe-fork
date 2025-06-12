@@ -1,9 +1,11 @@
 {
-  "@context": "_context_",
+  "id": "uoleeds",
+  "validation-key": "UoLeeds",
+  "ui-label": "University of Leeds",
+  "description": "",
   "acronyms": [],
   "aliases": [],
   "established": 1904,
-  "id": "uoleeds",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -19,15 +21,14 @@
     "id": "universal:location/024mrxd33",
     "type": "location"
   },
-  "ui-label": "University of Leeds",
   "ror": "024mrxd33",
+  "url": [
+    "http://www.leeds.ac.uk/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.leeds.ac.uk/"
-  ],
-  "validation-key": "UoLeeds"
+  ]
 }

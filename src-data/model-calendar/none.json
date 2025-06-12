@@ -1,11 +1,11 @@
 {
-    "description": "no calendar",
-    "id": "none",
-    "type": [
-        "wcrp:model-calendar",
-        "universal"
-    ],
-    "ui-label": "None",
-    "validation-key": "none",
-    "@context": "_context_"
+  "id": "none",
+  "validation-key": "none",
+  "ui-label": "None",
+  "description": "no calendar",
+  "@context": "_context_",
+  "type": [
+    "wcrp:model-calendar",
+    "universal"
+  ]
 }

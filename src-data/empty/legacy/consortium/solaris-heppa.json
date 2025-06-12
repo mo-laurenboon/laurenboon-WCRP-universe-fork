@@ -1,8 +1,9 @@
 {
-  "@context": "_context_",
-  "changes": "",
   "id": "solaris-heppa",
+  "validation-key": "SOLARIS HEPPA",
   "ui-label": "SOLARIS HEPPA Consortium",
+  "description": "",
+  "changes": "",
   "members": {
     "aor": {
       "current": true,
@@ -181,11 +182,11 @@
       "to": "-"
     }
   },
+  "url": "https://solarisheppa.geomar.de",
+  "@context": "_context_",
   "type": [
     "wcrp:consortium",
     "universal",
     "wcrp:organisation"
-  ],
-  "url": "https://solarisheppa.geomar.de",
-  "validation-key": "SOLARIS HEPPA"
+  ]
 }

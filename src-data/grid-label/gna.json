@@ -1,12 +1,12 @@
 {
-  "@context": "_context_",
-  "description": "data reported on a native grid in the region of Antarctica",
   "id": "gna",
+  "validation-key": "gna",
   "ui-label": "Grid Native Antarctica Greenland",
+  "description": "data reported on a native grid in the region of Antarctica",
   "region": "antarctica",
+  "@context": "_context_",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ],
-  "validation-key": "gna"
+  ]
 }

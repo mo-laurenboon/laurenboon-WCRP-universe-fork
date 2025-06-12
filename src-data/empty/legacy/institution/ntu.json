@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "ntu",
+  "validation-key": "NTU",
+  "ui-label": "National Taiwan University",
+  "description": "",
   "acronyms": [
     "NTU"
   ],
   "aliases": [],
   "established": 1928,
-  "id": "ntu",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/05bqach95",
     "type": "location"
   },
-  "ui-label": "National Taiwan University",
   "ror": "05bqach95",
+  "url": [
+    "http://www.ntu.edu.tw/english/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.ntu.edu.tw/english/"
-  ],
-  "validation-key": "NTU"
+  ]
 }

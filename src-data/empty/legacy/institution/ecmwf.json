@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "ecmwf",
+  "validation-key": "ECMWF",
+  "ui-label": "European Centre for Medium-Range Weather Forecasts",
+  "description": "",
   "acronyms": [
     "ECMWF"
   ],
   "aliases": [],
   "established": 1975,
-  "id": "ecmwf",
   "kind": "Other",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/014w0fd65",
     "type": "location"
   },
-  "ui-label": "European Centre for Medium-Range Weather Forecasts",
   "ror": "014w0fd65",
+  "url": [
+    "http://www.ecmwf.int/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.ecmwf.int/"
-  ],
-  "validation-key": "ECMWF"
+  ]
 }

@@ -1,11 +1,11 @@
 {
-    "description": "a grid that uses triangular tiles based on the subdivision of an icosahedron",
-    "id": "icosahedral-geodesic",
-    "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-    ],
-    "ui-label": "Icosahedral geodesic",
-    "validation-key": "icosahedral-geodesic",
-    "@context": "_context_"
+  "id": "icosahedral-geodesic",
+  "validation-key": "icosahedral-geodesic",
+  "ui-label": "Icosahedral geodesic",
+  "description": "a grid that uses triangular tiles based on the subdivision of an icosahedron",
+  "@context": "_context_",
+  "type": [
+    "wcrp:native-horizontal-grid-type",
+    "universal"
+  ]
 }

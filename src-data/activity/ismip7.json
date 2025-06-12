@@ -1,12 +1,12 @@
 {
-  "@context": "_context_",
-  "description": "",
   "id": "ismip7",
+  "validation-key": "ISMIP7",
+  "ui-label": "Ice Sheet Model Intercomparison Project for CMIP",
+  "description": "",
+  "url": "https://theghub.org/groups/ismip6/wiki",
+  "@context": "_context_",
   "type": [
     "wcrp:activity",
     "universal"
-  ],
-  "ui-label": "Ice Sheet Model Intercomparison Project for CMIP",
-  "url": "https://theghub.org/groups/ismip6/wiki",
-  "validation-key": "ISMIP7"
+  ]
 }

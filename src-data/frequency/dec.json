@@ -1,12 +1,13 @@
 {
-  "@context": "_context_",
-  "description": "decadal mean samples",
   "id": "dec",
+  "validation-key": "dec",
+  "ui-label": "",
+  "description": "decadal mean samples",
   "long_name": "Decadal Frequency",
+  "unit": "decade",
+  "@context": "_context_",
   "type": [
     "wcrp:frequency",
     "universal"
-  ],
-  "unit": "decade",
-  "validation-key": "dec"
+  ]
 }

@@ -1,5 +1,8 @@
 {
-  "@context": "_context_",
+  "id": "uci",
+  "validation-key": "UCI",
+  "ui-label": "University of California, Irvine",
+  "description": "",
   "acronyms": [
     "UCI"
   ],
@@ -7,7 +10,6 @@
     "UC Irvine"
   ],
   "established": 1965,
-  "id": "uci",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -23,15 +25,14 @@
     "id": "universal:location/04gyf1771",
     "type": "location"
   },
-  "ui-label": "University of California, Irvine",
   "ror": "04gyf1771",
+  "url": [
+    "http://uci.edu/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://uci.edu/"
-  ],
-  "validation-key": "UCI"
+  ]
 }

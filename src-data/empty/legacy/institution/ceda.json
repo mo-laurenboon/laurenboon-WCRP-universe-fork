@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "ceda",
+  "validation-key": "CEDA",
+  "ui-label": "Centre for Environmental Data Analysis",
+  "description": "",
   "acronyms": [
     "CEDA"
   ],
   "aliases": [],
   "established": 2005,
-  "id": "ceda",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/04j4kad11",
     "type": "location"
   },
-  "ui-label": "Centre for Environmental Data Analysis",
   "ror": "04j4kad11",
+  "url": [
+    "https://www.ceda.ac.uk/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.ceda.ac.uk/"
-  ],
-  "validation-key": "CEDA"
+  ]
 }

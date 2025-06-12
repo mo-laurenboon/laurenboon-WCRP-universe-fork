@@ -1,5 +1,8 @@
 {
-  "@context": "_context_",
+  "id": "noaa-ncei",
+  "validation-key": "NOAA-NCEI",
+  "ui-label": "NOAA National Centers for Environmental Information",
+  "description": "",
   "acronyms": [
     "NCEI",
     "NOAA NCEI"
@@ -12,7 +15,6 @@
     "National Centers for Environmental Information"
   ],
   "established": 1934,
-  "id": "noaa-ncei",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -28,15 +30,14 @@
     "id": "universal:location/04r0wrp59",
     "type": "location"
   },
-  "ui-label": "NOAA National Centers for Environmental Information",
   "ror": "04r0wrp59",
+  "url": [
+    "https://www.ncei.noaa.gov"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.ncei.noaa.gov"
-  ],
-  "validation-key": "NOAA-NCEI"
+  ]
 }

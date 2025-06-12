@@ -1,12 +1,12 @@
 {
-  "@context": "_context_",
-  "description": "global mean data",
   "id": "gm",
+  "validation-key": "gm",
   "ui-label": "Greenland",
+  "description": "global mean data",
   "region": "greenland",
+  "@context": "_context_",
   "type": [
     "wcrp:grid_label",
     "universal"
-  ],
-  "validation-key": "gm"
+  ]
 }

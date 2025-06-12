@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "rss",
+  "validation-key": "RSS",
+  "ui-label": "Remote Sensing Systems (United States)",
+  "description": "",
   "acronyms": [
     "RSS"
   ],
   "aliases": [],
   "established": 1974,
-  "id": "rss",
   "kind": "Company",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/01vp8h012",
     "type": "location"
   },
-  "ui-label": "Remote Sensing Systems (United States)",
   "ror": "01vp8h012",
+  "url": [
+    "http://www.remss.com/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.remss.com/"
-  ],
-  "validation-key": "RSS"
+  ]
 }

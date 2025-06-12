@@ -1,31 +1,32 @@
 {
-    "acronyms": [],
-    "aliases": [],
-    "established": 1926,
-    "id": "ureading",
-    "kind": "Education",
-    "labels": [],
-    "location": {
-        "city": "Reading",
-        "country": [
-            "United Kingdom",
-            "GB"
-        ],
-        "id": "universal:location/05v62cm79",
-        "lat": 51.45625,
-        "lon": 51.45625,
-        "type": "wcrp:location"
-    },
-    "ui-label": "University of Reading",
-    "ror": "05v62cm79",
-    "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
+  "id": "ureading",
+  "validation-key": "UReading",
+  "ui-label": "University of Reading",
+  "description": "",
+  "acronyms": [],
+  "aliases": [],
+  "established": 1926,
+  "kind": "Education",
+  "labels": [],
+  "location": {
+    "city": "Reading",
+    "country": [
+      "United Kingdom",
+      "GB"
     ],
-    "url": [
-        "https://www.reading.ac.uk"
-    ],
-    "validation-key": "UReading",
-    "@context": "_context_"
+    "id": "universal:location/05v62cm79",
+    "lat": 51.45625,
+    "lon": 51.45625,
+    "type": "wcrp:location"
+  },
+  "ror": "05v62cm79",
+  "url": [
+    "https://www.reading.ac.uk"
+  ],
+  "@context": "_context_",
+  "type": [
+    "wcrp:organisation",
+    "wcrp:institution",
+    "universal"
+  ]
 }

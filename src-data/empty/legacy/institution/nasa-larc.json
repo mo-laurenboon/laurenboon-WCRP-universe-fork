@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "nasa-larc",
+  "validation-key": "NASA-LaRC",
+  "ui-label": "Langley Research Center",
+  "description": "",
   "acronyms": [
     "LaRC"
   ],
   "aliases": [],
   "established": 1917,
-  "id": "nasa-larc",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/0399mhs52",
     "type": "location"
   },
-  "ui-label": "Langley Research Center",
   "ror": "0399mhs52",
+  "url": [
+    "http://www.nasa.gov/langley"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.nasa.gov/langley"
-  ],
-  "validation-key": "NASA-LaRC"
+  ]
 }

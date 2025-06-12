@@ -1,12 +1,13 @@
 {
-  "@context": "_context_",
-  "description": "sampled sub-hourly, at specified time point within an hour",
   "id": "subhrpt",
+  "validation-key": "subhrPt",
+  "ui-label": "",
+  "description": "sampled sub-hourly, at specified time point within an hour",
   "long_name": "Sub-Hourly Point",
+  "unit": "minute",
+  "@context": "_context_",
   "type": [
     "wcrp:frequency",
     "universal"
-  ],
-  "unit": "minute",
-  "validation-key": "subhrPt"
+  ]
 }

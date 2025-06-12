@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "osu",
+  "validation-key": "OSU",
+  "ui-label": "Oregon State University",
+  "description": "",
   "acronyms": [
     "OSU"
   ],
   "aliases": [],
   "established": 1868,
-  "id": "osu",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/00ysfqy60",
     "type": "location"
   },
-  "ui-label": "Oregon State University",
   "ror": "00ysfqy60",
+  "url": [
+    "http://oregonstate.edu/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://oregonstate.edu/"
-  ],
-  "validation-key": "OSU"
+  ]
 }

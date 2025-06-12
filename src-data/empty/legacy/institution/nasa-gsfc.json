@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "nasa-gsfc",
+  "validation-key": "NASA-GSFC",
+  "ui-label": "Goddard Space Flight Center",
+  "description": "",
   "acronyms": [
     "GSFC"
   ],
   "aliases": [],
   "established": 1959,
-  "id": "nasa-gsfc",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/0171mag52",
     "type": "location"
   },
-  "ui-label": "Goddard Space Flight Center",
   "ror": "0171mag52",
+  "url": [
+    "https://www.nasa.gov/centers/goddard/home/index.html"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.nasa.gov/centers/goddard/home/index.html"
-  ],
-  "validation-key": "NASA-GSFC"
+  ]
 }

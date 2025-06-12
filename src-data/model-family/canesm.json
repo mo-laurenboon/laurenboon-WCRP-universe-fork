@@ -1,14 +1,15 @@
 {
-    "description": "Canadian Earth System Model (developed by CCCma)",
-    "id": "canesm",
-    "origin": "CCCma (Canadian Centre for Climate Modelling and Analysis)",
-    "permissible_realms": [
-        "atmos",
-        "land",
-        "ocean",
-        "ocnbgchem"
-    ],
-    "type": "wcrp:model-family",
-    "validation-key": "CanESM",
-    "@context": "_context_"
+  "id": "canesm",
+  "validation-key": "CanESM",
+  "ui-label": "",
+  "description": "Canadian Earth System Model (developed by CCCma)",
+  "origin": "CCCma (Canadian Centre for Climate Modelling and Analysis)",
+  "permissible_realms": [
+    "atmos",
+    "land",
+    "ocean",
+    "ocnbgchem"
+  ],
+  "@context": "_context_",
+  "type": "wcrp:model-family"
 }

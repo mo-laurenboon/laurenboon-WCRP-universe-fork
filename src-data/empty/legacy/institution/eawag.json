@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "eawag",
+  "validation-key": "EAWAG",
+  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
+  "description": "",
   "acronyms": [
     "EAWAG"
   ],
   "aliases": [],
   "established": 1936,
-  "id": "eawag",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/00pc48d59",
     "type": "location"
   },
-  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
   "ror": "00pc48d59",
+  "url": [
+    "http://www.eawag.ch/en/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.eawag.ch/en/"
-  ],
-  "validation-key": "EAWAG"
+  ]
 }

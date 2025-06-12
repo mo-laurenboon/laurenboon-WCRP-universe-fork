@@ -1,12 +1,13 @@
 {
-  "@context": "_context_",
-  "description": "fixed (time invariant) field",
   "id": "fx",
+  "validation-key": "fx",
+  "ui-label": "",
+  "description": "fixed (time invariant) field",
   "long_name": "Fixed Frequency",
+  "unit": "none",
+  "@context": "_context_",
   "type": [
     "wcrp:frequency",
     "universal"
-  ],
-  "unit": "none",
-  "validation-key": "fx"
+  ]
 }

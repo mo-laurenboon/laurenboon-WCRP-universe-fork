@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "aer",
+  "validation-key": "AER",
+  "ui-label": "Atmospheric and Environmental Research",
+  "description": "",
   "acronyms": [
     "AER"
   ],
   "aliases": [],
   "established": 1977,
-  "id": "aer",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/04cg70g73",
     "type": "location"
   },
-  "ui-label": "Atmospheric and Environmental Research",
   "ror": "04cg70g73",
+  "url": [
+    "http://www.aer.com/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.aer.com/"
-  ],
-  "validation-key": "AER"
+  ]
 }

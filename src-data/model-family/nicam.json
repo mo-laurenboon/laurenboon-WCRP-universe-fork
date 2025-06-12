@@ -1,8 +1,9 @@
 {
-    "description": "Nonhydrostatic Icosahedral Atmospheric Model",
-    "id": "nicam",
-    "origin": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology)",
-    "type": "wcrp:model-family",
-    "validation-key": "NICAM",
-    "@context": "_context_"
+  "id": "nicam",
+  "validation-key": "NICAM",
+  "ui-label": "",
+  "description": "Nonhydrostatic Icosahedral Atmospheric Model",
+  "origin": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology)",
+  "@context": "_context_",
+  "type": "wcrp:model-family"
 }

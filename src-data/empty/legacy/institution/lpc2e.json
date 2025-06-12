@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "lpc2e",
+  "validation-key": "LPC2E",
+  "ui-label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
+  "description": "",
   "acronyms": [
     "LPC2E"
   ],
   "aliases": [],
   "established": 2012,
-  "id": "lpc2e",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/049k66y27",
     "type": "location"
   },
-  "ui-label": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
   "ror": "049k66y27",
+  "url": [
+    "https://www.lpc2e.cnrs.fr"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.lpc2e.cnrs.fr"
-  ],
-  "validation-key": "LPC2E"
+  ]
 }

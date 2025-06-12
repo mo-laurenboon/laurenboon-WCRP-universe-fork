@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "nasa-giss",
+  "validation-key": "NASA-GISS",
+  "ui-label": "Goddard Institute for Space Studies",
+  "description": "",
   "acronyms": [
     "GISS"
   ],
   "aliases": [],
   "established": 1961,
-  "id": "nasa-giss",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/01cyfxe35",
     "type": "location"
   },
-  "ui-label": "Goddard Institute for Space Studies",
   "ror": "01cyfxe35",
+  "url": [
+    "http://www.giss.nasa.gov/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.giss.nasa.gov/"
-  ],
-  "validation-key": "NASA-GISS"
+  ]
 }

@@ -1,12 +1,14 @@
 {
-  "@context": "_context_",
-  "end": 2024,
   "id": "cmip6",
+  "validation-key": "CMIP6",
+  "ui-label": "",
+  "description": "",
+  "end": 2024,
   "start": 2013,
+  "url": "https://wcrp-cmip.org/CMIP6",
+  "@context": "_context_",
   "type": [
     "wcrp:mip",
     "universal"
-  ],
-  "url": "https://wcrp-cmip.org/CMIP6",
-  "validation-key": "CMIP6"
+  ]
 }

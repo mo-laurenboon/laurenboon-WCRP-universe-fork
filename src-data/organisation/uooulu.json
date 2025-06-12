@@ -1,31 +1,32 @@
 {
-    "acronyms": [],
-    "aliases": [],
-    "established": 1958,
-    "id": "uooulu",
-    "kind": "Education",
-    "labels": [],
-    "location": {
-        "city": "Oulu",
-        "country": [
-            "Finland",
-            "FI"
-        ],
-        "id": "universal:location/03yj89h83",
-        "lat": 65.01236,
-        "lon": 65.01236,
-        "type": "wcrp:location"
-    },
-    "ui-label": "University of Oulu",
-    "ror": "03yj89h83",
-    "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
+  "id": "uooulu",
+  "validation-key": "UoOulu",
+  "ui-label": "University of Oulu",
+  "description": "",
+  "acronyms": [],
+  "aliases": [],
+  "established": 1958,
+  "kind": "Education",
+  "labels": [],
+  "location": {
+    "city": "Oulu",
+    "country": [
+      "Finland",
+      "FI"
     ],
-    "url": [
-        "https://www.oulu.fi"
-    ],
-    "validation-key": "UoOulu",
-    "@context": "_context_"
+    "id": "universal:location/03yj89h83",
+    "lat": 65.01236,
+    "lon": 65.01236,
+    "type": "wcrp:location"
+  },
+  "ror": "03yj89h83",
+  "url": [
+    "https://www.oulu.fi"
+  ],
+  "@context": "_context_",
+  "type": [
+    "wcrp:organisation",
+    "wcrp:institution",
+    "universal"
+  ]
 }

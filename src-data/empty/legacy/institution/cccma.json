@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "cccma",
+  "validation-key": "CCCma",
+  "ui-label": "Environment and Climate Change Canada",
+  "description": "",
   "acronyms": [
     "ECCC"
   ],
   "aliases": [],
   "established": 1971,
-  "id": "cccma",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/026ny0e17",
     "type": "location"
   },
-  "ui-label": "Environment and Climate Change Canada",
   "ror": "026ny0e17",
+  "url": [
+    "https://www.canada.ca/en/environment-climate-change.html"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.canada.ca/en/environment-climate-change.html"
-  ],
-  "validation-key": "CCCma"
+  ]
 }

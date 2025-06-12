@@ -1,11 +1,11 @@
 {
-    "description": "unit for pressure",
-    "id": "pa",
-    "type": [
-        "wcrp:native-vertical-grid-units",
-        "universal"
-    ],
-    "ui-label": "pascal",
-    "validation-key": "Pa",
-    "@context": "_context_"
+  "id": "pa",
+  "validation-key": "Pa",
+  "ui-label": "pascal",
+  "description": "unit for pressure",
+  "@context": "_context_",
+  "type": [
+    "wcrp:native-vertical-grid-units",
+    "universal"
+  ]
 }

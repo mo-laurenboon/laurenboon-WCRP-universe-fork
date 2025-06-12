@@ -1,9 +1,11 @@
 {
-  "@context": "_context_",
+  "id": "ureading",
+  "validation-key": "UReading",
+  "ui-label": "University of Reading",
+  "description": "",
   "acronyms": [],
   "aliases": [],
   "established": 1926,
-  "id": "ureading",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -19,15 +21,14 @@
     "id": "universal:location/05v62cm79",
     "type": "location"
   },
-  "ui-label": "University of Reading",
   "ror": "05v62cm79",
+  "url": [
+    "http://www.reading.ac.uk/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.reading.ac.uk/"
-  ],
-  "validation-key": "UReading"
+  ]
 }

@@ -1,5 +1,8 @@
 {
-  "@context": "_context_",
+  "id": "uhh",
+  "validation-key": "UHH",
+  "ui-label": "Universität Hamburg",
+  "description": "",
   "acronyms": [
     "UHH"
   ],
@@ -7,7 +10,6 @@
     "University of Hamburg"
   ],
   "established": 1919,
-  "id": "uhh",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -23,15 +25,14 @@
     "id": "universal:location/00g30e956",
     "type": "location"
   },
-  "ui-label": "Universität Hamburg",
   "ror": "00g30e956",
+  "url": [
+    "http://www.uni-hamburg.de"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.uni-hamburg.de"
-  ],
-  "validation-key": "UHH"
+  ]
 }

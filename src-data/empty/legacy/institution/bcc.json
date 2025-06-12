@@ -1,9 +1,11 @@
 {
-  "@context": "_context_",
+  "id": "bcc",
+  "validation-key": "BCC",
+  "ui-label": "Beijing Biocytogen (China)",
+  "description": "",
   "acronyms": [],
   "aliases": [],
   "established": 2008,
-  "id": "bcc",
   "kind": "Company",
   "labels": [],
   "location": {
@@ -19,15 +21,14 @@
     "id": "universal:location/01spyyb53",
     "type": "location"
   },
-  "ui-label": "Beijing Biocytogen (China)",
   "ror": "01spyyb53",
+  "url": [
+    "http://www.bbctg.com.cn/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.bbctg.com.cn/"
-  ],
-  "validation-key": "BCC"
+  ]
 }

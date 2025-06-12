@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "esso",
+  "validation-key": "ESSO",
+  "ui-label": "Indian National Centre for Ocean Information Services",
+  "description": "",
   "acronyms": [
     "INCOIS"
   ],
   "aliases": [],
   "established": 1999,
-  "id": "esso",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/04xbqmj23",
     "type": "location"
   },
-  "ui-label": "Indian National Centre for Ocean Information Services",
   "ror": "04xbqmj23",
+  "url": [
+    "http://www.incois.gov.in/portal/index.jsp"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.incois.gov.in/portal/index.jsp"
-  ],
-  "validation-key": "ESSO"
+  ]
 }

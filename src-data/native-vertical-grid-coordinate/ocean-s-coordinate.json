@@ -1,11 +1,11 @@
 {
-    "description": "Parametric ocean s-coordinate",
-    "id": "ocean-s-coordinate",
-    "type": [
-        "wcrp:native-vertical-grid-coordinate",
-        "universal"
-    ],
-    "ui-label": "Ocean s coordinate",
-    "validation-key": "ocean-s-coordinate",
-    "@context": "_context_"
+  "id": "ocean-s-coordinate",
+  "validation-key": "ocean-s-coordinate",
+  "ui-label": "Ocean s coordinate",
+  "description": "Parametric ocean s-coordinate",
+  "@context": "_context_",
+  "type": [
+    "wcrp:native-vertical-grid-coordinate",
+    "universal"
+  ]
 }

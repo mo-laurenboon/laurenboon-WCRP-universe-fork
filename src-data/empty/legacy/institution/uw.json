@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "uw",
+  "validation-key": "UW",
+  "ui-label": "University of Washington",
+  "description": "",
   "acronyms": [
     "UW"
   ],
   "aliases": [],
   "established": 1861,
-  "id": "uw",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/00cvxb145",
     "type": "location"
   },
-  "ui-label": "University of Washington",
   "ror": "00cvxb145",
+  "url": [
+    "http://www.washington.edu/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.washington.edu/"
-  ],
-  "validation-key": "UW"
+  ]
 }

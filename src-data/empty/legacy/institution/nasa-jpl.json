@@ -1,5 +1,8 @@
 {
-  "@context": "_context_",
+  "id": "nasa-jpl",
+  "validation-key": "NASA-JPL",
+  "ui-label": "Jet Propulsion Laboratory",
+  "description": "",
   "acronyms": [
     "JPL"
   ],
@@ -8,7 +11,6 @@
     "Jet Propulsion Laboratory, California Institute of Technology"
   ],
   "established": 1936,
-  "id": "nasa-jpl",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -24,15 +26,14 @@
     "id": "universal:location/027k65916",
     "type": "location"
   },
-  "ui-label": "Jet Propulsion Laboratory",
   "ror": "027k65916",
+  "url": [
+    "http://www.jpl.nasa.gov/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.jpl.nasa.gov/"
-  ],
-  "validation-key": "NASA-JPL"
+  ]
 }

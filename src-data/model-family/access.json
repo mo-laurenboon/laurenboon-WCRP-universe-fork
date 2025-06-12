@@ -1,8 +1,11 @@
 {
-    "description": "Australian Community Climate and Earth System Simulator",
-    "id": "access",
-    "origin": "BoM/CSIRO (Bureau of Meteorology/Commonwealth Scientific and Industrial Research Organisation)",
-    "type": "wcrp:model-family",
-    "validation-key": "ACCESS",
-    "@context": "_context_"
+  "id": "access",
+  "validation-key": "ACCESS",
+  "ui-label": "",
+  "description": "Australian Community Climate and Earth System Simulator",
+  "origin": "BoM/CSIRO (Bureau of Meteorology/Commonwealth Scientific and Industrial Research Organisation)",
+  "@context": "_context_",
+  "type": [
+    "wcrp:model-family"
+  ]
 }

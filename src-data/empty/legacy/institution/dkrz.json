@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "dkrz",
+  "validation-key": "DKRZ",
+  "ui-label": "German Climate Computing Centre",
+  "description": "",
   "acronyms": [
     "DKRZ"
   ],
   "aliases": [],
   "established": 1987,
-  "id": "dkrz",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/03ztgj037",
     "type": "location"
   },
-  "ui-label": "German Climate Computing Centre",
   "ror": "03ztgj037",
+  "url": [
+    "https://www.dkrz.de/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.dkrz.de/"
-  ],
-  "validation-key": "DKRZ"
+  ]
 }

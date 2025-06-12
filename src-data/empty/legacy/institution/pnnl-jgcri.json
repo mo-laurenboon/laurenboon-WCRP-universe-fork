@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "pnnl-jgcri",
+  "validation-key": "PNNL-JGCRI",
+  "ui-label": "Joint Global Change Research Institute",
+  "description": "",
   "acronyms": [
     "JGCRI"
   ],
   "aliases": [],
   "established": 2001,
-  "id": "pnnl-jgcri",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/058cmd703",
     "type": "location"
   },
-  "ui-label": "Joint Global Change Research Institute",
   "ror": "058cmd703",
+  "url": [
+    "http://www.globalchange.umd.edu/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.globalchange.umd.edu/"
-  ],
-  "validation-key": "PNNL-JGCRI"
+  ]
 }

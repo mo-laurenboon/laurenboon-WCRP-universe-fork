@@ -1,11 +1,11 @@
 {
-    "description": "the geographical region of Greenland, as defined by the CF standardised regions",
-    "id": "greenland",
-    "type": [
-        "wcrp:native-horizontal-grid-region",
-        "universal"
-    ],
-    "ui-label": "Greenland",
-    "validation-key": "greenland",
-    "@context": "_context_"
+  "id": "greenland",
+  "validation-key": "greenland",
+  "ui-label": "Greenland",
+  "description": "the geographical region of Greenland, as defined by the CF standardised regions",
+  "@context": "_context_",
+  "type": [
+    "wcrp:native-horizontal-grid-region",
+    "universal"
+  ]
 }

@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "cas",
+  "validation-key": "CAS",
+  "ui-label": "Chinese Academy of Sciences",
+  "description": "",
   "acronyms": [
     "CAS"
   ],
   "aliases": [],
   "established": 1949,
-  "id": "cas",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/034t30j35",
     "type": "location"
   },
-  "ui-label": "Chinese Academy of Sciences",
   "ror": "034t30j35",
+  "url": [
+    "http://english.cas.cn/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://english.cas.cn/"
-  ],
-  "validation-key": "CAS"
+  ]
 }

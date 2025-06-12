@@ -1,12 +1,13 @@
 {
-  "@context": "_context_",
-  "description": "6 hourly mean samples",
   "id": "6hr",
+  "validation-key": "6hr",
+  "ui-label": "",
+  "description": "6 hourly mean samples",
   "long_name": "6 Hourly Frequency",
+  "unit": "hour",
+  "@context": "_context_",
   "type": [
     "wcrp:frequency",
     "universal"
-  ],
-  "unit": "hour",
-  "validation-key": "6hr"
+  ]
 }

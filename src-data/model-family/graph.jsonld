@@ -18,32 +18,43 @@
   },
   "@graph": [
     {
-      "description": "Australian Community Climate and Earth System Simulator",
       "id": "access",
+      "validation-key": "ACCESS",
+      "ui-label": "",
+      "description": "Australian Community Climate and Earth System Simulator",
       "origin": "BoM/CSIRO (Bureau of Meteorology/Commonwealth Scientific and Industrial Research Organisation)",
-      "type": "wcrp:model-family",
-      "validation-key": "ACCESS"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Beijing Climate Center Climate System Model",
       "id": "bcc-csm",
+      "validation-key": "BCC-CSM",
+      "ui-label": "",
+      "description": "Beijing Climate Center Climate System Model",
       "origin": "BCC (Beijing Climate Center)",
-      "type": "wcrp:model-family",
-      "validation-key": "BCC-CSM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Community Atmosphere Model",
       "id": "cam",
+      "validation-key": "CAM",
+      "ui-label": "",
+      "description": "Community Atmosphere Model",
       "origin": "NCAR (National Center for Atmospheric Research)",
       "permissible_realms": [
         "atmos"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "CAM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Canadian Earth System Model (developed by CCCma)",
       "id": "canesm",
+      "validation-key": "CanESM",
+      "ui-label": "",
+      "description": "Canadian Earth System Model (developed by CCCma)",
       "origin": "CCCma (Canadian Centre for Climate Modelling and Analysis)",
       "permissible_realms": [
         "atmos",
@@ -51,12 +62,15 @@
         "ocean",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "CanESM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Community Earth System Model",
       "id": "cesm",
+      "validation-key": "CESM",
+      "ui-label": "",
+      "description": "Community Earth System Model",
       "origin": "NCAR (National Center for Atmospheric Research)",
       "permissible_realms": [
         "atmos",
@@ -65,24 +79,30 @@
         "seaice",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "CESM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Centre National de Recherches Météorologiques model",
       "id": "cnrm-cm",
+      "validation-key": "CNRM-CM",
+      "ui-label": "",
+      "description": "Centre National de Recherches Météorologiques model",
       "origin": "CNRM (Centre National de Recherches Météorologiques)",
       "permissible_realms": [
         "atmos",
         "land",
         "ocean"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "CNRM-CM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Community-developed Earth system model based on IFS",
       "id": "ec-earth",
+      "validation-key": "EC-Earth",
+      "ui-label": "",
+      "description": "Community-developed Earth system model based on IFS",
       "origin": "EC-Earth Consortium (EC-Earth Consortium)",
       "permissible_realms": [
         "atmos",
@@ -90,30 +110,39 @@
         "ocean",
         "seaice"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "EC-Earth"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Flexible Global Ocean-Atmosphere-Land System Model",
       "id": "fgoals",
+      "validation-key": "FGOALS",
+      "ui-label": "",
+      "description": "Flexible Global Ocean-Atmosphere-Land System Model",
       "origin": "IAP (Institute of Atmospheric Physics)",
-      "type": "wcrp:model-family",
-      "validation-key": "FGOALS"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Goddard Earth Observing System",
       "id": "geos",
+      "validation-key": "GEOS",
+      "ui-label": "",
+      "description": "Goddard Earth Observing System",
       "origin": "NASA (National Aeronautics and Space Administration)",
       "permissible_realms": [
         "atmos",
         "land"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "GEOS"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "NOAA Geophysical Fluid Dynamics Laboratory model",
       "id": "gfdl-cm4",
+      "validation-key": "GFDL-CM4",
+      "ui-label": "",
+      "description": "NOAA Geophysical Fluid Dynamics Laboratory model",
       "origin": "NOAA GFDL (National Oceanic and Atmospheric Administration Geophysical Fluid Dynamics Laboratory)",
       "permissible_realms": [
         "atmos",
@@ -121,24 +150,30 @@
         "ocean",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "GFDL-CM4"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "NASA Goddard Institute for Space Studies model",
       "id": "giss-e2",
+      "validation-key": "GISS-E2",
+      "ui-label": "",
+      "description": "NASA Goddard Institute for Space Studies model",
       "origin": "NASA GISS (NASA Goddard Institute for Space Studies)",
       "permissible_realms": [
         "atmos",
         "land",
         "ocean"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "GISS-E2"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Hadley Centre Global Environment Model",
       "id": "hadgem3",
+      "validation-key": "HadGEM3",
+      "ui-label": "",
+      "description": "Hadley Centre Global Environment Model",
       "origin": "Met Office Hadley Centre (Met Office Hadley Centre)",
       "permissible_realms": [
         "atmos",
@@ -146,12 +181,15 @@
         "ocean",
         "seaice"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "HadGEM3"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Icosahedral Nonhydrostatic model",
       "id": "icon",
+      "validation-key": "ICON",
+      "ui-label": "",
+      "description": "Icosahedral Nonhydrostatic model",
       "origin": "DWD/MPI-M (Deutscher Wetterdienst/Max Planck Institute for Meteorology)",
       "permissible_realms": [
         "atmos",
@@ -159,22 +197,28 @@
         "ocean",
         "seaice"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "ICON"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Integrated Forecasting System",
       "id": "ifs",
+      "validation-key": "IFS",
+      "ui-label": "",
+      "description": "Integrated Forecasting System",
       "origin": "ECMWF (European Centre for Medium-Range Weather Forecasts)",
       "permissible_realms": [
         "atmos"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "IFS"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Institut Pierre-Simon Laplace model",
       "id": "ipsl-cm",
+      "validation-key": "IPSL-CM",
+      "ui-label": "",
+      "description": "Institut Pierre-Simon Laplace model",
       "origin": "IPSL (Institut Pierre-Simon Laplace)",
       "permissible_realms": [
         "atmos",
@@ -182,12 +226,15 @@
         "ocean",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "IPSL-CM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Model for Interdisciplinary Research on Climate",
       "id": "miroc",
+      "validation-key": "MIROC",
+      "ui-label": "",
+      "description": "Model for Interdisciplinary Research on Climate",
       "origin": "JAMSTEC/AORI/NIES (Japan Agency for Marine-Earth Science and Technology/Atmosphere and Ocean Research Institute/National Institute for Environmental Studies)",
       "permissible_realms": [
         "atmos",
@@ -195,12 +242,15 @@
         "ocean",
         "seaice"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "MIROC"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Max Planck Institute Earth System Model",
       "id": "mpi-esm",
+      "validation-key": "MPI-ESM",
+      "ui-label": "",
+      "description": "Max Planck Institute Earth System Model",
       "origin": "MPI-M (Max Planck Institute for Meteorology)",
       "permissible_realms": [
         "atmos",
@@ -208,19 +258,25 @@
         "ocean",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "MPI-ESM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "Nonhydrostatic Icosahedral Atmospheric Model",
       "id": "nicam",
+      "validation-key": "NICAM",
+      "ui-label": "",
+      "description": "Nonhydrostatic Icosahedral Atmospheric Model",
       "origin": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology)",
-      "type": "wcrp:model-family",
-      "validation-key": "NICAM"
+      "type": [
+        "wcrp:model-family"
+      ]
     },
     {
-      "description": "UK Earth System Model (based on HadGEM3)",
       "id": "ukesm1",
+      "validation-key": "UKESM1",
+      "ui-label": "",
+      "description": "UK Earth System Model (based on HadGEM3)",
       "origin": "Met Office Hadley Centre (Met Office Hadley Centre)",
       "permissible_realms": [
         "atmos",
@@ -228,8 +284,9 @@
         "ocean",
         "ocnbgchem"
       ],
-      "type": "wcrp:model-family",
-      "validation-key": "UKESM1"
+      "type": [
+        "wcrp:model-family"
+      ]
     }
   ]
 }

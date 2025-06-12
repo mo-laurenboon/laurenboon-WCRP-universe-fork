@@ -1,37 +1,38 @@
 {
-    "acronyms": [
-        "UCLA"
+  "id": "ucla",
+  "validation-key": "UCLA",
+  "ui-label": "University of California, Los Angeles",
+  "description": "",
+  "acronyms": [
+    "UCLA"
+  ],
+  "aliases": [
+    "State Normal School at Los Angeles",
+    "University of California Southern Branch",
+    "University of California at Los Angeles"
+  ],
+  "established": 1919,
+  "kind": "Education",
+  "labels": [],
+  "location": {
+    "city": "Los Angeles",
+    "country": [
+      "United States",
+      "US"
     ],
-    "aliases": [
-        "State Normal School at Los Angeles",
-        "University of California Southern Branch",
-        "University of California at Los Angeles"
-    ],
-    "established": 1919,
-    "id": "ucla",
-    "kind": "Education",
-    "labels": [],
-    "location": {
-        "city": "Los Angeles",
-        "country": [
-            "United States",
-            "US"
-        ],
-        "id": "universal:location/046rm7j60",
-        "lat": 34.05223,
-        "lon": 34.05223,
-        "type": "wcrp:location"
-    },
-    "ui-label": "University of California, Los Angeles",
-    "ror": "046rm7j60",
-    "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-    ],
-    "url": [
-        "https://www.ucla.edu"
-    ],
-    "validation-key": "UCLA",
-    "@context": "_context_"
+    "id": "universal:location/046rm7j60",
+    "lat": 34.05223,
+    "lon": 34.05223,
+    "type": "wcrp:location"
+  },
+  "ror": "046rm7j60",
+  "url": [
+    "https://www.ucla.edu"
+  ],
+  "@context": "_context_",
+  "type": [
+    "wcrp:organisation",
+    "wcrp:institution",
+    "universal"
+  ]
 }

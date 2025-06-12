@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "thu",
+  "validation-key": "THU",
+  "ui-label": "Tsinghua University",
+  "description": "",
   "acronyms": [
     "THU"
   ],
   "aliases": [],
   "established": 1911,
-  "id": "thu",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/03cve4549",
     "type": "location"
   },
-  "ui-label": "Tsinghua University",
   "ror": "03cve4549",
+  "url": [
+    "http://www.tsinghua.edu.cn/publish/newthuen/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.tsinghua.edu.cn/publish/newthuen/"
-  ],
-  "validation-key": "THU"
+  ]
 }

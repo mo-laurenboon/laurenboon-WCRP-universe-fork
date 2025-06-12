@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "inm",
+  "validation-key": "INM",
+  "ui-label": "Institute of Numerical Mathematics",
+  "description": "",
   "acronyms": [
     "INM RAS"
   ],
   "aliases": [],
   "established": 1980,
-  "id": "inm",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/00520ey40",
     "type": "location"
   },
-  "ui-label": "Institute of Numerical Mathematics",
   "ror": "00520ey40",
+  "url": [
+    "http://www.inm.ras.ru/inm_en_ver/index.htm"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.inm.ras.ru/inm_en_ver/index.htm"
-  ],
-  "validation-key": "INM"
+  ]
 }

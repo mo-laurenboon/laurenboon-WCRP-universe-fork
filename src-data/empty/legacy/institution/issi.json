@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "issi",
+  "validation-key": "ISSI",
+  "ui-label": "International Space Science Institute",
+  "description": "",
   "acronyms": [
     "ISSI"
   ],
   "aliases": [],
   "established": 1995,
-  "id": "issi",
   "kind": "Nonprofit",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/01xm30661",
     "type": "location"
   },
-  "ui-label": "International Space Science Institute",
   "ror": "01xm30661",
+  "url": [
+    "http://www.issibern.ch/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.issibern.ch/"
-  ],
-  "validation-key": "ISSI"
+  ]
 }

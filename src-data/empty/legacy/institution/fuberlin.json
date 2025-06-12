@@ -1,5 +1,8 @@
 {
-  "@context": "_context_",
+  "id": "fuberlin",
+  "validation-key": "FUBerlin",
+  "ui-label": "Freie Universität Berlin",
+  "description": "",
   "acronyms": [
     "FU"
   ],
@@ -8,7 +11,6 @@
     "Free University of Berlin"
   ],
   "established": 1948,
-  "id": "fuberlin",
   "kind": "Education",
   "labels": [],
   "location": {
@@ -24,15 +26,14 @@
     "id": "universal:location/046ak2485",
     "type": "location"
   },
-  "ui-label": "Freie Universität Berlin",
   "ror": "046ak2485",
+  "url": [
+    "https://www.fu-berlin.de"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://www.fu-berlin.de"
-  ],
-  "validation-key": "FUBerlin"
+  ]
 }

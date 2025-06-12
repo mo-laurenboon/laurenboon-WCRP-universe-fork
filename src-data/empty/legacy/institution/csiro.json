@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "csiro",
+  "validation-key": "CSIRO",
+  "ui-label": "Commonwealth Scientific and Industrial Research Organisation",
+  "description": "",
   "acronyms": [
     "CSIRO"
   ],
   "aliases": [],
   "established": 1926,
-  "id": "csiro",
   "kind": "Government",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/03qn8fb07",
     "type": "location"
   },
-  "ui-label": "Commonwealth Scientific and Industrial Research Organisation",
   "ror": "03qn8fb07",
+  "url": [
+    "http://www.csiro.au/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.csiro.au/"
-  ],
-  "validation-key": "CSIRO"
+  ]
 }

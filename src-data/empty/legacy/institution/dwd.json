@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "dwd",
+  "validation-key": "DWD",
+  "ui-label": "German Meteorological Service",
+  "description": "",
   "acronyms": [
     "DWD"
   ],
   "aliases": [],
   "established": 1952,
-  "id": "dwd",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/02nrqs528",
     "type": "location"
   },
-  "ui-label": "German Meteorological Service",
   "ror": "02nrqs528",
+  "url": [
+    "http://www.dwd.de/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.dwd.de/"
-  ],
-  "validation-key": "DWD"
+  ]
 }

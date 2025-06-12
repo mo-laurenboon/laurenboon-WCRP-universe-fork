@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "ncar",
+  "validation-key": "NCAR",
+  "ui-label": "National Center for Atmospheric Research",
+  "description": "",
   "acronyms": [
     "NCAR"
   ],
   "aliases": [],
   "established": 1930,
-  "id": "ncar",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/05cvfcr44",
     "type": "location"
   },
-  "ui-label": "National Center for Atmospheric Research",
   "ror": "05cvfcr44",
+  "url": [
+    "https://ncar.ucar.edu/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "https://ncar.ucar.edu/"
-  ],
-  "validation-key": "NCAR"
+  ]
 }

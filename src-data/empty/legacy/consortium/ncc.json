@@ -1,8 +1,9 @@
 {
-  "@context": "_context_",
-  "changes": "",
   "id": "ncc",
+  "validation-key": "NCC",
   "ui-label": "NCC Consortium",
+  "description": "",
+  "changes": "",
   "members": {
     "met-norway": {
       "current": false,
@@ -62,11 +63,11 @@
     }
   },
   "status": "active",
+  "url": "",
+  "@context": "_context_",
   "type": [
     "wcrp:consortium",
     "universal",
     "wcrp:organisation"
-  ],
-  "url": "",
-  "validation-key": "NCC"
+  ]
 }

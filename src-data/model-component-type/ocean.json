@@ -1,11 +1,11 @@
 {
-    "description": "dynamical, thermodynamical, and physical processes in the ocean",
-    "id": "ocean",
-    "type": [
-        "wcrp:model-component-type",
-        "universal"
-    ],
-    "ui-label": "Ocean",
-    "validation-key": "ocean",
-    "@context": "_context_"
+  "id": "ocean",
+  "validation-key": "ocean",
+  "ui-label": "Ocean",
+  "description": "dynamical, thermodynamical, and physical processes in the ocean",
+  "@context": "_context_",
+  "type": [
+    "wcrp:model-component-type",
+    "universal"
+  ]
 }

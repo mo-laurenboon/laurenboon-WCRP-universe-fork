@@ -1,11 +1,13 @@
 {
-  "@context": "_context_",
+  "id": "cccr-iitm",
+  "validation-key": "CCCR-IITM",
+  "ui-label": "Indian Institute of Tropical Meteorology",
+  "description": "",
   "acronyms": [
     "IITM"
   ],
   "aliases": [],
   "established": 1962,
-  "id": "cccr-iitm",
   "kind": "Facility",
   "labels": [],
   "location": {
@@ -21,15 +23,14 @@
     "id": "universal:location/03jf2m686",
     "type": "location"
   },
-  "ui-label": "Indian Institute of Tropical Meteorology",
   "ror": "03jf2m686",
+  "url": [
+    "http://www.tropmet.res.in/"
+  ],
+  "@context": "_context_",
   "type": [
     "universal",
     "wcrp:institution",
     "wcrp:organisation"
-  ],
-  "url": [
-    "http://www.tropmet.res.in/"
-  ],
-  "validation-key": "CCCR-IITM"
+  ]
 }

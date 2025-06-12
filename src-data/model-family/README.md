@@ -4,6 +4,8 @@
 
 # Model Family  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-family/model-family)
+
 ## Description
 Groups related climate models into families that share similar code bases or modeling approaches, as defined by the EMD specification for tracking model genealogies.
 
@@ -21,17 +23,52 @@ Groups related climate models into families that share similar code bases or mod
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `universal:model-family` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/model-family](https://wcrp-cmip.github.io/WCRP-universe/model-family) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/model-family](https://wcrp-cmip.github.io/WCRP-universe/model-family) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-family) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+- **origin** → `@type: @id`
+ </section>
+
+  - Context: [https://wcrp-cmip.github.io/WCRP-universe/organisation/_context_](https://wcrp-cmip.github.io/WCRP-universe/organisation/_context_)
+ </section>
+
+  - Source: `WCRP-universe/organisation/_context_`
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
+ </section>
+
+- **Organization:** `WCRP-universe`
+ </section>
+
+  - Repository: `organisation`
+ </section>
+
+    - Path: `/_context_`
+ </section>
+
+
 <section id="schema">
 
 ## Content Schema
 
 - **`validation-key`**  
+  ? (**NoType**)
+  No Linked Pydantic Model 
+- **`ui-label`**  
   ? (**NoType**)
   No Linked Pydantic Model 
 - **`type`**  

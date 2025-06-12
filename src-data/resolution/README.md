@@ -4,6 +4,8 @@
 
 # Resolution  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/resolution/resolution)
+
 ## Description
 Specifies the spatial resolution characteristics of climate model grids, corresponding to the EMD nominal resolution controlled vocabulary with standardized resolution categories (e.g., 100 km, 25 km, 5 km).
 
@@ -21,12 +23,22 @@ Specifies the spatial resolution characteristics of climate model grids, corresp
 | Pydantic class | [`resolution`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/resolution.py): Resolution |
 | | |
 | JSON-LD | `universal:resolution` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/resolution](https://wcrp-cmip.github.io/WCRP-universe/resolution) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/resolution](https://wcrp-cmip.github.io/WCRP-universe/resolution) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/resolution) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
 <section id="schema">
 
 ## Content Schema

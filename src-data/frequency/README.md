@@ -4,6 +4,8 @@
 
 # Frequency  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/frequency/frequency)
+
 ## Description
 Specifies the temporal sampling frequency for climate model output data, defining how often data values are recorded (e.g., daily, monthly, yearly).
 
@@ -21,12 +23,22 @@ Specifies the temporal sampling frequency for climate model output data, definin
 | Pydantic class | [`frequency`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/frequency.py): Frequency |
 | | |
 | JSON-LD | `universal:frequency` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/frequency](https://wcrp-cmip.github.io/WCRP-universe/frequency) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/frequency](https://wcrp-cmip.github.io/WCRP-universe/frequency) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/frequency) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
 <section id="schema">
 
 ## Content Schema

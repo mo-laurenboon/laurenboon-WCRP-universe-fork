@@ -4,6 +4,8 @@
 
 # Native Horizontal Grid Type  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type/native-horizontal-grid-type)
+
 ## Description
 Specifies the horizontal grid types used by model components, following the EMD grid controlled vocabulary (e.g., regular_latitude_longitude, cubed_sphere, unstructured_triangular).
 
@@ -21,12 +23,22 @@ Specifies the horizontal grid types used by model components, following the EMD 
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `universal:native-horizontal-grid-type` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-type) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-type) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
 <section id="schema">
 
 ## Content Schema

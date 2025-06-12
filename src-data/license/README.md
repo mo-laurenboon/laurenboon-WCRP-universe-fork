@@ -4,6 +4,8 @@
 
 # License  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/license/license)
+
 ## Description
 Defines the licensing terms and conditions under which climate model data and documentation are made available for use and distribution.
 
@@ -21,12 +23,22 @@ Defines the licensing terms and conditions under which climate model data and do
 | Pydantic class | [`license`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/license.py): License |
 | | |
 | JSON-LD | `universal:license` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/license](https://wcrp-cmip.github.io/WCRP-universe/license) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/license](https://wcrp-cmip.github.io/WCRP-universe/license) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/license) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
 <section id="schema">
 
 ## Content Schema

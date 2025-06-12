@@ -4,6 +4,8 @@
 
 # Native Vertical Grid Coordinate  (universal)
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate/native-vertical-grid-coordinate)
+
 ## Description
 Defines the vertical coordinate systems used by model components, based on the EMD coordinate controlled vocabulary (e.g., height, air_pressure, ocean_s_coordinate, land_ice_sigma_coordinate).
 
@@ -21,12 +23,22 @@ Defines the vertical coordinate systems used by model components, based on the E
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `universal:native-vertical-grid-coordinate` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate](https://wcrp-cmip.github.io/WCRP-universe/native-vertical-grid-coordinate) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-vertical-grid-coordinate) |
 
 
 </section>
-    
+    <section id="links">
+
+ </section>
+
+## External Contexts and Key Mappings
+
+ </section>
+
+
+## 🏛️ Organization and Repository Breakdown
+
 <section id="schema">
 
 ## Content Schema

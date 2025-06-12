@@ -14,204 +14,204 @@
   },
   "@graph": [
     {
-      "description": "the spherical surface is defined as six coupled “logically square” regions",
       "id": "cubed-sphere",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "cubed-sphere",
       "ui-label": "Cubed sphere",
-      "validation-key": "cubed-sphere"
+      "description": "the spherical surface is defined as six coupled “logically square” regions",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a spectral reduced Gaussian grid for which the smallest spectral wavelength is represented by 4 grid points, and which uses an octahedron-based method to reduce the number of grid points towards the poles",
       "id": "cubic-octahedral-spectral-reduced-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "cubic-octahedral-spectral-reduced-gaussian",
       "ui-label": "Cubic octahedral spectral reduced gaussian",
-      "validation-key": "cubic-octahedral-spectral-reduced-gaussian"
+      "description": "a spectral reduced Gaussian grid for which the smallest spectral wavelength is represented by 4 grid points, and which uses an octahedron-based method to reduce the number of grid points towards the poles",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "an ocean grid whose poles are not antipodean, typically with the northern pole displaced to lie over land",
       "id": "displaced-pole",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "displaced-pole",
       "ui-label": "Displaced pole",
-      "validation-key": "displaced-pole"
+      "description": "an ocean grid whose poles are not antipodean, typically with the northern pole displaced to lie over land",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a grid that uses hexagonal and pentagonal tiles and is the dual of an icosahedral_geodesic grid",
       "id": "icosahedral-geodesic-dual",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "icosahedral-geodesic-dual",
       "ui-label": "Icosahedral geodesic dual",
-      "validation-key": "icosahedral-geodesic-dual"
+      "description": "a grid that uses hexagonal and pentagonal tiles and is the dual of an icosahedral_geodesic grid",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a grid that uses triangular tiles based on the subdivision of an icosahedron",
       "id": "icosahedral-geodesic",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "icosahedral-geodesic",
       "ui-label": "Icosahedral geodesic",
-      "validation-key": "icosahedral-geodesic"
+      "description": "a grid that uses triangular tiles based on the subdivision of an icosahedron",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a spectral Gaussian grid for which the smallest spectral wavelength is represented by 2 grid points",
       "id": "linear-spectral-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "linear-spectral-gaussian",
       "ui-label": "Linear spectral gaussian",
-      "validation-key": "linear-spectral-gaussian"
+      "description": "a spectral Gaussian grid for which the smallest spectral wavelength is represented by 2 grid points",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "there is no horizontal grid",
       "id": "no-grid",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "no-grid",
       "ui-label": "No grid",
-      "validation-key": "no-grid"
+      "description": "there is no horizontal grid",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "any transformation employed to represent the spherical surface of the globe on a plane",
       "id": "plane-projection",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "plane-projection",
       "ui-label": "Plane projection",
-      "validation-key": "plane-projection"
+      "description": "any transformation employed to represent the spherical surface of the globe on a plane",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a spectral Gaussian grid for which the smallest spectral wavelength is represented by 3 grid points",
       "id": "quadratic-spectral-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "quadratic-spectral-gaussian",
       "ui-label": "Quadratic spectral gaussian",
-      "validation-key": "quadratic-spectral-gaussian"
+      "description": "a spectral Gaussian grid for which the smallest spectral wavelength is represented by 3 grid points",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a Gaussian grid for which the number of longitudinal points is reduced as the poles are approached",
       "id": "reduced-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "reduced-gaussian",
       "ui-label": "Reduced gaussian",
-      "validation-key": "reduced-gaussian"
+      "description": "a Gaussian grid for which the number of longitudinal points is reduced as the poles are approached",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a Gaussian grid for which the number of longitudinal points is constant for each latitude",
       "id": "regular-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "regular-gaussian",
       "ui-label": "Regular gaussian",
-      "validation-key": "regular-gaussian"
+      "description": "a Gaussian grid for which the number of longitudinal points is constant for each latitude",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a rectilinear latitude-longitude grid with evenly spaced latitude points and evenly spaced longitude points",
       "id": "regular-latitude-longitude",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "regular-latitude-longitude",
       "ui-label": "Regular latitude longitude",
-      "validation-key": "regular-latitude-longitude"
+      "description": "a rectilinear latitude-longitude grid with evenly spaced latitude points and evenly spaced longitude points",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a regular latitude-longitude grid that is rotated to define a different north pole location",
       "id": "rotated-pole",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "rotated-pole",
       "ui-label": "Rotated pole",
-      "validation-key": "rotated-pole"
+      "description": "a regular latitude-longitude grid that is rotated to define a different north pole location",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a grid based on the transformation from spectral space to a reduced or nonreduced Gaussian grid",
       "id": "spectral-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "spectral-gaussian",
       "ui-label": "Spectral gaussian",
-      "validation-key": "spectral-gaussian"
+      "description": "a grid based on the transformation from spectral space to a reduced or nonreduced Gaussian grid",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a grid based on the transformation from spectral space to a reduced Gaussian grid",
       "id": "spectral-reduced-gaussian",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "spectral-reduced-gaussian",
       "ui-label": "Spectral reduced gaussian",
-      "validation-key": "spectral-reduced-gaussian"
+      "description": "a grid based on the transformation from spectral space to a reduced Gaussian grid",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a grid with higher resolution concentrated over an area of interest, at the expense of lower resolution elsewhere",
       "id": "stretched",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "stretched",
       "ui-label": "Stretched",
-      "validation-key": "stretched"
+      "description": "a grid with higher resolution concentrated over an area of interest, at the expense of lower resolution elsewhere",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "a global curvilinear ocean grid with a southern pole and two northern poles all placed over land",
       "id": "tripolar",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "tripolar",
       "ui-label": "Tripolar",
-      "validation-key": "tripolar"
+      "description": "a global curvilinear ocean grid with a southern pole and two northern poles all placed over land",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "an unstructured mesh consisting of arbitrary polygons",
       "id": "unstructured-polygonal",
-      "type": [
-        "wcrp:native-horizontal-grid-type",
-        "universal"
-      ],
+      "validation-key": "unstructured-polygonal",
       "ui-label": "Unstructured polygonal",
-      "validation-key": "unstructured-polygonal"
+      "description": "an unstructured mesh consisting of arbitrary polygons",
+      "type": [
+        "wcrp:native-horizontal-grid-type",
+        "universal"
+      ]
     },
     {
-      "description": "an unstructured mesh consisting solely of triangles",
       "id": "unstructured-triangular",
+      "validation-key": "unstructured-triangular",
+      "ui-label": "Unstructured triangular",
+      "description": "an unstructured mesh consisting solely of triangles",
       "type": [
         "wcrp:native-horizontal-grid-type",
         "universal"
-      ],
-      "ui-label": "Unstructured triangular",
-      "validation-key": "unstructured-triangular"
+      ]
     },
     {
-      "description": "two overlapping grid patches",
       "id": "yin-yang",
+      "validation-key": "yin-yang",
+      "ui-label": "Yin yang",
+      "description": "two overlapping grid patches",
       "type": [
         "wcrp:native-horizontal-grid-type",
         "universal"
-      ],
-      "ui-label": "Yin yang",
-      "validation-key": "yin-yang"
+      ]
     }
   ]
 }

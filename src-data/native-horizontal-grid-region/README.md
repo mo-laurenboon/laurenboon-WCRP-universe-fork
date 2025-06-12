@@ -4,9 +4,12 @@
 
 # Native Horizontal Grid Region  (universal)
 
+
+
 ## Description
 Defines the geographical regions over which model components operate, based on the EMD region controlled vocabulary (e.g., global, antarctica, greenland, limited_area).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region/native-horizontal-grid-region)
 
 </section>
 
@@ -21,12 +24,12 @@ Defines the geographical regions over which model components operate, based on t
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `universal:native-horizontal-grid-region` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region](https://wcrp-cmip.github.io/WCRP-universe/native-horizontal-grid-region) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/native-horizontal-grid-region) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

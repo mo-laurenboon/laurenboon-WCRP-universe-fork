@@ -4,9 +4,12 @@
 
 # Model Calendar  (universal)
 
+
+
 ## Description
 Specifies the calendar system used by climate models to define valid dates and time periods. Based on the EMD calendar controlled vocabulary, including options like standard, 360_day, 365_day, and others.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/model-calendar/model-calendar)
 
 </section>
 
@@ -21,12 +24,12 @@ Specifies the calendar system used by climate models to define valid dates and t
 | Pydantic class | [`False`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/False.py):  Not yet implemented |
 | | |
 | JSON-LD | `universal:model-calendar` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/model-calendar](https://wcrp-cmip.github.io/WCRP-universe/model-calendar) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/model-calendar](https://wcrp-cmip.github.io/WCRP-universe/model-calendar) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/model-calendar) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

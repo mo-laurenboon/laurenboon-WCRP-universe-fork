@@ -4,9 +4,12 @@
 
 # Organisation  (universal)
 
+
+
 ## Description
 Identifies the institutions or organizations responsible for developing and maintaining climate models, providing attribution and contact information.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/organisation/organisation)
 
 </section>
 
@@ -21,12 +24,12 @@ Identifies the institutions or organizations responsible for developing and main
 | Pydantic class | [`organisation`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/organisation.py): Organisation |
 | | |
 | JSON-LD | `universal:organisation` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/organisation](https://wcrp-cmip.github.io/WCRP-universe/organisation) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/organisation](https://wcrp-cmip.github.io/WCRP-universe/organisation) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/organisation) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

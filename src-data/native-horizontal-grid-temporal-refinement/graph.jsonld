@@ -14,34 +14,34 @@
   },
   "@graph": [
     {
-      "description": "the total number of grid points varies during the model run",
       "id": "adaptive",
-      "type": [
-        "wcrp:native-horizontal-grid-temporal-refinement",
-        "universal"
-      ],
+      "validation-key": "adaptive",
       "ui-label": "Adaptive",
-      "validation-key": "adaptive"
+      "description": "the total number of grid points varies during the model run",
+      "type": [
+        "wcrp:native-horizontal-grid-temporal-refinement",
+        "universal"
+      ]
     },
     {
-      "description": "the total number of grid points stays constant, but grid points can be dynamically relocated",
       "id": "dynamically-stretched",
+      "validation-key": "dynamically-stretched",
+      "ui-label": "Dynamically stretched",
+      "description": "the total number of grid points stays constant, but grid points can be dynamically relocated",
       "type": [
         "wcrp:native-horizontal-grid-temporal-refinement",
         "universal"
-      ],
-      "ui-label": "Dynamically stretched",
-      "validation-key": "dynamically-stretched"
+      ]
     },
     {
-      "description": "the total number of grid points stays constant during the model run and there is no grid refinement, i",
       "id": "static",
+      "validation-key": "static",
+      "ui-label": "Static",
+      "description": "the total number of grid points stays constant during the model run and there is no grid refinement, i",
       "type": [
         "wcrp:native-horizontal-grid-temporal-refinement",
         "universal"
-      ],
-      "ui-label": "Static",
-      "validation-key": "static"
+      ]
     }
   ]
 }

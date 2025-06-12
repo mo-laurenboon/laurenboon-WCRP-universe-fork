@@ -4,9 +4,12 @@
 
 # Product  (universal)
 
+
+
 ## Description
 Categorizes different types of climate model output products, distinguishing between various data processing levels and output formats.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/product/product)
 
 </section>
 
@@ -21,12 +24,12 @@ Categorizes different types of climate model output products, distinguishing bet
 | Pydantic class | [`product`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/product.py): Product |
 | | |
 | JSON-LD | `universal:product` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/product](https://wcrp-cmip.github.io/WCRP-universe/product) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/product](https://wcrp-cmip.github.io/WCRP-universe/product) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/product) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

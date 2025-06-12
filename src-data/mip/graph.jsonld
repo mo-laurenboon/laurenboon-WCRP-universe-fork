@@ -14,48 +14,56 @@
   },
   "@graph": [
     {
-      "end": 2020,
       "id": "cmip5",
+      "validation-key": "CMIP5",
+      "ui-label": "",
+      "description": "",
+      "end": 2020,
       "start": 2006,
-      "type": [
-        "wcrp:mip",
-        "universal"
-      ],
       "url": "https://wcrp-cmip.org/CMIP5",
-      "validation-key": "CMIP5"
+      "type": [
+        "wcrp:mip",
+        "universal"
+      ]
     },
     {
-      "end": 2024,
       "id": "cmip6",
+      "validation-key": "CMIP6",
+      "ui-label": "",
+      "description": "",
+      "end": 2024,
       "start": 2013,
-      "type": [
-        "wcrp:mip",
-        "universal"
-      ],
       "url": "https://wcrp-cmip.org/CMIP6",
-      "validation-key": "CMIP6"
+      "type": [
+        "wcrp:mip",
+        "universal"
+      ]
     },
     {
-      "end": 2999,
       "id": "cmip6plus",
+      "validation-key": "CMIP6Plus",
+      "ui-label": "",
+      "description": "",
+      "end": 2999,
       "start": 2023,
+      "url": "https://wcrp-cmip.org/CMIP6Plus",
       "type": [
         "wcrp:mip",
         "universal"
-      ],
-      "url": "https://wcrp-cmip.org/CMIP6Plus",
-      "validation-key": "CMIP6Plus"
+      ]
     },
     {
-      "end": 2999,
       "id": "cmip7",
+      "validation-key": "CMIP7",
+      "ui-label": "",
+      "description": "",
+      "end": 2999,
       "start": 2025,
+      "url": "https://wcrp-cmip.org/CMIP7",
       "type": [
         "wcrp:mip",
         "universal"
-      ],
-      "url": "https://wcrp-cmip.org/CMIP7",
-      "validation-key": "CMIP7"
+      ]
     }
   ]
 }

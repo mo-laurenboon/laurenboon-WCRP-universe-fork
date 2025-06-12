@@ -4,9 +4,12 @@
 
 # Activity  (universal)
 
+
+
 ## Description
 Defines the type of climate modeling activity or experiment being performed. Activities represent different categories of climate experiments such as historical simulations, future projections, or paleoclimate studies.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/activity/activity)
 
 </section>
 
@@ -21,12 +24,12 @@ Defines the type of climate modeling activity or experiment being performed. Act
 | Pydantic class | [`activity`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/activity.py): Activity |
 | | |
 | JSON-LD | `universal:activity` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/activity](https://wcrp-cmip.github.io/WCRP-universe/activity) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/activity](https://wcrp-cmip.github.io/WCRP-universe/activity) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/activity) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

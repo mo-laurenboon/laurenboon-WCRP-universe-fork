@@ -14,34 +14,34 @@
   },
   "@graph": [
     {
-      "description": "unit for temperature",
       "id": "k",
-      "type": [
-        "wcrp:native-vertical-grid-units",
-        "universal"
-      ],
+      "validation-key": "K",
       "ui-label": "kelvin",
-      "validation-key": "K"
+      "description": "unit for temperature",
+      "type": [
+        "wcrp:native-vertical-grid-units",
+        "universal"
+      ]
     },
     {
-      "description": "unit for length",
       "id": "m",
+      "validation-key": "m",
+      "ui-label": "metre",
+      "description": "unit for length",
       "type": [
         "wcrp:native-vertical-grid-units",
         "universal"
-      ],
-      "ui-label": "metre",
-      "validation-key": "m"
+      ]
     },
     {
-      "description": "unit for pressure",
       "id": "pa",
+      "validation-key": "Pa",
+      "ui-label": "pascal",
+      "description": "unit for pressure",
       "type": [
         "wcrp:native-vertical-grid-units",
         "universal"
-      ],
-      "ui-label": "pascal",
-      "validation-key": "Pa"
+      ]
     }
   ]
 }

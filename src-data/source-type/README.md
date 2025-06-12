@@ -4,9 +4,12 @@
 
 # Source Type  (universal)
 
+
+
 ## Description
 Classifies the type and configuration of climate models, indicating the components and complexity of the modeling system (e.g., coupled models, atmosphere-only models).
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/source-type/source-type)
 
 </section>
 
@@ -21,12 +24,12 @@ Classifies the type and configuration of climate models, indicating the componen
 | Pydantic class | [`source_type`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/source_type.py): SourceType |
 | | |
 | JSON-LD | `universal:source-type` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/source-type](https://wcrp-cmip.github.io/WCRP-universe/source-type) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/source-type](https://wcrp-cmip.github.io/WCRP-universe/source-type) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/source-type) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

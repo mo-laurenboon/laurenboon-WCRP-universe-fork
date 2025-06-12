@@ -4,9 +4,12 @@
 
 # Realm  (universal)
 
+
+
 ## Description
 Defines the physical domains or realms of the Earth system that model variables are associated with (e.g., atmosphere, ocean, land, sea ice). Note: This differs from EMD component types as realms classify output variables rather than model components.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/realm/realm)
 
 </section>
 
@@ -21,12 +24,12 @@ Defines the physical domains or realms of the Earth system that model variables 
 | Pydantic class | [`realm`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/realm.py): Realm |
 | | |
 | JSON-LD | `universal:realm` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/realm](https://wcrp-cmip.github.io/WCRP-universe/realm) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/realm](https://wcrp-cmip.github.io/WCRP-universe/realm) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/realm) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

@@ -14,74 +14,74 @@
   },
   "@graph": [
     {
-      "description": "a calendar in which all years are 360 days, and divided into 30 day months",
       "id": "360-day",
-      "type": [
-        "wcrp:model-calendar",
-        "universal"
-      ],
+      "validation-key": "360-day",
       "ui-label": "360 day",
-      "validation-key": "360-day"
+      "description": "a calendar in which all years are 360 days, and divided into 30 day months",
+      "type": [
+        "wcrp:model-calendar",
+        "universal"
+      ]
     },
     {
-      "description": "a calendar with no leap years, i",
       "id": "365-day",
-      "type": [
-        "wcrp:model-calendar",
-        "universal"
-      ],
+      "validation-key": "365-day",
       "ui-label": "365 day",
-      "validation-key": "365-day"
+      "description": "a calendar with no leap years, i",
+      "type": [
+        "wcrp:model-calendar",
+        "universal"
+      ]
     },
     {
-      "description": "a calendar in which every year is a leap year, i",
       "id": "366-day",
-      "type": [
-        "wcrp:model-calendar",
-        "universal"
-      ],
+      "validation-key": "366-day",
       "ui-label": "366 day",
-      "validation-key": "366-day"
+      "description": "a calendar in which every year is a leap year, i",
+      "type": [
+        "wcrp:model-calendar",
+        "universal"
+      ]
     },
     {
-      "description": "the Julian calendar, in which a year is a leap year if it is divisible by 4, even if it is also divisible by 100",
       "id": "julian",
-      "type": [
-        "wcrp:model-calendar",
-        "universal"
-      ],
+      "validation-key": "julian",
       "ui-label": "Julian",
-      "validation-key": "julian"
+      "description": "the Julian calendar, in which a year is a leap year if it is divisible by 4, even if it is also divisible by 100",
+      "type": [
+        "wcrp:model-calendar",
+        "universal"
+      ]
     },
     {
-      "description": "no calendar",
       "id": "none",
-      "type": [
-        "wcrp:model-calendar",
-        "universal"
-      ],
+      "validation-key": "none",
       "ui-label": "None",
-      "validation-key": "none"
+      "description": "no calendar",
+      "type": [
+        "wcrp:model-calendar",
+        "universal"
+      ]
     },
     {
-      "description": "a calendar with the Gregorian rules for leap-years extended to dates before 1582-10-15",
       "id": "proleptic-gregorian",
+      "validation-key": "proleptic-gregorian",
+      "ui-label": "Proleptic gregorian",
+      "description": "a calendar with the Gregorian rules for leap-years extended to dates before 1582-10-15",
       "type": [
         "wcrp:model-calendar",
         "universal"
-      ],
-      "ui-label": "Proleptic gregorian",
-      "validation-key": "proleptic-gregorian"
+      ]
     },
     {
-      "description": "mixed Gregorian/Julian calendar which is Gregorian after 1582-10-15, and Julian before",
       "id": "standard",
+      "validation-key": "standard",
+      "ui-label": "Standard",
+      "description": "mixed Gregorian/Julian calendar which is Gregorian after 1582-10-15, and Julian before",
       "type": [
         "wcrp:model-calendar",
         "universal"
-      ],
-      "ui-label": "Standard",
-      "validation-key": "standard"
+      ]
     }
   ]
 }

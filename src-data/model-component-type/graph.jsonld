@@ -14,34 +14,34 @@
   },
   "@graph": [
     {
-      "description": "the behaviour and evolution of aerosols suspended in the atmosphere",
       "id": "aerosol",
-      "type": [
-        "wcrp:model-component-type",
-        "universal"
-      ],
+      "validation-key": "aerosol",
       "ui-label": "Aerosol",
-      "validation-key": "aerosol"
+      "description": "the behaviour and evolution of aerosols suspended in the atmosphere",
+      "type": [
+        "wcrp:model-component-type",
+        "universal"
+      ]
     },
     {
-      "description": "dynamical, thermodynamical, and physical processes in the atmosphere",
       "id": "atmosphere",
+      "validation-key": "atmosphere",
+      "ui-label": "Atmosphere",
+      "description": "dynamical, thermodynamical, and physical processes in the atmosphere",
       "type": [
         "wcrp:model-component-type",
         "universal"
-      ],
-      "ui-label": "Atmosphere",
-      "validation-key": "atmosphere"
+      ]
     },
     {
-      "description": "dynamical, thermodynamical, and physical processes in the ocean",
       "id": "ocean",
+      "validation-key": "ocean",
+      "ui-label": "Ocean",
+      "description": "dynamical, thermodynamical, and physical processes in the ocean",
       "type": [
         "wcrp:model-component-type",
         "universal"
-      ],
-      "ui-label": "Ocean",
-      "validation-key": "ocean"
+      ]
     }
   ]
 }

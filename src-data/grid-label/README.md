@@ -4,9 +4,12 @@
 
 # Grid Label  (universal)
 
+
+
 ## Description
 Provides labels for different grid configurations used in climate models, helping to identify and categorize the spatial grid arrangements for data output.
 
+[View in HTML](https://wcrp-cmip.github.io/WCRP-universe/grid-label/grid-label)
 
 </section>
 
@@ -21,12 +24,12 @@ Provides labels for different grid configurations used in climate models, helpin
 | Pydantic class | [`grid_label`](https://github.com/ESGF/esgf-vocab/blob/main/src/esgvoc/api/data_descriptors/grid_label.py): GridLabel |
 | | |
 | JSON-LD | `universal:grid-label` |
-| Content | [https://wcrp-cmip.github.io/WCRP-universe/grid-label](https://wcrp-cmip.github.io/WCRP-universe/grid-label) |
+| Expanded reference link | [https://wcrp-cmip.github.io/WCRP-universe/grid-label](https://wcrp-cmip.github.io/WCRP-universe/grid-label) |
 | Developer Repo | [![Open in GitHub](https://img.shields.io/badge/Open-GitHub-blue?logo=github&style=flat-square)](https://github.com/WCRP-CMIP/WCRP-universe/tree/main/src-data/grid-label) |
 
 
 </section>
-    
+    No external links found. 
 <section id="schema">
 
 ## Content Schema

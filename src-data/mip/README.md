@@ -34,33 +34,33 @@ Identifies Model Intercomparison Projects (MIPs) that coordinate and define spec
 
 ## Content Schema
 
-- **`validation-key`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`url`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`ui-label`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`type`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`start`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
 - **`id`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`end`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`validation-key`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`ui-label`**  
+   [**unknown**]
+  No Pydantic model found.
 - **`description`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`end`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`start`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`url`**  
+   [**unknown**]
+  No Pydantic model found.
 - **`@context`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`type`**  
+   [**unknown**]
+  No Pydantic model found.
 
 
 

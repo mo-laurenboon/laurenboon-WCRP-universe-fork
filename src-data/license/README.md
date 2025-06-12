@@ -36,8 +36,6 @@ Defines the licensing terms and conditions under which climate model data and do
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`kind`** (**str**) 
@@ -45,6 +43,8 @@ Defines the licensing terms and conditions under which climate model data and do
 - **`license`** (**str | None**) 
   << No description in pydantic model (see esgvoc) >>
 - **`url`** (**str | None**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

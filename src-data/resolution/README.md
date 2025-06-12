@@ -36,17 +36,17 @@ Specifies the spatial resolution characteristics of climate model grids, corresp
 
 - **`id`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`type`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
-- **`drs_name`** (**str**) 
-  << No description in pydantic model (see esgvoc) >>
 - **`description`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
-- **`value`** (**str**) 
+- **`drs_name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`name`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 - **`unit`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`value`** (**str**) 
+  << No description in pydantic model (see esgvoc) >>
+- **`type`** (**str**) 
   << No description in pydantic model (see esgvoc) >>
 
 

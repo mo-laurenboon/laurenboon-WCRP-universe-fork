@@ -34,24 +34,24 @@ Defines the geographical regions over which model components operate, based on t
 
 ## Content Schema
 
-- **`validation-key`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`ui-label`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
-- **`type`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
 - **`id`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`validation-key`**  
+   [**unknown**]
+  No Pydantic model found.
+- **`ui-label`**  
+   [**unknown**]
+  No Pydantic model found.
 - **`description`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
 - **`@context`**  
-  ? (**NoType**)
-  No Linked Pydantic Model 
+   [**unknown**]
+  No Pydantic model found.
+- **`type`**  
+   [**unknown**]
+  No Pydantic model found.
 
 
 

@@ -4,5 +4,5 @@
     "description": "Data is from reanalysis i.e. combination of observations and modelling",
     "kind": "reanalysis",
     "type": "product",
-    "drs_name": "derived"
+    "drs_name": "reanalysis"
 }

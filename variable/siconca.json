@@ -2,9 +2,9 @@
     "@context": "000_context.jsonld",
     "id": "siconca",
     "cmip_acronym": "siconca",
-    "long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
-    "standard_name": "sea_ice_area_fraction",
+    "long_name": "",
+    "standard_name": "",
     "type": "variable",
-    "units": "%",
+    "units": "",
     "drs_name": "siconca"
 }

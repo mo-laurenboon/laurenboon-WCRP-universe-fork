@@ -2,9 +2,9 @@
     "@context": "000_context.jsonld",
     "id": "ch4",
     "cmip_acronym": "ch4",
-    "long_name": "Mole Fraction of CH4",
-    "standard_name": "mole_fraction_of_methane_in_air",
+    "long_name": "",
+    "standard_name": "",
     "type": "variable",
-    "units": "mol mol-1",
+    "units": "",
     "drs_name": "ch4"
 }

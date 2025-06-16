@@ -2,9 +2,9 @@
     "@context": "000_context.jsonld",
     "id": "n2o",
     "cmip_acronym": "n2o",
-    "long_name": "Mole Fraction of N2O",
-    "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
+    "long_name": "",
+    "standard_name": "",
     "type": "variable",
-    "units": "mol mol-1",
+    "units": "",
     "drs_name": "n2o"
 }

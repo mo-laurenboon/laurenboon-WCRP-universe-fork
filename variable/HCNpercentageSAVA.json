@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "HCNpercentageSAVA",
+    "cmip_acronym": "HCNpercentageSAVA",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "HCNpercentageSAVA"
+}

@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uos",
+    "cmip_acronym": "uos",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "uos"
+}

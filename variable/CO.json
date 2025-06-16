@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "CO",
+    "cmip_acronym": "CO",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "CO"
+}

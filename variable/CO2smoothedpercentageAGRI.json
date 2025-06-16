@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "CO2smoothedpercentageAGRI",
+    "cmip_acronym": "CO2smoothedpercentageAGRI",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "CO2smoothedpercentageAGRI"
+}

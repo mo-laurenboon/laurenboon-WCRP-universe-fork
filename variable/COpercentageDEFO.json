@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "COpercentageDEFO",
+    "cmip_acronym": "COpercentageDEFO",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "COpercentageDEFO"
+}

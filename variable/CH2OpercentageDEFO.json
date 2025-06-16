@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "CH2OpercentageDEFO",
+    "cmip_acronym": "CH2OpercentageDEFO",
+    "long_name": "",
+    "standard_name": "",
+    "type": "variable",
+    "units": "",
+    "drs_name": "CH2OpercentageDEFO"
+}

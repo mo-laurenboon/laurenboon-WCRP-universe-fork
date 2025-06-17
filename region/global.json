@@ -1,0 +1,8 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "global",
+    "label": "global",
+    "type": "region",
+    "drs_name": "global",
+    "decription": ""
+}

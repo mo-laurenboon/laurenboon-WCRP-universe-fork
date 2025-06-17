@@ -20,8 +20,8 @@ def extract_unique_field_ids(field: str, json_file_path: str):
     return sorted(list(res))
 
 
-def create_convention_terms(ids: list, output_dir: str):
-    """Create individual JSON files for each variable_id."""
+def create_convention_terms(ids: list, output_dir: str) -> None:
+    """Create individual JSON files for each conventions."""
     os.makedirs(output_dir, exist_ok=True)
 
     for term in ids:
@@ -43,6 +43,32 @@ def create_convention_terms(ids: list, output_dir: str):
         print(f"Created: {filepath}")
 
 
+def create_region_terms(ids: list, output_dir: str) -> None:
+    """Create individual JSON files for each region."""
+    os.makedirs(output_dir, exist_ok=True)
+
+    for term in ids:
+        json_content = {
+            "@context": "000_context.jsonld",
+            "id": term.lower(),
+            "label": term,
+            "type": "region",
+            "drs_name": term,
+            "decription": "",
+        }
+
+        filename = f"{json_content['id']}.json"
+        filepath = os.path.join(output_dir, filename)
+
+        with open(filepath, "w") as f:
+            json.dump(json_content, f, indent=4)
+
+        print(f"Created: {filepath}")
+
+
 if __name__ == "__main__":
-    allconventions = extract_unique_field_ids("Conventions", json_file)
-    create_convention_terms(allconventions, "conventions")
+    # allconventions = extract_unique_field_ids("Conventions", json_file)
+    # create_convention_terms(allconventions, "conventions")
+    allvalues = extract_unique_field_ids("region", json_file)
+    print(allvalues)
+    create_region_terms(allvalues, "region")

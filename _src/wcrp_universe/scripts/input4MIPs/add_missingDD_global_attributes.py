@@ -31,7 +31,7 @@ def create_convention_terms(ids: list, output_dir: str) -> None:
             "label": term,
             "type": "conventions",
             "drs_name": term,
-            "decription": "",
+            "description": "",
         }
 
         filename = f"{json_content['id']}.json"
@@ -54,7 +54,7 @@ def create_region_terms(ids: list, output_dir: str) -> None:
             "label": term,
             "type": "region",
             "drs_name": term,
-            "decription": "",
+            "description": "",
         }
 
         filename = f"{json_content['id']}.json"
@@ -67,8 +67,9 @@ def create_region_terms(ids: list, output_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    # allconventions = extract_unique_field_ids("Conventions", json_file)
-    # create_convention_terms(allconventions, "conventions")
+    allconventions = extract_unique_field_ids("Conventions", json_file)
+    create_convention_terms(allconventions, "conventions")
+
     allvalues = extract_unique_field_ids("region", json_file)
     print(allvalues)
     create_region_terms(allvalues, "region")

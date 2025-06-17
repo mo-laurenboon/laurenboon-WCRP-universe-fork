@@ -1,7 +1,7 @@
 {
     "@context": "000_context.jsonld",
-    "id": "global_land",
+    "id": "barents_opening",
     "type": "region",
-    "drs_name": "global_land",
+    "drs_name": "barents_opening",
     "description": ""
 }

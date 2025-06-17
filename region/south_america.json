@@ -1,7 +1,7 @@
 {
     "@context": "000_context.jsonld",
-    "id": "global_land",
+    "id": "south_america",
     "type": "region",
-    "drs_name": "global_land",
+    "drs_name": "south_america",
     "description": ""
 }

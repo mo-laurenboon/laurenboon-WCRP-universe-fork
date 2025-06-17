@@ -1,7 +1,7 @@
 {
     "@context": "000_context.jsonld",
-    "id": "global_land",
+    "id": "south_china_sea",
     "type": "region",
-    "drs_name": "global_land",
+    "drs_name": "south_china_sea",
     "description": ""
 }

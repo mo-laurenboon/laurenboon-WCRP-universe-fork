@@ -1,7 +1,7 @@
 {
     "@context": "000_context.jsonld",
-    "id": "global_land",
+    "id": "caribbean_sea",
     "type": "region",
-    "drs_name": "global_land",
+    "drs_name": "caribbean_sea",
     "description": ""
 }

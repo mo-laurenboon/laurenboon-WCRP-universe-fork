@@ -1,7 +1,7 @@
 {
     "@context": "000_context.jsonld",
-    "id": "global_land",
+    "id": "faroe_scotland_channel",
     "type": "region",
-    "drs_name": "global_land",
+    "drs_name": "faroe_scotland_channel",
     "description": ""
 }

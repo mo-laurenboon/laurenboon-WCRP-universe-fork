@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "freetext",
     "type": "contact",
-    "regex": "*"
+    "regex": ".*"
 }

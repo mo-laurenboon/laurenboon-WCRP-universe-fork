@@ -1,8 +1,8 @@
 {
+    "@context": "000_context.jsonld",
     "id": "cf-1.7_cmip-6.2",
     "label": "CF-1.7 CMIP-6.2",
-    "description": "",
     "type": "conventions",
     "drs_name": "CF-1.7 CMIP-6.2",
-    "@context": "000_context.jsonld"
+    "decription": ""
 }

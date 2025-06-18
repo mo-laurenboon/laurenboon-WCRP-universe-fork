@@ -1,44 +1,45 @@
 {
-    "@context": "000_context.jsonld",
-    "id": "cnrm-esm2-1",
-    "type": "source",
-    "license": {
-        "id": "CC BY 4.0",
-        "exceptions-contact": null,
-        "source-specific-info": ""
-    },
-    "activity_participation": [
-        "aerchemmip",
-        "c4mip",
-        "cdrmip",
-        "cmip",
-        "cordex",
-        "dcpp",
-        "gmmip",
-        "geomip",
-        "ls3mip",
-        "lumip",
-        "omip",
-        "rfmip",
-        "scenariomip"
-    ],
-    "cohort": [
-        "Published"
-    ],
-    "label": "CNRM-ESM2-1",
-    "label_extended": "CNRM-ESM2-1",
-    "model_component": {
-        "aerosol": "tactic_v2",
-        "atmos": "arpege",
-        "atmosChem": "reprobus-c_v2",
-        "land": "surfex",
-        "ocean": "nemo",
-        "ocnBgchem": "pisces",
-        "seaIce": "gelato"
-    },
-    "release_year": "2017",
-    "organisation_id": [
-        "cnrm-cerfacs"
-    ],
-    "drs_name": "CNRM-ESM2-1"
+  "@context": "000_context.jsonld",
+  "id": "cnrm-esm2-1",
+  "type": "source",
+  "license": {
+    "id": "CC BY 4.0",
+    "exceptions-contact": null,
+    "source-specific-info": ""
+  },
+  "activity_participation": [
+    "aerchemmip",
+    "c4mip",
+    "cdrmip",
+    "cmip",
+    "cordex",
+    "dcpp",
+    "gmmip",
+    "geomip",
+    "ls3mip",
+    "lumip",
+    "omip",
+    "rfmip",
+    "scenariomip"
+  ],
+  "cohort": [
+    "Published"
+  ],
+  "label": "CNRM-ESM2-1",
+  "label_extended": "CNRM-ESM2-1",
+  "model_component": {
+    "aerosol": "tactic_v2",
+    "atmos": "arpege",
+    "atmosChem": "reprobus-c_v2",
+    "land": "surfex",
+    "ocean": "nemo",
+    "ocnBgchem": "pisces",
+    "seaIce": "gelato"
+  },
+  "release_year": "2017",
+  "organisation_id": [
+    "cnrm-cerfacs"
+  ],
+  "drs_name": "CNRM-ESM2-1",
+  "description": ""
 }

@@ -4,7 +4,7 @@
     "parts": [
         {
             "type" : "sub_experiment",
-            "is_required": true
+            "is_required": false 
         },
         {
             "type": "variant_label",

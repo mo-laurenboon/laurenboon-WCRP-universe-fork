@@ -1,6 +1,6 @@
 {
     "id": "subexp_variant",
-    "separator": "_",
+    "separator": "-",
     "parts": [
         {
             "type" : "sub_experiment",

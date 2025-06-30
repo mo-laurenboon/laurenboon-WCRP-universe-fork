@@ -41,7 +41,7 @@ def get_institution(ror, acronym):
             "id": f"universal:location/{ror_data['id'].split('/')[-1]}",
             "type": "wcrp:location",
             "lat":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
-            "lon":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
+            "lon":  ror_data['addresses'][0].get('lng') if ror_data.get('addresses') else None,
             "city": ror_data['addresses'][0].get('city') if ror_data.get('addresses') else None,
             "country": list(ror_data['country'].values())  if ror_data.get('country') else None
         

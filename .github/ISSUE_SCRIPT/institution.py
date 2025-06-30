@@ -56,13 +56,13 @@ def run(issue,packet):
 
         data = update_ror.get_institution(ror, acronym)
 
-        ranking = similarity(issue['full-name-of-the-organisation'], data['long-label'])
+        ranking = similarity(issue['full-name-of-the-organisation'], data['ui-label'])
         
-        git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the long label ({data['long_label']}) is {ranking}%")
+        git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {ranking}%")
         
         
         if ranking < 80:
-            git.update_issue(f"Warning: The similarity between the full name of the organisation and the long label is {ranking}%")
+            git.update_issue(f"Warning: The similarity between the full name of the organisation and the ui-label is {ranking}%")
             
     else:
 
@@ -71,7 +71,7 @@ def run(issue,packet):
         data = {
                     "id": f"{id}",
                     "type": ['wcrp:organisation',f'wcrp:{issue['issue-type']}','universal'],
-                    "label": acronym,    
+                    "validation-key": acronym,    
                 }        
 
     git.update_summary(f"### Data content\n ```json\n{json.dumps(data,indent=4)}\n```")

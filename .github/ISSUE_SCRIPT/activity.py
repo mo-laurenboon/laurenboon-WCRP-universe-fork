@@ -52,8 +52,8 @@ def run(issue,packet):
             "id": f"{id}",
             "type": [f'wcrp:{issue['issue-type']}',prefix],
             
-            "label": acronym,    
-            "long-label": issue['activity-title'],
+            "validation-key": acronym,    
+            "ui-label": issue['activity-title'],
             "description": issue['description'],
             "url": issue['activity-webpage-/-citation']
         }   

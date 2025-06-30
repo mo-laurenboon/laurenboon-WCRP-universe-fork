@@ -28,13 +28,13 @@ def get_institution(ror, acronym):
     ror_data =  {
         "id": f"{cmip_acronym.lower()}",
         "type": ['wcrp:organisation',f'wcrp:{mytype}','universal'],
-        "label": cmip_acronym,
+        "validation-key": cmip_acronym,
         "ror": ror_data['id'].split('/')[-1],
-        "long_label": ror_data['name'],
+        "ui-label": ror_data['name'],
         "url": ror_data.get('links', []) ,
         "established": ror_data.get('established'),
         "kind": ror_data.get('types', [])[0] if ror_data.get('types') else None,
-        "labels": [i['label'] for i in ror_data.get('lables', [])],
+        "labels": [i['label'] for i in ror_data.get('labels', [])],
         "aliases": ror_data.get('aliases', []),
         "acronyms": ror_data.get('acronyms', []),
         "location": {
@@ -68,10 +68,10 @@ if __name__ == '__main__':
         match data:
             case {"type":ldtypes} if 'wcrp:institution' in ldtypes:
                 try:
-                    data = get_institution(data['ror'],data['label'])
+                    data = get_institution(data['ror'],data['validation-key'])
                     organisation.institution(**data)
                 except ValidationError as err:
-                    return 'institution',data['ror'],data['label'],err.errors()[0]
+                    return 'institution',data['ror'],data['validation-key'],err.errors()[0]
                     
                 
             case {"type":ldtypes} if 'wcrp:consortium' in ldtypes:
@@ -101,11 +101,11 @@ if __name__ == '__main__':
         table.add_column("Warnings", style="red")  # Red for errors (bullet points)
 
 
-        for kind,ror,label,err in errors:
+        for kind,ror,validation_key,err in errors:
             # print('eee',err)
             table.add_row(
                 kind,
-                f"{ror}: {label}",
+                f"{ror}: {validation_key}",
                 f"[{err['loc'][0]}]:\n {err['msg']}"
             )
 

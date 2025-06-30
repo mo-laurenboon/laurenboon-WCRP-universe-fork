@@ -17,7 +17,7 @@ def run(localhost,whoami,repopath,reponame):
     
     data = cmipld.jsonld.frame(url,frame)["@graph"]
     
-    summary = name_entry(data,'long_label')
+    summary = name_entry(data,'ui-label')
     
     location = f'{repopath}/{reponame}_{me}.json'
     summary = version(summary, me, location.split("/")[-1])

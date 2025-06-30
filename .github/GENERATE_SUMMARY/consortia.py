@@ -16,7 +16,7 @@ def run(localhost,whoami,repopath,reponame):
     
     data = cmipld.jsonld.frame(url,frame)["@graph"]
     
-    summary = name_extract(data,['label','long_label','url','members'])
+    summary = name_extract(data,['validation-key','ui-label','url','members'])
     
     
     for i in summary:

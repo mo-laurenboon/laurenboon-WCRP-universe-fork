@@ -96,25 +96,27 @@ def run(issue,packet):
     
     # if we are happy, and have gotten this far: 
     
-    if 'submitter' in issue: 
-        # override the current author
-        os.environ['OVERRIDE_AUTHOR'] = issue['submitter']
+    # Get the author from the packet (GitHub issue submitter)
+    # This is the username of the person who submitted the issue
+    author = packet.get('author')
     
+    # If there's a specific submitter field in the issue form, use that instead
+    if 'submitter' in issue and issue['submitter']:
+        author = issue['submitter']
     
+    # Fallback to environment variable if neither is available
+    if not author:
+        author = os.environ.get('OVERRIDE_AUTHOR', 'unknown')
     
-    # # add files
-    # git.addall()
-
-    # git.addfile(outfile)
-    # commmit them
-
-    author = os.environ.get('OVERRIDE_AUTHOR')
+    # Set the environment variable for other git operations that might need it
+    if author:
+        os.environ['OVERRIDE_AUTHOR'] = author
     
-    # git.commit_override_author(acronym,issue["issue_type"])
-    git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue-type"]} files.' ,branch=title)
-
+    # Commit the file with the correct author
+    git.commit_one(outfile, author, comment=f'New entry {acronym} in {issue["issue-type"]} files.', branch=title)
     
-    git.newpull(title,author,json.dumps(issue,indent=4),title,os.environ['ISSUE_NUMBER'])
+    # Create pull request with the same author
+    git.newpull(title, author, json.dumps(issue, indent=4), title, os.environ['ISSUE_NUMBER'])
     
     
         

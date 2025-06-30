@@ -1,0 +1,35 @@
+{
+  "id": "eawag",
+  "type": [
+    "wcrp:organisation",
+    "wcrp:institution",
+    "universal"
+  ],
+  "validation-key": "EAWAG",
+  "ror": "00pc48d59",
+  "ui-label": "Swiss Federal Institute of Aquatic Science and Technology",
+  "url": [
+    "https://www.eawag.ch"
+  ],
+  "established": 1936,
+  "kind": "Facility",
+  "labels": [
+    "Eidgen\u00f6ssische Anstalt f\u00fcr Wasserversorgung, Abwasserreinigung und Gew\u00e4sserschutz",
+    "Institut f\u00e9d\u00e9ral pour l\u2019am\u00e9nagement, l\u2019\u00e9puration et la protection des eaux"
+  ],
+  "aliases": [],
+  "acronyms": [
+    "EAWAG"
+  ],
+  "location": {
+    "id": "universal:location/00pc48d59",
+    "type": "wcrp:location",
+    "lat": 47.39724,
+    "lon": 8.61872,
+    "city": "D\u00fcbendorf",
+    "country": [
+      "Switzerland",
+      "CH"
+    ]
+  }
+}

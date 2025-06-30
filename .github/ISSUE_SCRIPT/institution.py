@@ -98,7 +98,7 @@ def run(issue,packet):
     
     if 'submitter' in issue: 
         # override the current author
-        os.environ['OVERRIDE_AUTHOR'] = issue['submitter']
+        os.environ['ISSUE_SUBMITTER'] = issue['submitter']
     
     
     
@@ -108,7 +108,7 @@ def run(issue,packet):
     # git.addfile(outfile)
     # commmit them
 
-    author = os.environ.get('OVERRIDE_AUTHOR')
+    author = os.environ.get('ISSUE_SUBMITTER')
     
     # git.commit_override_author(acronym,issue["issue_type"])
     git.commit_one(outfile,author,comment=f'New entry {acronym} in {issue["issue-type"]} files.' ,branch=title)

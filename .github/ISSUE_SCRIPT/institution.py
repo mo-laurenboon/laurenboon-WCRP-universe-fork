@@ -62,7 +62,7 @@ def run(issue,packet):
         
         
         if ranking < 80:
-            git.update_issue(f"*Warning:* \n The similarity between the full name ({issue['full-name-of-the-organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {ranking}%")
+            git.update_issue(f"*Warning:* \n The similarity between the full name ({issue['full-name-of-the-organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {int(ranking)}%")
             
     else:
 

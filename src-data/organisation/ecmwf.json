@@ -1,32 +1,34 @@
 {
-  "id": "ecmwf",
-  "type": [
-    "wcrp:organisation",
-    "wcrp:institution",
-    "universal"
-  ],
-  "validation-key": "ECMWF",
-  "ror": "014w0fd65",
-  "ui-label": "European Centre for Medium-Range Weather Forecasts",
-  "url": [
-    "http://www.ecmwf.int/"
-  ],
-  "established": 1975,
-  "kind": "Other",
-  "labels": [],
-  "aliases": [],
-  "acronyms": [
-    "ECMWF"
-  ],
-  "location": {
-    "id": "universal:location/014w0fd65",
-    "type": "wcrp:location",
-    "lat": 51.45625,
-    "lon": -0.97113,
-    "city": "Reading",
-    "country": [
-      "United Kingdom",
-      "GB"
+    "id": "ecmwf",
+    "validation-key": "ECMWF",
+    "ui-label": "European Centre for Medium-Range Weather Forecasts",
+    "description": "",
+    "acronyms": [
+        "ECMWF"
+    ],
+    "aliases": [],
+    "established": 1975,
+    "kind": "Other",
+    "labels": [],
+    "location": {
+        "id": "universal:location/014w0fd65",
+        "type": "wcrp:location",
+        "lat": 51.45625,
+        "lon": -0.97113,
+        "city": "Reading",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ]
+    },
+    "ror": "014w0fd65",
+    "url": [
+        "http://www.ecmwf.int/"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
     ]
-  }
 }

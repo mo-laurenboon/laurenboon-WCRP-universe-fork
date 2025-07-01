@@ -1,34 +1,36 @@
 {
     "id": "pik",
-    "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-    ],
     "validation-key": "PIK",
-    "ror": "03e8s1d88",
     "ui-label": "Potsdam Institute for Climate Impact Research",
-    "url": [
-        "https://www.pik-potsdam.de/"
+    "description": "",
+    "acronyms": [
+        "PIK"
     ],
+    "aliases": [],
     "established": 1992,
     "kind": "Facility",
     "labels": [
-        "Potsdam-Institut f\u00fcr Klimafolgenforschung"
-    ],
-    "aliases": [],
-    "acronyms": [
-        "PIK"
+        "Potsdam-Institut für Klimafolgenforschung"
     ],
     "location": {
         "id": "universal:location/03e8s1d88",
         "type": "wcrp:location",
         "lat": 52.39886,
-        "lon": null,
+        "lon": 13.06566,
         "city": "Potsdam",
         "country": [
             "Germany",
             "DE"
         ]
-    }
+    },
+    "ror": "03e8s1d88",
+    "url": [
+        "https://www.pik-potsdam.de/"
+    ],
+    "@context": "_context_",
+    "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+    ]
 }

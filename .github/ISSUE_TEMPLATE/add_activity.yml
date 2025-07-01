@@ -1,9 +1,12 @@
 name: 'Add/Modify: Activity'
 description: 'Type: activity'
 title: 'Add/Modify: Activity <activity_id>'
+projects: ["WCRP-CMIP/4"]  # WCRP-universe CVs project
 labels:
     - delta
     - activity
+    - universe
+    - Review
 body:
 
 -   type: markdown

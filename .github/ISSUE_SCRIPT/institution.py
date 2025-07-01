@@ -58,11 +58,11 @@ def run(issue,packet):
 
         ranking = similarity(issue['full-name-of-the-organisation'], data['ui-label'])
         
-        git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full_name_of_the_organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {ranking}%")
+        git.update_summary(f"### Similarity\nThe similarity between the full name ({issue['full-name-of-the-organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {ranking}%")
         
         
         if ranking < 80:
-            git.update_issue(f"Warning: The similarity between the full name of the organisation and the ui-label is {ranking}%")
+            git.update_issue(f"*Warning:* \n The similarity between the full name ({issue['full-name-of-the-organisation']}) of the organisation and the ui-label ({data['ui-label']}) is {int(ranking)}%")
             
     else:
 
@@ -96,9 +96,15 @@ def run(issue,packet):
     
     # if we are happy, and have gotten this far: 
     
+# <<<<<<< update-organizations-from-ror
     # Get the author from the packet (GitHub issue submitter)
     # This is the username of the person who submitted the issue
     author = packet.get('author')
+# =======
+#     if 'submitter' in issue: 
+#         # override the current author
+#         os.environ['ISSUE_SUBMITTER'] = issue['submitter']
+# >>>>>>> main
     
     # If there's a specific submitter field in the issue form, use that instead
     if 'submitter' in issue and issue['submitter']:
@@ -108,9 +114,19 @@ def run(issue,packet):
     if not author:
         author = os.environ.get('OVERRIDE_AUTHOR', 'unknown')
     
+# <<<<<<< update-organizations-from-ror
     # Set the environment variable for other git operations that might need it
     if author:
         os.environ['OVERRIDE_AUTHOR'] = author
+# =======
+#     # # add files
+#     # git.addall()
+
+#     # git.addfile(outfile)
+#     # commmit them
+
+#     author = os.environ.get('ISSUE_SUBMITTER')
+# >>>>>>> main
     
     # Commit the file with the correct author
     git.commit_one(outfile, author, comment=f'New entry {acronym} in {issue["issue-type"]} files.', branch=title)

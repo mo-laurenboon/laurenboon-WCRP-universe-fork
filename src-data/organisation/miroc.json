@@ -6,34 +6,18 @@
   "changes": "",
   "members": {
     "aori": {
-      "current": false,
-      "era": [
-        "cmip6"
-      ],
       "from": 2016,
       "to": 2022
     },
     "jamstec": {
-      "current": false,
-      "era": [
-        "cmip6"
-      ],
       "from": 2016,
       "to": 2022
     },
     "nies": {
-      "current": false,
-      "era": [
-        "cmip6"
-      ],
       "from": 2016,
       "to": 2022
     },
     "r-ccs": {
-      "current": false,
-      "era": [
-        "cmip6"
-      ],
       "from": 2016,
       "to": 2022
     }

@@ -849,35 +849,36 @@
     },
     {
       "id": "hkust",
-      "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-      ],
       "validation-key": "HKUST",
-      "ror": "00q4vv597",
       "ui-label": "Hong Kong University of Science and Technology",
-      "url": [
-        "https://hkust.edu.hk"
-      ],
-      "established": 1991,
-      "kind": "Education",
-      "labels": [],
-      "aliases": [],
+      "description": "",
       "acronyms": [
         "HKUST"
       ],
+      "aliases": [],
+      "established": 1991,
+      "kind": "Education",
+      "labels": [],
       "location": {
         "id": "universal:location/00q4vv597",
         "type": "wcrp:location",
         "lat": 22.27832,
-        "lon": null,
+        "lon": 114.17469,
         "city": "Hong Kong",
         "country": [
           "Hong Kong",
           "HK"
         ]
-      }
+      },
+      "ror": "00q4vv597",
+      "url": [
+        "https://hkust.edu.hk"
+      ],
+      "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+      ]
     },
     {
       "id": "iaceth",
@@ -920,39 +921,40 @@
     },
     {
       "id": "iap",
-      "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-      ],
       "validation-key": "IAP",
-      "ror": "0424h4e32",
       "ui-label": "Institute of Atmospheric Physics",
-      "url": [
-        "http://english.iap.cas.cn/au"
+      "description": "",
+      "acronyms": [
+        "IAP"
+      ],
+      "aliases": [
+        "Institute of Meteorology of Academia Sinica"
       ],
       "established": 1928,
       "kind": "Facility",
       "labels": [
         "中国科学院大气物理研究所"
       ],
-      "aliases": [
-        "Institute of Meteorology of Academia Sinica"
-      ],
-      "acronyms": [
-        "IAP"
-      ],
       "location": {
         "id": "universal:location/0424h4e32",
         "type": "wcrp:location",
         "lat": 39.9075,
-        "lon": null,
+        "lon": 116.39723,
         "city": "Beijing",
         "country": [
           "China",
           "CN"
         ]
-      }
+      },
+      "ror": "0424h4e32",
+      "url": [
+        "http://english.iap.cas.cn/au"
+      ],
+      "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+      ]
     },
     {
       "id": "ifm-geomar",
@@ -1063,25 +1065,17 @@
     },
     {
       "id": "inpe",
-      "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-      ],
       "validation-key": "INPE",
-      "ror": "04xbn6x09",
       "ui-label": "National Institute for Space Research",
-      "url": [
-        "http://www.inpe.br/"
+      "description": "",
+      "acronyms": [
+        "INPE"
       ],
+      "aliases": [],
       "established": 1971,
       "kind": "Facility",
       "labels": [
         "Instituto Nacional de Pesquisas Espaciais"
-      ],
-      "aliases": [],
-      "acronyms": [
-        "INPE"
       ],
       "location": {
         "id": "universal:location/04xbn6x09",
@@ -1093,7 +1087,16 @@
           "Brazil",
           "BR"
         ]
-      }
+      },
+      "ror": "04xbn6x09",
+      "url": [
+        "http://www.inpe.br/"
+      ],
+      "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+      ]
     },
     {
       "id": "ipsl",
@@ -2128,37 +2131,38 @@
     },
     {
       "id": "pik",
-      "type": [
-        "wcrp:organisation",
-        "wcrp:institution",
-        "universal"
-      ],
       "validation-key": "PIK",
-      "ror": "03e8s1d88",
       "ui-label": "Potsdam Institute for Climate Impact Research",
-      "url": [
-        "https://www.pik-potsdam.de/"
+      "description": "",
+      "acronyms": [
+        "PIK"
       ],
+      "aliases": [],
       "established": 1992,
       "kind": "Facility",
       "labels": [
         "Potsdam-Institut für Klimafolgenforschung"
       ],
-      "aliases": [],
-      "acronyms": [
-        "PIK"
-      ],
       "location": {
         "id": "universal:location/03e8s1d88",
         "type": "wcrp:location",
         "lat": 52.39886,
-        "lon": null,
+        "lon": 13.06566,
         "city": "Potsdam",
         "country": [
           "Germany",
           "DE"
         ]
-      }
+      },
+      "ror": "03e8s1d88",
+      "url": [
+        "https://www.pik-potsdam.de/"
+      ],
+      "type": [
+        "wcrp:organisation",
+        "wcrp:institution",
+        "universal"
+      ]
     },
     {
       "id": "pmod",

@@ -1,16 +1,29 @@
 {
   "@context": "000_context.jsonld",
   "id": "ta_tpt-p3-hxy-air",
-  "description": "Air Temperature",
+  "type": "branded_variable",
+  "drs_name": "ta_tpt-p3-hxy-air",
+  "cf_standard_name": "air_temperature",
+  "cf_units": "K",
+  "cf_sn_status": "approved",
+  "variable_root_name": "ta",
+  "var_def_qualifier": "",
+  "branding_suffix_name": "tpt-p3-hxy-air",
+  "description": "Air Temperature\n",
   "dimensions": [
     "longitude",
     "latitude",
     "plev3",
     "time1"
   ],
-  "type": "known_branded_variable",
   "cell_methods": "area: mean where air time: point",
-  "variable": "ta",
-  "label": "ta_tpt-p3-hxy-air",
-  "drs_name": "ta_tpt-p3-hxy-air"
+  "cell_measures": "area: areacella",
+  "history": ": registered",
+  "realm": "",
+  "temporal_label": "tpt",
+  "vertical_label": "p3",
+  "horizontal_label": "hxy",
+  "area_label": "air",
+  "bn_status": "accepted",
+  "positive_direction": ""
 }

@@ -1,16 +1,29 @@
 {
   "@context": "000_context.jsonld",
   "id": "difvho_tavg-l-hxy-sea",
-  "description": "Vertical/dianeutral diffusivity applied to prognostic temperature field.",
+  "type": "branded_variable",
+  "drs_name": "difvho_tavg-l-hxy-sea",
+  "cf_standard_name": "ocean_vertical_heat_diffusivity",
+  "cf_units": "m2 s-1",
+  "cf_sn_status": "approved",
+  "variable_root_name": "difvho",
+  "var_def_qualifier": "",
+  "branding_suffix_name": "tavg-l-hxy-sea",
+  "description": "Vertical/dianeutral diffusivity applied to prognostic temperature field.\n",
   "dimensions": [
     "longitude",
     "latitude",
     "olevel",
     "time"
   ],
-  "type": "known_branded_variable",
   "cell_methods": "area: mean where sea time: mean",
-  "variable": "difvho",
-  "label": "difvho_tavg-l-hxy-sea",
-  "drs_name": "difvho_tavg-l-hxy-sea"
+  "cell_measures": "area: areacello volume: volcello",
+  "history": ": registered",
+  "realm": "",
+  "temporal_label": "tavg",
+  "vertical_label": "l",
+  "horizontal_label": "hxy",
+  "area_label": "sea",
+  "bn_status": "accepted",
+  "positive_direction": ""
 }

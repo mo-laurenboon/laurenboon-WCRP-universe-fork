@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tasmin_tstat-h2m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tasmin_tstat-h2m-hxy-u",
   "cf_standard_name": "air_temperature",
   "cf_units": "K",

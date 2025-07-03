@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "o2_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "o2_tavg-l-hxy-sea",
   "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
   "cf_units": "mol m-3",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sisndmasssubl_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sisndmasssubl_tavg-u-hxy-si",
   "cf_standard_name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
   "cf_units": "kg m-2 s-1",

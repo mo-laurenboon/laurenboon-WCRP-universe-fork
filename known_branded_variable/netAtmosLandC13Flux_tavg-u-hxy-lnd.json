@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "netAtmosLandC13Flux_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "netAtmosLandC13Flux_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
   "cf_units": "kg m-2 s-1",

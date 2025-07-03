@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "clmodis_tavg-p7c-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clmodis_tavg-p7c-hxy-air",
   "cf_standard_name": "modis_cloud_area_fraction",
   "cf_units": "1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cProduct_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cProduct_tavg-u-hxy-lnd",
   "cf_standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
   "cf_units": "kg m-2",

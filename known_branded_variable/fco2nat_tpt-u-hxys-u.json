@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "fco2nat_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fco2nat_tpt-u-hxys-u",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_sources",
   "cf_units": "kg m-2 s-1",

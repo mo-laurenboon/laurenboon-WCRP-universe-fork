@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "edt_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "edt_tavg-l-hxy-u",
   "cf_standard_name": "atmosphere_heat_diffusivity",
   "cf_units": "m2 s-1",

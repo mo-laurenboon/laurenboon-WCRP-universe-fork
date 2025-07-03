@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "zg7h_tpt-p7h-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zg7h_tpt-p7h-hxy-air",
   "cf_standard_name": "geopotential_height",
   "cf_units": "m",

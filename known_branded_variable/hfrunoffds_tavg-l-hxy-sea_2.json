@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfrunoffds_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfrunoffds_tavg-l-hxy-sea",
   "cf_standard_name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
   "cf_units": "W m-2",

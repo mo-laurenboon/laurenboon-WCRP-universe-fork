@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "limndiaz_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "limndiaz_tavg-u-hxy-sea",
   "cf_standard_name": "nitrogen_growth_limitation_of_diazotrophic_phytoplankton",
   "cf_units": "1",

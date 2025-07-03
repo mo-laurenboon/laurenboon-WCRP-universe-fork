@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "litempbotfl_tavg-u-hxy-fis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "litempbotfl_tavg-u-hxy-fis",
   "cf_standard_name": "land_ice_basal_temperature",
   "cf_units": "K",

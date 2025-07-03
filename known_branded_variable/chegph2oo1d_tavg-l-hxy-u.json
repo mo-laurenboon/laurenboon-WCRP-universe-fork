@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "chegph2oo1d_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "chegph2oo1d_tavg-l-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_mole_concentration_of_hydroxyl_radical_due_to_chemical_production_from_atomic_singlet_oxygen_and_water_vapor",
   "cf_units": "mol m-3 s-1",

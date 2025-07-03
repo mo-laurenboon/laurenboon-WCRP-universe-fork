@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sw17O_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sw17O_tavg-l-hxy-sea",
   "cf_standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
   "cf_units": "1",

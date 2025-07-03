@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ccn_tavg-u-hxy-ccl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ccn_tavg-u-hxy-ccl",
   "cf_standard_name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
   "cf_units": "m-3",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfgeoubed_tavg-u-hxy-gis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfgeoubed_tavg-u-hxy-gis",
   "cf_standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
   "cf_units": "W m-2",

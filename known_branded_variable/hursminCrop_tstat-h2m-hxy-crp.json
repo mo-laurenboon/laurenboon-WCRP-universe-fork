@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hursminCrop_tstat-h2m-hxy-crp",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hursminCrop_tstat-h2m-hxy-crp",
   "cf_standard_name": "relative_humidity",
   "cf_units": "%",

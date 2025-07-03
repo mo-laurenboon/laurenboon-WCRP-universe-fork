@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tauv_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauv_tavg-u-hxy-u",
   "cf_standard_name": "surface_downward_northward_stress",
   "cf_units": "Pa",

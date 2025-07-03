@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hur850_tpt-850hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hur850_tpt-850hPa-hxy-air",
   "cf_standard_name": "relative_humidity",
   "cf_units": "%",

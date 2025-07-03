@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "msftyz_tavg-l-ht-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "msftyz_tavg-l-ht-sea",
   "cf_standard_name": "ocean_y_overturning_mass_streamfunction",
   "cf_units": "kg s-1",

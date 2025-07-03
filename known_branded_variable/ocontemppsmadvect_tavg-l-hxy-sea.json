@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ocontemppsmadvect_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ocontemppsmadvect_tavg-l-hxy-sea",
   "cf_standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_submesoscale_eddy_advection",
   "cf_units": "W m-2",

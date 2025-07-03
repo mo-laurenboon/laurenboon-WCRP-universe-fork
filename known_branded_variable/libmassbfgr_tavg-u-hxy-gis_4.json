@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "libmassbfgr_tavg-u-hxy-gis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "libmassbfgr_tavg-u-hxy-gis",
   "cf_standard_name": "land_ice_basal_specific_mass_balance_flux",
   "cf_units": "kg m-2 s-1",

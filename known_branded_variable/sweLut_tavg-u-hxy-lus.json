@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sweLut_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sweLut_tavg-u-hxy-lus",
   "cf_standard_name": "lwe_thickness_of_surface_snow_amount",
   "cf_units": "m",

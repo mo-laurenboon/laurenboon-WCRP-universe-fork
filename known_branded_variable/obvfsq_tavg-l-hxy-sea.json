@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "obvfsq_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "obvfsq_tavg-l-hxy-sea",
   "cf_standard_name": "square_of_brunt_vaisala_frequency_in_sea_water",
   "cf_units": "s-2",

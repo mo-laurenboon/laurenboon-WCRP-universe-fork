@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sfcWind_tavg-h10m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sfcWind_tavg-h10m-hxy-u",
   "cf_standard_name": "wind_speed",
   "cf_units": "m s-1",

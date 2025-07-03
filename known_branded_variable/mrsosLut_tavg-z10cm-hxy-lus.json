@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "mrsosLut_tavg-z10cm-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mrsosLut_tavg-z10cm-hxy-lus",
   "cf_standard_name": "mass_content_of_water_in_soil_layer",
   "cf_units": "kg m-2",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfsnthermds2d_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfsnthermds2d_tavg-u-hxy-sea",
   "cf_standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
   "cf_units": "W m-2",

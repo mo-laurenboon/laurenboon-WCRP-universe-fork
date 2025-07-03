@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "fDeforestToProduct_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fDeforestToProduct_tavg-u-hxy-lnd",
   "cf_standard_name": "carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
   "cf_units": "kg m-2 s-1",

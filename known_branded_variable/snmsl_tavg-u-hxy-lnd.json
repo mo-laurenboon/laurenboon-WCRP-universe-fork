@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "snmsl_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "snmsl_tavg-u-hxy-lnd",
   "cf_standard_name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
   "cf_units": "kg m-2 s-1",

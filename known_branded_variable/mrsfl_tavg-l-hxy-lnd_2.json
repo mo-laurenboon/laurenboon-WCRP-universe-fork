@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "mrsfl_tavg-l-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mrsfl_tavg-l-hxy-lnd",
   "cf_standard_name": "frozen_water_content_of_soil_layer",
   "cf_units": "kg m-2",

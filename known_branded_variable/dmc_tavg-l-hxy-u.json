@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dmc_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dmc_tavg-l-hxy-u",
   "cf_standard_name": "atmosphere_net_upward_deep_convective_mass_flux",
   "cf_units": "kg m-2 s-1",

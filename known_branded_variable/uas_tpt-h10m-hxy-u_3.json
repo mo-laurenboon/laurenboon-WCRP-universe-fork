@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "uas_tpt-h10m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "uas_tpt-h10m-hxy-u",
   "cf_standard_name": "eastward_wind",
   "cf_units": "m s-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "msftmrho_tavg-rho-hys-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "msftmrho_tavg-rho-hys-sea",
   "cf_standard_name": "ocean_meridional_overturning_mass_streamfunction",
   "cf_units": "kg s-1",

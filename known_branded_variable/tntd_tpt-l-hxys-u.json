@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tntd_tpt-l-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tntd_tpt-l-hxys-u",
   "cf_standard_name": "tendency_of_air_temperature_due_to_diffusion",
   "cf_units": "K s-1",

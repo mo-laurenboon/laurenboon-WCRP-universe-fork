@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "osaltrmadvect_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "osaltrmadvect_tavg-l-hxy-sea",
   "cf_standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_residual_mean_advection",
   "cf_units": "kg m-2 s-1",

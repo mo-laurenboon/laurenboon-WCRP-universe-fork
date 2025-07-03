@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "fLitterSoil_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fLitterSoil_tavg-u-hxy-lnd",
   "cf_standard_name": "carbon_mass_flux_into_soil_from_litter",
   "cf_units": "kg m-2 s-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "mrsofc_ti-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mrsofc_ti-u-hxy-lnd",
   "cf_standard_name": "soil_moisture_content_at_field_capacity",
   "cf_units": "kg m-2",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "c14Litter_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "c14Litter_tavg-u-hxy-lnd",
   "cf_standard_name": "litter_mass_content_of_14C",
   "cf_units": "kg m-2",

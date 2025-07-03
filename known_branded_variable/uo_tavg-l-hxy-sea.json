@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "uo_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "uo_tavg-l-hxy-sea",
   "cf_standard_name": "sea_water_x_velocity",
   "cf_units": "m s-1",

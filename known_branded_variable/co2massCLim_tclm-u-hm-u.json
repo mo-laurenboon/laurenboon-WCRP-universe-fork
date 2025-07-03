@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "co2massCLim_tclm-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "co2massCLim_tclm-u-hm-u",
   "cf_standard_name": "mole_fraction_of_carbon_dioxide_in_air",
   "cf_units": "mol mol-1",

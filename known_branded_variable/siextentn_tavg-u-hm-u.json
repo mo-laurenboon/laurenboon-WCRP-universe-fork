@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siextentn_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siextentn_tavg-u-hm-u",
   "cf_standard_name": "sea_ice_extent",
   "cf_units": "1e6 km2",

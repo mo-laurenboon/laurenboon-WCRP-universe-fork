@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "aoanh_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "aoanh_tavg-l-hxy-u",
   "cf_standard_name": "tracer_lifetime",
   "cf_units": "yr",

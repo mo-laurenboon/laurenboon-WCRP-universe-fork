@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cod_tavg-u-hxy-cl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cod_tavg-u-hxy-cl",
   "cf_standard_name": "atmosphere_optical_thickness_due_to_cloud",
   "cf_units": "1",

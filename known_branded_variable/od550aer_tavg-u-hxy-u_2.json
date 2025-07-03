@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "od550aer_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "od550aer_tavg-u-hxy-u",
   "cf_standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
   "cf_units": "1",

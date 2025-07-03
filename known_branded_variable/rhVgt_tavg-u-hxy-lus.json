@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "rhVgt_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rhVgt_tavg-u-hxy-lus",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
   "cf_units": "kg m-2 s-1",

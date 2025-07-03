@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dryo3_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dryo3_tavg-u-hxy-u",
   "cf_standard_name": "minus_tendency_of_atmosphere_mass_content_of_ozone_due_to_dry_deposition",
   "cf_units": "kg m-2 s-1",

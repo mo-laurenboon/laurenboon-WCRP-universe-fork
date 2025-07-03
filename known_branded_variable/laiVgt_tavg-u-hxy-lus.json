@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "laiVgt_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "laiVgt_tavg-u-hxy-lus",
   "cf_standard_name": "leaf_area_index",
   "cf_units": "1",

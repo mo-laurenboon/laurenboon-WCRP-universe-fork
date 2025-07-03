@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "clt_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clt_tavg-u-hxy-lnd",
   "cf_standard_name": "cloud_area_fraction",
   "cf_units": "%",

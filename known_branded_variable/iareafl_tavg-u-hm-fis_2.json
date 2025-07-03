@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "iareafl_tavg-u-hm-fis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "iareafl_tavg-u-hm-fis",
   "cf_standard_name": "floating_ice_shelf_area",
   "cf_units": "m2",

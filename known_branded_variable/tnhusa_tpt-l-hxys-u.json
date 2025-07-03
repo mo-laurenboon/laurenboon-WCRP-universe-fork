@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tnhusa_tpt-l-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tnhusa_tpt-l-hxys-u",
   "cf_standard_name": "tendency_of_specific_humidity_due_to_advection",
   "cf_units": "s-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sidragtop_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sidragtop_tavg-u-hxy-si",
   "cf_standard_name": "surface_drag_coefficient_for_momentum_in_air",
   "cf_units": "1",

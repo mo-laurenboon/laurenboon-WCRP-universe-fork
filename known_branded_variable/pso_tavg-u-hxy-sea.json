@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "pso_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pso_tavg-u-hxy-sea",
   "cf_standard_name": "sea_water_pressure_at_sea_water_surface",
   "cf_units": "Pa",

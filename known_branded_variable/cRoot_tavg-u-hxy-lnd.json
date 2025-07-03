@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cRoot_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cRoot_tavg-u-hxy-lnd",
   "cf_standard_name": "root_mass_content_of_carbon",
   "cf_units": "kg m-2",

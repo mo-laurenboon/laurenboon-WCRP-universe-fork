@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siflcondtop_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siflcondtop_tavg-u-hxy-si",
   "cf_standard_name": "surface_downward_heat_flux_in_sea_ice",
   "cf_units": "W m-2",

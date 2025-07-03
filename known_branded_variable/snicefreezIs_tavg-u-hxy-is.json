@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "snicefreezIs_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "snicefreezIs_tavg-u-hxy-is",
   "cf_standard_name": "surface_snow_and_ice_refreezing_flux",
   "cf_units": "kg m-2 s-1",

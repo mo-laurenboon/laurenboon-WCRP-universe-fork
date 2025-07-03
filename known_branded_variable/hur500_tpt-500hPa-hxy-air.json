@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hur500_tpt-500hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hur500_tpt-500hPa-hxy-air",
   "cf_standard_name": "relative_humidity",
   "cf_units": "%",

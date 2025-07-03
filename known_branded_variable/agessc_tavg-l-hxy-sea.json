@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "agessc_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "agessc_tavg-l-hxy-sea",
   "cf_standard_name": "sea_water_age_since_surface_contact",
   "cf_units": "yr",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "swhmax_tstat-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "swhmax_tstat-u-hxy-sea",
   "cf_standard_name": "sea_surface_wave_significant_height",
   "cf_units": "m",

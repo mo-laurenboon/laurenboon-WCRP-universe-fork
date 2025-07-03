@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "clivi_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clivi_tpt-u-hxys-u",
   "cf_standard_name": "atmosphere_mass_content_of_cloud_ice",
   "cf_units": "kg m-2",

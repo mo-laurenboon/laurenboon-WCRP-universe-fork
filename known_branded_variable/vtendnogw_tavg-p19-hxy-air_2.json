@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "vtendnogw_tavg-p19-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "vtendnogw_tavg-p19-hxy-air",
   "cf_standard_name": "tendency_of_northward_wind_due_to_nonorographic_gravity_wave_drag",
   "cf_units": "m s-2",

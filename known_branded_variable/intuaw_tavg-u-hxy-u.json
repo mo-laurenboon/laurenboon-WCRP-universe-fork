@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "intuaw_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "intuaw_tavg-u-hxy-u",
   "cf_standard_name": "eastward_atmosphere_water_transport_across_unit_distance",
   "cf_units": "kg m-1 s-1",

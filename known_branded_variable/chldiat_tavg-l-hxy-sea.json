@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "chldiat_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "chldiat_tavg-l-hxy-sea",
   "cf_standard_name": "mass_concentration_of_diatoms_expressed_as_chlorophyll_in_sea_water",
   "cf_units": "kg m-3",

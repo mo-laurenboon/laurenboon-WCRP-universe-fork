@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "zg700_tpt-700hPa-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zg700_tpt-700hPa-hxy-u",
   "cf_standard_name": "geopotential_height",
   "cf_units": "m",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tsnIs_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tsnIs_tavg-u-hxy-is",
   "cf_standard_name": "temperature_in_surface_snow",
   "cf_units": "K",

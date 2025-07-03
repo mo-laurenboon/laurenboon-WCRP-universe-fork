@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "phycos_tavg-z0m-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "phycos_tavg-z0m-hxy-sea",
   "cf_standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-3",

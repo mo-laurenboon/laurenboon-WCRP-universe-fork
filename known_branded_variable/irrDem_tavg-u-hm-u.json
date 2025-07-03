@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "irrDem_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "irrDem_tavg-u-hm-u",
   "cf_standard_name": "surface_downward_mass_flux_of_water_due_to_irrigation",
   "cf_units": "kg m-2 s-1",

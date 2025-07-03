@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "mrrob_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mrrob_tavg-u-hxy-lnd",
   "cf_standard_name": "subsurface_runoff_flux",
   "cf_units": "kg m-2 s-1",

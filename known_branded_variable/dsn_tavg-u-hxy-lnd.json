@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dsn_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dsn_tavg-u-hxy-lnd",
   "cf_standard_name": "change_over_time_in_amount_of_ice_and_snow_on_land",
   "cf_units": "kg m-2",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sivol_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sivol_tavg-u-hxy-sea",
   "cf_standard_name": "sea_ice_thickness",
   "cf_units": "m",

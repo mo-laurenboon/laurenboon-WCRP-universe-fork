@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "limirrcalc_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "limirrcalc_tavg-u-hxy-sea",
   "cf_standard_name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
   "cf_units": "1",

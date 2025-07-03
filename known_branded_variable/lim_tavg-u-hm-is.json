@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "lim_tavg-u-hm-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "lim_tavg-u-hm-is",
   "cf_standard_name": "land_ice_mass",
   "cf_units": "kg",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cls_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cls_tavg-l-hxy-u",
   "cf_standard_name": "stratiform_cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

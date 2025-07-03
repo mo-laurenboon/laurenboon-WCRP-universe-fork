@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "reffccwctop_tavg-u-hxy-ccl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffccwctop_tavg-u-hxy-ccl",
   "cf_standard_name": "effective_radius_of_cloud_condensed_water_particles_at_cloud_top",
   "cf_units": "m",

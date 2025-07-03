@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "vegHeight_tavg-u-hxy-veg",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "vegHeight_tavg-u-hxy-veg",
   "cf_standard_name": "canopy_height",
   "cf_units": "m",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siflsensbot_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siflsensbot_tavg-u-hxy-si",
   "cf_standard_name": "upward_sea_ice_basal_heat_flux",
   "cf_units": "W m-2",

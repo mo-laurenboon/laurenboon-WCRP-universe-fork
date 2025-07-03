@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dtaus_tpt-l-hxy-ccl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dtaus_tpt-l-hxy-ccl",
   "cf_standard_name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
   "cf_units": "1",

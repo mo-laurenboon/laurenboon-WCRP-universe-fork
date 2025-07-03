@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cVegTree_tavg-u-hxy-tree",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cVegTree_tavg-u-hxy-tree",
   "cf_standard_name": "vegetation_carbon_content",
   "cf_units": "kg m-2",

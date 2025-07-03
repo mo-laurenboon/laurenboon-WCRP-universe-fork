@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfssLut_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfssLut_tavg-u-hxy-lus",
   "cf_standard_name": "surface_upward_sensible_heat_flux",
   "cf_units": "W m-2",

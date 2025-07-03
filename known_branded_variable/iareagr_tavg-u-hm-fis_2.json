@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "iareagr_tavg-u-hm-fis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "iareagr_tavg-u-hm-fis",
   "cf_standard_name": "grounded_ice_sheet_area",
   "cf_units": "m2",

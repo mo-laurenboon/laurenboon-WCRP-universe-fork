@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "yvelsurf_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "yvelsurf_tavg-u-hxy-is",
   "cf_standard_name": "land_ice_surface_y_velocity",
   "cf_units": "m s-1",

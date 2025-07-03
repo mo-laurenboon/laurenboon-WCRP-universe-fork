@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "lon_ti-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "lon_ti-u-hxys-u",
   "cf_standard_name": "longitude",
   "cf_units": "degrees_east",

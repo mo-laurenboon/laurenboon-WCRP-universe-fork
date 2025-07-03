@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cSoilLut_tpt-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cSoilLut_tpt-u-hxy-lus",
   "cf_standard_name": "soil_mass_content_of_carbon",
   "cf_units": "kg m-2",

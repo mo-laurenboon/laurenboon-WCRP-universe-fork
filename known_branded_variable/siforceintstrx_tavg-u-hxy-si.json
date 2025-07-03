@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siforceintstrx_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siforceintstrx_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_x_internal_stress",
   "cf_units": "N m-2",

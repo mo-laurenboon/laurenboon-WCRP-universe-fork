@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ch4losssoil_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ch4losssoil_tavg-u-hxy-u",
   "cf_standard_name": "surface_downward_mass_flux_of_methane_due_to_soil_biological_consumption",
   "cf_units": "kg m-2 s-1",

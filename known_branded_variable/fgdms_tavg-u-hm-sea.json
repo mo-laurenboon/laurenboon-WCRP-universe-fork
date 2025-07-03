@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "fgdms_tavg-u-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fgdms_tavg-u-hm-sea",
   "cf_standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide",
   "cf_units": "mol m-2 s-1",

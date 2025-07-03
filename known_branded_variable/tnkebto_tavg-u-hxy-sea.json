@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tnkebto_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tnkebto_tavg-u-hxy-sea",
   "cf_standard_name": "tendency_of_ocean_eddy_kinetic_energy_content_due_to_parameterized_eddy_advection",
   "cf_units": "W m-2",

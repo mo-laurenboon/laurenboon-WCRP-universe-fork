@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tos_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tos_tavg-u-hxy-sea",
   "cf_standard_name": "sea_surface_temperature",
   "cf_units": "degC",

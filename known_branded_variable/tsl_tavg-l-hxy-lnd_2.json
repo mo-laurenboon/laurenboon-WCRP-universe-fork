@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tsl_tavg-l-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tsl_tavg-l-hxy-lnd",
   "cf_standard_name": "soil_temperature",
   "cf_units": "K",

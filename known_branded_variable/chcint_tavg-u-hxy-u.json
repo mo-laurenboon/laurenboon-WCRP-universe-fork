@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "chcint_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "chcint_tavg-u-hxy-u",
   "cf_standard_name": "integral_wrt_depth_of_sea_water_conservative_temperature_expressed_as_heat_content",
   "cf_units": "J m-2",

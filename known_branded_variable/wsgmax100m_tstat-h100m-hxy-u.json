@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "wsgmax100m_tstat-h100m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wsgmax100m_tstat-h100m-hxy-u",
   "cf_standard_name": "wind_speed_of_gust",
   "cf_units": "m s-1",

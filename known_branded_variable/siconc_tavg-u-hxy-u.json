@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siconc_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siconc_tavg-u-hxy-u",
   "cf_standard_name": "sea_ice_area_fraction",
   "cf_units": "1",

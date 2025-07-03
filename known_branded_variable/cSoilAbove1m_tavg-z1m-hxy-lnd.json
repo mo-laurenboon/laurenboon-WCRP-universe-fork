@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cSoilAbove1m_tavg-z1m-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cSoilAbove1m_tavg-z1m-hxy-lnd",
   "cf_standard_name": "soil_mass_content_of_carbon",
   "cf_units": "kg m-2",

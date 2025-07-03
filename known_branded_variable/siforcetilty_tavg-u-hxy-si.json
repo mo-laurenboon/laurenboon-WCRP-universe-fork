@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "siforcetilty_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siforcetilty_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_y_force_per_unit_area_due_to_sea_surface_tilt",
   "cf_units": "N m-2",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sidconcth_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sidconcth_tavg-u-hxy-si",
   "cf_standard_name": "tendency_of_sea_ice_area_fraction_due_to_thermodynamics",
   "cf_units": "s-1",

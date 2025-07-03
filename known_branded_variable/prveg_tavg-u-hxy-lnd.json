@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "prveg_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "prveg_tavg-u-hxy-lnd",
   "cf_standard_name": "precipitation_flux_onto_canopy",
   "cf_units": "kg m-2 s-1",

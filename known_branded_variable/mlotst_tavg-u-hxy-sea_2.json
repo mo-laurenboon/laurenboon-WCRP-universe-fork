@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "mlotst_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mlotst_tavg-u-hxy-sea",
   "cf_standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
   "cf_units": "m",

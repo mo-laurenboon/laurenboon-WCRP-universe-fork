@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tslsiLut_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tslsiLut_tavg-u-hxy-lus",
   "cf_standard_name": "surface_temperature",
   "cf_units": "K",

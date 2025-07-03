@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "clmodisliquid_tavg-p7c-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clmodisliquid_tavg-p7c-hxy-air",
   "cf_standard_name": "modis_liquid_topped_cloud_area_fraction",
   "cf_units": "1",

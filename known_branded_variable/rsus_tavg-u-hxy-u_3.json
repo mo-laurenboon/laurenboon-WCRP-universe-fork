@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "rsus_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsus_tavg-u-hxy-u",
   "cf_standard_name": "surface_upwelling_shortwave_flux_in_air",
   "cf_units": "W m-2",

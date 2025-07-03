@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ocontempmint_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ocontempmint_tavg-u-hxy-sea",
   "cf_standard_name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
   "cf_units": "degC kg m-2",

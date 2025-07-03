@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "icemIs_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "icemIs_tavg-u-hxy-is",
   "cf_standard_name": "land_ice_surface_melt_flux",
   "cf_units": "kg m-2 s-1",

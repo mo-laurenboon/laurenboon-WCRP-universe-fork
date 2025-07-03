@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "bigthetaoga_tavg-l-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "bigthetaoga_tavg-l-hm-sea",
   "cf_standard_name": "sea_water_conservative_temperature",
   "cf_units": "degC",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "emic3h8_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "emic3h8_tavg-u-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_mass_content_of_propane_due_to_emission",
   "cf_units": "kg m-2 s-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "rldcs4co2_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rldcs4co2_tavg-l-hxy-u",
   "cf_standard_name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
   "cf_units": "W m-2",

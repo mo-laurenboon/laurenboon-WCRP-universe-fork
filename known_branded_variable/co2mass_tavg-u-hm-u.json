@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "co2mass_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "co2mass_tavg-u-hm-u",
   "cf_standard_name": "atmosphere_mass_of_carbon_dioxide",
   "cf_units": "kg",

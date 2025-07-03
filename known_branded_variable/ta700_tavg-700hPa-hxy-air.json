@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ta700_tavg-700hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ta700_tavg-700hPa-hxy-air",
   "cf_standard_name": "air_temperature",
   "cf_units": "K",

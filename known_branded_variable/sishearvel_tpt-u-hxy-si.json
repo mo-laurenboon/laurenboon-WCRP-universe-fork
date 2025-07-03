@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sishearvel_tpt-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sishearvel_tpt-u-hxy-si",
   "cf_standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_strain_rate",
   "cf_units": "s-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sncIs_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sncIs_tavg-u-hxy-is",
   "cf_standard_name": "surface_snow_area_fraction",
   "cf_units": "%",

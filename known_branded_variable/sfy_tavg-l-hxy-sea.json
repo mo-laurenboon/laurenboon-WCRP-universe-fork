@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sfy_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sfy_tavg-l-hxy-sea",
   "cf_standard_name": "ocean_salt_y_transport",
   "cf_units": "kg s-1",

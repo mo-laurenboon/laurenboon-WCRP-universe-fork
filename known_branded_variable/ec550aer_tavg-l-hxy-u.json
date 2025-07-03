@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ec550aer_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ec550aer_tavg-l-hxy-u",
   "cf_standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
   "cf_units": "m-1",

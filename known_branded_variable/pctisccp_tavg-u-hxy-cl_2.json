@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "pctisccp_tavg-u-hxy-cl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pctisccp_tavg-u-hxy-cl",
   "cf_standard_name": "air_pressure_at_cloud_top",
   "cf_units": "Pa",

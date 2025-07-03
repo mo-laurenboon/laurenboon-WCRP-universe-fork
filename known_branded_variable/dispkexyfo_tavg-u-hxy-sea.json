@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "dispkexyfo_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dispkexyfo_tavg-u-hxy-sea",
   "cf_standard_name": "ocean_kinetic_energy_dissipation_per_unit_area_due_to_xy_friction",
   "cf_units": "W m-2",

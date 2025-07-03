@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "difvho_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "difvho_tavg-l-hxy-sea",
   "cf_standard_name": "ocean_vertical_heat_diffusivity",
   "cf_units": "m2 s-1",

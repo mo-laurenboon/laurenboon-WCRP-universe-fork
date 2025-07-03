@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "volcello_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "volcello_tavg-l-hxy-sea",
   "cf_standard_name": "ocean_volume",
   "cf_units": "m3",

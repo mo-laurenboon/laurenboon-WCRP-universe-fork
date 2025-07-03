@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "albc_tavg-u-hxy-veg",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "albc_tavg-u-hxy-veg",
   "cf_standard_name": "canopy_albedo",
   "cf_units": "1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "bs550aer_tpt-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "bs550aer_tpt-l-hxy-u",
   "cf_standard_name": "volume_scattering_function_of_radiative_flux_in_air_due_to_ambient_aerosol_particles",
   "cf_units": "m-1 sr-1",

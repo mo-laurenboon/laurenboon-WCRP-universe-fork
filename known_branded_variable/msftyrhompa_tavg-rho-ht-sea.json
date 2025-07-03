@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "msftyrhompa_tavg-rho-ht-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "msftyrhompa_tavg-rho-ht-sea",
   "cf_standard_name": "ocean_y_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
   "cf_units": "kg s-1",

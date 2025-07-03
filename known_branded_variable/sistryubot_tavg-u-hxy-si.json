@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sistryubot_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sistryubot_tavg-u-hxy-si",
   "cf_standard_name": "upward_y_stress_at_sea_ice_base",
   "cf_units": "N m-2",

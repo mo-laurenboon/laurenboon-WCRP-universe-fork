@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ph_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ph_tavg-l-hxy-sea",
   "cf_standard_name": "sea_water_ph_reported_on_total_scale",
   "cf_units": "1",

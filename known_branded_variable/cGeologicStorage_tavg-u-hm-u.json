@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cGeologicStorage_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cGeologicStorage_tavg-u-hm-u",
   "cf_standard_name": "carbon_mass_content_of_geological_storage",
   "cf_units": "kg m-2",

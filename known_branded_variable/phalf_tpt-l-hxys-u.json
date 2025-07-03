@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "phalf_tpt-l-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "phalf_tpt-l-hxys-u",
   "cf_standard_name": "air_pressure",
   "cf_units": "Pa",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "clwc_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clwc_tavg-l-hxy-u",
   "cf_standard_name": "mass_fraction_of_convective_cloud_liquid_water_in_air",
   "cf_units": "1",

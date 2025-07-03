@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "soga_tavg-l-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "soga_tavg-l-hm-sea",
   "cf_standard_name": "sea_water_salinity",
   "cf_units": "1E-03",

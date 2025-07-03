@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfgeou_ti-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfgeou_ti-u-hxy-sea",
   "cf_standard_name": "upward_geothermal_heat_flux_at_sea_floor",
   "cf_units": "W m-2",

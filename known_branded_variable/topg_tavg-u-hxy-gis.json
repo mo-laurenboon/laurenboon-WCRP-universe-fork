@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "topg_tavg-u-hxy-gis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "topg_tavg-u-hxy-gis",
   "cf_standard_name": "bedrock_altitude",
   "cf_units": "m",

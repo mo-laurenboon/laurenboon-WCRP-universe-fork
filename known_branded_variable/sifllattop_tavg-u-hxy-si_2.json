@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sifllattop_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sifllattop_tavg-u-hxy-si",
   "cf_standard_name": "surface_downward_latent_heat_flux",
   "cf_units": "W m-2",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "gppTree_tavg-u-hxy-tree",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "gppTree_tavg-u-hxy-tree",
   "cf_standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
   "cf_units": "kg m-2 s-1",

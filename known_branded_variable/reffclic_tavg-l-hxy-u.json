@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "reffclic_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffclic_tavg-l-hxy-u",
   "cf_standard_name": "effective_radius_of_convective_cloud_ice_particles",
   "cf_units": "m",

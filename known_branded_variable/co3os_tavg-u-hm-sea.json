@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "co3os_tavg-u-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "co3os_tavg-u-hm-sea",
   "cf_standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-3",

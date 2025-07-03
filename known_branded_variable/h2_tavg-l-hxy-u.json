@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "h2_tavg-l-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "h2_tavg-l-hxy-u",
   "cf_standard_name": "mole_fraction_of_molecular_hydrogen_in_air",
   "cf_units": "mol mol-1",

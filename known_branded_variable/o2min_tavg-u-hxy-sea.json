@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "o2min_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "o2min_tavg-u-hxy-sea",
   "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile",
   "cf_units": "mol m-3",

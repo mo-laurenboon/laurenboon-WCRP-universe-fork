@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "slthick_ti-l-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "slthick_ti-l-hxy-lnd",
   "cf_standard_name": "cell_thickness",
   "cf_units": "m",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "intppnitrate_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "intppnitrate_tavg-u-hxy-sea",
   "cf_standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_due_to_nitrate_utilization",
   "cf_units": "mol m-2 s-1",

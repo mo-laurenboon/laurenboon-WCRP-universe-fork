@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ficeberg2d_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ficeberg2d_tavg-u-hxy-sea",
   "cf_standard_name": "water_flux_into_sea_water_from_icebergs",
   "cf_units": "kg m-2 s-1",

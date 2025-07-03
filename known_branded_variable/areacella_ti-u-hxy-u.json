@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "areacella_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "areacella_ti-u-hxy-u",
   "cf_standard_name": "cell_area",
   "cf_units": "m2",

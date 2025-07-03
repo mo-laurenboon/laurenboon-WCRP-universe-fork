@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "orogIs_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "orogIs_tavg-u-hxy-is",
   "cf_standard_name": "surface_altitude",
   "cf_units": "m",

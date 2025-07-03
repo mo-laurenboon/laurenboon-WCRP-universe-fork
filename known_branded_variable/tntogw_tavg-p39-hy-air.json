@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "tntogw_tavg-p39-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tntogw_tavg-p39-hy-air",
   "cf_standard_name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
   "cf_units": "K s-1",

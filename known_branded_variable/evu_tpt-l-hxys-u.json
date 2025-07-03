@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "evu_tpt-l-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "evu_tpt-l-hxys-u",
   "cf_standard_name": "atmosphere_momentum_diffusivity",
   "cf_units": "m2 s-1",

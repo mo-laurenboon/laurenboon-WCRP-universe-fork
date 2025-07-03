@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "snd_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "snd_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_snow_thickness",
   "cf_units": "m",

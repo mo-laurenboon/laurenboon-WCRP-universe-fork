@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "zfullo_tavg-l-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zfullo_tavg-l-hxy-sea",
   "cf_standard_name": "depth_below_geoid",
   "cf_units": "m",

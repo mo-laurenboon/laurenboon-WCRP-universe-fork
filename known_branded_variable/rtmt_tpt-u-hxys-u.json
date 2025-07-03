@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "rtmt_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rtmt_tpt-u-hxys-u",
   "cf_standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
   "cf_units": "W m-2",

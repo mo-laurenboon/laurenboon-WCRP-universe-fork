@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sisnmasss_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sisnmasss_tavg-u-hm-u",
   "cf_standard_name": "surface_snow_mass",
   "cf_units": "kg",

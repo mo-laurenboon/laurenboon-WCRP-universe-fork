@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "treeFracBdlEvg_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "treeFracBdlEvg_tavg-u-hxy-u",
   "cf_standard_name": "area_fraction",
   "cf_units": "%",

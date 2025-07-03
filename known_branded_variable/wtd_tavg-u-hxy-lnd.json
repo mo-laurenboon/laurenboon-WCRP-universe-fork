@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "wtd_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wtd_tavg-u-hxy-lnd",
   "cf_standard_name": "water_table_depth",
   "cf_units": "m",

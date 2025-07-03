@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "necbLut_tavg-u-hxy-lus",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "necbLut_tavg-u-hxy-lus",
   "cf_standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
   "cf_units": "kg m-2 s-1",

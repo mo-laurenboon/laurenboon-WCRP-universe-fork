@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "noy_tavg-p39-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "noy_tavg-p39-hy-air",
   "cf_standard_name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
   "cf_units": "mol mol-1",

@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "rsdscs_tpt-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsdscs_tpt-u-hxy-u",
   "cf_standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
   "cf_units": "W m-2",

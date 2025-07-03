@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "limfediaz_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "limfediaz_tavg-u-hxy-sea",
   "cf_standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
   "cf_units": "1",

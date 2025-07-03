@@ -1,7 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hfxint_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfxint_tavg-u-hxy-sea",
   "cf_standard_name": "ocean_heat_x_transport",
   "cf_units": "W",

@@ -18,7 +18,7 @@
   "cell_methods": "area: mean where land time: point",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Land Surface",
+  "realm": "land",
   "temporal_label": "tpt",
   "vertical_label": "d10cm",
   "horizontal_label": "hxy",

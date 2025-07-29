@@ -18,7 +18,7 @@
   "cell_methods": "area: time: mean (weighted by tracer mass)",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Aerosol",
+  "realm": "aerosol",
   "temporal_label": "tavg",
   "vertical_label": "al",
   "horizontal_label": "hxy",

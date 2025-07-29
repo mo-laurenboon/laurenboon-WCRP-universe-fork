@@ -17,7 +17,7 @@
   "cell_methods": "area: mean time: sum",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Aerosol",
+  "realm": "aerosol",
   "temporal_label": "tsum",
   "vertical_label": "u",
   "horizontal_label": "hxy",

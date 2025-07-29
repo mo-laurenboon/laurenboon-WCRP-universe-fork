@@ -18,7 +18,7 @@
   "cell_methods": "area: mean where sea time: mean",
   "cell_measures": "area: areacello volume: volcello",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "tavg",
   "vertical_label": "ol",
   "horizontal_label": "hxy",

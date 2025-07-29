@@ -17,7 +17,7 @@
   "cell_methods": "longitude: time: mean where air",
   "cell_measures": "",
   "history": "",
-  "realm": "Aerosol",
+  "realm": "aerosol",
   "temporal_label": "tavg",
   "vertical_label": "100hPa",
   "horizontal_label": "hy",

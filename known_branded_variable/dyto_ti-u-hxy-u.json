@@ -16,7 +16,7 @@
   "cell_methods": "area: point",
   "cell_measures": "::MODEL",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "ti",
   "vertical_label": "u",
   "horizontal_label": "hxy",

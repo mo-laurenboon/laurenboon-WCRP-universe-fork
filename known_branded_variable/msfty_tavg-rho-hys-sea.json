@@ -17,7 +17,7 @@
   "cell_methods": "grid_longitude: sum where sea time: mean",
   "cell_measures": "",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "tavg",
   "vertical_label": "rho",
   "horizontal_label": "hys",

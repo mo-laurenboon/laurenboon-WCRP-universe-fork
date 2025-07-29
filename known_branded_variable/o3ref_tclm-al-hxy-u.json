@@ -18,7 +18,7 @@
   "cell_methods": "area: time: mean (monthly mean fixed annual cycle)",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Atmospheric Chemistry",
+  "realm": "atmosChem",
   "temporal_label": "tclm",
   "vertical_label": "al",
   "horizontal_label": "hxy",

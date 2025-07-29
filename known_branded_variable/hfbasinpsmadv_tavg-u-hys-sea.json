@@ -17,7 +17,7 @@
   "cell_methods": "depth: longitude: sum where sea (along a zig-zag grid path spanning a basin) where sea time: mean",
   "cell_measures": "",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "tavg",
   "vertical_label": "u",
   "horizontal_label": "hys",

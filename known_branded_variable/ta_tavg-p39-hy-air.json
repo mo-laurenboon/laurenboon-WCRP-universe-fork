@@ -17,7 +17,7 @@
   "cell_methods": "longitude: time: mean where air",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tavg",
   "vertical_label": "p39",
   "horizontal_label": "hy",

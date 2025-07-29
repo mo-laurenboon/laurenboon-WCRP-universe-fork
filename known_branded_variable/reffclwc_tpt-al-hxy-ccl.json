@@ -18,7 +18,7 @@
   "cell_methods": "area: mean where convective_cloud time: point",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tpt",
   "vertical_label": "al",
   "horizontal_label": "hxy",

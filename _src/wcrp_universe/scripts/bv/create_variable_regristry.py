@@ -87,17 +87,23 @@ class AirtableVariableClient:
         self.table = self.api.table(base_id, table_name)
         self._linked_record_cache = {}
 
-    def fetch_all_records(self) -> List[Dict[str, Any]]:
+    def fetch_all_records(self, max_records: int = None) -> List[Dict[str, Any]]:
         """
         Fetch all records from the Airtable with pagination support.
 
+        Args:
+            max_records: Maximum number of records to fetch (None for all)
+
         Returns:
-            List of all records from the table
+            List of records from the table
         """
 
         try:
-            # Use pyairtable's built-in pagination
-            all_records = self.table.all()
+            # Use pyairtable's built-in pagination with limit
+            if max_records:
+                all_records = self.table.all(max_records=max_records)
+            else:
+                all_records = self.table.all()
             return all_records
 
         except Exception as e:
@@ -261,9 +267,9 @@ class VariableDataMapper:
                         else ""
                     )
 
-            # Resolve realm
+            # Resolve realm - use ID field instead of Name
             realm = resolve_linked_field(
-                "Modelling Realm - Primary", "Modelling Realm", "Name"
+                "Modelling Realm - Primary", "Modelling Realm", "id"
             )
 
             # Resolve cell methods and measures

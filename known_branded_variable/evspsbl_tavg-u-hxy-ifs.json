@@ -17,7 +17,7 @@
   "cell_methods": "area: mean where ice_free_sea over sea time: mean",
   "cell_measures": "area: areacello",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "tavg",
   "vertical_label": "u",
   "horizontal_label": "hxy",

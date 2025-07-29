@@ -18,7 +18,7 @@
   "cell_methods": "time: mean",
   "cell_measures": "area: areacella",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tavg",
   "vertical_label": "p19",
   "horizontal_label": "hxy",

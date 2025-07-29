@@ -17,7 +17,7 @@
   "cell_methods": "area: point time: point",
   "cell_measures": "",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tpt",
   "vertical_label": "h2m",
   "horizontal_label": "hxys",

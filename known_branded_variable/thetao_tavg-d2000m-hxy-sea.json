@@ -18,7 +18,7 @@
   "cell_methods": "area: depth: time: mean where sea",
   "cell_measures": "area: areacello",
   "history": "",
-  "realm": "Ocean",
+  "realm": "ocean",
   "temporal_label": "tavg",
   "vertical_label": "d2000m",
   "horizontal_label": "hxy",

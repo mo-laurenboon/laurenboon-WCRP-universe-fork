@@ -17,7 +17,7 @@
   "cell_methods": "area: point time: point",
   "cell_measures": "::MODEL",
   "history": "",
-  "realm": "Aerosol",
+  "realm": "aerosol",
   "temporal_label": "tavg",
   "vertical_label": "h2m",
   "horizontal_label": "hxy",

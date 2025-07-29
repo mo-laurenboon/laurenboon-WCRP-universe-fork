@@ -17,7 +17,7 @@
   "cell_methods": "area: mean where stratiform_cloud time: point",
   "cell_measures": "",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tpt",
   "vertical_label": "al",
   "horizontal_label": "hxys",

@@ -15,7 +15,7 @@
   "cell_methods": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
   "cell_measures": "",
   "history": "",
-  "realm": "Atmospheric",
+  "realm": "atmos",
   "temporal_label": "tclm",
   "vertical_label": "u",
   "horizontal_label": "hm",

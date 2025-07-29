@@ -23,5 +23,6 @@
   "horizontal_label": "hxy",
   "area_label": "tree",
   "bn_status": "Accepted",
-  "positive_direction": ""
+  "positive_direction": "",
+  "@context": "000_context.jsonld"
 }

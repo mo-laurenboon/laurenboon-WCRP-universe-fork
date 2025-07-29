@@ -21,5 +21,6 @@
   "horizontal_label": "hm",
   "area_label": "gis",
   "bn_status": "Accepted",
-  "positive_direction": ""
+  "positive_direction": "",
+  "@context": "000_context.jsonld"
 }

@@ -355,7 +355,7 @@ class JSONFileGenerator:
 
             # Convert to dictionary and save as JSON
             variable_dict = variable.model_dump()
-
+            variable_dict["@context"] = "000_context.jsonld"
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(variable_dict, f, indent=2, ensure_ascii=False)
 

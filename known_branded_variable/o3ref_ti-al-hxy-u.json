@@ -1,6 +1,6 @@
 {
   "id": "o3ref_ti-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "o3ref_ti-al-hxy-u",
   "cf_standard_name": "reference_mole_fraction_of_ozone_in_air",
   "cf_units": "mol mol-1",

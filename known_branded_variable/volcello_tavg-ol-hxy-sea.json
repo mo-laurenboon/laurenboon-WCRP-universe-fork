@@ -1,6 +1,6 @@
 {
   "id": "volcello_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "volcello_tavg-ol-hxy-sea",
   "cf_standard_name": "ocean_volume",
   "cf_units": "m3",

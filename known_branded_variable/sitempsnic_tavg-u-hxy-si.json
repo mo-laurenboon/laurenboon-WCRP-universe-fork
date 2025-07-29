@@ -1,6 +1,6 @@
 {
   "id": "sitempsnic_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sitempsnic_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_surface_temperature",
   "cf_units": "K",

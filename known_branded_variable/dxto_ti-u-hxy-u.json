@@ -1,6 +1,6 @@
 {
   "id": "dxto_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dxto_ti-u-hxy-u",
   "cf_standard_name": "cell_x_length",
   "cf_units": "m",

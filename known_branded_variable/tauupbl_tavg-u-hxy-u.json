@@ -1,6 +1,6 @@
 {
   "id": "tauupbl_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauupbl_tavg-u-hxy-u",
   "cf_standard_name": "surface_downward_eastward_stress_due_to_boundary_layer_mixing",
   "cf_units": "Pa",

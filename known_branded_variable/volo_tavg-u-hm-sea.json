@@ -1,6 +1,6 @@
 {
   "id": "volo_tavg-u-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "volo_tavg-u-hm-sea",
   "cf_standard_name": "sea_water_volume",
   "cf_units": "m3",

@@ -1,6 +1,6 @@
 {
   "id": "vmo_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "vmo_tavg-ol-hxy-sea",
   "cf_standard_name": "ocean_mass_y_transport",
   "cf_units": "kg s-1",

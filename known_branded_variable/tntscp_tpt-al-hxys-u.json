@@ -1,6 +1,6 @@
 {
   "id": "tntscp_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tntscp_tpt-al-hxys-u",
   "cf_standard_name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation",
   "cf_units": "K s-1",

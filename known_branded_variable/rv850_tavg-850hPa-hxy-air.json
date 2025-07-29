@@ -1,6 +1,6 @@
 {
   "id": "rv850_tavg-850hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rv850_tavg-850hPa-hxy-air",
   "cf_standard_name": "atmosphere_relative_vorticity",
   "cf_units": "s-1",

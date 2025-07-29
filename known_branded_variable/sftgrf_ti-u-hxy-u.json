@@ -1,6 +1,6 @@
 {
   "id": "sftgrf_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sftgrf_ti-u-hxy-u",
   "cf_standard_name": "grounded_ice_sheet_area_fraction",
   "cf_units": "%",

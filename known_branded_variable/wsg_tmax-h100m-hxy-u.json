@@ -1,6 +1,6 @@
 {
   "id": "wsg_tmax-h100m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wsg_tmax-h100m-hxy-u",
   "cf_standard_name": "wind_speed_of_gust",
   "cf_units": "m s-1",

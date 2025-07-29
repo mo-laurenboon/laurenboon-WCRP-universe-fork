@@ -1,6 +1,6 @@
 {
   "id": "sidragbot_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sidragbot_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_basal_drag_coefficient_for_momentum_in_sea_water",
   "cf_units": "1",

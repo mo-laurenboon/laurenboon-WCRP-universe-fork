@@ -1,6 +1,6 @@
 {
   "id": "prrsn_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "prrsn_tavg-u-hxy-lnd",
   "cf_standard_name": "mass_fraction_of_rainfall_falling_onto_surface_snow",
   "cf_units": "1",

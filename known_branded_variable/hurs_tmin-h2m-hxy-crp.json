@@ -1,6 +1,6 @@
 {
   "id": "hurs_tmin-h2m-hxy-crp",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hurs_tmin-h2m-hxy-crp",
   "cf_standard_name": "relative_humidity",
   "cf_units": "%",

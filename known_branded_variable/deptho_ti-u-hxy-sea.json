@@ -1,6 +1,6 @@
 {
   "id": "deptho_ti-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "deptho_ti-u-hxy-sea",
   "cf_standard_name": "sea_floor_depth_below_geoid",
   "cf_units": "m",

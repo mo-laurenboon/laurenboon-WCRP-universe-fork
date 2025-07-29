@@ -1,6 +1,6 @@
 {
   "id": "prsn_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "prsn_tpt-u-hxys-u",
   "cf_standard_name": "snowfall_flux",
   "cf_units": "kg m-2 s-1",

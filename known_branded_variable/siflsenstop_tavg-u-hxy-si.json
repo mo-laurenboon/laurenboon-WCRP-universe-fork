@@ -1,6 +1,6 @@
 {
   "id": "siflsenstop_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siflsenstop_tavg-u-hxy-si",
   "cf_standard_name": "surface_downward_sensible_heat_flux",
   "cf_units": "W m-2",

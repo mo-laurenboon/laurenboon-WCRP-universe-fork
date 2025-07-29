@@ -1,6 +1,6 @@
 {
   "id": "photo1d_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "photo1d_tavg-al-hxy-u",
   "cf_standard_name": "photolysis_rate_of_ozone_to_1D_oxygen_atom",
   "cf_units": "s-1",

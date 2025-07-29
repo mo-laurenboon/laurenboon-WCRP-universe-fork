@@ -1,6 +1,6 @@
 {
   "id": "laiLut_tavg-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "laiLut_tavg-u-hxy-multi",
   "cf_standard_name": "leaf_area_index",
   "cf_units": "1",

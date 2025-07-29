@@ -1,6 +1,6 @@
 {
   "id": "cltcalipso_tpt-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cltcalipso_tpt-u-hxy-u",
   "cf_standard_name": "cloud_area_fraction",
   "cf_units": "%",

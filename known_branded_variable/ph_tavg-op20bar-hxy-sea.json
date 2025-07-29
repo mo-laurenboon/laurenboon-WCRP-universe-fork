@@ -1,6 +1,6 @@
 {
   "id": "ph_tavg-op20bar-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ph_tavg-op20bar-hxy-sea",
   "cf_standard_name": "sea_water_ph_reported_on_total_scale",
   "cf_units": "1",

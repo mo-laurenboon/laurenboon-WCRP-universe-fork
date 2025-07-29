@@ -1,6 +1,6 @@
 {
   "id": "sistrxubot_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sistrxubot_tavg-u-hxy-si",
   "cf_standard_name": "upward_x_stress_at_sea_ice_base",
   "cf_units": "N m-2",

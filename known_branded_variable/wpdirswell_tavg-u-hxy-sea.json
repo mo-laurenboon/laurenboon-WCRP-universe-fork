@@ -1,6 +1,6 @@
 {
   "id": "wpdirswell_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wpdirswell_tavg-u-hxy-sea",
   "cf_standard_name": "sea_surface_swell_wave_from_direction_at_variance_spectral_density_maximum",
   "cf_units": "degree",

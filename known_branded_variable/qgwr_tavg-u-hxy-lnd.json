@@ -1,6 +1,6 @@
 {
   "id": "qgwr_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "qgwr_tavg-u-hxy-lnd",
   "cf_standard_name": "downward_liquid_water_mass_flux_into_groundwater",
   "cf_units": "kg m-2 s-1",

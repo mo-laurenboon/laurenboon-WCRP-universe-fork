@@ -1,6 +1,6 @@
 {
   "id": "dpo2_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dpo2_tavg-u-hxy-sea",
   "cf_standard_name": "surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air",
   "cf_units": "Pa",

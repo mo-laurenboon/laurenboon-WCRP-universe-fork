@@ -1,6 +1,6 @@
 {
   "id": "pod0_tsum-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pod0_tsum-u-hxy-u",
   "cf_standard_name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
   "cf_units": "mol m-2",

@@ -1,6 +1,6 @@
 {
   "id": "sidmassgrowthwat_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sidmassgrowthwat_tavg-u-hxy-sea",
   "cf_standard_name": "tendency_of_sea_ice_amount_due_to_frazil_ice_accumulation_in_leads",
   "cf_units": "kg m-2 s-1",

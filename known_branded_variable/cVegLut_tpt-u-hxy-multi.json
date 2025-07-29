@@ -1,6 +1,6 @@
 {
   "id": "cVegLut_tpt-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cVegLut_tpt-u-hxy-multi",
   "cf_standard_name": "vegetation_carbon_content",
   "cf_units": "kg m-2",

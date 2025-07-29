@@ -1,6 +1,6 @@
 {
   "id": "hfdsn_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfdsn_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_downward_heat_flux_in_snow",
   "cf_units": "W m-2",

@@ -1,6 +1,6 @@
 {
   "id": "sistrydtop_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sistrydtop_tavg-u-hxy-si",
   "cf_standard_name": "surface_downward_y_stress",
   "cf_units": "N m-2",

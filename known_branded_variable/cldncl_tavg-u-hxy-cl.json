@@ -1,6 +1,6 @@
 {
   "id": "cldncl_tavg-u-hxy-cl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cldncl_tavg-u-hxy-cl",
   "cf_standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
   "cf_units": "m-3",

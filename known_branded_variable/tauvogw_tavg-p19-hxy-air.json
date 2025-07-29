@@ -1,6 +1,6 @@
 {
   "id": "tauvogw_tavg-p19-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauvogw_tavg-p19-hxy-air",
   "cf_standard_name": "upward_northward_momentum_flux_in_air_due_to_orographic_gravity_waves",
   "cf_units": "Pa",

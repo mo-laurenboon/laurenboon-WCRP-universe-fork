@@ -292,7 +292,7 @@ class VariableDataMapper:
             variable = KnownBrandedVariable(
                 # ESGVoc required fields (from PlainTermDataDescriptor)
                 id=branded_variable_name,
-                type="branded_variable",
+                type="known_branded_variable",
                 drs_name=branded_variable_name,
                 # CF Standard Name context
                 cf_standard_name=cf_standard_name,
@@ -389,7 +389,7 @@ def main():
     API_KEY = os.getenv("AIRTABLE_API_KEY")
     BASE_ID = os.getenv("AIRTABLE_BASE_ID")
     TABLE_NAME = os.getenv("AIRTABLE_TABLE_NAME", "variable")
-    OUTPUT_DIR = Path("known_branded_variables")
+    OUTPUT_DIR = Path("known_branded_variable")
 
     # Validate configuration
     if not API_KEY:

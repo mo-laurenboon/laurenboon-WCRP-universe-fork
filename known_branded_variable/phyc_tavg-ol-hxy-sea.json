@@ -1,6 +1,6 @@
 {
   "id": "phyc_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "phyc_tavg-ol-hxy-sea",
   "cf_standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-3",

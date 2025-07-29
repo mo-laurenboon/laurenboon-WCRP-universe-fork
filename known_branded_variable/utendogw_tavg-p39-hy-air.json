@@ -1,6 +1,6 @@
 {
   "id": "utendogw_tavg-p39-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "utendogw_tavg-p39-hy-air",
   "cf_standard_name": "tendency_of_eastward_wind_due_to_orographic_gravity_wave_drag",
   "cf_units": "m s-2",

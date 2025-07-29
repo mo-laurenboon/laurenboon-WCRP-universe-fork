@@ -1,6 +1,6 @@
 {
   "id": "ps_tpt-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ps_tpt-u-hxy-u",
   "cf_standard_name": "surface_air_pressure",
   "cf_units": "Pa",

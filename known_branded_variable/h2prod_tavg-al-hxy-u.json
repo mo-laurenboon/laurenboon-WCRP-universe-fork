@@ -1,6 +1,6 @@
 {
   "id": "h2prod_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "h2prod_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_mole_concentration_of_molecular_hydrogen_due_to_chemical_production",
   "cf_units": "mol m-3 s-1",

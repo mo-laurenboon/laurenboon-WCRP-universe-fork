@@ -1,6 +1,6 @@
 {
   "id": "clcalipso_tavg-220hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clcalipso_tavg-220hPa-hxy-air",
   "cf_standard_name": "cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

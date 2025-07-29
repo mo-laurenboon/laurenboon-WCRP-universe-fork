@@ -1,6 +1,6 @@
 {
   "id": "limirrdiaz_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "limirrdiaz_tavg-u-hxy-sea",
   "cf_standard_name": "growth_limitation_of_diazotrophic_phytoplankton_due_to_solar_irradiance",
   "cf_units": "1",

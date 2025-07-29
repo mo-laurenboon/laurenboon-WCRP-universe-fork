@@ -1,6 +1,6 @@
 {
   "id": "gppc13_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "gppc13_tavg-u-hxy-lnd",
   "cf_standard_name": "gross_primary_productivity_of_biomass_expressed_as_13C",
   "cf_units": "kg m-2 s-1",

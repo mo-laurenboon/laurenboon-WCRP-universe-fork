@@ -1,6 +1,6 @@
 {
   "id": "diftrelo_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "diftrelo_tavg-ol-hxy-sea",
   "cf_standard_name": "ocean_tracer_epineutral_laplacian_diffusivity",
   "cf_units": "m2 s-1",

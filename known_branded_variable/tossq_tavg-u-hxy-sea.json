@@ -1,6 +1,6 @@
 {
   "id": "tossq_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tossq_tavg-u-hxy-sea",
   "cf_standard_name": "square_of_sea_surface_temperature",
   "cf_units": "degC2",

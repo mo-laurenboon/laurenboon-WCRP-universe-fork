@@ -1,6 +1,6 @@
 {
   "id": "snw_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "snw_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_snow_amount",
   "cf_units": "kg m-2",

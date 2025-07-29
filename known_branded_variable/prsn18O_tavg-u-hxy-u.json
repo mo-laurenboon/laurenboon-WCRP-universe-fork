@@ -1,6 +1,6 @@
 {
   "id": "prsn18O_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "prsn18O_tavg-u-hxy-u",
   "cf_standard_name": "solid_precipitation_flux_containing_18O",
   "cf_units": "kg m-2 s-1",

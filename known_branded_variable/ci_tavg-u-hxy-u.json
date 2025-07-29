@@ -1,6 +1,6 @@
 {
   "id": "ci_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ci_tavg-u-hxy-u",
   "cf_standard_name": "convection_time_fraction",
   "cf_units": "1",

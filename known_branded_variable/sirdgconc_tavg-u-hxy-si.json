@@ -1,6 +1,6 @@
 {
   "id": "sirdgconc_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sirdgconc_tavg-u-hxy-si",
   "cf_standard_name": "area_fraction",
   "cf_units": "%",

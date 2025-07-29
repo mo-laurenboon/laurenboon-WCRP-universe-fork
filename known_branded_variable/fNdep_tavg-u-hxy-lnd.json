@@ -1,6 +1,6 @@
 {
   "id": "fNdep_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fNdep_tavg-u-hxy-lnd",
   "cf_standard_name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
   "cf_units": "kg m-2 s-1",

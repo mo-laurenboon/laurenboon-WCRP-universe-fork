@@ -1,6 +1,6 @@
 {
   "id": "mmrnh4_tpt-h2m-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mmrnh4_tpt-h2m-hxys-u",
   "cf_standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
   "cf_units": "kg kg-1",

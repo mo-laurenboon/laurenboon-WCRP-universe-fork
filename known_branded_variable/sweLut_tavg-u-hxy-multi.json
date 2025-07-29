@@ -1,6 +1,6 @@
 {
   "id": "sweLut_tavg-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sweLut_tavg-u-hxy-multi",
   "cf_standard_name": "lwe_thickness_of_surface_snow_amount",
   "cf_units": "m",

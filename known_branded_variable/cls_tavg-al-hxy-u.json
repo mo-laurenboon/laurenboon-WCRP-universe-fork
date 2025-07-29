@@ -1,6 +1,6 @@
 {
   "id": "cls_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cls_tavg-al-hxy-u",
   "cf_standard_name": "stratiform_cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

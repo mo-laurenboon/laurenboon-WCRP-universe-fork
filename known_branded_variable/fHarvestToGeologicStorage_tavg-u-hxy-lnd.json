@@ -1,6 +1,6 @@
 {
   "id": "fHarvestToGeologicStorage_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fHarvestToGeologicStorage_tavg-u-hxy-lnd",
   "cf_standard_name": "mass_flux_of_carbon_from_biomass_into_geological_storage",
   "cf_units": "kg m-2 s-1",

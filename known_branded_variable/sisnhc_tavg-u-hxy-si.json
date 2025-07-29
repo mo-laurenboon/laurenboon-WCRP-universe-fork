@@ -1,6 +1,6 @@
 {
   "id": "sisnhc_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sisnhc_tavg-u-hxy-si",
   "cf_standard_name": "thermal_energy_content_of_surface_snow",
   "cf_units": "J m-2",

@@ -1,6 +1,6 @@
 {
   "id": "tauv_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauv_tpt-u-hxys-u",
   "cf_standard_name": "surface_downward_northward_stress",
   "cf_units": "Pa",

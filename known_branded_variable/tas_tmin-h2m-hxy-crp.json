@@ -1,6 +1,6 @@
 {
   "id": "tas_tmin-h2m-hxy-crp",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tas_tmin-h2m-hxy-crp",
   "cf_standard_name": "air_temperature",
   "cf_units": "K",

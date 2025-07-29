@@ -1,6 +1,6 @@
 {
   "id": "nppStem_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "nppStem_tavg-u-hxy-lnd",
   "cf_standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon_accumulated_in_stems",
   "cf_units": "kg m-2 s-1",

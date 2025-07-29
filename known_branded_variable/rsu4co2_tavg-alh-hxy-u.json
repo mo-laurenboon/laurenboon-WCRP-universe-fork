@@ -1,6 +1,6 @@
 {
   "id": "rsu4co2_tavg-alh-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsu4co2_tavg-alh-hxy-u",
   "cf_standard_name": "upwelling_shortwave_flux_in_air",
   "cf_units": "W m-2",

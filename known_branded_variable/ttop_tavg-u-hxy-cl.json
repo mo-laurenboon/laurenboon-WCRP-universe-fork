@@ -1,6 +1,6 @@
 {
   "id": "ttop_tavg-u-hxy-cl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ttop_tavg-u-hxy-cl",
   "cf_standard_name": "air_temperature_at_cloud_top",
   "cf_units": "K",

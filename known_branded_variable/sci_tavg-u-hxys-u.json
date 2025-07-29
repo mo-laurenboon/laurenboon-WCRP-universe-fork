@@ -1,6 +1,6 @@
 {
   "id": "sci_tavg-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sci_tavg-u-hxys-u",
   "cf_standard_name": "shallow_convection_time_fraction",
   "cf_units": "1",

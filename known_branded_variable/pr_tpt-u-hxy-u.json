@@ -1,6 +1,6 @@
 {
   "id": "pr_tpt-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pr_tpt-u-hxy-u",
   "cf_standard_name": "precipitation_flux",
   "cf_units": "kg m-2 s-1",

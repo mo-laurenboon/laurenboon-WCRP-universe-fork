@@ -1,6 +1,6 @@
 {
   "id": "vt100_tavg-100hPa-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "vt100_tavg-100hPa-hy-air",
   "cf_standard_name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
   "cf_units": "K m s-1",

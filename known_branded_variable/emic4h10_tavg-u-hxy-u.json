@@ -1,6 +1,6 @@
 {
   "id": "emic4h10_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "emic4h10_tavg-u-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_mass_content_of_butane_due_to_emission",
   "cf_units": "kg m-2 s-1",

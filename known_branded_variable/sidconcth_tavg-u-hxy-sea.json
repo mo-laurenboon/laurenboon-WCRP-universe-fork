@@ -1,6 +1,6 @@
 {
   "id": "sidconcth_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sidconcth_tavg-u-hxy-sea",
   "cf_standard_name": "tendency_of_sea_ice_area_fraction_due_to_thermodynamics",
   "cf_units": "s-1",

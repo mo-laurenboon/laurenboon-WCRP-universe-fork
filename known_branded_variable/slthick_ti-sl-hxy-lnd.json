@@ -1,6 +1,6 @@
 {
   "id": "slthick_ti-sl-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "slthick_ti-sl-hxy-lnd",
   "cf_standard_name": "cell_thickness",
   "cf_units": "m",

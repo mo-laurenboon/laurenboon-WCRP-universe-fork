@@ -1,6 +1,6 @@
 {
   "id": "sltovgyre_tavg-u-hys-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sltovgyre_tavg-u-hys-sea",
   "cf_standard_name": "northward_ocean_salt_transport_due_to_gyre",
   "cf_units": "kg s-1",

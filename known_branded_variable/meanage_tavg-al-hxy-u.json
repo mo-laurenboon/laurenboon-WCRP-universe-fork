@@ -1,6 +1,6 @@
 {
   "id": "meanage_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "meanage_tavg-al-hxy-u",
   "cf_standard_name": "age_of_stratospheric_air",
   "cf_units": "yr",

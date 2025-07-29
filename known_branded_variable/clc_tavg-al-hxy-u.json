@@ -1,6 +1,6 @@
 {
   "id": "clc_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clc_tavg-al-hxy-u",
   "cf_standard_name": "convective_cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

@@ -1,6 +1,6 @@
 {
   "id": "evspsblveg_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "evspsblveg_tavg-u-hxy-lnd",
   "cf_standard_name": "water_evaporation_flux_from_canopy",
   "cf_units": "kg m-2 s-1",

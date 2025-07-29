@@ -1,6 +1,6 @@
 {
   "id": "o2sat_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "o2sat_tavg-ol-hxy-sea",
   "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation",
   "cf_units": "mol m-3",

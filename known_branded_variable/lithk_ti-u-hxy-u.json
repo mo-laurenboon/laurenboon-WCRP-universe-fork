@@ -1,6 +1,6 @@
 {
   "id": "lithk_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "lithk_ti-u-hxy-u",
   "cf_standard_name": "land_ice_thickness",
   "cf_units": "m",

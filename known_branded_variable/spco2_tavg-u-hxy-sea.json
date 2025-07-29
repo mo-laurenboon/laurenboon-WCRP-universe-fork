@@ -1,6 +1,6 @@
 {
   "id": "spco2_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "spco2_tavg-u-hxy-sea",
   "cf_standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
   "cf_units": "Pa",

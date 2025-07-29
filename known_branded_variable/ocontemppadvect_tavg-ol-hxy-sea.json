@@ -1,6 +1,6 @@
 {
   "id": "ocontemppadvect_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ocontemppadvect_tavg-ol-hxy-sea",
   "cf_standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection",
   "cf_units": "W m-2",

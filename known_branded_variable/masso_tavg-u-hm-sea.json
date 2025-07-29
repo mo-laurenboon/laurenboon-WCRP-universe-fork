@@ -1,6 +1,6 @@
 {
   "id": "masso_tavg-u-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "masso_tavg-u-hm-sea",
   "cf_standard_name": "sea_water_mass",
   "cf_units": "kg",

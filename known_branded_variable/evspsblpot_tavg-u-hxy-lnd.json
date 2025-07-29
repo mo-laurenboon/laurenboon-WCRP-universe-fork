@@ -1,6 +1,6 @@
 {
   "id": "evspsblpot_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "evspsblpot_tavg-u-hxy-lnd",
   "cf_standard_name": "water_potential_evaporation_flux",
   "cf_units": "kg m-2 s-1",

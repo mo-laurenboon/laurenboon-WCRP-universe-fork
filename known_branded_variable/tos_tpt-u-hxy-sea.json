@@ -1,6 +1,6 @@
 {
   "id": "tos_tpt-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tos_tpt-u-hxy-sea",
   "cf_standard_name": "sea_surface_temperature",
   "cf_units": "degC",

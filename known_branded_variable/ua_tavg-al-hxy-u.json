@@ -1,6 +1,6 @@
 {
   "id": "ua_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ua_tavg-al-hxy-u",
   "cf_standard_name": "eastward_wind",
   "cf_units": "m s-1",

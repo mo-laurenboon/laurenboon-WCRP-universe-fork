@@ -1,6 +1,6 @@
 {
   "id": "cdnc_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cdnc_tavg-al-hxy-u",
   "cf_standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air",
   "cf_units": "m-3",

@@ -1,6 +1,6 @@
 {
   "id": "obvfsq_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "obvfsq_tavg-ol-hxy-sea",
   "cf_standard_name": "square_of_brunt_vaisala_frequency_in_sea_water",
   "cf_units": "s-2",

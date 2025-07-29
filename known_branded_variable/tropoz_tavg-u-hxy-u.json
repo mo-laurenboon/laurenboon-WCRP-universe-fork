@@ -1,6 +1,6 @@
 {
   "id": "tropoz_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tropoz_tavg-u-hxy-u",
   "cf_standard_name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
   "cf_units": "m",

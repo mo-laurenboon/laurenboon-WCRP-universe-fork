@@ -1,6 +1,6 @@
 {
   "id": "sossq_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sossq_tavg-u-hxy-sea",
   "cf_standard_name": "square_of_sea_surface_salinity",
   "cf_units": "1E-06",

@@ -1,6 +1,6 @@
 {
   "id": "uos_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "uos_tavg-u-hxy-sea",
   "cf_standard_name": "surface_sea_water_x_velocity",
   "cf_units": "m s-1",

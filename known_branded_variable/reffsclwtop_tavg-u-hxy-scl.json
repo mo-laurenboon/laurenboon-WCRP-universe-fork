@@ -1,6 +1,6 @@
 {
   "id": "reffsclwtop_tavg-u-hxy-scl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffsclwtop_tavg-u-hxy-scl",
   "cf_standard_name": "effective_radius_of_stratiform_cloud_liquid_water_particles_at_stratiform_liquid_water_cloud_top",
   "cf_units": "m",

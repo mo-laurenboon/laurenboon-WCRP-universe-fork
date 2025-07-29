@@ -1,6 +1,6 @@
 {
   "id": "fLulccAtmLut_tavg-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fLulccAtmLut_tavg-u-hxy-multi",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_land_use_or_land_cover_change_excluding_forestry_and_agricultural_products",
   "cf_units": "kg m-2 s-1",

@@ -1,6 +1,6 @@
 {
   "id": "iareagr_tavg-u-hm-gis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "iareagr_tavg-u-hm-gis",
   "cf_standard_name": "grounded_ice_sheet_area",
   "cf_units": "m2",

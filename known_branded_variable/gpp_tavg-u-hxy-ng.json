@@ -1,6 +1,6 @@
 {
   "id": "gpp_tavg-u-hxy-ng",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "gpp_tavg-u-hxy-ng",
   "cf_standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
   "cf_units": "kg m-2 s-1",

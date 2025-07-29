@@ -1,6 +1,6 @@
 {
   "id": "sw_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sw_tavg-u-hxy-lnd",
   "cf_standard_name": "land_surface_liquid_water_amount",
   "cf_units": "kg m-2",

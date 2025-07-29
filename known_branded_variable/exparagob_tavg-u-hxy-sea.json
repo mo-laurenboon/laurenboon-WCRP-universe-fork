@@ -1,6 +1,6 @@
 {
   "id": "exparagob_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "exparagob_tavg-u-hxy-sea",
   "cf_standard_name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-2 s-1",

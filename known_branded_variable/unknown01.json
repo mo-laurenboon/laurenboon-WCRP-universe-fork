@@ -1,6 +1,6 @@
 {
   "id": "unknown01",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "unknown01",
   "cf_standard_name": "sea_surface_wave_mean_period",
   "cf_units": "s",

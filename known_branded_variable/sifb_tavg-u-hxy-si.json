@@ -1,6 +1,6 @@
 {
   "id": "sifb_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sifb_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_freeboard",
   "cf_units": "m",

@@ -1,6 +1,6 @@
 {
   "id": "basin_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "basin_ti-u-hxy-u",
   "cf_standard_name": "region",
   "cf_units": "1",

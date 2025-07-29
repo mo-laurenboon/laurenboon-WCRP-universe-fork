@@ -1,6 +1,6 @@
 {
   "id": "mlotstmax_tmax-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mlotstmax_tmax-u-hxy-sea",
   "cf_standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
   "cf_units": "m",

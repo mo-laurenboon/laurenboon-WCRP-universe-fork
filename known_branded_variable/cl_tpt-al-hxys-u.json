@@ -1,6 +1,6 @@
 {
   "id": "cl_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cl_tpt-al-hxys-u",
   "cf_standard_name": "cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

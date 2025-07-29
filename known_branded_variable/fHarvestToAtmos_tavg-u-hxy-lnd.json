@@ -1,6 +1,6 @@
 {
   "id": "fHarvestToAtmos_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fHarvestToAtmos_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting",
   "cf_units": "kg m-2 s-1",

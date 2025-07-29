@@ -1,6 +1,6 @@
 {
   "id": "opottemptend_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "opottemptend_tavg-ol-hxy-sea",
   "cf_standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content",
   "cf_units": "W m-2",

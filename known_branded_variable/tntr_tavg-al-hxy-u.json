@@ -1,6 +1,6 @@
 {
   "id": "tntr_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tntr_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
   "cf_units": "K s-1",

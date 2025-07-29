@@ -1,6 +1,6 @@
 {
   "id": "aoanh_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "aoanh_tavg-al-hxy-u",
   "cf_standard_name": "tracer_lifetime",
   "cf_units": "yr",

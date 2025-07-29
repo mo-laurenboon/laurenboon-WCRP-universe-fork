@@ -1,6 +1,6 @@
 {
   "id": "unknown02",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "unknown02",
   "cf_standard_name": "sea_surface_wave_significant_height",
   "cf_units": "m",

@@ -1,6 +1,6 @@
 {
   "id": "bldep_tpt-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "bldep_tpt-u-hxy-u",
   "cf_standard_name": "atmosphere_boundary_layer_thickness",
   "cf_units": "m",

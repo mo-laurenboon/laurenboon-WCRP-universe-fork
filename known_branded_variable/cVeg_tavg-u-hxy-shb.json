@@ -1,6 +1,6 @@
 {
   "id": "cVeg_tavg-u-hxy-shb",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cVeg_tavg-u-hxy-shb",
   "cf_standard_name": "vegetation_carbon_content",
   "cf_units": "kg m-2",

@@ -1,6 +1,6 @@
 {
   "id": "pr17O_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pr17O_tavg-u-hxy-u",
   "cf_standard_name": "precipitation_flux_containing_17O",
   "cf_units": "kg m-2 s-1",

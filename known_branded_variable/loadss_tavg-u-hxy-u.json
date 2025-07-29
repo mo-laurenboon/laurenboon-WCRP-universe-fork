@@ -1,6 +1,6 @@
 {
   "id": "loadss_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "loadss_tavg-u-hxy-u",
   "cf_standard_name": "atmosphere_mass_content_of_sea_salt_dry_aerosol_particles",
   "cf_units": "kg m-2",

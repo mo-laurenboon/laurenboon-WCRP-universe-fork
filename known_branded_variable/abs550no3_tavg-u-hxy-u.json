@@ -1,6 +1,6 @@
 {
   "id": "abs550no3_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "abs550no3_tavg-u-hxy-u",
   "cf_standard_name": "atmosphere_absorption_optical_thickness_due_to_nitrate_ambient_aerosol_particles",
   "cf_units": "1",

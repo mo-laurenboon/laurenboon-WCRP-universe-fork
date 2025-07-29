@@ -1,6 +1,6 @@
 {
   "id": "rivo_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rivo_tavg-u-hxy-lnd",
   "cf_standard_name": "outgoing_water_volume_transport_along_river_channel",
   "cf_units": "m3 s-1",

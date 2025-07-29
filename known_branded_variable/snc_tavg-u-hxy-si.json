@@ -1,6 +1,6 @@
 {
   "id": "snc_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "snc_tavg-u-hxy-si",
   "cf_standard_name": "surface_snow_area_fraction",
   "cf_units": "1",

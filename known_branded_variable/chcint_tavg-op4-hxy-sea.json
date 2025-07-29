@@ -1,6 +1,6 @@
 {
   "id": "chcint_tavg-op4-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "chcint_tavg-op4-hxy-sea",
   "cf_standard_name": "integral_wrt_depth_of_sea_water_conservative_temperature_expressed_as_heat_content",
   "cf_units": "J m-2",

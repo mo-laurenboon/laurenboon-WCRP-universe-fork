@@ -1,6 +1,6 @@
 {
   "id": "sfpm25_tavg-h2m-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sfpm25_tavg-h2m-hxy-u",
   "cf_standard_name": "mass_fraction_of_pm2p5_ambient_aerosol_particles_in_air",
   "cf_units": "kg kg-1",

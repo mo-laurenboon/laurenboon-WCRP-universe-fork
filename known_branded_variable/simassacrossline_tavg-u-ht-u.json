@@ -1,6 +1,6 @@
 {
   "id": "simassacrossline_tavg-u-ht-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "simassacrossline_tavg-u-ht-u",
   "cf_standard_name": "sea_ice_transport_across_line",
   "cf_units": "kg s-1",

@@ -1,6 +1,6 @@
 {
   "id": "ra_tavg-u-hxy-tree",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ra_tavg-u-hxy-tree",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
   "cf_units": "kg m-2 s-1",

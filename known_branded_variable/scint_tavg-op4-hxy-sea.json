@@ -1,6 +1,6 @@
 {
   "id": "scint_tavg-op4-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "scint_tavg-op4-hxy-sea",
   "cf_standard_name": "integral_wrt_depth_of_sea_water_practical_salinity_expressed_as_salt_mass_content",
   "cf_units": "kg m-2",

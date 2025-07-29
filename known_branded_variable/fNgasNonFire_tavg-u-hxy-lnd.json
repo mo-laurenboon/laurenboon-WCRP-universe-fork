@@ -1,6 +1,6 @@
 {
   "id": "fNgasNonFire_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fNgasNonFire_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_due_to_all_land_processes_excluding_fires",
   "cf_units": "kg m-2 s-1",

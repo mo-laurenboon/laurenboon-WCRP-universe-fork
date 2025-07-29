@@ -1,6 +1,6 @@
 {
   "id": "lat_ti-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "lat_ti-u-hxys-u",
   "cf_standard_name": "latitude",
   "cf_units": "degrees_north",

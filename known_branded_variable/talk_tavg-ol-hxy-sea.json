@@ -1,6 +1,6 @@
 {
   "id": "talk_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "talk_tavg-ol-hxy-sea",
   "cf_standard_name": "sea_water_alkalinity_expressed_as_mole_equivalent",
   "cf_units": "mol m-3",

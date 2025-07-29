@@ -1,6 +1,6 @@
 {
   "id": "strbasemag_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "strbasemag_tavg-u-hxy-is",
   "cf_standard_name": "land_ice_basal_drag",
   "cf_units": "Pa",

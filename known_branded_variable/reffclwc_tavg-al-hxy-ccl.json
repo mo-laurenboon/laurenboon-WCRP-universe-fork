@@ -1,6 +1,6 @@
 {
   "id": "reffclwc_tavg-al-hxy-ccl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffclwc_tavg-al-hxy-ccl",
   "cf_standard_name": "effective_radius_of_convective_cloud_liquid_water_particles",
   "cf_units": "m",

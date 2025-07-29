@@ -1,6 +1,6 @@
 {
   "id": "tnhusd_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tnhusd_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_specific_humidity_due_to_diffusion",
   "cf_units": "s-1",

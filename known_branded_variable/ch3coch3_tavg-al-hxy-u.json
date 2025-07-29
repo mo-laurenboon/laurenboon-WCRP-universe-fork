@@ -1,6 +1,6 @@
 {
   "id": "ch3coch3_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ch3coch3_tavg-al-hxy-u",
   "cf_standard_name": "mole_fraction_of_acetone_in_air",
   "cf_units": "mol mol-1",

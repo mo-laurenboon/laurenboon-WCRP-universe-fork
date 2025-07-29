@@ -1,6 +1,6 @@
 {
   "id": "cfadDbze94_tavg-h40-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cfadDbze94_tavg-h40-hxy-air",
   "cf_standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
   "cf_units": "1",

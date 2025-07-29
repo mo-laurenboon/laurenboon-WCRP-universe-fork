@@ -1,6 +1,6 @@
 {
   "id": "wfcorr_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wfcorr_tavg-u-hxy-sea",
   "cf_standard_name": "water_flux_correction",
   "cf_units": "kg m-2 s-1",

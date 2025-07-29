@@ -1,6 +1,6 @@
 {
   "id": "ccn1_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ccn1_tavg-al-hxy-u",
   "cf_standard_name": "number_concentration_of_cloud_condensation_nuclei_assuming_reference_relative_humidity",
   "cf_units": "m-3",

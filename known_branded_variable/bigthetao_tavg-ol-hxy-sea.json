@@ -1,6 +1,6 @@
 {
   "id": "bigthetao_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "bigthetao_tavg-ol-hxy-sea",
   "cf_standard_name": "sea_water_conservative_temperature",
   "cf_units": "degC",

@@ -1,6 +1,6 @@
 {
   "id": "si_tavg-d0m-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "si_tavg-d0m-hxy-sea",
   "cf_standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
   "cf_units": "mol m-3",

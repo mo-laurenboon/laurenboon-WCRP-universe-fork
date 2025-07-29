@@ -1,6 +1,6 @@
 {
   "id": "xvelmean_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "xvelmean_tavg-u-hxy-is",
   "cf_standard_name": "land_ice_vertical_mean_x_velocity",
   "cf_units": "m s-1",

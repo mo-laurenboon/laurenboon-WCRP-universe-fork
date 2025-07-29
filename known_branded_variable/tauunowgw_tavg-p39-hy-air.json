@@ -1,6 +1,6 @@
 {
   "id": "tauunowgw_tavg-p39-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauunowgw_tavg-p39-hy-air",
   "cf_standard_name": "upward_eastward_momentum_flux_in_air_due_to_nonorographic_westward_gravity_waves",
   "cf_units": "Pa",

@@ -1,6 +1,6 @@
 {
   "id": "cct_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cct_tpt-u-hxys-u",
   "cf_standard_name": "air_pressure_at_convective_cloud_top",
   "cf_units": "Pa",

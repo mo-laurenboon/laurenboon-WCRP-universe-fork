@@ -1,6 +1,6 @@
 {
   "id": "simpthick_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "simpthick_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_melt_pond_thickness",
   "cf_units": "m",

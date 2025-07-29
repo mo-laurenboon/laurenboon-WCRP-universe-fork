@@ -1,6 +1,6 @@
 {
   "id": "msfty_tavg-ol-hys-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "msfty_tavg-ol-hys-sea",
   "cf_standard_name": "ocean_y_overturning_mass_streamfunction",
   "cf_units": "kg s-1",

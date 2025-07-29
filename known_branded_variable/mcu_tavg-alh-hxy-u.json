@@ -1,6 +1,6 @@
 {
   "id": "mcu_tavg-alh-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mcu_tavg-alh-hxy-u",
   "cf_standard_name": "atmosphere_updraft_convective_mass_flux",
   "cf_units": "kg m-2 s-1",

@@ -1,6 +1,6 @@
 {
   "id": "zg_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zg_tpt-al-hxys-u",
   "cf_standard_name": "geopotential_height",
   "cf_units": "m",

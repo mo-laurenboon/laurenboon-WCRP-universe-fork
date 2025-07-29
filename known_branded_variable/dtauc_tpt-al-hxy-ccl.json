@@ -1,6 +1,6 @@
 {
   "id": "dtauc_tpt-al-hxy-ccl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dtauc_tpt-al-hxy-ccl",
   "cf_standard_name": "atmosphere_optical_thickness_due_to_convective_cloud",
   "cf_units": "1",

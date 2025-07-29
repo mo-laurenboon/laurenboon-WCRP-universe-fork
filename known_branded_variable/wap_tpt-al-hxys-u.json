@@ -1,6 +1,6 @@
 {
   "id": "wap_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wap_tpt-al-hxys-u",
   "cf_standard_name": "lagrangian_tendency_of_air_pressure",
   "cf_units": "Pa s-1",

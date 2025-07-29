@@ -1,6 +1,6 @@
 {
   "id": "fg13co2_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fg13co2_tavg-u-hxy-sea",
   "cf_standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
   "cf_units": "kg m-2 s-1",

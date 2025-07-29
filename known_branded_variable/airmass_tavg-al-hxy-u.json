@@ -1,6 +1,6 @@
 {
   "id": "airmass_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "airmass_tavg-al-hxy-u",
   "cf_standard_name": "atmosphere_mass_of_air_per_unit_area",
   "cf_units": "kg m-2",

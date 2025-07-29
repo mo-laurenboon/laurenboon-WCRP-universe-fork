@@ -1,6 +1,6 @@
 {
   "id": "wetlandCH4cons_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wetlandCH4cons_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_downward_mass_flux_of_methane_due_to_wetland_biological_consumption",
   "cf_units": "kg m-2 s-1",

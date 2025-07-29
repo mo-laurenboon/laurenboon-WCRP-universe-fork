@@ -1,6 +1,6 @@
 {
   "id": "oh_tavg-p39-hy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "oh_tavg-p39-hy-air",
   "cf_standard_name": "mole_fraction_of_hydroxyl_radical_in_air",
   "cf_units": "mol mol-1",

@@ -1,6 +1,6 @@
 {
   "id": "unknown05",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "unknown05",
   "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
   "cf_units": "s",

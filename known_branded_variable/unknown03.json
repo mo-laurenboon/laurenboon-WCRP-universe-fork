@@ -1,6 +1,6 @@
 {
   "id": "unknown03",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "unknown03",
   "cf_standard_name": "sea_surface_wave_from_direction",
   "cf_units": "degree",

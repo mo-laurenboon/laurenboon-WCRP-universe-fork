@@ -1,6 +1,6 @@
 {
   "id": "zfull_ti-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zfull_ti-al-hxy-u",
   "cf_standard_name": "height_above_reference_ellipsoid",
   "cf_units": "m",

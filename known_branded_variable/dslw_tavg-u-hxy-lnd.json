@@ -1,6 +1,6 @@
 {
   "id": "dslw_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dslw_tavg-u-hxy-lnd",
   "cf_standard_name": "change_over_time_in_mass_content_of_water_in_soil",
   "cf_units": "kg m-2",

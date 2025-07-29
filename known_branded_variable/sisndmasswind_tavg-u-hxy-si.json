@@ -1,6 +1,6 @@
 {
   "id": "sisndmasswind_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sisndmasswind_tavg-u-hxy-si",
   "cf_standard_name": "tendency_of_surface_snow_amount_due_to_drifting_into_sea",
   "cf_units": "kg m-2 s-1",

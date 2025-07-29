@@ -1,6 +1,6 @@
 {
   "id": "evspsbl_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "evspsbl_tpt-u-hxys-u",
   "cf_standard_name": "water_evapotranspiration_flux",
   "cf_units": "kg m-2 s-1",

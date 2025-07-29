@@ -1,6 +1,6 @@
 {
   "id": "mfo_tavg-u-ht-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mfo_tavg-u-ht-sea",
   "cf_standard_name": "sea_water_transport_across_line",
   "cf_units": "kg s-1",

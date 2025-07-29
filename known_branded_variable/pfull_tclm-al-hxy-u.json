@@ -1,6 +1,6 @@
 {
   "id": "pfull_tclm-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "pfull_tclm-al-hxy-u",
   "cf_standard_name": "air_pressure",
   "cf_units": "Pa",

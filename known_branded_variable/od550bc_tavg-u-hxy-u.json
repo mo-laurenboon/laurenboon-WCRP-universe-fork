@@ -1,6 +1,6 @@
 {
   "id": "od550bc_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "od550bc_tavg-u-hxy-u",
   "cf_standard_name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
   "cf_units": "1",

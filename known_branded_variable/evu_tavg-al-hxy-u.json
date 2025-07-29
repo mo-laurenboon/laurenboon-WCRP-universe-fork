@@ -1,6 +1,6 @@
 {
   "id": "evu_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "evu_tavg-al-hxy-u",
   "cf_standard_name": "atmosphere_momentum_diffusivity",
   "cf_units": "m2 s-1",

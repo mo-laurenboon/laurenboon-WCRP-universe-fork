@@ -1,6 +1,6 @@
 {
   "id": "rtmt_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rtmt_tavg-u-hxy-u",
   "cf_standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
   "cf_units": "W m-2",

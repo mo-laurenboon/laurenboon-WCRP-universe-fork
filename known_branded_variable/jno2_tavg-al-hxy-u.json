@@ -1,6 +1,6 @@
 {
   "id": "jno2_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "jno2_tavg-al-hxy-u",
   "cf_standard_name": "photolysis_rate_of_nitrogen_dioxide",
   "cf_units": "s-1",

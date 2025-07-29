@@ -1,6 +1,6 @@
 {
   "id": "sfdsi_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sfdsi_tavg-u-hxy-sea",
   "cf_standard_name": "downward_sea_ice_basal_salt_flux",
   "cf_units": "kg m-2 s-1",

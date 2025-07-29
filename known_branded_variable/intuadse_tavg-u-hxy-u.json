@@ -1,6 +1,6 @@
 {
   "id": "intuadse_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "intuadse_tavg-u-hxy-u",
   "cf_standard_name": "eastward_atmosphere_dry_static_energy_transport_across_unit_distance",
   "cf_units": "MJ m-1 s-1",

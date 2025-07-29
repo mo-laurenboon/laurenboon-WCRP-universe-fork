@@ -1,6 +1,6 @@
 {
   "id": "expcalc_tavg-d100m-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "expcalc_tavg-d100m-hxy-sea",
   "cf_standard_name": "sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-2 s-1",

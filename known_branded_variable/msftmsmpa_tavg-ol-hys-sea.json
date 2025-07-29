@@ -1,6 +1,6 @@
 {
   "id": "msftmsmpa_tavg-ol-hys-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "msftmsmpa_tavg-ol-hys-sea",
   "cf_standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
   "cf_units": "kg s-1",

@@ -1,6 +1,6 @@
 {
   "id": "hfacrossline_tavg-u-ht-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfacrossline_tavg-u-ht-sea",
   "cf_standard_name": "ocean_heat_transport_across_line",
   "cf_units": "W",

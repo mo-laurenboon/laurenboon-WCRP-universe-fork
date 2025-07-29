@@ -1,6 +1,6 @@
 {
   "id": "ua_tpt-p3-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ua_tpt-p3-hxy-air",
   "cf_standard_name": "eastward_wind",
   "cf_units": "m s-1",

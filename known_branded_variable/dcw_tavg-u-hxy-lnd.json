@@ -1,6 +1,6 @@
 {
   "id": "dcw_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "dcw_tavg-u-hxy-lnd",
   "cf_standard_name": "change_over_time_in_canopy_water_amount",
   "cf_units": "kg m-2",

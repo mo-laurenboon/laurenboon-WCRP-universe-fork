@@ -1,6 +1,6 @@
 {
   "id": "zostoga_tavg-u-hm-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zostoga_tavg-u-hm-sea",
   "cf_standard_name": "global_average_thermosteric_sea_level_change",
   "cf_units": "m",

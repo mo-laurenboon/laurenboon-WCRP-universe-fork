@@ -1,6 +1,6 @@
 {
   "id": "mrsol_tavg-sl-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "mrsol_tavg-sl-hxy-lnd",
   "cf_standard_name": "mass_content_of_water_in_soil_layer",
   "cf_units": "kg m-2",

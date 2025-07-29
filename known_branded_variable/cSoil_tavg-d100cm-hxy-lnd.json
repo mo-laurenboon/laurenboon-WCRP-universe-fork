@@ -1,6 +1,6 @@
 {
   "id": "cSoil_tavg-d100cm-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cSoil_tavg-d100cm-hxy-lnd",
   "cf_standard_name": "soil_mass_content_of_carbon",
   "cf_units": "kg m-2",

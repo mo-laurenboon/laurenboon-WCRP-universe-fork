@@ -1,6 +1,6 @@
 {
   "id": "rhSoil_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rhSoil_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_upward_mass_flux_of_carbon_due_to_heterotrophic_respiration_in_soil",
   "cf_units": "kg m-2 s-1",

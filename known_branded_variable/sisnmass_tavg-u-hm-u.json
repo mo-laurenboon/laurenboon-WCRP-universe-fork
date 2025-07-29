@@ -1,6 +1,6 @@
 {
   "id": "sisnmass_tavg-u-hm-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sisnmass_tavg-u-hm-u",
   "cf_standard_name": "surface_snow_mass",
   "cf_units": "kg",

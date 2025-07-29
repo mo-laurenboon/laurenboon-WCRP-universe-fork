@@ -1,6 +1,6 @@
 {
   "id": "depthl_ti-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "depthl_ti-u-hxy-u",
   "cf_standard_name": "depth",
   "cf_units": "m",

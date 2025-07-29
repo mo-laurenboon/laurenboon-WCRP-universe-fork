@@ -1,6 +1,6 @@
 {
   "id": "srfrad_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "srfrad_tavg-u-hxy-u",
   "cf_standard_name": "surface_net_downward_radiative_flux",
   "cf_units": "W m-2",

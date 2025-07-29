@@ -1,6 +1,6 @@
 {
   "id": "litempbot_tavg-u-hxy-fis",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "litempbot_tavg-u-hxy-fis",
   "cf_standard_name": "land_ice_basal_temperature",
   "cf_units": "K",

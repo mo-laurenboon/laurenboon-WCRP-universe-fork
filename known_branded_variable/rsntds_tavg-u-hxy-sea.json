@@ -1,6 +1,6 @@
 {
   "id": "rsntds_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsntds_tavg-u-hxy-sea",
   "cf_standard_name": "net_downward_shortwave_flux_at_sea_water_surface",
   "cf_units": "W m-2",

@@ -1,6 +1,6 @@
 {
   "id": "climodis_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "climodis_tavg-u-hxy-u",
   "cf_standard_name": "modis_ice_topped_cloud_area_fraction",
   "cf_units": "%",

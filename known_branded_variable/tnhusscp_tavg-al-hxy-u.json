@@ -1,6 +1,6 @@
 {
   "id": "tnhusscp_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tnhusscp_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
   "cf_units": "s-1",

@@ -1,6 +1,6 @@
 {
   "id": "hus_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hus_tpt-al-hxys-u",
   "cf_standard_name": "specific_humidity",
   "cf_units": "1",

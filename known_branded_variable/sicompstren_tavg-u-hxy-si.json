@@ -1,6 +1,6 @@
 {
   "id": "sicompstren_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sicompstren_tavg-u-hxy-si",
   "cf_standard_name": "compressive_strength_of_sea_ice",
   "cf_units": "N m-1",

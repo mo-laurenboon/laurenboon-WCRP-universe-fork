@@ -1,6 +1,6 @@
 {
   "id": "tsLut_tavg-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tsLut_tavg-u-hxy-multi",
   "cf_standard_name": "surface_temperature",
   "cf_units": "K",

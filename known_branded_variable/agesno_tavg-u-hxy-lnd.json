@@ -1,6 +1,6 @@
 {
   "id": "agesno_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "agesno_tavg-u-hxy-lnd",
   "cf_standard_name": "age_of_surface_snow",
   "cf_units": "day",

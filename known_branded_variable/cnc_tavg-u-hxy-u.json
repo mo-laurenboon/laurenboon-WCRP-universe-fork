@@ -1,6 +1,6 @@
 {
   "id": "cnc_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cnc_tavg-u-hxy-u",
   "cf_standard_name": "vegetation_area_fraction",
   "cf_units": "%",

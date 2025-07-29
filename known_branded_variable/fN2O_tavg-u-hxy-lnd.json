@@ -1,6 +1,6 @@
 {
   "id": "fN2O_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fN2O_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
   "cf_units": "kg m-2 s-1",

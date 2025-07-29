@@ -1,6 +1,6 @@
 {
   "id": "nLitterSurf_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "nLitterSurf_tavg-u-hxy-lnd",
   "cf_standard_name": "surface_litter_mass_content_of_nitrogen",
   "cf_units": "kg m-2",

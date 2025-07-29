@@ -1,6 +1,6 @@
 {
   "id": "difmxybo_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "difmxybo_tavg-ol-hxy-sea",
   "cf_standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
   "cf_units": "m4 s-1",

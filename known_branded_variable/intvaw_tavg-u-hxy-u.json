@@ -1,6 +1,6 @@
 {
   "id": "intvaw_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "intvaw_tavg-u-hxy-u",
   "cf_standard_name": "northward_atmosphere_water_transport_across_unit_distance",
   "cf_units": "kg m-1 s-1",

@@ -1,6 +1,6 @@
 {
   "id": "ztp_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ztp_tavg-u-hxy-u",
   "cf_standard_name": "tropopause_altitude",
   "cf_units": "m",

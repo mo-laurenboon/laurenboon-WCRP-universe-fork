@@ -1,6 +1,6 @@
 {
   "id": "sitimefrac_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sitimefrac_tavg-u-hxy-sea",
   "cf_standard_name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
   "cf_units": "1",

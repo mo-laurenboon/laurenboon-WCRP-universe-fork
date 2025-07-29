@@ -1,6 +1,6 @@
 {
   "id": "litemptop_tavg-u-hxy-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "litemptop_tavg-u-hxy-is",
   "cf_standard_name": "temperature_at_top_of_ice_sheet_model",
   "cf_units": "K",

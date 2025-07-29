@@ -1,6 +1,6 @@
 {
   "id": "phydiatos_tavg-d0m-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "phydiatos_tavg-d0m-hxy-sea",
   "cf_standard_name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
   "cf_units": "mol m-3",

@@ -1,6 +1,6 @@
 {
   "id": "sialgc_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sialgc_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_mole_content_of_ice_algae_expressed_as_carbon",
   "cf_units": "mol m-2",

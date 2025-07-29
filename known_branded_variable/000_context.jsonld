@@ -1,8 +1,4 @@
-
-
-
-{
-     
+{     
 "@context": {
       "@base":"https://espri-mod.github.io/mip-cmor-tables/known_branded_variable/",
       "@vocab": "http://schema.org/",
@@ -11,7 +7,6 @@
       "branded_variable": "https://espri-mod.github.io/mip-cmor-tables/known_branded_variable/",
       "cell_methods": "https://espri-mod.github.io/mip-cmor-tables/cell_methods/",
       "dimensions": "https://espri-mod.github.io/mip-cmor-tables/dimensions/"
-                        
-                        }
+      }
 }
 

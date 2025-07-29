@@ -1,6 +1,6 @@
 {
   "id": "reffclis_tpt-al-hxys-scl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffclis_tpt-al-hxys-scl",
   "cf_standard_name": "effective_radius_of_stratiform_cloud_ice_particles",
   "cf_units": "m",

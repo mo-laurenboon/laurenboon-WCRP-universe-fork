@@ -1,6 +1,6 @@
 {
   "id": "hfbasin_tavg-u-hys-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfbasin_tavg-u-hys-sea",
   "cf_standard_name": "northward_ocean_heat_transport",
   "cf_units": "W",

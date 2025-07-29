@@ -1,6 +1,6 @@
 {
   "id": "nLand_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "nLand_tavg-u-hxy-lnd",
   "cf_standard_name": "mass_content_of_nitrogen_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
   "cf_units": "kg m-2",

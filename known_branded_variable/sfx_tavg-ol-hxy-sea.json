@@ -1,6 +1,6 @@
 {
   "id": "sfx_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sfx_tavg-ol-hxy-sea",
   "cf_standard_name": "ocean_salt_x_transport",
   "cf_units": "kg s-1",

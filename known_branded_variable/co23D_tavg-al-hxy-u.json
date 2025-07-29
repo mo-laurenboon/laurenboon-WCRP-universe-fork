@@ -1,6 +1,6 @@
 {
   "id": "co23D_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "co23D_tavg-al-hxy-u",
   "cf_standard_name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
   "cf_units": "kg kg-1",

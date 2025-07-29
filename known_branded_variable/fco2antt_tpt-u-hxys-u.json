@@ -1,6 +1,6 @@
 {
   "id": "fco2antt_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fco2antt_tpt-u-hxys-u",
   "cf_standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
   "cf_units": "kg m-2 s-1",

@@ -1,6 +1,6 @@
 {
   "id": "nMineralNO3_tavg-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "nMineralNO3_tavg-u-hxy-lnd",
   "cf_standard_name": "soil_mass_content_of_inorganic_nitrate_expressed_as_nitrogen",
   "cf_units": "kg m-2",

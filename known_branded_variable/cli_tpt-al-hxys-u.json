@@ -1,6 +1,6 @@
 {
   "id": "cli_tpt-al-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cli_tpt-al-hxys-u",
   "cf_standard_name": "mass_fraction_of_cloud_ice_in_air",
   "cf_units": "kg kg-1",

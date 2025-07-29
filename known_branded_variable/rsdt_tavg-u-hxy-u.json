@@ -1,6 +1,6 @@
 {
   "id": "rsdt_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsdt_tavg-u-hxy-u",
   "cf_standard_name": "toa_incoming_shortwave_flux",
   "cf_units": "W m-2",

@@ -1,6 +1,6 @@
 {
   "id": "fracOutLut_tsum-u-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "fracOutLut_tsum-u-hxy-lnd",
   "cf_standard_name": "area_fraction",
   "cf_units": "%",

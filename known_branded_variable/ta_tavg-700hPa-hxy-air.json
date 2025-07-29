@@ -1,6 +1,6 @@
 {
   "id": "ta_tavg-700hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ta_tavg-700hPa-hxy-air",
   "cf_standard_name": "air_temperature",
   "cf_units": "K",

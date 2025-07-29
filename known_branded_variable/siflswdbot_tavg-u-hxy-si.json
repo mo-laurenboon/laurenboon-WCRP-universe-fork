@@ -1,6 +1,6 @@
 {
   "id": "siflswdbot_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siflswdbot_tavg-u-hxy-si",
   "cf_standard_name": "downwelling_shortwave_flux_in_sea_water_at_sea_ice_base",
   "cf_units": "W m-2",

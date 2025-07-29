@@ -1,6 +1,6 @@
 {
   "id": "wo_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wo_tavg-ol-hxy-sea",
   "cf_standard_name": "upward_sea_water_velocity",
   "cf_units": "m s-1",

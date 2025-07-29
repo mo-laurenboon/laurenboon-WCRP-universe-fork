@@ -1,6 +1,6 @@
 {
   "id": "thkcello_ti-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "thkcello_ti-ol-hxy-sea",
   "cf_standard_name": "cell_thickness",
   "cf_units": "m",

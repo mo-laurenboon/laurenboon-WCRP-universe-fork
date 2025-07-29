@@ -1,6 +1,6 @@
 {
   "id": "wa_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "wa_tavg-al-hxy-u",
   "cf_standard_name": "upward_air_velocity",
   "cf_units": "m s-1",

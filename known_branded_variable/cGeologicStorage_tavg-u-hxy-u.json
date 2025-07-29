@@ -1,6 +1,6 @@
 {
   "id": "cGeologicStorage_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cGeologicStorage_tavg-u-hxy-u",
   "cf_standard_name": "carbon_mass_content_of_geological_storage",
   "cf_units": "kg m-2",

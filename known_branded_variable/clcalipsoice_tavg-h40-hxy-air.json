@@ -1,6 +1,6 @@
 {
   "id": "clcalipsoice_tavg-h40-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "clcalipsoice_tavg-h40-hxy-air",
   "cf_standard_name": "ice_cloud_area_fraction_in_atmosphere_layer",
   "cf_units": "%",

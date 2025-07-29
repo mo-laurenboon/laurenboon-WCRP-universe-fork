@@ -1,6 +1,6 @@
 {
   "id": "tatp_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tatp_tavg-u-hxy-u",
   "cf_standard_name": "tropopause_air_temperature",
   "cf_units": "K",

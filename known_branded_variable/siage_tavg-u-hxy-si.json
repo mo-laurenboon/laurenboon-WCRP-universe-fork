@@ -1,6 +1,6 @@
 {
   "id": "siage_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siage_tavg-u-hxy-si",
   "cf_standard_name": "age_of_sea_ice",
   "cf_units": "s",

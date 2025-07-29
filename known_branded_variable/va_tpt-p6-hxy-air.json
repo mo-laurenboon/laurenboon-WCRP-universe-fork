@@ -1,6 +1,6 @@
 {
   "id": "va_tpt-p6-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "va_tpt-p6-hxy-air",
   "cf_standard_name": "northward_wind",
   "cf_units": "m s-1",

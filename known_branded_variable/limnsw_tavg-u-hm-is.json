@@ -1,6 +1,6 @@
 {
   "id": "limnsw_tavg-u-hm-is",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "limnsw_tavg-u-hm-is",
   "cf_standard_name": "land_ice_mass_not_displacing_sea_water",
   "cf_units": "kg",

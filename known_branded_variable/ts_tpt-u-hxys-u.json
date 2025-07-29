@@ -1,6 +1,6 @@
 {
   "id": "ts_tpt-u-hxys-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "ts_tpt-u-hxys-u",
   "cf_standard_name": "surface_temperature",
   "cf_units": "K",

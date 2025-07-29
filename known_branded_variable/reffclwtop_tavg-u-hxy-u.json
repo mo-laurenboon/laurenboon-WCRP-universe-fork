@@ -1,6 +1,6 @@
 {
   "id": "reffclwtop_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "reffclwtop_tavg-u-hxy-u",
   "cf_standard_name": "effective_radius_of_cloud_liquid_water_particles_at_liquid_water_cloud_top",
   "cf_units": "m",

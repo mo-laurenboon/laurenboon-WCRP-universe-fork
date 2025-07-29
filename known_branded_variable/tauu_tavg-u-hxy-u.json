@@ -1,6 +1,6 @@
 {
   "id": "tauu_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tauu_tavg-u-hxy-u",
   "cf_standard_name": "surface_downward_eastward_stress",
   "cf_units": "Pa",

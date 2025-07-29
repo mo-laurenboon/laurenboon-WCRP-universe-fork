@@ -1,6 +1,6 @@
 {
   "id": "irrLut_tavg-u-hxy-multi",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "irrLut_tavg-u-hxy-multi",
   "cf_standard_name": "surface_downward_mass_flux_of_water_due_to_irrigation",
   "cf_units": "kg m-2 s-1",

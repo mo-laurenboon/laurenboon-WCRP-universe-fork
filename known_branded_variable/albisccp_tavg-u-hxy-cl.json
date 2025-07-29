@@ -1,6 +1,6 @@
 {
   "id": "albisccp_tavg-u-hxy-cl",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "albisccp_tavg-u-hxy-cl",
   "cf_standard_name": "cloud_albedo",
   "cf_units": "1",

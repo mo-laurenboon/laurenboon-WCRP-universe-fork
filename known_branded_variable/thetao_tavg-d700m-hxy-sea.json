@@ -1,6 +1,6 @@
 {
   "id": "thetao_tavg-d700m-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "thetao_tavg-d700m-hxy-sea",
   "cf_standard_name": "sea_water_potential_temperature",
   "cf_units": "degC",

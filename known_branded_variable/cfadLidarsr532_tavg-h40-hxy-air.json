@@ -1,6 +1,6 @@
 {
   "id": "cfadLidarsr532_tavg-h40-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "cfadLidarsr532_tavg-h40-hxy-air",
   "cf_standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
   "cf_units": "1",

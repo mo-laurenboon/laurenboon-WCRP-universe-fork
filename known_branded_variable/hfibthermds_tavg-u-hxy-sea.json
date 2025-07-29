@@ -1,6 +1,6 @@
 {
   "id": "hfibthermds_tavg-u-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hfibthermds_tavg-u-hxy-sea",
   "cf_standard_name": "heat_flux_into_sea_water_due_to_iceberg_thermodynamics",
   "cf_units": "W m-2",

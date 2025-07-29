@@ -1,6 +1,6 @@
 {
   "id": "siconca_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "siconca_tavg-u-hxy-u",
   "cf_standard_name": "sea_ice_area_fraction",
   "cf_units": "1",

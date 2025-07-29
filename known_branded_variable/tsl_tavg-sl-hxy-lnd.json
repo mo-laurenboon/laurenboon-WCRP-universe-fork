@@ -1,6 +1,6 @@
 {
   "id": "tsl_tavg-sl-hxy-lnd",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "tsl_tavg-sl-hxy-lnd",
   "cf_standard_name": "soil_temperature",
   "cf_units": "K",

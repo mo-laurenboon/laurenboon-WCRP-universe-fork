@@ -1,6 +1,6 @@
 {
   "id": "sichl_tavg-u-hxy-si",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "sichl_tavg-u-hxy-si",
   "cf_standard_name": "sea_ice_mass_content_of_ice_algae_expressed_as_chlorophyll",
   "cf_units": "kg m-2",

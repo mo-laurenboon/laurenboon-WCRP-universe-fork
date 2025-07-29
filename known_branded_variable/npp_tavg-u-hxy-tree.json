@@ -1,6 +1,6 @@
 {
   "id": "npp_tavg-u-hxy-tree",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "npp_tavg-u-hxy-tree",
   "cf_standard_name": "net_primary_productivity_of_biomass_expressed_as_carbon",
   "cf_units": "kg m-2 s-1",

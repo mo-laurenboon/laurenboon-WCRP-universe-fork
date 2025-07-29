@@ -1,6 +1,6 @@
 {
   "id": "chepno3_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "chepno3_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_mass_content_of_nitrate_dry_aerosol_particles_due_to_net_chemical_production",
   "cf_units": "kg m-2 s-1",

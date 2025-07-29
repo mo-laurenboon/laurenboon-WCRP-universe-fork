@@ -1,6 +1,6 @@
 {
   "id": "masscello_ti-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "masscello_ti-ol-hxy-sea",
   "cf_standard_name": "sea_water_mass_per_unit_area",
   "cf_units": "kg m-2",

@@ -1,6 +1,6 @@
 {
   "id": "hur_tpt-100hPa-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "hur_tpt-100hPa-hxy-u",
   "cf_standard_name": "relative_humidity",
   "cf_units": "%",

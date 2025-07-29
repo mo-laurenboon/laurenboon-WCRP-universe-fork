@@ -1,6 +1,6 @@
 {
   "id": "rsdoabsorb_tavg-ol-hxy-sea",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rsdoabsorb_tavg-ol-hxy-sea",
   "cf_standard_name": "net_rate_of_absorption_of_shortwave_energy_in_ocean_layer",
   "cf_units": "W m-2",

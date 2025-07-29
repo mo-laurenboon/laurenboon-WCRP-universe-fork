@@ -1,6 +1,6 @@
 {
   "id": "zg_tavg-10hPa-hxy-air",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "zg_tavg-10hPa-hxy-air",
   "cf_standard_name": "geopotential_height",
   "cf_units": "m",

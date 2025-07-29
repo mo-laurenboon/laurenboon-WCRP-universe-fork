@@ -1,6 +1,6 @@
 {
   "id": "rluscsaf_tavg-u-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "rluscsaf_tavg-u-hxy-u",
   "cf_standard_name": "surface_upwelling_longwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
   "cf_units": "W m-2",

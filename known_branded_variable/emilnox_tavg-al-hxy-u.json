@@ -1,6 +1,6 @@
 {
   "id": "emilnox_tavg-al-hxy-u",
-  "type": "branded_variable",
+  "type": "known_branded_variable",
   "drs_name": "emilnox_tavg-al-hxy-u",
   "cf_standard_name": "tendency_of_atmosphere_moles_of_nox_expressed_as_nitrogen",
   "cf_units": "mol s-1",

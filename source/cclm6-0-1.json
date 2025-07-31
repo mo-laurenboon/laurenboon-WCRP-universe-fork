@@ -19,7 +19,7 @@
     ],
     "label": "CCLM6-0-1",
     "label_extended": "COSMO model in climate mode (COSMO-CLM), Version 6.0 clm 1",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2021"
 }

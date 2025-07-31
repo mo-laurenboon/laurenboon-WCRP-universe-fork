@@ -14,7 +14,7 @@
     ],
     "label": "WRF v4.6.1-T SN",
     "label_extended": "Weather Research and Forecasting model version 4.6.1, CORDEX WRF Community configuration T",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2024"
 }

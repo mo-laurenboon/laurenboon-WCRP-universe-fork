@@ -14,7 +14,7 @@
     ],
     "label": "TSMP1 v1.4.0-E",
     "label_extended": "Terrestrial Systems Modeling Platform (TSMP1) version 1.4.0: COSMO 5.01 (atm), CLM 3.5.0 (land), ParFlow 3.13.0 (hydro), OASIS3-MCT (coupler)",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2023"
 }

@@ -54,7 +54,7 @@ for term, dic in source_data["source_id"].items():
         "organisation_id": dic["institution_id"],
         "label": dic["label"],
         "label_extended": dic["label_extended"],
-        "license": dic["license"],
+        "license": {},
         "model_component": None,
         "release_year": dic["release_year"],
     }

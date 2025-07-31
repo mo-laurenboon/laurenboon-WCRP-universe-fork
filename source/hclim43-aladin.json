@@ -16,7 +16,7 @@
     ],
     "label": "HCLIM43-ALADIN",
     "label_extended": "HARMONIE Climate model cycle 43 with ALADIN physics",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2022"
 }

@@ -14,7 +14,7 @@
     ],
     "label": "CNRM-ALADIN64E1",
     "label_extended": "CNRM-ALADIN regional climate model, version 6.4 E1",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2023"
 }

@@ -14,7 +14,7 @@
     ],
     "label": "MetUMv13p0",
     "label_extended": "UK Met Office Unified Model version 13.0",
-    "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0; https://creativecommons.org/licenses/by/4.0).",
+    "license": {},
     "model_component": null,
     "release_year": "2022"
 }

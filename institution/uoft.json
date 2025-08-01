@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "university-of-toronto",
+    "id": "uoft",
     "acronyms": [
         "UofT"
     ],

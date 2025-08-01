@@ -1,0 +1,31 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ncc",
+    "acronyms": [
+        "NCC"
+    ],
+    "aliases": [
+        "Norwegian Centre for Climate Services",
+        "Norwegian Meteorological Institute",
+        "Meteorologisk institutt"
+    ],
+    "cmip-acronym": "NCC",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Oslo",
+        "country": [
+            "Norway",
+            "NO"
+        ],
+        "lat": null,
+        "lon": null
+    },
+    "name": "Norwegian Climate Centre",
+    "ror": null,
+    "url": [
+        "https://www.met.no/"
+    ],
+    "type": "institution",
+    "drs_name": "NCC"
+}

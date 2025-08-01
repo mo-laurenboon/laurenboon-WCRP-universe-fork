@@ -1,0 +1,27 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cnrm-cerfacs",
+    "acronyms": [
+        "CNRM‑CERFACS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CNRM-CERFACS",
+    "established": 1987,
+    "labels": [],
+    "location": {
+        "city": "Toulouse",
+        "country": [
+            "France",
+            "FR"
+        ],
+        "lat": 43.5767,
+        "lon": 1.4250
+    },
+    "name": "CNRM‑CERFACS",
+    "ror": "004rej139",
+    "url": [
+        "https://www.cerfacs.fr/"
+    ],
+    "type": "institution",
+    "drs_name": "CNRM‑CERFACS"
+}

@@ -1,0 +1,25 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rubisco",
+    "acronyms": [
+        "RUBISCO"
+    ],
+    "aliases": [],
+    "cmip-acronym": "RUBISCO",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Oak Ridge",
+        "country": [
+            "USA",
+            "US"
+        ],
+        "lat": 36.0104,
+        "lon": -84.2696
+    },
+    "name": "RUBISCO consortium",
+    "ror": null,
+    "url": [],
+    "type": "institution",
+    "drs_name": "RUBISCO"
+}

@@ -1,0 +1,27 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "csiro-arccss",
+    "acronyms": [
+        "CSIRO-ARCCSS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CSIRO-ARCCSS",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Aspendale, Victoria",
+        "country": [
+            "Australia",
+            "AU"
+        ],
+        "lat": -37.9700,
+        "lon": 145.0900
+    },
+    "name": "Commonwealth Scientific and Industrial Research Organisation - Australian Research Council Centre of Excellence for Climate System Science",
+    "ror": null,
+    "url": [
+        "https://www.csiro.au/"
+    ],
+    "type": "institution",
+    "drs_name": "CSIRO-ARCCSS"
+}

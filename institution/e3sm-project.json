@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "e3sm-project",
+    "acronyms": [
+        "E3SM-Project"
+    ],
+    "aliases": [],
+    "cmip-acronym": "E3SM‑Project",
+    "established": 2014,
+    "labels": [],
+    "location": {
+        "city": "Livermore",
+        "country": [
+            "USA",
+            "US"
+        ],
+        "lat": 37.6819,
+        "lon": -121.7680
+    },
+    "name": "Energy Exascale Earth System Model Project",
+    "ror": null,
+    "url": [
+        "https://docs.e3sm.org/E3SM/",
+        "https://e3sm.org/"
+    ],
+    "type": "institution",
+    "drs_name": "E3SM‑Project"
+}

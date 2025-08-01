@@ -1,0 +1,27 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "messy-consortium",
+    "acronyms": [
+        "MESSy-Consortium"
+    ],
+    "aliases": [],
+    "cmip-acronym": "MESSy-Consortium",
+    "established": 2013,
+    "labels": [],
+    "location": {
+        "city": "Wessling",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 48.1539,
+        "lon": 11.2593
+    },
+    "name": "Modular Earth Submodel System",
+    "ror": null,
+    "url": [
+        "https://messy-interface.org/"
+    ],
+    "type": "institution",
+    "drs_name": "MESSy-Consortium"
+}

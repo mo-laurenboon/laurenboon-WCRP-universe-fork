@@ -12,9 +12,9 @@
         "institution": "dwd",
         "dates": [
           {
-            "from": null,
+            "from": 1952,
             "phase": "cmip6",
-            "to": null
+            "to": 2025
           }
         ],
         "membership_type": "prior"
@@ -24,9 +24,9 @@
         "institution": "bsh",
         "dates": [
           {
-            "from": null,
+            "from": 1868,
             "phase": "cmip6",
-            "to": null
+            "to": 2025
           }
         ],
         "membership_type": "prior"

@@ -12,9 +12,21 @@
             "institution": "cnrm",
             "dates": [
                 {
-                    "from": null,
+                    "from": 2016,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "mf",
+            "dates": [
+                {
+                    "from": 1993,
+                    "phase": "cmip6",
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"

@@ -9,12 +9,24 @@
     "members": [
         {
             "type": "member",
+            "institution": "uba",
+            "dates": [
+                {
+                    "from": 1821,
+                    "phase": "cmip6",
+                    "to": 2025
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
             "institution": "cima",
             "dates": [
                 {
-                    "from": null,
+                    "from": 1995,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"
@@ -24,9 +36,9 @@
             "institution": "ifaeci",
             "dates": [
                 {
-                    "from": null,
+                    "from": 2010,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"

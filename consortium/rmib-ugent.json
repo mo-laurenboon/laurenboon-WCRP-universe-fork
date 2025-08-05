@@ -12,9 +12,9 @@
             "institution": "rmib",
             "dates": [
                 {
-                    "from": null,
+                    "from": 1913,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"
@@ -24,9 +24,9 @@
             "institution": "ugent",
             "dates": [
                 {
-                    "from": null,
+                    "from": 2020,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"

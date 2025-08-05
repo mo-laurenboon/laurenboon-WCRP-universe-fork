@@ -12,9 +12,9 @@
             "institution": "bccr",
             "dates": [
                 {
-                    "from": null,
+                    "from": 2000,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"
@@ -24,9 +24,9 @@
             "institution": "ucan",
             "dates": [
                 {
-                    "from": null,
+                    "from": 1995,
                     "phase": "cmip6",
-                    "to": null
+                    "to": 2025
                 }
             ],
             "membership_type": "prior"

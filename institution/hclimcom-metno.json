@@ -1,0 +1,32 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hclimcom-metno",
+    "acronyms": [
+        "HCLIMcom-METNo"
+    ],
+    "aliases": [
+        "Norwegian Meteorological Institute",
+        "Meteorologisk institutt",
+        "MET Norway",
+        "MET"
+    ],
+    "cmip-acronym": "HCLIMcom-METNo",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Oslo",
+        "country": [
+            "Norway",
+            "NO"
+        ],
+        "lat": null,
+        "lon": null
+    },
+    "name": "HARMONIE Climate Modelling Community (HCLIMcom) partner: Norwegian Meteorological Institute (METNo)",
+    "ror": "001n36p86",
+    "url": [
+        "https://www.met.no/"
+    ],
+    "type": "institution",
+    "drs_name": "HCLIMcom-METNo"
+}

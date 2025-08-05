@@ -1,0 +1,30 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clmcom-list",
+    "acronyms": [
+        "CLMcom-LIST"
+    ],
+    "aliases": [
+        "Luxembourg Institute of Science and Technology",
+        "LIST"
+    ],
+    "cmip-acronym": "CLMcom-LIST",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Belvaux",
+        "country": [
+            "Luxembourg",
+            "LU"
+        ],
+        "lat": 49.5110,
+        "lon": 6.0552
+    },
+    "name": "Climate Limited-area Modelling Community (CLMcom) partner: Luxembourg Institute of Science and Technology",
+    "ror": "01t178j62",
+    "url": [
+        "https://www.list.lu/"
+    ],
+    "type": "institution",
+    "drs_name": "CLMcom-LIST"
+}

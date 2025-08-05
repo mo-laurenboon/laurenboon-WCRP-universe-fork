@@ -1,0 +1,31 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clmcom-imwm",
+    "acronyms": [
+        "CLMcom-IMWM"
+    ],
+    "aliases": [
+        "Institute of Meteorology and Water Management",
+        "Instytut Meteorologii i Gospodarki Wodnej – Państwowy Instytut Badawczy",
+        "IMGW-PIB"
+    ],
+    "cmip-acronym": "CLMcom-IMWM",
+    "established": null,
+    "labels": [],
+    "location": {
+        "city": "Warsaw",
+        "country": [
+            "Poland",
+            "PL"
+        ],
+        "lat": 52.2297,
+        "lon": 21.0122
+    },
+    "name": "Climate Limited-area Modelling Community (CLMcom) partner: Institute of Meteorology and Water Management",
+    "ror": "0406s2v03",
+    "url": [
+        "https://www.imgw.pl"
+    ],
+    "type": "institution",
+    "drs_name": "CLMcom-IMWM"
+}

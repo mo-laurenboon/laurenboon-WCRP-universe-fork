@@ -1,0 +1,41 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uba-cima-ifaeci",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "UBA-CIMA-IFAECI",
+    "description": "UBA [Universidad de Buenos Aires, C. A. Buenos Aires (CABA), Argentina]; CIMA [Centro de Investigaciones del Mar y la Atmosfera, C. A. Buenos Aires (CABA), Argentina]; IFAECI [Instituto Franco-Argentino sobre Estudios de Clima y sus Impactos, C. A. Buenos Aires (CABA), Argentina]",
+    "members": [
+        {
+            "type": "member",
+            "institution": "cima",
+            "dates": [
+                {
+                    "from": null,
+                    "phase": "cmip6",
+                    "to": null
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "ifaeci",
+            "dates": [
+                {
+                    "from": null,
+                    "phase": "cmip6",
+                    "to": null
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": [
+        "https://www.uba.ar/",
+        "https://www.cima.fcen.uba.ar/",
+        "https://ifaeci.cima.fcen.uba.ar/news.php"
+    ],
+    "drs_name": "UBA-CIMA-IFAECI"
+}

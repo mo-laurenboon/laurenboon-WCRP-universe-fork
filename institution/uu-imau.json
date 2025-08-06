@@ -2,7 +2,7 @@
     "@context": "000_context.jsonld",
     "id": "uu-imau",
     "acronyms": [
-        "UU‑IMAU"
+        "UU-IMAU"
     ],
     "aliases": [],
     "cmip-acronym": "UU-IMAU",
@@ -23,5 +23,5 @@
         "https://www.uu.nl"
     ],
     "type": "institution",
-    "drs_name": "UU‑IMAU"
+    "drs_name": "UU-IMAU"
 }

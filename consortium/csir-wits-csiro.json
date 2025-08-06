@@ -17,7 +17,7 @@
         "lat": null,
         "lon": null
     },
-    "name": "Council for Scientific and Industrial Research ‑ University of the Witwatersrand ‑ Commonwealth Scientific and Industrial Research Organisation",
+    "name": "Council for Scientific and Industrial Research - University of the Witwatersrand - Commonwealth Scientific and Industrial Research Organisation",
     "ror": null,
     "url": [
         "https://www.csir.co.za/",
@@ -25,5 +25,5 @@
         "https://www.csiro.au/"
     ],
     "type": "institution",
-    "drs_name": "CSIR‑Wits‑CSIRO"
+    "drs_name": "CSIR-Wits-CSIRO"
 }

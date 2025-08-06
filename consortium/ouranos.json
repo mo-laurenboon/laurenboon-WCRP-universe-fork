@@ -7,8 +7,6 @@
     "cmip-acronym": "OURANOS",
     "description": "Consortium on Regional Climatology and Adaptation to Climate Change (Québec, Canada)",
     "members": [],
-    "url": [
-        "https://www.ouranos.ca/"
-    ],
+    "url": "https://www.ouranos.ca/",
     "drs_name": "OURANOS"
 }

@@ -32,8 +32,6 @@
       "membership_type": "prior"
     }
   ],
-  "url": [
-    "https://www.bjerknes.uib.no/"
-  ],
+  "url": "https://www.bjerknes.uib.no/",
   "drs_name": "NORCE-BCCR"
 }

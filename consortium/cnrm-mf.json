@@ -32,8 +32,6 @@
             "membership_type": "prior"
         }
     ],
-    "url": [
-        "https://comfort.w.uib.no/meteo-france/"
-    ],
+    "url": "https://comfort.w.uib.no/meteo-france/",
     "drs_name": "CNRM‑MF"
 }

@@ -44,10 +44,6 @@
             "membership_type": "prior"
         }
     ],
-    "url": [
-        "https://www.uba.ar/",
-        "https://www.cima.fcen.uba.ar/",
-        "https://ifaeci.cima.fcen.uba.ar/news.php"
-    ],
+    "url": "",
     "drs_name": "UBA-CIMA-IFAECI"
 }

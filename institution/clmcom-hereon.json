@@ -10,7 +10,7 @@
         "HZG"
     ],
     "cmip-acronym": "CLMcom-Hereon",
-    "established": null,
+    "established": 1956,
     "labels": [],
     "location": {
         "city": "Geesthacht",
@@ -18,8 +18,8 @@
             "Germany",
             "DE"
         ],
-        "lat": 53.3853,
-        "lon": 10.5060
+        "lat": 53.410446,
+        "lon": 10.422401
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: Helmholtz-Zentrum Hereon",
     "ror": "03qjp1d79",

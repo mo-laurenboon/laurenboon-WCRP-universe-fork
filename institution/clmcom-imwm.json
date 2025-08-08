@@ -10,7 +10,7 @@
         "IMGW-PIB"
     ],
     "cmip-acronym": "CLMcom-IMWM",
-    "established": null,
+    "established": 1972,
     "labels": [],
     "location": {
         "city": "Warsaw",
@@ -18,8 +18,8 @@
             "Poland",
             "PL"
         ],
-        "lat": 52.2297,
-        "lon": 21.0122
+        "lat": 52.280933,
+        "lon": 20.96136
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: Institute of Meteorology and Water Management",
     "ror": "0406s2v03",

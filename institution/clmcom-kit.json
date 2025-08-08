@@ -12,7 +12,7 @@
         "KIT"
     ],
     "cmip-acronym": "CLMcom-KIT",
-    "established": null,
+    "established": 1825,
     "labels": [],
     "location": {
         "city": "Karlsruhe",
@@ -20,8 +20,8 @@
             "Germany",
             "DE"
         ],
-        "lat": 49.0077,
-        "lon": 8.4037
+        "lat": 49.012204,
+        "lon": 8.415549
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: Karlsruhe Institute of Technology",
     "ror": "04t3en479",

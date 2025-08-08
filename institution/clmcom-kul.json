@@ -12,7 +12,7 @@
         "KUL"
     ],
     "cmip-acronym": "CLMcom-KUL",
-    "established": null,
+    "established": 1425,
     "labels": [],
     "location": {
         "city": "Leuven",
@@ -20,8 +20,8 @@
             "Belgium",
             "BE"
         ],
-        "lat": 50.8798,
-        "lon": 4.7005
+        "lat": 50.878097,
+        "lon": 4.699705
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: KU Leuven",
     "ror": "05f950310",

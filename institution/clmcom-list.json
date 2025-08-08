@@ -9,16 +9,16 @@
         "LIST"
     ],
     "cmip-acronym": "CLMcom-LIST",
-    "established": null,
+    "established": 2015,
     "labels": [],
     "location": {
-        "city": "Belvaux",
+        "city": "Esch-sur-Alzette",
         "country": [
             "Luxembourg",
             "LU"
         ],
-        "lat": 49.5110,
-        "lon": 6.0552
+        "lat": 49.5017,
+        "lon": 5.94878
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: Luxembourg Institute of Science and Technology",
     "ror": "01t178j62",

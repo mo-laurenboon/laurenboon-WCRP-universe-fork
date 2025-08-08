@@ -11,7 +11,7 @@
         "GERICS"
     ],
     "cmip-acronym": "CLMcom-GERICS",
-    "established": null,
+    "established": 2009,
     "labels": [],
     "location": {
         "city": "Hamburg",
@@ -19,8 +19,8 @@
             "Germany",
             "DE"
         ],
-        "lat": 53.5511,
-        "lon": 9.9937
+        "lat": 53.548289,
+        "lon": 10.002121
     },
     "name": "Climate Limited-area Modelling Community (CLMcom) partner: Climate Service Center Germany",
     "ror": "022rwzq94",

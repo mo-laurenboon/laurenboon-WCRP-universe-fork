@@ -1,5 +1,4 @@
 {
-  "@context": "000_context.jsonld",
   "id": "lwsnl_tavg-u-hxy-lnd",
   "type": "known_branded_variable",
   "drs_name": "lwsnl_tavg-u-hxy-lnd",
@@ -9,7 +8,7 @@
   "variable_root_name": "lwsnl",
   "var_def_qualifier": "",
   "branding_suffix_name": "tavg-u-hxy-lnd",
-  "description": "liquid\\_water\\_content\\_of\\_snow\\_layer\n",
+  "description": "where land over land: this is computed as the total mass of liquid water contained interstitially within the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell.\n",
   "dimensions": [
     "longitude",
     "latitude",
@@ -17,12 +16,13 @@
   ],
   "cell_methods": "area: mean where land time: mean",
   "cell_measures": "area: areacella",
-  "history": ": registered",
-  "realm": "",
+  "history": "",
+  "realm": "landIce",
   "temporal_label": "tavg",
   "vertical_label": "u",
   "horizontal_label": "hxy",
   "area_label": "lnd",
-  "bn_status": "accepted",
-  "positive_direction": ""
+  "bn_status": "Accepted",
+  "positive_direction": "",
+  "@context": "000_context.jsonld"
 }

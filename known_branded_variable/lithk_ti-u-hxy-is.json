@@ -1,5 +1,4 @@
 {
-  "@context": "000_context.jsonld",
   "id": "lithk_ti-u-hxy-is",
   "type": "known_branded_variable",
   "drs_name": "lithk_ti-u-hxy-is",
@@ -11,17 +10,18 @@
   "branding_suffix_name": "ti-u-hxy-is",
   "description": "The thickness of the ice sheet\n",
   "dimensions": [
-    "xant",
-    "yant"
+    "xgre",
+    "ygre"
   ],
   "cell_methods": "area: mean where ice_sheet",
   "cell_measures": "area: areacellg",
-  "history": ": registered",
-  "realm": "",
+  "history": "",
+  "realm": "landIce",
   "temporal_label": "ti",
   "vertical_label": "u",
   "horizontal_label": "hxy",
   "area_label": "is",
-  "bn_status": "accepted",
-  "positive_direction": ""
+  "bn_status": "Accepted",
+  "positive_direction": "",
+  "@context": "000_context.jsonld"
 }

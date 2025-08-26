@@ -1,29 +1,49 @@
 {
     "@context": "000_context.jsonld",
     "id": "csir-wits-csiro",
-    "acronyms": [
-        "CSIR-Wits-CSIRO"
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "CSIR-Wits-CSIRO",
+    "description": "Council for Scientific and Industrial Research - University of the Witwatersrand - Commonwealth Scientific and Industrial Research Organisation",
+    "members": [
+        {
+            "type": "member",
+            "institution": "csir",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "wits",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "csiro",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
     ],
-    "aliases": [],
-    "cmip-acronym": "CSIR-WITS-CSIRO",
-    "established": null,
-    "labels": [],
-    "location": {
-        "city": "Pretoria / Johannesburg / Melbourne",
-        "country": [
-            "South Africa",
-            "AU"
-        ],
-        "lat": null,
-        "lon": null
-    },
-    "name": "Council for Scientific and Industrial Research - University of the Witwatersrand - Commonwealth Scientific and Industrial Research Organisation",
-    "ror": null,
-    "url": [
-        "https://www.csir.co.za/",
-        "https://www.wits.ac.za/",
-        "https://www.csiro.au/"
-    ],
-    "type": "institution",
+    "url": "",
     "drs_name": "CSIR-Wits-CSIRO"
 }

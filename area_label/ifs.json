@@ -1,8 +1,8 @@
 {
-    "id": "gis",
-    "label": "gis",
-    "description": "in cell_methods : grounding_ice_sheet",
+    "id": "ifs",
+    "label": "ifs",
+    "description": "in cell_methods : ice_free_sea",
     "type": "area_label",
-    "drs_name": "gis",
+    "drs_name": "ifs",
     "@context": "000_context.jsonld"
 }

@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "sfcWind",
+    "id": "sfcwind",
     "cmip_acronym": "sfcWind",
     "long_name": "Near-Surface Wind Speed",
     "standard_name": "wind_speed",

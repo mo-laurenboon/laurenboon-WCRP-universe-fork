@@ -26,6 +26,7 @@
         "agcm"
     ],
     "start_year": 1979,
+    "sub_experiment_id": "none",
     "tier": "2",
     "drs_name": "amip-p4K-SST-rad"
 }

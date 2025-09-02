@@ -27,6 +27,7 @@
         "chem"
     ],
     "start_year": null,
+    "sub_experiment_id": "none",
     "tier": "1",
     "drs_name": "esm-scen7-vlho-AQ"
 }

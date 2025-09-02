@@ -26,7 +26,9 @@
         "aogcm"
     ],
     "start_year": null,
-    "sub_experiment_id": "none",
+    "sub_experiment_id": [
+        "none"
+    ],
     "tier": "1",
     "drs_name": "abrupt-127k"
 }

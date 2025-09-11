@@ -2,5 +2,5 @@
     "@context": "000_context.jsonld",
     "id": "wcrp",
     "type": "archive",
-    "drs_name": "WCRP",
+    "drs_name": "WCRP"
 }

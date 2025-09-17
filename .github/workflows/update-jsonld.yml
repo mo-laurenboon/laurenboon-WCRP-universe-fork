@@ -8,6 +8,7 @@ on:
       - production
       - esgvoc
       - esgvoc_dev
+      - esgvoc_dr_1.2.2
 
 jobs:
   update-jsonld:

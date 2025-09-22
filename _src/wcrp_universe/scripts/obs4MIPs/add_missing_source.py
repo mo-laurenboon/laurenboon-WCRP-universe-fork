@@ -6,24 +6,18 @@ Converts input4MIPs_source_id.json to ESGVOC format.
 
 import json
 import logging
+import os
 from pathlib import Path
+
+import requests
 
 # Setup logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
-OUTPUT_DIR = Path("./source")  # the script need to be run from root repo dir !
-# script path
-script_dir = Path(__file__).resolve().parent
-LOCAL_CV_DIR = script_dir / "./original_CVs"
 
-filename = "obs4MIPs_source_id.json"
-source_path = LOCAL_CV_DIR / filename
-assert isinstance(source_path, Path)
 
-with open(source_path, "r", encoding="utf-8") as f:
-    source_data = json.load(f)
 """
 
 activity_participation: list[str] | None
@@ -35,9 +29,26 @@ license: dict = Field(default_factory=dict)
 model_component: Optional[dict] = None
 release_year: Optional[int] = None
 """
+# URLs of the JSON files on GitHub
+json_url = "https://raw.githubusercontent.com/PCMDI/obs4MIPs-cmor-tables/refs/heads/master/obs4MIPs_source_id.json"
+
+# Directory where the JSON files will be saved
+save_dir = Path("source")
+
+# Create the directory if it doesn't exist
+os.makedirs(save_dir, exist_ok=True)
 
 
-for term, dic in source_data["source_id"].items():
+# Function to fetch and load JSON data from a URL
+def fetch_json(url):
+    response = requests.get(url)
+    response.raise_for_status()  # Check for request errors
+    return response.json()
+
+
+data = fetch_json(json_url)
+
+for term, dic in data["source_id"].items():
     term_data = {
         "@context": "000_context.jsonld",
         "id": term.lower(),
@@ -54,7 +65,9 @@ for term, dic in source_data["source_id"].items():
     }
 
     # Write term file
-    term_path = OUTPUT_DIR / f"{term.lower()}.json"
-    with open(term_path, "w", encoding="utf-8") as f:
-        print("create", term_path)
-        json.dump(term_data, f, indent=4)
+    term_path = save_dir / f"{term.lower()}.json"
+    print(term_path)
+    if not term_path.exists():
+        with open(term_path, "w", encoding="utf-8") as f:
+            print("create", term_path)
+            json.dump(term_data, f, indent=4)

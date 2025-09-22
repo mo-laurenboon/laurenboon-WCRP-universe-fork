@@ -1,0 +1,11 @@
+{
+     
+      "@context": {
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/archive/",
+      "id": "@id",
+      "type":"@type",
+      "archive": "https://espri-mod.github.io/mip-cmor-tables/archive/"
+     
+     
+    }
+}

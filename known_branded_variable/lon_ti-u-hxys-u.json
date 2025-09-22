@@ -1,5 +1,4 @@
 {
-  "@context": "000_context.jsonld",
   "id": "lon_ti-u-hxys-u",
   "type": "known_branded_variable",
   "drs_name": "lon_ti-u-hxys-u",
@@ -15,12 +14,13 @@
   ],
   "cell_methods": "area: point",
   "cell_measures": "",
-  "history": ": registered",
-  "realm": "",
+  "history": "",
+  "realm": "atmos",
   "temporal_label": "ti",
   "vertical_label": "u",
   "horizontal_label": "hxys",
   "area_label": "u",
-  "bn_status": "accepted",
-  "positive_direction": ""
+  "bn_status": "Accepted",
+  "positive_direction": "",
+  "@context": "000_context.jsonld"
 }

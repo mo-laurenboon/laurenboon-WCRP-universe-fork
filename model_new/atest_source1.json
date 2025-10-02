@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "atest_source1",
+  "drs_name": "AtEsT_SoUrCe1",
   "type": "model_new",
   "name": "HadGEM3-GC31-HH",
   "family": "HadGEM3",

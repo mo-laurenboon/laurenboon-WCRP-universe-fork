@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@base": "https://espri-mod.github.io/mip-cmor-tables/source/",
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/model_new/",
     "@vocab": "http://schema.org/",
     "id": "@id",
     "type": "@type",

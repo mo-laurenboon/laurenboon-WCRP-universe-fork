@@ -1,0 +1,12 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "ocean_s_coordinate_75",
+  "type": "vertical_grid",
+  "coordinate": "ocean_s_coordinate",
+  "description": "z-star coordinate system with 75 vertical levels, with enhanced resolution near the surface and bottom boundary layers.",
+  "n_z": 75,
+  "bottom_layer_thickness": 204.1,
+  "top_layer_thickness": 1.0,
+  "top_of_model": 0.0,
+  "vertical_units": "m"
+}

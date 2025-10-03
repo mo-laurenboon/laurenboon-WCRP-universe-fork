@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
+    "@vocab": "http://schema.org/",
+    "id": "@id",
+    "type": "@type",
+    "horizontal_grid": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
+    "grid": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/grid"
+    },
+    "description": {
+      "@id": "https://schema.org/description"
+    },
+    "grid_mapping": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/grid_mapping"
+    },
+    "region": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/region"
+    },
+    "temporal_refinement": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/temporal_refinement"
+    },
+    "arrangement": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/arrangement"
+    },
+    "resolution_x": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/resolution_x"
+    },
+    "resolution_y": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/resolution_y"
+    },
+    "horizontal_units": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/horizontal_units"
+    },
+    "n_cells": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/n_cells"
+    },
+    "resolution_range_km": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/resolution_range_km"
+    },
+    "mean_resolution_km": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/mean_resolution_km"
+    },
+    "nominal_resolution": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/nominal_resolution"
+    }
+  }
+}

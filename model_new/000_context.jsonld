@@ -27,6 +27,20 @@
     },
     "release_year": {
       "@id": "https://espri-mod.github.io/mip-cmor-tables/calendar_new"
+    },
+    "horizontal_grid": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
+      "@type": "@id"
+    },
+    "vertical_grid": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/",
+      "@type": "@id"
+    },
+    "native_horizontal_grid": {
+      "@type": "@id"
+    },
+    "native_vertical_grid": {
+      "@type": "@id"
     }
   }
 }

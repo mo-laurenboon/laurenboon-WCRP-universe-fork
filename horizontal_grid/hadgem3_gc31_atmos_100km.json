@@ -1,0 +1,21 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hadgem3_gc31_atmos_100km",
+  "type": "horizontal_grid",
+  "grid": "regular_latitude_longitude",
+  "description": "High-resolution regular latitude-longitude grid with enhanced resolution for improved representation of atmospheric processes and extreme weather events.",
+  "grid_mapping": "latitude_longitude",
+  "region": "global",
+  "temporal_refinement": "static",
+  "arrangement": "arakawa_c",
+  "resolution_x": 0.833,
+  "resolution_y": 0.556,
+  "horizontal_units": "degree",
+  "n_cells": 139968,
+  "resolution_range_km": [
+    75.0,
+    140.0
+  ],
+  "mean_resolution_km": 95.8,
+  "nominal_resolution": "100 km"
+}

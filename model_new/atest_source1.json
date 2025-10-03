@@ -53,30 +53,10 @@
         "sea_ice"
       ],
       "native_horizontal_grid": {
-        "grid": "regular_latitude_longitude",
-        "description": "High-resolution regular latitude-longitude grid with enhanced resolution for improved representation of atmospheric processes and extreme weather events.",
-        "grid_mapping": "latitude_longitude",
-        "region": "global",
-        "temporal_refinement": "static",
-        "arrangement": "arakawa_c",
-        "resolution_x": 0.833,
-        "resolution_y": 0.556,
-        "horizontal_units": "degree",
-        "n_cells": 139968,
-        "resolution_range_km": [
-          75.0,
-          140.0
-        ],
-        "mean_resolution_km": 95.8,
-        "nominal_resolution": "100 km"
+        "@id": "horizontal_grid:hadgem3_gc31_atmos_100km"
       },
       "native_vertical_grid": {
-        "coordinate": "atmosphere_hybrid_height_coordinate",
-        "description": "Terrain-following hybrid height coordinate with enhanced vertical resolution in the boundary layer and near the tropopause.",
-        "n_z": 85,
-        "top_layer_thickness": 846.3,
-        "top_of_model": 84763.34,
-        "vertical_units": "m"
+        "@id": "vertical_grid:atmosphere_hybrid_height_85"
       }
     },
     {
@@ -93,30 +73,10 @@
       "code_base": "https://code.metoffice.gov.uk/trac/jules/browser/main/branches/dev/jules-gl7",
       "embedded_in": "atmosphere",
       "native_horizontal_grid": {
-        "grid": "regular_latitude_longitude",
-        "grid_mapping": "latitude_longitude",
-        "region": "global",
-        "temporal_refinement": "static",
-        "arrangement": "arakawa_c",
-        "resolution_x": 0.833,
-        "resolution_y": 0.556,
-        "horizontal_units": "degree",
-        "n_cells": 139968,
-        "resolution_range_km": [
-          75.0,
-          140.0
-        ],
-        "mean_resolution_km": 95.8,
-        "nominal_resolution": "100 km"
+        "@id": "horizontal_grid:hadgem3_gc31_atmos_100km"
       },
       "native_vertical_grid": {
-        "coordinate": "depth",
-        "description": "Soil layers with exponentially increasing thickness with depth, plus optional snow layers above ground and bedrock below the deepest soil layer.",
-        "n_z": 14,
-        "bottom_layer_thickness": 2.0,
-        "top_layer_thickness": 0.05,
-        "top_of_model": 3.0,
-        "vertical_units": "m"
+        "@id": "vertical_grid:jules_soil_depth_14"
       }
     },
     {
@@ -137,28 +97,10 @@
         "ocean_biogeochemistry"
       ],
       "native_horizontal_grid": {
-        "grid": "tripolar",
-        "description": "ORCA025 tripolar grid with enhanced resolution in the equatorial regions and two northern hemisphere poles displaced over land to avoid computational singularities.",
-        "grid_mapping": "latitude_longitude",
-        "region": "global",
-        "temporal_refinement": "static",
-        "arrangement": "arakawa_c",
-        "n_cells": 1051200,
-        "resolution_range_km": [
-          9.0,
-          28.0
-        ],
-        "mean_resolution_km": 18.5,
-        "nominal_resolution": "25 km"
+        "@id": "horizontal_grid:orca025_tripolar_25km"
       },
       "native_vertical_grid": {
-        "coordinate": "ocean_s_coordinate",
-        "description": "z-star coordinate system with 75 vertical levels, with enhanced resolution near the surface and bottom boundary layers.",
-        "n_z": 75,
-        "bottom_layer_thickness": 204.1,
-        "top_layer_thickness": 1.0,
-        "top_of_model": 0.0,
-        "vertical_units": "m"
+        "@id": "vertical_grid:ocean_s_coordinate_75"
       }
     },
     {
@@ -178,23 +120,10 @@
         "ocean"
       ],
       "native_horizontal_grid": {
-        "grid": "tripolar",
-        "description": "Same ORCA025 tripolar grid as the ocean component to ensure consistent coupling without interpolation.",
-        "grid_mapping": "latitude_longitude",
-        "region": "global",
-        "temporal_refinement": "static",
-        "arrangement": "arakawa_c",
-        "n_cells": 1051200,
-        "resolution_range_km": [
-          9.0,
-          28.0
-        ],
-        "mean_resolution_km": 18.5,
-        "nominal_resolution": "25 km"
+        "@id": "horizontal_grid:orca025_tripolar_25km"
       },
       "native_vertical_grid": {
-        "coordinate": "none",
-        "description": "Sea ice is treated as a 2D surface with multiple thickness categories but no explicit vertical layers."
+        "@id": "vertical_grid:sea_ice_none"
       }
     },
     {
@@ -211,28 +140,10 @@
       "code_base": "https://forge.ipsl.jussieu.fr/nemo/browser/NEMO/releases/release-3.6/NEMOGCM/CONFIG/MEDUSA",
       "embedded_in": "ocean",
       "native_horizontal_grid": {
-        "grid": "tripolar",
-        "description": "Identical to the ocean component grid for seamless integration of biogeochemical and physical processes.",
-        "grid_mapping": "latitude_longitude",
-        "region": "global",
-        "temporal_refinement": "static",
-        "arrangement": "arakawa_c",
-        "n_cells": 1051200,
-        "resolution_range_km": [
-          9.0,
-          28.0
-        ],
-        "mean_resolution_km": 18.5,
-        "nominal_resolution": "25 km"
+        "@id": "horizontal_grid:orca025_tripolar_25km"
       },
       "native_vertical_grid": {
-        "coordinate": "ocean_s_coordinate",
-        "description": "Same vertical grid as the ocean component with additional biogeochemical tracers at each level including nutrients, phytoplankton, detritus, and dissolved gases.",
-        "n_z": 75,
-        "bottom_layer_thickness": 204.1,
-        "top_layer_thickness": 1.0,
-        "top_of_model": 0.0,
-        "vertical_units": "m"
+        "@id": "vertical_grid:ocean_s_coordinate_75"
       }
     }
   ]

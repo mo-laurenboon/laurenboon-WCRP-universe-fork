@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/",
+    "@vocab": "http://schema.org/",
+    "id": "@id",
+    "type": "@type",
+    "vertical_grid": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/",
+    "coordinate": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/coordinate"
+    },
+    "description": {
+      "@id": "https://schema.org/description"
+    },
+    "n_z": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/n_z"
+    },
+    "top_layer_thickness": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/top_layer_thickness"
+    },
+    "bottom_layer_thickness": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/bottom_layer_thickness"
+    },
+    "top_of_model": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/top_of_model"
+    },
+    "vertical_units": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/vertical_units"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "orca025_tripolar_25km",
+  "type": "horizontal_grid",
+  "grid": "tripolar",
+  "description": "ORCA025 tripolar grid with enhanced resolution in the equatorial regions and two northern hemisphere poles displaced over land to avoid computational singularities.",
+  "grid_mapping": "latitude_longitude",
+  "region": "global",
+  "temporal_refinement": "static",
+  "arrangement": "arakawa_c",
+  "n_cells": 1051200,
+  "resolution_range_km": [
+    9.0,
+    28.0
+  ],
+  "mean_resolution_km": 18.5,
+  "nominal_resolution": "25 km"
+}

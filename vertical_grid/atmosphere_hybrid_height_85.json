@@ -1,0 +1,11 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "atmosphere_hybrid_height_85",
+  "type": "vertical_grid",
+  "coordinate": "atmosphere_hybrid_height_coordinate",
+  "description": "Terrain-following hybrid height coordinate with enhanced vertical resolution in the boundary layer and near the tropopause.",
+  "n_z": 85,
+  "top_layer_thickness": 846.3,
+  "top_of_model": 84763.34,
+  "vertical_units": "m"
+}

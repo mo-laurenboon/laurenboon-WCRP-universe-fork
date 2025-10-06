@@ -2,8 +2,14 @@
   "@context": {
     "@base": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
     "@vocab": "http://schema.org/",
-    "id": "@id",
-    "type": "@type",
+    "id": {
+      "@id": "@id",
+      "@type": "@id"
+    },
+    "type": {
+      "@id": "@type",
+      "@type": "@id"
+    },
     "horizontal_grid": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
     "grid": {
       "@id": "https://espri-mod.github.io/mip-cmor-tables/grid"

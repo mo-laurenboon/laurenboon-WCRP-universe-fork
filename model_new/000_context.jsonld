@@ -31,10 +31,25 @@
     "horizontal_grid": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/",
     "vertical_grid": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/",
     "native_horizontal_grid": {
-      "@type": "@id"
+      "@id": "http://schema.org/native_horizontal_grid",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/"
+      }
     },
     "native_vertical_grid": {
-      "@type": "@id"
+      "@id": "http://schema.org/native_vertical_grid",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/"
+      }
+    },
+    "model_components": {
+      "@id": "http://schema.org/model_components",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/model_component/"
+      }
     }
   }
 }

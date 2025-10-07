@@ -15,9 +15,22 @@
         "nominal_resolution":{"@id":"https://espri-mod.github.io/mip-cmor-tables/nominal_resolution/",
                "@type":"@id",
                "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/nominal_resolution/"}
-              }
+              },
+        "native_horizontal_grid": {
+          "@id": "http://schema.org/native_horizontal_grid",
+          "@type": "@id",
+          "@context": {
+            "@base": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/"
+          }
+        },
+        "native_vertical_grid": {
+          "@id": "http://schema.org/native_vertical_grid",
+          "@type": "@id",
+          "@context": {
+            "@base": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/"
+          }
+        }
 
-      
         }
 
 

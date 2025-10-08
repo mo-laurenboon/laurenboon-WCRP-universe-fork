@@ -48,7 +48,7 @@
       "@id": "http://schema.org/model_components",
       "@type": "@id",
       "@context": {
-        "@base": "https://espri-mod.github.io/mip-cmor-tables/model_component/"
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/model_component_new/"
       }
     }
   }

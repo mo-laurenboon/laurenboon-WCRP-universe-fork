@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "jules_soil_depth_14",
+  "drs_name": "jules_soil_depth_14",
   "type": "vertical_grid",
   "coordinate": "depth",
   "description": "Soil layers with exponentially increasing thickness with depth, plus optional snow layers above ground and bedrock below the deepest soil layer.",

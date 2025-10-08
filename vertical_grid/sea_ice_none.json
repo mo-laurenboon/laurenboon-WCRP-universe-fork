@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "sea_ice_none",
+  "drs_name": "sea_ice_none",
   "type": "vertical_grid",
   "coordinate": "none",
   "description": "Sea ice is treated as a 2D surface with multiple thickness categories but no explicit vertical layers."

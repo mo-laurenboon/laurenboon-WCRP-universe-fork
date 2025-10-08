@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "ocean_s_coordinate_75",
+  "drs_name": "ocean_s_coordinate_75",
   "type": "vertical_grid",
   "coordinate": "ocean_s_coordinate",
   "description": "z-star coordinate system with 75 vertical levels, with enhanced resolution near the surface and bottom boundary layers.",

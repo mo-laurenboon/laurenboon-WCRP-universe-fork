@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "atmosphere_hybrid_height_85",
+  "drs_name": "atmosphere_hybrid_height_85",
   "type": "vertical_grid",
   "coordinate": "atmosphere_hybrid_height_coordinate",
   "description": "Terrain-following hybrid height coordinate with enhanced vertical resolution in the boundary layer and near the tropopause.",

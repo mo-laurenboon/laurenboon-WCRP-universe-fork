@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "cice_gsi8",
+  "drs_name": "cice_gsi8",
   "type": "model_component_new",
   "component": "sea_ice",
   "name": "CICE-GSI8",

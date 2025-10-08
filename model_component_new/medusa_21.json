@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "medusa_21",
+  "drs_name": "medusa_21",
   "type": "model_component_new",
   "component": "ocean_biogeochemistry",
   "name": "MEDUSA-2.1",

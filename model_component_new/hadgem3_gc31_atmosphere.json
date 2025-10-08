@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hadgem3_gc31_atmosphere",
+  "drs_name": "hadgem3_gc31_atmosphere",
   "type": "model_component_new",
   "component": "atmosphere",
   "name": "HadGEM3-GC31-Atmosphere",

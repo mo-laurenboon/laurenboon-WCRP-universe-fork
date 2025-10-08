@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "nemo_go7",
+  "drs_name": "nemo_go7",
   "type": "model_component_new",
   "component": "ocean",
   "name": "NEMO-GO7",

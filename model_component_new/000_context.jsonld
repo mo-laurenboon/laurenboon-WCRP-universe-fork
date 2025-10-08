@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "@base": "https://espri-mod.github.io/mip-cmor-tables/model_component_new/",
+    "@vocab": "http://schema.org/",
+    "id": "@id",
+    "type": "@type",
+    "component": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/component"
+    },
+    "name": {
+      "@id": "https://schema.org/name"
+    },
+    "family": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/family"
+    },
+    "description": {
+      "@id": "https://schema.org/description"
+    },
+    "code_base": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/code_base"
+    },
+    "embedded_in": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/embedded_in"
+    },
+    "coupled_with": {
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/coupled_with"
+    },
+    "native_horizontal_grid": {
+      "@id": "http://schema.org/native_horizontal_grid",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/horizontal_grid/"
+      }
+    },
+    "native_vertical_grid": {
+      "@id": "http://schema.org/native_vertical_grid",
+      "@type": "@id",
+      "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/vertical_grid/"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "jules_gl7",
+  "type": "model_component_new",
+  "component": "land_surface",
+  "name": "JULES-GL7",
+  "family": "JULES",
+  "description": "The Joint UK Land Environment Simulator (JULES) Global Land version 7.0 represents terrestrial processes including surface energy and water balance, carbon cycle, vegetation dynamics, and soil processes. The model includes multiple plant functional types (PFTs), dynamic vegetation allocation, soil carbon decomposition, and representation of crop growth. JULES calculates fluxes of momentum, heat, moisture, and carbon dioxide between the land surface and atmosphere. The model includes treatment of snow processes, soil freeze-thaw cycles, wetland methane emissions, and fire dynamics. Urban surfaces are represented using the MORUSES (Met Office Reading Urban Surface Exchange Scheme) urban canopy model.",
+  "references": [
+    {
+      "citation": "Mulcahy, J. P., Jones, C., Sellar, A., Johnson, B., Boutle, I. A., Jones, A., et al. (2018). Improved aerosol processes and effective radiative forcing in HadGEM3 and UKESM1. Journal of Advances in Modeling Earth Systems, 10, 2786–2805. https://doi.org/10.1029/2018MS001464",
+      "doi": "https://doi.org/10.1029/2018MS001464"
+    }
+  ],
+  "code_base": "https://code.metoffice.gov.uk/trac/jules/browser/main/branches/dev/jules-gl7",
+  "embedded_in": "atmosphere",
+  "native_horizontal_grid": "hadgem3_gc31_atmos_100km",
+  "native_vertical_grid": "jules_soil_depth_14"
+}

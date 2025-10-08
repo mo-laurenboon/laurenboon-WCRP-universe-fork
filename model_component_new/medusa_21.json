@@ -1,0 +1,19 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "medusa_21",
+  "type": "model_component_new",
+  "component": "ocean_biogeochemistry",
+  "name": "MEDUSA-2.1",
+  "family": "MEDUSA",
+  "description": "The ocean biogeochemistry component uses MEDUSA (Model of Ecosystem Dynamics, nutrient Utilisation, Sequestration and Acidification) version 2.1. The model includes representation of lower and upper ocean ecosystems with multiple plankton functional types, detailed carbon cycle including both organic and inorganic carbon pumps, oxygen dynamics, and ocean acidification processes. The model simulates nitrogen, phosphorus, silicon, and iron cycles, and includes representation of calcifying organisms. Benthic processes are included for sediment-water column interactions. The model is fully coupled with ocean physics through temperature, light, and nutrient dependencies.",
+  "references": [
+    {
+      "citation": "Yool, A., Popova, E. E., and Anderson, T. R. (2013). MEDUSA-2.0: an intermediate complexity biogeochemical model of the marine carbon cycle for climate change and ocean acidification studies. Geoscientific Model Development, 6, 1767–1811. https://doi.org/10.5194/gmd-6-1767-2013",
+      "doi": "https://doi.org/10.5194/gmd-6-1767-2013"
+    }
+  ],
+  "code_base": "https://forge.ipsl.jussieu.fr/nemo/browser/NEMO/releases/release-3.6/NEMOGCM/CONFIG/MEDUSA",
+  "embedded_in": "ocean",
+  "native_horizontal_grid": "orca025_tripolar_25km",
+  "native_vertical_grid": "ocean_s_coordinate_75"
+}

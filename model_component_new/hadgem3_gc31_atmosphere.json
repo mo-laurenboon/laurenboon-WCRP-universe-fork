@@ -1,0 +1,23 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "hadgem3_gc31_atmosphere",
+  "type": "model_component_new",
+  "component": "atmosphere",
+  "name": "HadGEM3-GC31-Atmosphere",
+  "family": "UM",
+  "description": "The atmospheric component is based on the Unified Model (UM) version 11.1 with comprehensive representation of dynamical, physical, and thermodynamical processes. The model includes detailed treatments of radiation (using the Suite of Community RAdiative Transfer codes based on Edwards and Slingo, SOCRATES), convection (using the Gregory-Rowntree mass-flux scheme), cloud microphysics (using the Wilson-Ballard scheme), and boundary layer processes (using the Lock et al. scheme). The model uses a semi-implicit, semi-Lagrangian numerical scheme for time integration and employs a hybrid height coordinate system in the vertical. The atmospheric chemistry component is prescribed rather than interactive, using monthly mean three-dimensional ozone concentrations. Aerosol interactions are limited to prescribed climatological distributions.",
+  "references": [
+    {
+      "citation": "Walters, D., Baran, A. J., Boutle, I., Brooks, M., Earnshaw, P., Edwards, J., et al. (2019). The Met Office Unified Model Global Atmosphere 7.0/7.1 and JULES Global Land 7.0 configurations. Geoscientific Model Development, 12, 1909–1963. https://doi.org/10.5194/gmd-12-1909-2019",
+      "doi": "https://doi.org/10.5194/gmd-12-1909-2019"
+    }
+  ],
+  "code_base": "https://code.metoffice.gov.uk/trac/um/browser/main/branches/dev/hadgem3-gc31",
+  "coupled_with": [
+    "land_surface",
+    "ocean",
+    "sea_ice"
+  ],
+  "native_horizontal_grid": "hadgem3_gc31_atmos_100km",
+  "native_vertical_grid": "atmosphere_hybrid_height_85"
+}

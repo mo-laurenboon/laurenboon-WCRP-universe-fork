@@ -1,0 +1,22 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "cice_gsi8",
+  "type": "model_component_new",
+  "component": "sea_ice",
+  "name": "CICE-GSI8",
+  "family": "CICE",
+  "description": "The sea ice component uses the Los Alamos Sea Ice Model (CICE) version 5.1.2 in the Global Sea Ice version 8.1 configuration. The model includes comprehensive representation of sea ice dynamics using the elastic-viscous-plastic (EVP) rheology, detailed thermodynamics with multiple ice thickness categories, and advanced snow processes. The model includes ice floe size distribution, melt pond representation, and biogeochemical tracers. Coupling with the ocean includes exchanges of momentum, heat, and freshwater, while coupling with the atmosphere includes surface energy balance calculations and momentum exchange.",
+  "references": [
+    {
+      "citation": "Rae, J. G. L., Hewitt, H. T., Keen, A. B., Ridley, J. K., West, A. E., Harris, C. M., et al. (2015). Development of the Global Sea Ice 6.0 CICE configuration for the Met Office Global Coupled model. Geoscientific Model Development, 8, 2221–2230. https://doi.org/10.5194/gmd-8-2221-2015",
+      "doi": "https://doi.org/10.5194/gmd-8-2221-2015"
+    }
+  ],
+  "code_base": "https://github.com/CICE-Consortium/CICE-svn-trunk/releases/tag/cice-5.1.2",
+  "coupled_with": [
+    "atmosphere",
+    "ocean"
+  ],
+  "native_horizontal_grid": "orca025_tripolar_25km",
+  "native_vertical_grid": "sea_ice_none"
+}

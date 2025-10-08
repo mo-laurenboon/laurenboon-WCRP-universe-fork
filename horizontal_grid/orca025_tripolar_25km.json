@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "orca025_tripolar_25km",
+  "drs_name": "orca025_tripolar_25km",
   "type": "horizontal_grid",
   "grid": "tripolar",
   "description": "ORCA025 tripolar grid with enhanced resolution in the equatorial regions and two northern hemisphere poles displaced over land to avoid computational singularities.",

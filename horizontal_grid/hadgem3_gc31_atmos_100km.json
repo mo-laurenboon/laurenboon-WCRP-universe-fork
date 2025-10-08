@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "hadgem3_gc31_atmos_100km",
+  "drs_name": "hadgem3_gc31_atmos_100km",
   "type": "horizontal_grid",
   "grid": "regular_latitude_longitude",
   "description": "High-resolution regular latitude-longitude grid with enhanced resolution for improved representation of atmospheric processes and extreme weather events.",

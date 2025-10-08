@@ -11,13 +11,13 @@
       "@id": "https://espri-mod.github.io/mip-cmor-tables/family"
     },
     "dynamic_components": {
-      "@id": "https://espri-mod.github.io/mip-cmor-tables/model_component_new"
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/dynamic_components"
     },
     "prescribed_components": {
-      "@id": "https://espri-mod.github.io/mip-cmor-tables/model_component_new"
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/prescribed_components"
     },
     "omitted_components": {
-      "@id": "https://espri-mod.github.io/mip-cmor-tables/model_component_new"
+      "@id": "https://espri-mod.github.io/mip-cmor-tables/omitted_components"
     },
     "description": {
       "@id": "https://schema.org/description"

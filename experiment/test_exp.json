@@ -1,0 +1,23 @@
+{
+  "@context": "000_context.jsonld",
+  "id": "amip-irr",
+  "type": "experiment",
+  "activity": [
+    "irrmip"
+  ],
+  "description": "1. switching on the irrigation in the experiment amip 2. All irrigation-related parameters should be set as the models default values. Other settings should be the same as the reference simulations amip. 3. This is only for model groups whose AMIP simulations do not include irrigation.",
+  "label": "amip-irr",
+  "long-label": "AMIP plus irrigation",
+  "min_ensemble_size": 1,
+  "min_number_yrs_per_sim": "122",
+  "required_model_components": [
+    "agcm",
+    "bgc",
+    "land"
+  ],
+  "parent-experiment": [
+    "amip"
+  ],
+  "start_timestamp": "1901-01-01",
+  "tier": "2"
+}

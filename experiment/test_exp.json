@@ -10,16 +10,16 @@
   "label": "amip-irr",
   "long-label": "AMIP plus irrigation",
   "min_ensemble_size": 1,
-  "min_number_yrs_per_sim": "122",
+  "min_number_yrs_per_sim": 122,
   "required_model_components": [
     "agcm",
     "bgc",
     "land"
   ],
-  "additionnal_allowed_model_components": []
-  "parent-experiment": [
+  "additionnal_allowed_model_components": [],
+  "parent_experiment": [
     "amip"
   ],
   "start_timestamp": "1901-01-01",
-  "tier": "2"
+  "tier": 2
 }

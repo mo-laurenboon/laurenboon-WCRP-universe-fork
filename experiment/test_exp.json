@@ -16,6 +16,7 @@
     "bgc",
     "land"
   ],
+  "additionnal_allowed_model_components": []
   "parent-experiment": [
     "amip"
   ],

@@ -1,6 +1,7 @@
 {
   "@context": "000_context.jsonld",
   "id": "test_exp",
+  "drs_name": "test_Exp",
   "type": "experiment",
   "activity": [
     "irrmip"

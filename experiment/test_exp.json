@@ -21,5 +21,9 @@
     "amip"
   ],
   "start_timestamp": "1901-01-01",
-  "tier": 2
+  "tier": 2,
+  "branch_information": null,
+  "end_timestamp": null,
+  "parent_activity": null,
+  "parent_mip_era": null
 }

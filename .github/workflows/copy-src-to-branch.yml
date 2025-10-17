@@ -19,8 +19,6 @@ jobs:
             git checkout --orphan src-data
             git rm -rf .
 
-            git pull origin src-data
-
             mkdir -p src-data
             touch .nojekyll
             echo "# New Branch for SRC Data" > src-data/README.md 

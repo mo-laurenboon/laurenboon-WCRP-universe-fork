@@ -23,8 +23,9 @@ jobs:
 
             mkdir -p src-data
             touch .nojekyll
+            echo "# New Branch for SRC Data" > src-data/README.md 
 
-            git add .nojekyll src-data/
+            git add .nojekyll src-data/README.md
             git commit -m "Initialise branch" || echo "No new changes to commit"
             git push -u origin src-data
           fi
@@ -37,6 +38,6 @@ jobs:
         run: |
           git checkout src-data
           git checkout main -- src-data/
-          git add src-data/
+          git add src-data/*
           git commit -m "HTML copied from main to src-data"
           git push -u origin src-data

@@ -20,10 +20,11 @@ jobs:
             git rm -rf .
 
             git pull origin src-data
-            
+
+            mkdir -p src-data
             touch .nojekyll
 
-            git add .nojekyll 
+            git add .nojekyll src-data/
             git commit -m "Initialise branch" || echo "No new changes to commit"
             git push -u origin src-data
           fi

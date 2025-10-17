@@ -1,0 +1,41 @@
+name: Copy src-data to branch
+on:
+  workflow_dispatch:
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps: 
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 #full history
+      - name: Setup branch
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@users.noreply.github.com'
+
+          if ! git show-ref --verify --quiet refs/heads/src-data; then 
+            git checkout --orphan src-data
+            git rm -rf .
+
+            git pull origin src-data
+            
+            touch .nojekyll
+
+            git add .nojekyll 
+            git commit -m "Initialise branch" || echo "No new changes to commit"
+            git push -u origin src-data
+          fi
+      - name: Incorporate reusable action
+        uses: mo-laurenboon/Test-Repo/.github/actions/fetch_branch_path@main
+        with:
+          branch: 'main'
+          path: 'src-data/'
+      - name: Update src-data from main
+        run: |
+          git checkout src-data
+          git checkout main -- src-data/
+          git add src-data/
+          git commit -m "HTML copied from main to src-data"
+          git push -u origin src-data

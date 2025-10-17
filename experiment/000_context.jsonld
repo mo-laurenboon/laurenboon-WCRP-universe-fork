@@ -11,18 +11,22 @@
                        "@type":"@id",
                        "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/activity/"}
                       },
+      "activity":{"@id": "https://espri-mod.github.io/mip-cmor-tables/activity/",
+                       "@type":"@id",
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/activity/"}
+                      },
 
       "description":{"@id":"https://schema.org/description"},
       "tier":{"@id":"https://es-vocab.ipsl.fr/tier"},
         "experiment_id":{"@id":"https://schema.org/alternativeName"},
-        "required_model_components":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/model_component/",
+        "required_model_components":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/source_type/",
                        "@type":"@id",
-                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/model_component/"}
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/source_type/"}
                       },
-        
+
         "additional_allowed_model_components":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/additional_allowed_model_component/",
                        "@type":"@id",
-                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/model_component/"}
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/source_type/"}
                       },
         "start_year":"http://schema.org/startDate",
         "end_year":"http://schema.org/endDate",
@@ -34,8 +38,20 @@
         "parent_experiment_id":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/parent_experiment_id/",
                        "@type":"@id",
                        "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/experiment/"}
+                      },
+        "parent_activity":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/parent_activity/",
+                       "@type":"@id",
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/activity/"}
+                      },
+        "parent_experiment":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/parent_experiment/",
+                       "@type":"@id",
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/experiment/"}
+                      },
+        "parent_mip_era":{ "@id": "https://espri-mod.github.io/mip-cmor-tables/parent_mip_era/",
+                       "@type":"@id",
+                       "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/mip_era/"}
                       }
-   
+
     }
 
 

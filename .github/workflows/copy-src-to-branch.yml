@@ -37,5 +37,5 @@ jobs:
           git checkout src-data
           git checkout main -- src-data/
           git add src-data/*
-          git commit -m "HTML copied from main to src-data"
+          git commit -m "folder contents copied from main to new src-data branch"
           git push -u origin src-data

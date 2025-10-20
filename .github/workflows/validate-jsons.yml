@@ -28,7 +28,7 @@ jobs:
           else
             echo "$f validated"
           fi
-        done < <(find data -type f -name '*.json' -print0)
+        done < <(find src-data -type f -name '*.json' -print0)
 
         if [ -n "$failures" ]; then
           echo "$count invalid files found..."

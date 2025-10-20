@@ -14,30 +14,27 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: ${{ github.event.inputs.branch }}
-    - name: check jq version
-      run: jq --version
     - name: run validation check
       run: |
         set -uo pipefail
         failures=""
         count=0
-        for f in $(find src-data -type f -name '*.json'); do
+        while IFS= read -r -d '' f; do
           echo "validating $f"
-          if jq . "$f" > /dev/null 2>&1; then
-            echo "$f validated"
-          else
+          if ! error=$(jq . "$f" 2>&1 >/ dev/null); then
             echo "WARNING: Invalid file detected for $f"
-            failures="$failures $f \n"
+            failures="$failures $f is not valid due to $error \n"
             count=$((count + 1))
+          else
+            echo "$f validated"
           fi
-        done
+        done < <(find data -type f -name '*.json' -print0)
 
         if [ -n "$failures" ]; then
           echo "$count invalid files found..."
           echo -e "$failures"
           exit 1
         else
-          echo " All files successfully validated"
+          echo "All files successfully validated"
         fi
-
           

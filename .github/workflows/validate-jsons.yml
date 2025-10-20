@@ -18,7 +18,7 @@ jobs:
       run: jq --version
     - name: run validation check
       run: |
-        set -uo pipefall
+        set -uo pipefail
         failures = ""
         count = 0
         for f in $(find src-data -type f -name '*.json'); do

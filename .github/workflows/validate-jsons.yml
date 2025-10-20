@@ -27,7 +27,7 @@ jobs:
             echo "$f validated"
           else
             echo "WARNING: Invalid file detected for $f"
-            failures = "$failures $f \n"
+            failures="$failures $f \n"
             count=$((count + 1))
           fi
         done

@@ -1,0 +1,20 @@
+name: Create new version
+on:
+  workflow_run:
+    workflows: "validate json files"
+    types: completed
+permissions:
+  contents: write 
+jobs:
+  create-version:
+    if: ${{ github.event.workflow_run.conclusion == "success"}}
+    runs-on: ubuntu-latest
+    steps: 
+      - name: checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: generate new version
+        run: |
+          #abc
+

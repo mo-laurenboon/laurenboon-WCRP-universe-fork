@@ -1,12 +1,19 @@
 name: validate json files
 on:
-  workflow-dispatch:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to run check on"
+        required: false
+        default: 'store-src-data'
 jobs:
   validate-json-files:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.inputs.branch }}
     - name: check jq version
       run: jq --version
     - name: run validation check

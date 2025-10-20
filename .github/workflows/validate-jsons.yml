@@ -21,7 +21,7 @@ jobs:
         count=0
         while IFS= read -r -d '' f; do
           echo "validating $f"
-          if ! error=$(jq . "$f" 2>&1 >/ dev/null); then
+          if ! error=$(jq . "$f" 2>&1 >/dev/null); then
             echo "WARNING: Invalid file detected for $f"
             failures="$failures $f is not valid due to $error \n"
             count=$((count + 1))

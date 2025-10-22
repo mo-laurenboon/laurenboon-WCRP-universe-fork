@@ -27,6 +27,7 @@ jobs:
           else
             NUMBER=${LATEST_TAG#v}
             echo "number=$NUMBER" >> "$GITHUB_OUTPUT"
+            echo "latest_tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
             echo "Previous version: $LATEST_TAG"
           fi
       - name: Get commit history

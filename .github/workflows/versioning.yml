@@ -43,13 +43,12 @@ jobs:
       - name: Create new version
         id: get_new_version
         run: |
-          if [ -n "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
-            python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
-            echo "New version : ${{ steps.get_new_version.outputs.version }}"
-          fi
           if [ -z "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
             NEW_VERSION="v1.0.0"
             echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+          else
+            python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
+            echo "New version : ${{ steps.get_new_version.outputs.version }}"
           fi
       - name: Generate release notes
         id: release_notes

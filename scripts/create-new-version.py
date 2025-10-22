@@ -39,14 +39,15 @@ def determine_update_type(changes):
         :returns: The type of release update that should be triggered (patch, major, minor, undetermined)
     """
     changes = re.split(" |\n", changes)
-    if changes == None:
-        update_type = "patch"
+    minor_conditions = ["A", "M", "D"]   #edit me later
     if "R100" in changes:
         update_type = "major"
     if "X" in changes or "U" in changes:
         update_type = "undetermined"
-    else:
+    elif any(item in minor_conditions for item in changes):
         update_type = "minor"
+    else:
+        update_type = "patch"
     
     return update_type
 

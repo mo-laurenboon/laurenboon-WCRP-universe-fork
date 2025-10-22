@@ -22,7 +22,7 @@ jobs:
 
           if [ -z "$LATEST_TAG" ]; then
             NEW_VERSION="v1.0.0"
-            echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+            echo "latest_tag=$LATEST_TAG" >> "$GITHUB_OUTPUT"
             echo "First release"
           else
             NUMBER=${LATEST_TAG#v}

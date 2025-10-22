@@ -25,14 +25,14 @@ jobs:
             echo "First release"
           else
             NUMBER=${LATEST_TAG#v}
-            echo “number=$NUMBER >> $GITHUB_OUTPUT
+            echo "number=$NUMBER" >> $GITHUB_OUTPUT
             echo "Previous version: $LATEST_TAG"
           fi
       - name: Get commit history
         id: get_commit_history
         run: |
           CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
-          echo “changes=$CHANGES >> $GITHUB_OUTPUT
+          echo "changes=$CHANGES" >> $GITHUB_OUTPUT
       - name: Setup python
         uses: actions/setup-python@v4
         with:

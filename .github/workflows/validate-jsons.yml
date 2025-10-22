@@ -1,5 +1,8 @@
 name: validate json files
 on:
+  push:
+    branches:
+      - 'store-src-data'
   workflow_dispatch:
     inputs:
       branch:

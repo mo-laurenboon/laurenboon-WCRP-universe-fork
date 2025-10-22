@@ -31,7 +31,7 @@ jobs:
       - name: Get commit history
         id: get_commit_history
         run: |
-          CHANGES=$(git diff --name-status HEAD~1 HEAD --'*.json')
+          CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
           echo “changes=$CHANGES >> $GITHUB_OUTPUT
       - name: Setup python
         uses: actions/setup-python@v4

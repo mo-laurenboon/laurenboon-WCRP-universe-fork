@@ -22,8 +22,7 @@ jobs:
 
           if [ -z "$LATEST_TAG" ]; then
             NEW_VERSION="v1.0.0"
-            NUMBER="1.0.0"
-            echo "number=$NUMBER" >> $GITHUB_OUTPUT
+            echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
             echo "First release"
           else
             NUMBER=${LATEST_TAG#v}
@@ -33,8 +32,10 @@ jobs:
       - name: Get commit history
         id: get_commit_history
         run: |
-          CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
-          echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
+          if [ -n "$LATEST_TAG" ]; then
+            CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
+            echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
+          fi
       - name: Setup python
         uses: actions/setup-python@v4
         with:
@@ -42,8 +43,10 @@ jobs:
       - name: Create new version
         id: get_new_version
         run: |
-          python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
-          echo "New version : ${{ steps.get_new_version.outputs.version }}"
+          if [ -n "$LATEST_TAG" ]; then
+            python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
+            echo "New version : ${{ steps.get_new_version.outputs.version }}"
+          fi
       - name: Generate release notes
         id: release_notes
         run: |

@@ -90,6 +90,8 @@ def main():
     args = set_arg_parser()
     number = args.number
     changes = args.changes
+
+    print(f"The output of number is: {number}\nThe output of changes is: {changes}")
   
     new_version = update_version(number, changes)
 

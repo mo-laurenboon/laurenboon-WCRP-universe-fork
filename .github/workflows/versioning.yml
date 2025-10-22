@@ -32,7 +32,7 @@ jobs:
       - name: Get commit history
         id: get_commit_history
         run: |
-          if [ -n "$LATEST_TAG" ]; then
+          if [ -n "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
             CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
             echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
           fi
@@ -43,9 +43,12 @@ jobs:
       - name: Create new version
         id: get_new_version
         run: |
-          if [ -n "$LATEST_TAG" ]; then
+          if [ -n "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
             python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
             echo "New version : ${{ steps.get_new_version.outputs.version }}"
+          if [ -z "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
+            NEW_VERSION="v1.0.0"
+            echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
           fi
       - name: Generate release notes
         id: release_notes

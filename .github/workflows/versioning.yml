@@ -36,6 +36,7 @@ jobs:
         run: |
           if [ -n "${{ steps.get_old_version.outputs.latest_tag}}" ]; then
             CHANGES=$(git diff --name-status HEAD~1 HEAD -- 'src-data/*.json')
+            echo "commit history: $CHANGES"
             echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
           fi
       - name: Setup python

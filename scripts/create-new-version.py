@@ -77,7 +77,7 @@ def update_version(number, changes):
         print ("WARNING: update type not recognised")
         sys.exit(1)
 
-    new_version = f"{major}.{minor}.{patch}"
+    new_version = f"v{major}.{minor}.{patch}"
 
     return new_version
 

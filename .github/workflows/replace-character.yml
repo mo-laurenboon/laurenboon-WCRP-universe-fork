@@ -1,0 +1,27 @@
+name: replace directory character
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to run check on"
+        required: false
+        default: 'store-src-data'
+      original_symbol:
+        description: "The symbol that will be replaced"
+        required: true
+      new_symbol:
+        description: "The symbol used as a replacement"
+        required: true
+jobs:
+  replace directory:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.inputs.branch }}
+    - name: replace character
+      run: |
+        SYMBOL=${{ github.event.inputs.original_symbol }}
+        INSTANCES=$(find -name "*$SYMBOL*" -type d)
+        echo "Instances of symbol identified: $INSTANCES"

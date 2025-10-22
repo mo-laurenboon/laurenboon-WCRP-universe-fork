@@ -48,11 +48,11 @@ jobs:
             echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
           else
             python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
-            echo "New version : ${{ steps.get_new_version.outputs.version }}"
           fi
       - name: Generate release notes
         id: release_notes
         run: |
+          echo "New version : ${{ steps.get_new_version.outputs.version }}"
           LAST_TAG=$(git tag -l "v*" | sort -V | tail -n 1)
 
           if [ -n "$LAST_TAG" ]; then

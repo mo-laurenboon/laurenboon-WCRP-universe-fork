@@ -40,7 +40,7 @@ jobs:
       - name: Create new version
         id: get_new_version
         run: |
-          python scripts/create-new-version.py "${{ steps.get_old_version.outputs.number }}" "${{ steps.get_commit_history.outputs.changes }}"
+          python scripts/create-new-version.py ${{ steps.get_old_version.outputs.number }} ${{ steps.get_commit_history.outputs.changes }}
           echo "New version : ${{ steps.get_new_version.outputs.version }}"
       - name: Generate release notes
         id: release_notes

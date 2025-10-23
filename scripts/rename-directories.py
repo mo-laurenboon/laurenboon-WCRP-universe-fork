@@ -41,3 +41,5 @@ def main():
                     print(f"WARNING: Error renaming {old_path}: {e}")
 
     
+if __name__ == "__main__":
+    main()

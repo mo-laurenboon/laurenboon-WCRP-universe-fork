@@ -41,13 +41,10 @@ jobs:
         directories=()
         find -name "*$SYMBOL*" -type d -print0 | while IFS= read -r -d '' f; do
           echo "found $f"
-          directories=("${directories[@]}" "$f")
+          directories+=("$f")
         done
-        for f in "${directories[@]}"; do
-          echo "listing the directory....."
-          echo "$f"
-        done
-        for f in "${directories[@]}"; do 
+        echo ${directories[*]}
+        for f in "${directories[*]}"; do 
           NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"
           mv -- "$f" "$NEW_NAME"
           echo "Directory renamed to $NEW_NAME"

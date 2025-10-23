@@ -43,6 +43,7 @@ jobs:
           echo "found $f"
           directories+=("$f")
         done
+        echo "printing directories....."
         echo ${directories[*]}
         for f in "${directories[*]}"; do 
           NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"

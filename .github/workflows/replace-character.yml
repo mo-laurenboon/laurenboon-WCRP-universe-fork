@@ -6,6 +6,10 @@ on:
         description: "Branch to run check on"
         required: false
         default: 'store-src-data'
+      directroy:
+        description: "Directory to be searched (this will act as the root)"
+        required: false
+        default: "src-data"
       original_symbol:
         description: "The symbol that will be replaced"
         required: true
@@ -20,22 +24,22 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: ${{ github.event.inputs.branch }}
-    - name: replace character                #fails due to recursive directroies, see action logs
-      run: |
-        SYMBOL=${{ github.event.inputs.original_symbol }}
-        NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
-        ANNOTATED_MATCHES=$(find -name "*$SYMBOL*" -type d | awk '{ print length, $0}')
-        SORTED_PATHS=$(echo "$ANNOTATED_MATCHES"| sort -rn | -cut d' ' -f2-)
-        echo "$SORTED_PATHS" | while read -r f; do
-          echo "Found $f"
-          NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"  
-          if [ ! -e "$NEW_NAME" ]; then
-            mv -- "$f" "$NEW_NAME"
-            echo "Directory renamed to $NEW_NAME"
-          else
-            echo "WARNING: filename $NEW_NAME already exists: SKIPPING RENAME"
-          fi
-        done
+ #   - name: replace character                #fails due to recursive directroies, see action logs
+ #     run: |
+ #       SYMBOL=${{ github.event.inputs.original_symbol }}
+ #       NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
+ #       ANNOTATED_MATCHES=$(find -name "*$SYMBOL*" -type d | awk '{ print length, $0}')
+ #       SORTED_PATHS=$(echo "$ANNOTATED_MATCHES"| sort -rn | -cut d' ' -f2-)
+ #       echo "$SORTED_PATHS" | while read -r f; do
+ #         echo "Found $f"
+ #         NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"  
+ #         if [ ! -e "$NEW_NAME" ]; then
+ #           mv -- "$f" "$NEW_NAME"
+ #           echo "Directory renamed to $NEW_NAME"
+ #         else
+ #           echo "WARNING: filename $NEW_NAME already exists: SKIPPING RENAME"
+ #         fi
+ #       done
    # - name: replace character
    #   run: |
    #     SYMBOL=${{ github.event.inputs.original_symbol }}
@@ -53,4 +57,9 @@ jobs:
    #       echo "Directory renamed to $NEW_NAME"
    #     done
    #     echo "Replacements complete"
-
+    - name: replace character
+      run: |
+        SYMBOL=${{ github.event.inputs.original_symbol }}
+        NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
+        ROOT=${{ github.event.inputs.directory }}
+        python scripts/rename-directories.py "$ROOT" "$SYMBOL" "$NEW_SYMBOL"

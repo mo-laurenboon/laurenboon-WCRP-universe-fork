@@ -6,7 +6,7 @@ on:
         description: "Branch to run check on"
         required: false
         default: 'store-src-data'
-      directroy:
+      directory:
         description: "Directory to be searched (this will act as the root)"
         required: false
         default: "src-data"

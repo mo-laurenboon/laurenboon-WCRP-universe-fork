@@ -25,7 +25,7 @@ jobs:
         SYMBOL=${{ github.event.inputs.original_symbol }}
         NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
         ANNOTATED_MATCHES=$(find -name "*$SYMBOL*" -type d | awk '{ print length, $0}')
-        SORTED_PATHS=$(echo "$ANNOTATED_MATCHES"| sort -rn | -cut d' ' -f2-)
+        SORTED_PATHS=$(echo "$ANNOTATED_MATCHES"| sort -rn | cut -d' ' -f2-)
         echo "$SORTED_PATHS" | while read -r f; do
           echo "Found $f"
           NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"  

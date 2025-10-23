@@ -40,7 +40,7 @@ jobs:
         NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
         directories=()
         find -name "*$SYMBOL*" -type d -print0 | while IFS= read -r -d '' f; do
-          echo "found $f\n"
+          echo "found $f"
           directories=("${directories[@]}" "$f")
         done
         for f in "${directories[@]}"; do 

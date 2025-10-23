@@ -26,10 +26,10 @@ def get_new_paths(dirpath, dirname, target, new):
 def main():
     args = set_arg_parser()
 
-    for dirpath, dirnames, _ in os.walk(args.target_dir()):
+    for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
-            if args.target_character() in dirname:
-                old_path, new_path = get_new_paths(dirpath, dirname, args.target_character(), args.new_character())
+            if args.target_character in dirname:
+                old_path, new_path = get_new_paths(dirpath, dirname, args.target_character, args.new_character)
 
                 if os.path.exists(new_path):
                     print(f"Skipping: {new_path} already exists.")

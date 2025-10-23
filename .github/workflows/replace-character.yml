@@ -24,7 +24,7 @@ jobs:
       run: |
         SYMBOL=${{ github.event.inputs.original_symbol }}
         NEW_SYMBOL=${{ github.event.inputs.new_symbol }}
-        find -name "*$SYMBOL*" -type d -print0| tac -s '\0' | while IFS= read -r -d '' f; do
+        find -name "*$SYMBOL*" -type d -print0 | tac -s '\0' | while IFS= read -r -d '' f; do
           echo "Found $f"
           NEW_NAME="${f//$SYMBOL/$NEW_SYMBOL}"  
           if [ ! -e "$NEW_NAME" ]; then

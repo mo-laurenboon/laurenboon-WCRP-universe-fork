@@ -1,0 +1,10 @@
+{
+    "context": {
+        "@vocab": "https://schema.org/",
+        "@base": "https://climate-research.org/"
+    },
+    "@type": "Organisation",
+    "@id": "institutions/climate-university",
+    "name": "Climate University",
+    "url": "https://climate-uni.edu"
+}

@@ -1,6 +1,7 @@
 {
     "@context": {
         "@vocab": "https://schema.org/",
+        "@base": "https://climate-research.org/",
         "orcid": "https://orcid.org/",
         "doi": "https://doi.org/"
     },
@@ -10,5 +11,6 @@
     "author": {
         "@id": "orcid:0000-0000-0000-0001"
     },
-    "datePublished": "2023"
+    "datePublished": "2023",
+    "sameAs": "doi:10.1000/example.doi"
 }

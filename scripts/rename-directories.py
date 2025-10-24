@@ -16,6 +16,15 @@ def set_arg_parser():
     return args
 
 
+def get_number_of_matches(args):
+    for dirpath, dirnames, _ in os.walk(args.target_dir):
+        for dirname in dirnames:
+            if args.target_character in dirname:
+                total_count += len(dirnames)
+
+    return total_count
+
+
 def get_new_paths(dirpath, dirname, target, new):
     old_path = os.path.join(dirpath, dirname)
     new_name = dirname.replace(target, new)
@@ -23,8 +32,11 @@ def get_new_paths(dirpath, dirname, target, new):
     
     return old_path, new_path
 
+
 def main():
     args = set_arg_parser()
+    total_count = get_number_of_matches(args)
+    renamed_count = 0
 
     for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
@@ -37,10 +49,11 @@ def main():
                 try:
                     os.rename(old_path, new_path)
                     print(f"Renamed: {old_path} to {new_path}")
+                    renamed_count += 1
                 except Exception as e:
                     print(f"WARNING: Error renaming {old_path}: {e}")
                     quit()
-
+    print(f"{renamed_count}/{total_count} directoires successflly renamed")
     
 if __name__ == "__main__":
     main()

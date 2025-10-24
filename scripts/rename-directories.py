@@ -39,6 +39,7 @@ def main():
                     print(f"Renamed: {old_path} to {new_path}")
                 except Exception as e:
                     print(f"WARNING: Error renaming {old_path}: {e}")
+                    quit()
 
     
 if __name__ == "__main__":

@@ -1,11 +1,15 @@
 {
     "@context": {
         "@vocab": "https://schema.org/",
+        "@base": "https://climate-research.org/",
         "orcid": "https://orcid.org/"
     },
     "type": "Person",
     "@id": "orcid:0000-0000-0000-0001",
     "name": "John Smith",
     "email": "john.smith@climate-uni.edu"
+    "affiliation": {
+        "@id": "institutions/climate-university"
+    }
 }
 

@@ -17,6 +17,7 @@ def set_arg_parser():
 
 
 def get_number_of_matches(args):
+    total_count = 0
     for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
             if args.target_character in dirname:

@@ -1,8 +1,10 @@
-# Workflow Dispatch Mass File Renaming Action
-INSERT DESCRIPTIONS HERE
+# Workflow Dispatch Mass Directory Renaming Action
+This workflow is designed to allow mass partial renaming of directories. The workflow allows for branch and directory selection (which will act as the root) and then (upon being given a target character) can replace that character with a defined replacement. For example, supplying '-' as the target character and '£' as the replacement results in a directory named 'this-is-my-directory/' being renamed as 'this£is£my£directory/'. The workflow is triggered purely by workflow dispatch and requires 4 inputs in order to mitigate the risk of accidental mass renaming. If an accidental renaming does occur, this can be easily undone by swapping the traget and replacement character inputs. Any exceptions that arise during the renaming process will cause the action to fail and the specific error message will be printed to the logs. It should be noted that this workflow ONLY affects directoires and will not consider files.
 ---
 ## Relevant files in order of deployment..
 1. replace-character.yml
-    - INSERT DESCRIPTION HERE
+    - This script is the main action body. It requires the action be triggered manually through workflow dispatch and takes 4 inputs : the branch to affect, the directory that will act as the root, the target character and the replacement character.
+    - NOTE: the name of the chosen root directory itself wil NOT be affected by the renaming action even if it contains the target character (e.g. chosing 'this-is-my-directory/' as the root and again setting the target characters as '-' will NOT rename 'this-is-my-directory/', only subdirectorys within it will be affected.
+    - NOTE: Since this workflow relies on the os python module, it may experience long processing times for very large root directories.
 2. rename-directories.py
-    - INSERT DESCRIPTION HERE
+    - This script uses the os module to walk the directory structure with the chosen directory as the root and find subdirectory names that contain the target character. Any found instance of this character is then replaced with the defined replacement character. If renaming a directory with the replacmeent character will result in a directory name that already exists, the script will skip renaming that directory as not to create directory name conflicts. Note that this will, however, not lead to a failure, but a note of the directory skipped and the directory that it would duplicate is printed to the action logs. For this reason, logs should be checked to verify that all directories have been successfully renamed as requested and that no conflicts have occured.

@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "orcid": "https://orcid.org/",
+        "doi": "https://doi.org/"
+    },
+    "@type": "ScholarlyArticle",
+    "@id": "doi:10.1000/example.doi",
+    "name": "Climate sensitivity in CMIP6 models",
+    "author": {
+        "@id": "orcid:0000-0000-0000-0001"
+    },
+    "datePublished": "2023"
+}

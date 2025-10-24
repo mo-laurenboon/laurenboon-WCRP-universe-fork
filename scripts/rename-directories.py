@@ -54,7 +54,9 @@ def main():
                 except Exception as e:
                     print(f"WARNING: Error renaming {old_path}: {e}")
                     quit()
+    print("\n\n\n------------------------------------------------------------\n")
     print(f"{renamed_count}/{total_count} directoires successflly renamed")
+    print("\n------------------------------------------------------------\n\n\n")
     
 if __name__ == "__main__":
     main()

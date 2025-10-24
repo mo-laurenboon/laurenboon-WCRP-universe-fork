@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "@base": "https://climate-research.org/",
+        "orcid": "https://orcid.org/"
+    },
+    "type": "Person",
+    "@id": "orcid:0000-0002-6491-2135",
+    "name": "Karl Taylor",
+    "email": "karltaylor@llnl.gov"
+    "affiliation": {
+        "@id": "institutions/CMIP-Panel"
+    }
+}

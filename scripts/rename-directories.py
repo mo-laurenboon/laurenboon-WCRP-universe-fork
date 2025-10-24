@@ -21,7 +21,7 @@ def get_number_of_matches(args):
     for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
             if args.target_character in dirname:
-                total_count += len(dirnames)
+                total_count += 1
 
     return total_count
 

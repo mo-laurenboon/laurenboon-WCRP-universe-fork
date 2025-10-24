@@ -7,7 +7,7 @@
     "type": "Person",
     "@id": "orcid:0000-0003-2835-1438",
     "name": "Paul Durack",
-    "email": "pauldurack@llnl.gov"
+    "email": "pauldurack@llnl.gov",
     "affiliation": {
         "@id": "institutions/CMIP-Panel"
     }

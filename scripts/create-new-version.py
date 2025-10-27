@@ -9,9 +9,9 @@ def set_arg_parser():
 
         :returns: Argument parser.
     """
-    parser = argparse.ArgumentParser(description="Version variable")
-    parser.add_argument("number", help="The current release version")
-    parser.add_argument("changes", help="Changes made on the previous commmit")
+    parser = argparse.ArgumentParser(description="Version variable.")
+    parser.add_argument("number", help="The current release version.")
+    parser.add_argument("changes", help="Changes made on the previous commmit.")
     args = parser.parse_args()
   
     return args
@@ -72,10 +72,10 @@ def update_version(number, changes):
     elif update_type == "patch":
         patch += 1
     elif update_type == "undetermined":
-        print("WARNING: Merge conflict tor uncategorised change reported")
+        print("WARNING: Merge conflict or uncategorised change reported.")
         sys.exit(1)
     else:
-        print ("WARNING: update type not recognised")
+        print ("WARNING: update type not recognised.")
         sys.exit(1)
 
     new_version = f"v{major}.{minor}.{patch}"
@@ -91,8 +91,6 @@ def main():
     args = set_arg_parser()
     number = args.number
     changes = args.changes
-
-    print(f"The output of number is: {number}\nThe output of changes is: {changes}")
   
     new_version = update_version(number, changes)
 

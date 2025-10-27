@@ -21,4 +21,11 @@ jobs:
     - name: install dependencies 
       run: pip install PyLD
     - name: run-script
-      run: python scripts/combine-jsonlds.py
+      run: |
+        python scripts/combine-jsonlds.py
+
+        git config user.name "github-actions"
+        git config user.email "github-actions@users.noreply.github.com"
+        git add .
+        git commit -m "File renamed through workflow_dispatch replace-character.yml"
+        git push 

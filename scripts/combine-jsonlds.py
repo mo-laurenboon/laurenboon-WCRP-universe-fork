@@ -44,7 +44,8 @@ def frame(context, type_name):
 
 
 def save_jsonlds(path, data):
-    path.write_text(json.dump(data, indent=4, ensure_ascii=False), encoding="utf-8")
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 def main():
 

@@ -3,9 +3,9 @@ import json
 from pyld import jsonld
 
 def load_jsonld_files(input_dir):
-    paths = sorted(directory.glob("*.jsonld"))
+    paths = sorted(input_dir.glob("*.jsonld"))
     if not paths:
-        raise FileNotFoundError(f"No JSON-LD files found in {directory.resolve()}")
+        raise FileNotFoundError(f"No JSON-LD files found in {input_dir.resolve()}")
     
     files = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
 

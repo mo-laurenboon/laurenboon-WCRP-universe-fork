@@ -62,7 +62,7 @@ def main():
 
     merged = expand_and_merge(files)
     context = define_context()
-    compacted = compact(merged_expanded, context)
+    compacted = compact(merged, context)
     save_jsonlds(compact_out, compacted)
 
     paper_frame = frame(context, "scholarlyArticle")

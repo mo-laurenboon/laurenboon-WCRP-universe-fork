@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "@xsd": "https://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "https://orcid.org/0000-0002-9178-479X",
+            "affiliation": {
+                "@id": "institutions/CMIP-Panel"
+            },
+            "email": "curtcovey@llnl.gov",
+            "name": "Curt Covey",
+            "type": "Person"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6491-2135",
+            "affiliation": {
+                "@id": "institutions/CMIP-Panel"
+            },
+            "email": "karltaylor@llnl.gov",
+            "name": "Karl Taylor",
+            "type": "Person"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2835-1438",
+            "affiliation": {
+                "@id": "institutions/CMIP-Panel"
+            },
+            "email": "pauldurack@llnl.gov",
+            "name": "Paul Durack",
+            "type": "Person"
+        },
+        {
+            "@id": "institutions/CMIP-Panel",
+            "@type": "Organisation"
+        },
+        {
+            "@id": "https://doi.org/10.5194/egusphere-2024-3729.doi",
+            "@type": "ScholarlyArticle",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0003-2835-1438"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-6491-2135"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9178-479X"
+                }
+            ],
+            "datePublished": "2025",
+            "name": "The Coupled Model Intercomparison Project (CMIP): Reviewing project history, evolution, infrastructure and implementation",
+            "sameAs": "doi:10.5194/egusphere-2024-3729.doi"
+        }
+    ]
+}

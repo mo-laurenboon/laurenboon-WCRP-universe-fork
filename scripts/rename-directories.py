@@ -5,18 +5,24 @@ def set_arg_parser():
     """
     Creates an argument parser to take the submitted issue body as an argument.
 
-        :returns: Argument parser
+        :returns: Argument parser.
     """
-    parser = argparse.ArgumentParser(description="Target and replacement characters")
-    parser.add_argument("target_dir", help="The target directory to act as the root")
-    parser.add_argument("target_character", help="The character that will be replaced")
-    parser.add_argument("new_character", help="The character that the target will be replaced with")
+    parser = argparse.ArgumentParser(description="Target and replacement characters.")
+    parser.add_argument("target_dir", help="The target directory to act as the root.")
+    parser.add_argument("target_character", help="The character that will be replaced.")
+    parser.add_argument("new_character", help="The character that the target will be replaced with.")
     args = parser.parse_args()
   
     return args
 
 
 def get_number_of_matches(args):
+    """
+    Finds the number of directories that contain a matching character.
+
+        :param args: Argument parser.
+        :returns: The total number of directories that contain the matching character.
+    """
     total_count = 0
     for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
@@ -27,6 +33,15 @@ def get_number_of_matches(args):
 
 
 def get_new_paths(dirpath, dirname, target, new):
+    """
+    Creates the new directory name and path after replacing the target character.
+
+        :param dirpath: The path of the directory contianing the target character.
+        :param dirname: The name of the directory contianing the target character.
+        :param target: The target character that will be repalced.
+        :param new: The character that will replace the target.
+        :returns: The old and new complete path of the directory before and after the target is replaced.
+    """
     old_path = os.path.join(dirpath, dirname)
     new_name = dirname.replace(target, new)
     new_path = os.path.join(dirpath, new_name)
@@ -35,6 +50,11 @@ def get_new_paths(dirpath, dirname, target, new):
 
 
 def main():
+    """
+    Holds the main body of the script.
+
+        :returns: None
+    """
     args = set_arg_parser()
     total_count = get_number_of_matches(args)
     renamed_count = 0
@@ -49,14 +69,12 @@ def main():
                     continue
                 try:
                     os.rename(old_path, new_path)
-                    print(f"Renamed: {old_path} to {new_path}")
+                    print(f"Renamed: {old_path} to {new_path}.")
                     renamed_count += 1
                 except Exception as e:
-                    print(f"WARNING: Error renaming {old_path}: {e}")
+                    print(f"WARNING: Error renaming {old_path}: {e}.")
                     quit()
-    print("\n\n\n------------------------------------------------------------\n")
-    print(f"{renamed_count}/{total_count} directoires successflly renamed")
-    print("\n------------------------------------------------------------\n\n\n")
+    print("\n"*3 + "-"*60 + "\n" + f"{renamed_count}/{total_count} directoires successflly renamed." + "\n"*3 + "-"*60)
     
 if __name__ == "__main__":
     main()

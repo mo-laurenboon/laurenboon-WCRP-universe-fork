@@ -61,6 +61,7 @@ def main():
         print(f"- {p.name}")
 
     merged = expand_and_merge(files)
+    context = define_context()
     compacted = compact(merged_expanded, context)
     save_jsonlds(compact_out, compacted)
 

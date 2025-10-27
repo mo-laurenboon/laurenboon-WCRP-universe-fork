@@ -12,7 +12,7 @@ def load_jsonld_files(input_dir):
     return paths, files
 
 
-def expand_and_merge():
+def expand_and_merge(files):
     expanded_graph = []
     for file in files:
         expanded = jsonld.expanded(file)

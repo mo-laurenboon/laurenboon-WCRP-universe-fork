@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 from pyld import jsonld
 
-def load_jsonld_files(input_dir)
+def load_jsonld_files(input_dir):
     paths = sorted(directory.glob("*.jsonld"))
     if not paths:
         raise FileNotFoundError(f"No JSON-LD files found in {directory.resolve()}")

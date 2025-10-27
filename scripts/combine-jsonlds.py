@@ -18,7 +18,7 @@ def expand_and_merge(files):
         expanded = jsonld.expand(file)
         expanded_graph.extend(expanded)
         
-    print(f"The expanded graph constains {len(merged)} nodes.")
+    print(f"The expanded graph constains {len(expanded_graph)} nodes.")
 
     return expanded_graph
 

@@ -66,6 +66,7 @@ def main():
     input_dir = Path("JSONLDs")
     compact_out = input_dir / "merged-comp.jsonld"
     framed_out_dir = input_dir / "framed" 
+    framed_out_dir.mkdir(parents=True, exist_ok=True)
     framed_paper_out = framed_out_dir / "framed_paper.jsonld"
     framed_authors_out = framed_out_dir / "framed_authors.jsonld"
     framed_institution_out = framed_out_dir / "framed_institution.jsonld"

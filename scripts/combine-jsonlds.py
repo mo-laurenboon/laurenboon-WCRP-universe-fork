@@ -73,7 +73,7 @@ def main():
     framed_authors = jsonld.frame(compacted, authors_frame)
     framed_institution = jsonld.frame(compacted, institution_frame)
 
-    save_josnlds(framed_paper_out, framed_paper)
+    save_jsonlds(framed_paper_out, framed_paper)
     save_jsonlds(framed_authors_out, framed_authors)
     save_jsonlds(framed_institution_out, framed_institution)
 

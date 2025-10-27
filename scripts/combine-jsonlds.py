@@ -23,13 +23,27 @@ def expand_and_merge(files):
     return expanded_graph
 
 
-def define_context():
-    context = {
-        "@vocab": "https://schema.org/",
-        "@xsd": "https://www.w3.org/2001/XMLSchema#"
-    }
+def build_context(files):
+    fallback = "https://schema.org/"
+    combined = []
+    combined.append({"vocab": fallback, "xsd": "https://www.w3.org/2001/XMLSchema#"})
+    for file in files:
+        con = file.get("@context")
+        if not con:
+            continue
+        if isinstance(con, list):
+            combined.extend(con)
+        else:
+            combined.append(con)
+    seen = []
+    deduped = []
+    for item in combined:
+        key = repr(item)
+        if key not in seen:
+            seen.append(key)
+            deduped.append(item)
 
-    return context
+    return deduped
 
 
 def compact(expanded_graph, context):
@@ -62,7 +76,7 @@ def main():
         print(f"- {p.name}")
 
     merged = expand_and_merge(files)
-    context = define_context()
+    context = build_context(files)
     compacted = compact(merged, context)
     save_jsonlds(compact_out, compacted)
 

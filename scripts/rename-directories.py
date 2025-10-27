@@ -1,3 +1,9 @@
+"""
+This script uses os.walk to scan the defined root directory tree looking for subdirectories whos names contain a user-defined 
+target character. It then replaces all instances of this target character in the directory names with a user-defined replacement 
+hence renaming the directories. These changes must then be commited and pushed to GitHub through a GtHub actions workflow in order 
+to show and be applied in the repository.
+"""
 import argparse
 import os
 

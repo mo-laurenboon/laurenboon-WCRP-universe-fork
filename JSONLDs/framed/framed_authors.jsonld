@@ -1,0 +1,19 @@
+{
+    "@context": [
+        {
+            "vocab": "https://schema.org/",
+            "xsd": "https://www.w3.org/2001/XMLSchema#"
+        },
+        {
+            "@vocab": "https://schema.org/",
+            "@base": "https://climate-research.org/",
+            "orcid": "https://orcid.org/"
+        },
+        {
+            "@vocab": "https://schema.org/",
+            "@base": "https://climate-research.org/",
+            "orcid": "https://orcid.org/",
+            "doi": "https://doi.org/"
+        }
+    ]
+}

@@ -39,7 +39,7 @@ def determine_update_type(changes):
         :returns: The type of release update that should be triggered (patch, major, minor, undetermined).
     """
     changes = re.split(" |\n", changes)
-    minor_conditions = ["A", "M", "D"] 
+    minor_conditions = ["A", "M", "D"]   #edit me later
     if "R100" in changes:
         update_type = "major"
     if "X" in changes or "U" in changes:
@@ -57,7 +57,7 @@ def update_version(number, changes):
     Updates each element of the current version based on the update type.
 
         :param number: The numerical part of the current version.
-        :param changes: A list of changes made in the previous commit.
+        :param update_type: major, minor or patch type release.
         :returns: The new, complete numerical element of the version as a string.
     """
     major, minor, patch = split_version_components(number)
@@ -89,14 +89,11 @@ def main():
         :returns: None.
     """
     args = set_arg_parser()
-    number = args.number
-    changes = args.changes
   
-    new_version = update_version(number, changes)
+    new_version = update_version(args.number, args.changes)
 
     with open(os.environ["GITHUB_OUTPUT"], "a") as out:
         out.write(f"version={new_version}\n")
 
 if __name__ == "__main__":
     main()
-

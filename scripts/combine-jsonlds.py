@@ -15,7 +15,7 @@ def load_jsonld_files(input_dir):
 def expand_and_merge(files):
     expanded_graph = []
     for file in files:
-        expanded = jsonld.expanded(file)
+        expanded = jsonld.expand(file)
         expanded_graph.extend(expanded)
         
     print(f"The expanded graph constains {len(merged)} nodes.")

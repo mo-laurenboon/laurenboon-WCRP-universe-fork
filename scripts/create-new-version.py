@@ -1,3 +1,8 @@
+"""
+This script finds the current version, looks at the recent commit history and then incremenets the version (deciding whether the 
+commit should correspond to a major, minor or patch release) based off of predefined parameters. The new version is then returned 
+as an output to thegithub environmenet ready for use as a variable within a GitHub actions workflow.
+"""
 import argparse
 import re
 import sys

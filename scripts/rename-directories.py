@@ -16,16 +16,31 @@ def set_arg_parser():
     return args
 
 
+def get_number_of_matches(args):
+    """
+    Finds the number of directories that contain a matching character.
+
+        :param args: Argument parser.
+        :returns: The total number of directories that contain the matching character.
+    """
+    total_count = 0
+    for dirpath, dirnames, _ in os.walk(args.target_dir):
+        for dirname in dirnames:
+            if args.target_character in dirname:
+                total_count += 1
+
+    return total_count
+
+
 def get_new_paths(dirpath, dirname, target, new):
     """
-    Creates the new directory names and paths by replacing the target character.
+    Creates the new directory name and path after replacing the target character.
 
-        :param dirpath: The path of the target directory.
-        :param dirname: The name of the target directory.
-        :param target: The target character that will be replaced.
-        :param new: The character that will replace the target in the directory name.
-
-        :returns: The old and new path and directory name before and after the character replacement.
+        :param dirpath: The path of the directory contianing the target character.
+        :param dirname: The name of the directory contianing the target character.
+        :param target: The target character that will be repalced.
+        :param new: The character that will replace the target.
+        :returns: The old and new complete path of the directory before and after the target is replaced.
     """
     old_path = os.path.join(dirpath, dirname)
     new_name = dirname.replace(target, new)
@@ -33,13 +48,16 @@ def get_new_paths(dirpath, dirname, target, new):
     
     return old_path, new_path
 
+
 def main():
     """
     Holds the main body of the script.
 
-        :returns: None.
+        :returns: None
     """
     args = set_arg_parser()
+    total_count = get_number_of_matches(args)
+    renamed_count = 0
 
     for dirpath, dirnames, _ in os.walk(args.target_dir):
         for dirname in dirnames:
@@ -52,9 +70,11 @@ def main():
                 try:
                     os.rename(old_path, new_path)
                     print(f"Renamed: {old_path} to {new_path}.")
+                    renamed_count += 1
                 except Exception as e:
                     print(f"WARNING: Error renaming {old_path}: {e}.")
-
+                    quit()
+    print("\n"*3 + "-"*60 + "\n" + f"{renamed_count}/{total_count} directoires successflly renamed." + "\n"*3 + "-"*60)
     
 if __name__ == "__main__":
     main()

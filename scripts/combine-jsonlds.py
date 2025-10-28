@@ -1,11 +1,25 @@
+"""
+This script is deigned to merge and expand linked JSON-LD files by creating graphs. It also outputs framed versions of each input
+file.
+"""
+
+import sys
 from pathlib import Path
 import json
 from pyld import jsonld
 
 def load_jsonld_files(input_dir):
+    """
+    Load all JSON-LD files from the provided input directory.
+
+        :param input_dir: The directory where the JSON-LD are stored.
+        :returns: The paths of the files and the files themselves as a list.
+        :raises FileNotFoundError: An error is printed if no JSON-LD files are found in input_dir.
+    """
     paths = sorted(input_dir.glob("*.jsonld"))
     if not paths:
         raise FileNotFoundError(f"No JSON-LD files found in {input_dir.resolve()}")
+        sys.exit(1)
     
     files = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
 
@@ -13,6 +27,12 @@ def load_jsonld_files(input_dir):
 
 
 def expand_and_merge(files):
+    """
+    Combines and marges the JSON-LD files to a single path.
+
+        :param files: The JSON-LD files as type list.
+        :returns: The combined and expanded graph of all JSON-LD files in the list.
+    """
     expanded_graph = []
     for file in files:
         expanded = jsonld.expand(file)
@@ -24,9 +44,15 @@ def expand_and_merge(files):
 
 
 def build_context(files):
-    fallback = "https://schema.org/"
+    """
+    Generates the combined context for framing and implants a fallback context if none is provided, as well as hadnling 
+    duplicates if the same context is provided mutliple times.
+
+        :param files: The JSON-LD files as type list.
+        :returns: The deduplicated context.
+    """
     combined = []
-    combined.append({"vocab": fallback, "xsd": "https://www.w3.org/2001/XMLSchema#"})
+    #combined.append({"vocab": "https://schema.org/", "xsd": "https://www.w3.org/2001/XMLSchema#"})
     for file in files:
         con = file.get("@context")
         if not con:

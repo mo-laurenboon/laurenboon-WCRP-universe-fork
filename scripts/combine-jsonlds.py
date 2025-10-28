@@ -52,7 +52,6 @@ def build_context(files):
         :returns: The deduplicated context.
     """
     combined = []
-    #combined.append({"vocab": "https://schema.org/", "xsd": "https://www.w3.org/2001/XMLSchema#"})
     for file in files:
         con = file.get("@context")
         if not con:
@@ -61,6 +60,9 @@ def build_context(files):
             combined.extend(con)
         else:
             combined.append(con)
+    if not combined:
+        combined.append({"vocab": "https://schema.org/", "xsd": "https://www.w3.org/2001/XMLSchema#"})
+        
     seen = []
     deduped = []
     for item in combined:
@@ -74,7 +76,7 @@ def build_context(files):
 
 def compact(expanded_graph, context):
     """
-    Compacts the expanded graph and applies the context
+    Compacts the expanded graph and applies the context.
 
         :param expanded_graph: The combined and expanded graph of all JSON-LD files in the list.
         :param context: The deduplicated context parameters.
@@ -86,6 +88,13 @@ def compact(expanded_graph, context):
 
 
 def frame(context, type_name):
+    """
+    Generates the framed versions of each JSON-LD file.
+
+        :param context: The deduplicated context parameters.
+        :param type_name: The type variable.
+        :returns: The a framed version of the input JSON-LD file.
+    """
 
     return {"@context": context, "@type": type_name}
 

@@ -73,6 +73,13 @@ def build_context(files):
 
 
 def compact(expanded_graph, context):
+    """
+    Compacts the expanded graph and applies the context
+
+        :param expanded_graph: The combined and expanded graph of all JSON-LD files in the list.
+        :param context: The deduplicated context parameters.
+        :returns: The compacted file.
+    """
     file = {"@graph": expanded_graph}
     
     return jsonld.compact(file, context)

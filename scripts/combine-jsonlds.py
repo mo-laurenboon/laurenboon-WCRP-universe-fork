@@ -100,10 +100,19 @@ def frame(context, type_name):
 
 
 def save_jsonlds(path, data):
+    """
+    Saves the restructured JSON-LD files 
+
+        :param path: The path that the file will be saved to.
+        :param data: The data that the saved will will contain.
+    """
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
 def main():
+    """
+    Holds the main body of the script
+    """
 
     input_dir = Path("JSONLDs")
     compact_out = input_dir / "merged-comp.jsonld"

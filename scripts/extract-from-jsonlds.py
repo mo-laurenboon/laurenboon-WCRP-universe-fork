@@ -20,8 +20,8 @@ def load_jsonld_files(input_dir):
     if not paths:
         raise FileNotFoundError(f"No JSON-LD files found in {input_dir.resolve()}")
         sys.exit(1)
-    for p in paths:
-        print(f"- {p.name}")
+    for path in paths:
+        print(f"- {path.name}")
     files = [json.loads(path.read_text(encoding="utf-8")) for path in paths]
 
     return paths, files
@@ -34,11 +34,13 @@ def main():
     input_dir = Path("JSONLDs")
     paths, files = load_jsonld_files(Path("JSONLDs"))
     
-    #g = Graph()
-    for file in files:
-        print(f"This is the file: {file}.")
+    g = Graph()
     for path in paths:
-        print(f"This is the path: {path}.")
+        print(f"Extracting information from {path}............")
+        g.parse(path, format="json-ld")
+        for s, p, o in g:
+            print(f"Subject: {s}\nPredicate: {p}\nObject: {o}")
+        
     
 
 if __name__ == "__main__":

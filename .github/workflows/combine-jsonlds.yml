@@ -19,7 +19,9 @@ jobs:
       with:
         python-version: 3.11
     - name: install dependencies 
-      run: pip install PyLD
+      run: |
+        pip install PyLD
+        pip install rdflib
     - name: run-script
       run: python scripts/extract-from-jsonlds.py
    # - name: run-script

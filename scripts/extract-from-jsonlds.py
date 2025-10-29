@@ -54,7 +54,7 @@ def main():
     Holds the main body of the script
     """
     input_dir = Path("JSONLDs")
-    paths = load_jsonld_files(Path("JSONLDs"))
+    paths = get_jsonld_files(Path("JSONLDs"))
     rdflib_extraction(paths)
     expansions = get_expanded_structure(paths)
 

@@ -26,7 +26,7 @@ def get_jsonld_files(input_dir):
     return paths
 
 
-def rdflib_extraction(paths)
+def rdflib_extraction(paths):
     g = Graph()
     for path in paths:
         print(f"Extracting information from {path}............")

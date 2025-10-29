@@ -40,3 +40,6 @@ def main():
     for path in paths:
         print(f"This is the path: {path}.")
     
+
+if __name__ == "__main__":
+    main()

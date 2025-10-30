@@ -3,12 +3,13 @@ This scripts uses both pyld and RDFlib to extract tuples from JSON-LD files with
 example queries to each method and compares their output.
 """
 
-import sys
 from pathlib import Path
 from rdflib import Graph, RDF, Namespace
 from pyld import jsonld
-import json
 from collections import Counter
+import networkx as nx
+import matplotlib.pyplot as plt
+from rdflib import URIRef, Literal
 
 def get_jsonld_files(input_dir):
     """
@@ -98,6 +99,29 @@ def get_query_results(g):
     return results
 
 
+def plot_with_networkx(g, input_dir):
+    """"
+    Plots the graph structure.
+
+        :param g: The populated graph with bound namespace prefixes.
+    """
+    G = nx.DiGraph()
+
+    for s, p, o in g:
+        s_label = g.qname(s) if isinstance(s, URIRef) else str(s)
+        p_label = g.qname(p) if isinstance(p, URIRef) else str(p)
+        o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
+        G.add_edge(s_label, o_label, label=p_label)
+
+    pos = nx.spring_layout(G, k=0.5, iterations=50)
+    plt.figure(figsize=(12, 8))
+    nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=2000, font_size=10, font_weight="bold", arrows=True)
+    edge_labels = nx.get_edge_attributes(G, 'label')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
+    plt.title("RDF Graph Visualization for an example paper")
+    plt.savefig(input_dir / "GraphVisualisation.png")
+
+
 def main():
     """
     Holds the main body of the script
@@ -127,6 +151,8 @@ def main():
         print(f"Title: {row.title}")
         print(f"Author(s): {row.author}")
         print(f"Year: {row.year}")
+
+    plot_with_networkx(g, Path("JSONLDs"))
 
         
 if __name__ == "__main__":

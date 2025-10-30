@@ -32,8 +32,8 @@ def rdflib_extraction(paths):
 
         :param paths:  The paths of the files as a list.
     """
+    g = Graph()
     for path in paths:
-        g = Graph()
         print(f"Extracting information from {path}............")
         g.parse(path, format="json-ld")
         for s, p, o in g:

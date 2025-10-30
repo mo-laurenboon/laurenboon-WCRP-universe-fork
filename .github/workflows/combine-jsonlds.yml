@@ -22,6 +22,7 @@ jobs:
       run: |
         pip install PyLD
         pip install rdflib
+        pip install networkx
     - name: run-script
       run: python scripts/extract-from-jsonlds.py
    # - name: run-script

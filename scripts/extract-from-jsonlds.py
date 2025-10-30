@@ -122,10 +122,15 @@ def main():
     for p, count in pred_counts.items():
         print(f"{p} : {count}")
 
-    for row in get_query_results(g):
-        print(f"Title: {row.title}")
-        print(f"Author(s): {row.author}")
-        print(f"Year: {row.year}")
+    results = get_query_results(g)
+    for row in results:
+        print (row)
+
+    print("===================== printing variables =====================")
+    print(results.vars)
+       # print(f"Title: {row.title}")
+       # print(f"Author(s): {row.author}")
+       # print(f"Year: {row.year}")
 
         
 if __name__ == "__main__":

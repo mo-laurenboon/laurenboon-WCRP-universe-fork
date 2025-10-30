@@ -52,7 +52,7 @@ def rdflib_extraction(paths):
     """
     g = Graph()
     print(f"Extracting information from {path}............")
-    g.parse(path, format="json-ld")
+    g.parse(paths, format="json-ld")
     for s, p, o in g:
         print(f"Subject: {s}\nPredicate: {p}\nObject: {o}")
 
@@ -65,7 +65,7 @@ def get_expanded_structure(paths):
     """
     expansions=[]
     print(f"Getting expanded structure for {path}............")
-    with open(path) as f:
+    with open(paths) as f:
         file = json.load(f)
     expanded = jsonld.expand(file)
     print("Expanded version of file is...")

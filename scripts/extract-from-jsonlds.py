@@ -27,6 +27,11 @@ def get_jsonld_files(input_dir):
 
 
 def rdflib_extraction(paths):
+    """
+    Extracts tuples from the provided JSON-LDs using the rdflib module.
+
+        :param paths:  The paths of the files as a list.
+    """
     g = Graph()
     for path in paths:
         print(f"Extracting information from {path}............")
@@ -36,6 +41,11 @@ def rdflib_extraction(paths):
 
 
 def get_expanded_structure(paths):
+    """
+    Generates an expanded structure for each of the JSON-LD files 
+
+        :param paths:  The paths of the files as a list.
+    """
     expansions=[]
     for path in paths:
         print(f"Getting expanded structure for {path}............")

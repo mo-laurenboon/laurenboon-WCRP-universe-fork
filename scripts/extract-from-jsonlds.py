@@ -56,7 +56,7 @@ def create_graph(paths):
     print(f"\nEXTRACTING INFORMATION FROM {paths}............")
     g.parse(paths, format="json-ld")
 
-    print(f"Loaded {len(g)} triples.\n")
+    print(f"Loaded {len(g)} triples............")
 
     return g
 

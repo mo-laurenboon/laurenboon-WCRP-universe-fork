@@ -119,6 +119,7 @@ def plot_with_networkx(g, input_dir):
     edge_labels = nx.get_edge_attributes(G, 'label')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
+    print(f"Saving plot as {input_dir}/GraphVisualisation.png............")
     plt.savefig(input_dir / "GraphVisualisation.png")
 
 

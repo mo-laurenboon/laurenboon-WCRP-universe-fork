@@ -86,12 +86,14 @@ def get_query_results(g):
     query = """
     PREFIX schema: <https://schema.org/>
 
-    SELECT ?title ?author ?year
+    SELECT ?title ?author ?year ?url ?email
     WHERE {
         ?article a schema:ScholarlyArticle ;
                  schema:name ?title ;
                  schema:datePublished ?year ;
-                 schema:author ?author .
+                 schema:author ?author ;
+                 schema:url ?url ;
+                 schema:email ?email ;
     }
     """
     results = g.query(query)
@@ -150,9 +152,14 @@ def main():
 
         results = get_query_results(g)
         for row in results:
-            print(f"Title: {row.title}")
-            print(f"Author(s): {row.author}")
-            print(f"Year: {row.year}")
+            try:
+                print(f"Title: {row.title}")
+                print(f"Author(s): {row.author}")
+                print(f"Year: {row.year}")
+                print(f"url: {row.url}")
+                print(f"Email: {row.email}")
+            except:
+                pass 
 
         plot_with_networkx(g, Path("JSONLDs"))
 

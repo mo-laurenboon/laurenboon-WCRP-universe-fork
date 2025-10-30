@@ -1,7 +1,9 @@
 """
-This scripts uses both pyld and RDFlib to extract tuples from JSON-LD files without the need for framing. It then issues example queries to each method and compares their output.
+This scripts uses both pyld and RDFlib to extract tuples from JSON-LD files without the need for framing. It then issues
+example queries to each method and compares their output.
 """
 
+import sys
 from pathlib import Path
 from rdflib import Graph
 from pyld import jsonld
@@ -19,6 +21,24 @@ def get_jsonld_files(input_dir):
     paths = sorted(input_dir.glob("*.jsonld"))
     if not paths:
         raise FileNotFoundError(f"No JSON-LD files found in {input_dir.resolve()}")
+        sys.exit(1)
+    for path in paths:
+        print(f"- {path.name}")
+
+    return paths
+
+def get_test_jsonld_file(input_dir, test_file_name):
+    """
+    Load a singular test JSON-LD file from the provided input directory.
+
+        :param input_dir: The directory where the JSON-LD are stored.
+        :returns: The paths of the file.
+        :raises FileNotFoundError: An error is printed if no JSON-LD files are found in input_dir.
+    """
+    print("Test file loading............")
+    paths = input_dir / test_file_name
+    if not paths:
+        raise FileNotFoundError("No JSON-LD file with that name found.")
         sys.exit(1)
     for path in paths:
         print(f"- {path.name}")
@@ -63,10 +83,9 @@ def main():
     """
     Holds the main body of the script
     """
-    input_dir = Path("JSONLDs")
-    paths = get_jsonld_files(Path("JSONLDs"))
+    paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
     rdflib_extraction(paths)
-    expansions = get_expanded_structure(paths)
+
 
         
 if __name__ == "__main__":

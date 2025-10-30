@@ -23,6 +23,7 @@ jobs:
         pip install PyLD
         pip install rdflib
         pip install networkx
+        conda install matplotlib
     - name: run-script
       run: python scripts/extract-from-jsonlds.py
    # - name: run-script

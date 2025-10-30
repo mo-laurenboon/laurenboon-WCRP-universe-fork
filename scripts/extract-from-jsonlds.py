@@ -86,12 +86,14 @@ def get_query_results(g):
     query = """
     PREFIX schema: <https://schema.org/>
 
-    SELECT ?title ?author ?year
+    SELECT ?title ?author ?year ?url ?email
     WHERE {
         ?article a schema:ScholarlyArticle ;
                  schema:name ?title ;
                  schema:datePublished ?year ;
-                 schema:author ?author .
+                 schema:author ?author ;
+                 schema:url ?url ;
+                 schema:email ?email ;
     }
     """
     results = g.query(query)
@@ -127,33 +129,39 @@ def main():
     """
     Holds the main body of the script
     """
-    paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
-    g = create_graph(paths)
+    paths = get_jsonld_files(Path("JSONLDs"))
 
-    print("=============================TRIPLES===================================")
-    for s, p, o in g:
-        print(f"Subject: {s} -- Predicate: {p} --> Object: {o}")
+    for path in paths:
+        g = create_graph(path)
+        print("=============================TRIPLES===================================")
+        for s, p, o in g:
+            print(f"Subject: {s} -- Predicate: {p} --> Object: {o}")
 
-    print("\n===================== Namespaces / Prefixes =====================")
-    for prefix, namespace in g.namespaces():
-        print(f"{prefix}: {namespace}")
+        print("\n===================== Namespaces / Prefixes =====================")
+        for prefix, namespace in g.namespaces():
+            print(f"{prefix}: {namespace}")
 
-    print("\n===================== RDF Types (Classes) =====================")
-    for s, o in g.subject_objects(RDF.type):
-        print(f"{s} a {o}")
+        print("\n===================== RDF Types (Classes) =====================")
+        for s, o in g.subject_objects(RDF.type):
+            print(f"{s} a {o}")
 
-    pred_counts = Counter(p for _, p, _ in g)
-    print("\n===================== Predicate Frequency =====================")
-    for p, count in pred_counts.items():
-        print(f"{p} : {count}")
+        pred_counts = Counter(p for _, p, _ in g)
+        print("\n===================== Predicate Frequency =====================")
+        for p, count in pred_counts.items():
+            print(f"{p} : {count}")
 
-    results = get_query_results(g)
-    for row in results:
-        print(f"Title: {row.title}")
-        print(f"Author(s): {row.author}")
-        print(f"Year: {row.year}")
+        results = get_query_results(g)
+        for row in results:
+            try:
+                print(f"Title: {row.title}")
+                print(f"Author(s): {row.author}")
+                print(f"Year: {row.year}")
+                print(f"url: {row.url}")
+                print(f"Email: {row.email}")
+            except:
+                pass 
 
-    plot_with_networkx(g, Path("JSONLDs"))
+        plot_with_networkx(g, Path("JSONLDs"))
 
         
 if __name__ == "__main__":

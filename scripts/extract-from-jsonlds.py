@@ -101,7 +101,7 @@ def get_query_results(g):
     return results
 
 
-def plot_with_networkx(g, input_dir):
+def plot_with_networkx(g, input_dir, i):   #change figure naming convension soon
     """"
     Plots the graph structure.
 
@@ -122,6 +122,7 @@ def plot_with_networkx(g, input_dir):
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
     print(f"Saving plot as {input_dir}/GraphVisualisation.png............")
+    figurename = f"GraphVisualisation_{i}.png"
     plt.savefig(input_dir / "GraphVisualisation.png")
 
 
@@ -131,7 +132,9 @@ def main():
     """
     paths = get_jsonld_files(Path("JSONLDs"))
 
+    i = 0
     for path in paths:
+        i += 1
         g = create_graph(path)
         print("=============================TRIPLES===================================")
         for s, p, o in g:
@@ -161,7 +164,7 @@ def main():
             except:
                 pass 
 
-        plot_with_networkx(g, Path("JSONLDs"))
+        plot_with_networkx(g, Path("JSONLDs"), i)
 
         
 if __name__ == "__main__":

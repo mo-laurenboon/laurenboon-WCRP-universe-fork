@@ -85,7 +85,7 @@ def get_query_results(g):
     query = """
     PREFIX schema: <https://schema.org/>
 
-    SELECT ?title ?auhtor ?year
+    SELECT ?title ?author ?year
     WHERE {
         ?article a schema:ScholarlyArticle ;
                  schema:name ?title ;

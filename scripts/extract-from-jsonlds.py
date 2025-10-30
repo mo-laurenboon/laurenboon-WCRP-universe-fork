@@ -22,7 +22,7 @@ def get_jsonld_files(input_dir):
     paths = sorted(input_dir.glob("*.jsonld"))
     if not paths:
         raise FileNotFoundError(f"No JSON-LD files found in {input_dir.resolve()}")
-        sys.exit(1)
+
     for path in paths:
         print(f"- {path.name}")
 
@@ -40,22 +40,70 @@ def get_test_jsonld_file(input_dir, test_file_name):
     paths = input_dir / test_file_name
     if not paths:
         raise FileNotFoundError("No JSON-LD file with that name found.")
-        sys.exit(1)
 
     return paths
 
 
-def rdflib_extraction(paths):
+def create_graph(paths):
     """
     Extracts tuples from the provided JSON-LDs using the rdflib module.
 
-        :param paths:  The paths of the files as a list.
+        :param paths:  The paths of the file(s).
+        :returns: The populated graph.
     """
     g = Graph()
     print(f"Extracting information from {paths}............")
     g.parse(paths, format="json-ld")
 
     print(f"Loaded {len(g)} triples.\n")
+
+    return g
+
+
+def bind_namespaces(g):
+    """
+    Binds the main namespaces with thei prefixes.
+
+        :param g: The populated graph.
+        :returns: The populated graph with bound namespace prefixes.
+    """
+    g.bind("schema", Namespace("https://schema.org/"))
+    g.bind("orcid", Namespace("https://orcid.org/"))
+    g.bind("doi", Namespace("https://doi.org/"))
+
+    return g
+
+
+def get_query_results(g):
+    """
+    Creates the query structure and applies it to the graph.
+
+        :param g: The populated graph with bound namespace prefixes.
+        :returns: The result of the query request.
+    """
+    g = bind_namespaces(g)
+    query = """
+    PREFIX schema: <https://schema.org/>
+
+    SELECT ?title ?year
+    WHERE {
+        ?article a schema:ScholarlyArticle ;
+                 schema:name ?title ;
+                 schema:author ?authors ;
+                 schema:datePublished ?year .
+    }
+    """
+    results = g.query(query)
+
+    return results
+
+
+def main():
+    """
+    Holds the main body of the script
+    """
+    paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
+    g = create_graph(paths)
 
     print("=============================TRIPLES===================================")
     for s, p, o in g:
@@ -74,53 +122,10 @@ def rdflib_extraction(paths):
     for p, count in pred_counts.items():
         print(f"{p} : {count}")
 
-    #bind main namespaces
-    g.bind("schema", Namespace("https://schema.org/"))
-    g.bind("orcid", Namespace("https://orcid.org/"))
-    g.bind("doi", Namespace("https://doi.org/"))
-
-
-    query = """
-    PREFIX schema: <https://schema.org/>
-
-    SELECT ?title ?year
-    WHERE {
-        ?article a schema:ScholarlyArticle ;
-                 schema:name ?title ;
-                 schema:datePublished ?year .
-    }
-    """
-    results = g.query(query)
-
-    for row in results:
+    for row in get_query_results(g):
         print(f"Title: {row.title}")
+        print(f"Author(s): {row.authors}")
         print(f"Year: {row.year}")
- 
-
-def get_expanded_structure(paths):
-    """
-    Generates an expanded structure for each of the JSON-LD files 
-
-        :param paths:  The paths of the files as a list.
-    """
-    expansions=[]
-    print(f"Getting expanded structure for {paths}............")
-    with open(paths) as f:
-        file = json.load(f)
-    expanded = jsonld.expand(file)
-    print("Expanded version of file is...")
-    print(json.dumps(expanded, indent=4))
-    expansions.append(expanded)
-        
-    return expansions
-    
-
-def main():
-    """
-    Holds the main body of the script
-    """
-    paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
-    rdflib_extraction(paths)
 
         
 if __name__ == "__main__":

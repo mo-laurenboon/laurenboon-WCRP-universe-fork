@@ -123,7 +123,7 @@ def plot_with_networkx(g, input_dir, i):   #change figure naming convension soon
     plt.title("RDF Graph Visualization for an example paper")
     print(f"Saving plot as {input_dir}/GraphVisualisation.png............")
     figurename = f"GraphVisualisation_{i}.png"
-    plt.savefig(input_dir / "GraphVisualisation.png")
+    plt.savefig(input_dir / figurename)
 
 
 def main():

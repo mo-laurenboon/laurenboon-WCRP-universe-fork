@@ -73,7 +73,29 @@ def rdflib_extraction(paths):
     print("\n===================== Predicate Frequency =====================")
     for p, count in pred_counts.items():
         print(f"{p} : {count}")
-    
+
+    #bind main namespaces
+    g.bind("schema", Namespace("https://schema.org/"))
+    g.bind("orcid", Namespace("https://orcid.org/"))
+    g.bind("doi", Namespace("https://doi.org/"))
+
+
+    query = """
+    PREFIX schema: <https://schema.org/>
+
+    SELECT ?title ?year
+    WHERE {
+        ?article a schema:ScholarlyArticle ;
+                 schema:name ?title ;
+                 schema:datePublished ?year .
+    }
+    """
+    results = g.query(query)
+
+    for row in results:
+        print(f"Title: {row.title}")
+        print(f"Year: {row.year}")
+ 
 
 def get_expanded_structure(paths):
     """

@@ -40,8 +40,6 @@ def get_test_jsonld_file(input_dir, test_file_name):
     if not paths:
         raise FileNotFoundError("No JSON-LD file with that name found.")
         sys.exit(1)
-    for path in paths:
-        print(f"- {path.name}")
 
     return paths
 
@@ -53,11 +51,10 @@ def rdflib_extraction(paths):
         :param paths:  The paths of the files as a list.
     """
     g = Graph()
-    for path in paths:
-        print(f"Extracting information from {path}............")
-        g.parse(path, format="json-ld")
-        for s, p, o in g:
-            print(f"Subject: {s}\nPredicate: {p}\nObject: {o}")
+    print(f"Extracting information from {path}............")
+    g.parse(path, format="json-ld")
+    for s, p, o in g:
+        print(f"Subject: {s}\nPredicate: {p}\nObject: {o}")
 
 
 def get_expanded_structure(paths):
@@ -67,14 +64,13 @@ def get_expanded_structure(paths):
         :param paths:  The paths of the files as a list.
     """
     expansions=[]
-    for path in paths:
-        print(f"Getting expanded structure for {path}............")
-        with open(path) as f:
-            file = json.load(f)
-        expanded = jsonld.expand(file)
-        print("Expanded version of file is...")
-        print(json.dumps(expanded, indent=4))
-        expansions.append(expanded)
+    print(f"Getting expanded structure for {path}............")
+    with open(path) as f:
+        file = json.load(f)
+    expanded = jsonld.expand(file)
+    print("Expanded version of file is...")
+    print(json.dumps(expanded, indent=4))
+    expansions.append(expanded)
         
     return expansions
     

@@ -5,9 +5,10 @@ example queries to each method and compares their output.
 
 import sys
 from pathlib import Path
-from rdflib import Graph
+from rdflib import Graph, RDF, Namespace
 from pyld import jsonld
 import json
+from collections import Counter
 
 def get_jsonld_files(input_dir):
     """
@@ -53,9 +54,26 @@ def rdflib_extraction(paths):
     g = Graph()
     print(f"Extracting information from {paths}............")
     g.parse(paths, format="json-ld")
-    for s, p, o in g:
-        print(f"Subject: {s}\nPredicate: {p}\nObject: {o}")
 
+    print(f"Loaded {len(g)} triples.\n")
+
+    print("=============================TRIPLES===================================")
+    for s, p, o in g:
+        print(f"Subject: {s} -- Predicate: {p} --> Object: {o}")
+
+    print("\n===================== Namespaces / Prefixes =====================")
+    for prefix, namespace in g.namespaces():
+        print(f"{prefix}: {namespace}")
+
+    print("\n===================== RDF Types (Classes) =====================")
+    for s, o in g.subject_objects(RDF.type):
+        print(f"{s} a {o}")
+
+    pred_counts = Counter(p for _, p, _ in g)
+    print("\n===================== Predicate Frequency =====================")
+    for p, count in pred_counts.items():
+        print(f"{p} : {count}")
+    
 
 def get_expanded_structure(paths):
     """
@@ -81,7 +99,6 @@ def main():
     """
     paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
     rdflib_extraction(paths)
-
 
         
 if __name__ == "__main__":

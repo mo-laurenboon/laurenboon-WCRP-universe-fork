@@ -89,8 +89,8 @@ def get_query_results(g):
     WHERE {
         ?article a schema:ScholarlyArticle ;
                  schema:name ?title ;
-                 schema:author ?authors ;
-                 schema:datePublished ?year .
+                 schema:datePublished ?year ;
+                 schema:author ?author .
     }
     """
     results = g.query(query)
@@ -124,7 +124,7 @@ def main():
 
     for row in get_query_results(g):
         print(f"Title: {row.title}")
-        print(f"Author(s): {row.authors}")
+        print(f"Author(s): {row.author}")
         print(f"Year: {row.year}")
 
         

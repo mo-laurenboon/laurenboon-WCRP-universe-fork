@@ -85,7 +85,7 @@ def main():
     """
     paths = get_test_jsonld_file(Path("JSONLDs"), "paper.jsonld")
     rdflib_extraction(paths)
-    expansions = get_expanded_structure(paths)
+
 
         
 if __name__ == "__main__":

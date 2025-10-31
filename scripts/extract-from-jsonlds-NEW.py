@@ -197,7 +197,7 @@ def main():
         g = create_individual_graph(path)
         print_triples(g)
         get_query_results(g)
-        plot_individual_graphs(g, paths, Path("JSONLDs"))
+        plot_individual_graphs(g, path, Path("JSONLDs"))
 
     #for combined JSONLD file
     g=Graph()

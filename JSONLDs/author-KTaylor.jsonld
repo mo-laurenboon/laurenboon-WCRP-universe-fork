@@ -4,7 +4,7 @@
         "@base": "https://climate-research.org/",
         "orcid": "https://orcid.org/"
     },
-    "type": "Person",
+    "@type": "Person",
     "@id": "orcid:0000-0002-6491-2135",
     "name": "Karl Taylor",
     "email": "karltaylor@llnl.gov",

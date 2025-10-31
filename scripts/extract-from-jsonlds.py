@@ -116,6 +116,8 @@ def plot_with_networkx(g, paths, input_dir):
         p_label = g.qname(p) if isinstance(p, URIRef) else str(p)
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
+
+    colour = "darkseagreen"
         
     pos = nx.spring_layout(G, k=0.5, iterations=50)
     plt.figure(figsize=(12, 8))

@@ -4,6 +4,7 @@ example queries to each method and compares their output.
 """
 
 from pathlib import Path
+import json
 from rdflib import Graph, RDF, Namespace
 from pyld import jsonld
 from collections import Counter

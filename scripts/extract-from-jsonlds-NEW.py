@@ -122,7 +122,7 @@ def get_type_colour_map(g):
     return type_map, colour_map
 
 
-def plot_individual_graphs(g, paths, input_dir):
+def plot_combined_graphs(g, paths, input_dir):
     """
     """
     G = nx.DiGraph()
@@ -153,12 +153,12 @@ def plot_individual_graphs(g, paths, input_dir):
     edge_labels = nx.get_edge_attributes(G, 'label')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
-    figurename = f"GraphVisualisation_{paths.stem}.png"
+    figurename = f"GraphVisualisation_COMBINED.png"
     print(f"SAVING PLOT AS {input_dir}/{figurename}............\n")
     plt.savefig(input_dir / figurename)
 
 
-def plot_combined_graph(g, input_dir):
+def plot_individual_graph(g, input_dir):
     """
     """
     G = nx.DiGraph()
@@ -182,7 +182,7 @@ def plot_combined_graph(g, input_dir):
     edge_labels = nx.get_edge_attributes(G, 'label')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
-    figurename = f"GraphVisualisation_COMBINED.png"
+    figurename = f"GraphVisualisation_{paths.stem}.png"
     print(f"SAVING PLOT AS {input_dir}/{figurename}............\n")
     plt.savefig(input_dir / figurename)
 
@@ -197,7 +197,7 @@ def main():
         g = create_individual_graph(path)
         print_triples(g)
         get_query_results(g)
-        plot_individual_graphs(g, path, Path("JSONLDs"))
+        plot_individual_graphs(g, paths, Path("JSONLDs"))
 
     #for combined JSONLD file
     g=Graph()

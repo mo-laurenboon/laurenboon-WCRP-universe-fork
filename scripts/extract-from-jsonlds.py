@@ -114,10 +114,24 @@ def plot_with_networkx(g, paths, input_dir):
         p_label = g.qname(p) if isinstance(p, URIRef) else str(p)
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
+    
+    if "@type" in g:
+        if data["@type"] == "Person":
+            colour = "skyblue"
+        elif data["@type"] == "ScholarlyArticle":
+            colour = "darkseagreen"
+        elif data["@type"] == "Organisation":
+            colour = "mediumpurple"
+        else:
+            print(f"Unknown type: {data['@type']}")
+    else:
+        colour = "red"
+        print(f"Unable to detect data type, printing all nodes as {colour}")
+
 
     pos = nx.spring_layout(G, k=0.5, iterations=50)
     plt.figure(figsize=(12, 8))
-    nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=2000, font_size=10, font_weight="bold", arrows=True)
+    nx.draw(G, pos, with_labels=True, node_color=colour, node_size=2000, font_size=10, font_weight="bold", arrows=True)
     edge_labels = nx.get_edge_attributes(G, 'label')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")

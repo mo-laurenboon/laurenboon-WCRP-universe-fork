@@ -195,7 +195,10 @@ def plot_combined_graph(paths):
 
     :param paths: The paths of the file(s).
     """
-    g = create_graph(paths)
+    g = Graph()
+    for path in paths:
+        print(f"\nEXTRACTING INFORMATION FROM {path}............")
+        g.parse(path, format="json-ld")
     results = get_query_results(g)
     for row in results:
         try:
@@ -206,7 +209,7 @@ def plot_combined_graph(paths):
             print(f"Email: {row.email}")
         except:
             pass 
-    plot_with_networkx(g, path, Path("JSONLDs"), "combined")
+    plot_with_networkx(g, paths, Path("JSONLDs"), "combined")
 
 
 def main():

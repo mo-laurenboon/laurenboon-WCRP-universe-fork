@@ -175,12 +175,14 @@ def plot_with_networkx(g, paths, input_dir, plot_type):
     if plot_type == "individual":
         colour = get_type(paths)
         nx.draw(G, pos, with_labels=True, node_color=colour, node_size=2000, font_size=10, font_weight="bold", arrows=True)
+        edge_labels = nx.get_edge_attributes(G, 'label')
+        nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     elif plot_type == "combined":
         for path in paths:
             colour = get_type(path)
             nx.draw(G, pos, with_labels=True, node_color=colour, node_size=2000, font_size=10, font_weight="bold", arrows=True)
-    edge_labels = nx.get_edge_attributes(G, 'label')
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
+            edge_labels = nx.get_edge_attributes(G, 'label')
+            nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
     if plot_type == "individual":
         figurename = f"GraphVisualisation_{paths.stem}.png"

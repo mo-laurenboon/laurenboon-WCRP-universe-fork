@@ -103,11 +103,41 @@ def get_query_results(g):
     return results
 
 
+def get_type(paths):
+    """
+    Assigned a colour to each node depending on its @type variable.
+
+        :param paths:  The path of the file.
+        :returns: The colour of the nodes for that file.
+    """
+    with open(paths, "r") as f:
+        data = json.load(f)
+    
+    if "@type" in data:
+        if data["@type"] == "Person":
+            colour = "skyblue"
+        elif data["@type"] == "ScholarlyArticle":
+            colour = "deepseagreen"
+        elif data["@type"] == "ScholarlyArticle":
+            colour = "mediumpurple"
+        else:
+            colour = "red"
+            print(f"Unknown type: {data['@type']}, printing node as {colour}")
+    else:
+        colour = "red"
+        print(f"No type definition found, printing all nodes as {colour}.")
+
+    return colour
+
+
+
 def plot_with_networkx(g, paths, input_dir): 
     """"
     Plots the graph structure.
 
         :param g: The populated graph with bound namespace prefixes.
+        :param paths:  The paths of the file(s).
+        :param input_dir: The directory where the JSON-LD are stored.
     """
     G = nx.DiGraph()
 
@@ -117,7 +147,7 @@ def plot_with_networkx(g, paths, input_dir):
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
 
-    colour = "darkseagreen"
+    colour = get_type(paths)
         
     pos = nx.spring_layout(G, k=0.5, iterations=50)
     plt.figure(figsize=(12, 8))

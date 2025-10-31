@@ -114,7 +114,14 @@ def plot_with_networkx(g, paths, input_dir):
         p_label = g.qname(p) if isinstance(p, URIRef) else str(p)
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
-
+    
+    if (subject, RDF.type, URIRef("https://schema.org/Person")) in g:
+        colour = "sky_blue"
+    if (subject, RDF.type, URIRef("https://schema.org/ScholarlyArticle")) in g:
+        colour = "darkseagreen"
+    if (subject, RDF.type, URIRef("https://schema.org/Organisation")) in g:
+        colour = "mediumpurple"
+        
     pos = nx.spring_layout(G, k=0.5, iterations=50)
     plt.figure(figsize=(12, 8))
     nx.draw(G, pos, with_labels=True, node_color=colour, node_size=2000, font_size=10, font_weight="bold", arrows=True)

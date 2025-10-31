@@ -3,7 +3,7 @@
         "@vocab": "https://schema.org/",
         "@base": "https://climate-research.org/"
     },
-    "@type": "Organisation",
+    "@type": "Organization",
     "@id": "institutions/CMIP-Panel",
     "name": "CMIP Panel",
     "url": "https://wcrp-cmip.org/"

@@ -119,7 +119,7 @@ def get_type(paths):
             colour = "skyblue"
         elif data["@type"] == "ScholarlyArticle":
             colour = "darkseagreen"
-        elif data["@type"] == "ScholarlyArticle":
+        elif data["@type"] == "Organisation":
             colour = "mediumpurple"
         else:
             colour = "red"

@@ -117,11 +117,11 @@ def plot_with_networkx(g, paths, input_dir):
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
     
-    if (s, RDF.type, URIRef("https://schema.org/Person")) in g:
+    if (o, RDF.type, URIRef("https://schema.org/Person")) in g:
         colour = "sky_blue"
-    if (s, RDF.type, URIRef("https://schema.org/ScholarlyArticle")) in g:
+    if (o, RDF.type, URIRef("https://schema.org/ScholarlyArticle")) in g:
         colour = "darkseagreen"
-    if (s, RDF.type, URIRef("https://schema.org/Organisation")) in g:
+    if (o, RDF.type, URIRef("https://schema.org/Organisation")) in g:
         colour = "mediumpurple"
         
     pos = nx.spring_layout(G, k=0.5, iterations=50)

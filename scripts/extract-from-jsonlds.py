@@ -108,26 +108,26 @@ def plot_with_networkx(g, paths, input_dir):
         :param g: The populated graph with bound namespace prefixes.
     """
     G = nx.DiGraph()
+    
+    if "@type" in g:
+        if g["@type"] == "Person":
+            colour = "skyblue"
+        elif g["@type"] == "ScholarlyArticle":
+            colour = "darkseagreen"
+        elif g["@type"] == "Organisation":
+            colour = "mediumpurple"
+        else:
+            print(f"Unknown type: {g['@type']}")
+    else:
+        colour = "red"
+        print(f"Unable to detect data type, printing all nodes as {colour}")
+
 
     for s, p, o in g:
         s_label = g.qname(s) if isinstance(s, URIRef) else str(s)
         p_label = g.qname(p) if isinstance(p, URIRef) else str(p)
         o_label = g.qname(o) if isinstance(o, URIRef) else str(o)
         G.add_edge(s_label, o_label, label=p_label)
-    
-    if "@type" in g:
-        if data["@type"] == "Person":
-            colour = "skyblue"
-        elif data["@type"] == "ScholarlyArticle":
-            colour = "darkseagreen"
-        elif data["@type"] == "Organisation":
-            colour = "mediumpurple"
-        else:
-            print(f"Unknown type: {data['@type']}")
-    else:
-        colour = "red"
-        print(f"Unable to detect data type, printing all nodes as {colour}")
-
 
     pos = nx.spring_layout(G, k=0.5, iterations=50)
     plt.figure(figsize=(12, 8))

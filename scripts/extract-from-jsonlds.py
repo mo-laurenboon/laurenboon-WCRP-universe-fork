@@ -5,6 +5,7 @@ example queries to each method and compares their output.
 
 from pathlib import Path
 import json
+import sys
 from rdflib import Graph, RDF, Namespace
 from pyld import jsonld
 from collections import Counter
@@ -62,6 +63,27 @@ def create_graph(paths):
     print(f"Loaded {len(g)} triples............")
 
     return g
+
+
+def print_triplets(g):
+    """
+    Prints contents of the created triplets to action logs.
+
+    :param g: The populated graph.
+    """
+    print("=============================TRIPLES===================================")
+    for s, p, o in g:
+        print(f"Subject: {s} -- Predicate: {p} --> Object: {o}")
+    print("===================== Namespaces / Prefixes =====================")
+    for prefix, namespace in g.namespaces():
+        print(f"{prefix}: {namespace}")
+    print("===================== RDF Types (Classes) =====================")
+    for s, o in g.subject_objects(RDF.type):
+        print(f"{s} a {o}")
+    pred_counts = Counter(p for _, p, _ in g)
+    print("===================== Predicate Frequency =====================")
+    for p, count in pred_counts.items():
+        print(f"{p} : {count}")
 
 
 def bind_namespaces(g):
@@ -131,14 +153,14 @@ def get_type(paths):
     return colour
 
 
-
-def plot_with_networkx(g, paths, input_dir): 
+def plot_with_networkx(g, paths, input_dir, plot_type): 
     """"
     Plots the graph structure.
 
         :param g: The populated graph with bound namespace prefixes.
         :param paths:  The paths of the file(s).
         :param input_dir: The directory where the JSON-LD are stored.
+        :param plot_type: Plot from a single file (indivudal) or a graph of several linked files (combined).
     """
     G = nx.DiGraph()
 
@@ -156,9 +178,35 @@ def plot_with_networkx(g, paths, input_dir):
     edge_labels = nx.get_edge_attributes(G, 'label')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
     plt.title("RDF Graph Visualization for an example paper")
-    figurename = f"GraphVisualisation_{paths.stem}.png"
+    if plot_type == "individual":
+        figurename = f"GraphVisualisation_{paths.stem}.png"
+    elif plot_type == "combined":
+        figurename = f"GraphVisualisation_COMBINED.png"
+    else:
+        print("Plot type not recognised, must be 'indivudal' or 'combined'")
+        sys.exit(1)
     print(f"SAVING PLOT AS {input_dir}/{figurename}............\n")
     plt.savefig(input_dir / figurename)
+
+
+def plot_combined_graph(paths):
+    """
+    Creates a combined graph for all linked JSON-LD files.
+
+    :param paths: The paths of the file(s).
+    """
+    g = create_graph(paths)
+    results = get_query_results(g)
+    for row in results:
+        try:
+            print(f"Title: {row.title}")
+            print(f"Author(s): {row.author}")
+            print(f"Year: {row.year}")
+            print(f"url: {row.url}")
+            print(f"Email: {row.email}")
+        except:
+            pass 
+    plot_with_networkx(g, path, Path("JSONLDs"), "combined")
 
 
 def main():
@@ -167,23 +215,10 @@ def main():
     """
     paths = get_jsonld_files(Path("JSONLDs"))
 
+    #generate data and plots for each file individally
     for path in paths:
         g = create_graph(path)
-        
-        print("=============================TRIPLES===================================")
-        for s, p, o in g:
-            print(f"Subject: {s} -- Predicate: {p} --> Object: {o}")
-        print("===================== Namespaces / Prefixes =====================")
-        for prefix, namespace in g.namespaces():
-            print(f"{prefix}: {namespace}")
-        print("===================== RDF Types (Classes) =====================")
-        for s, o in g.subject_objects(RDF.type):
-            print(f"{s} a {o}")
-        pred_counts = Counter(p for _, p, _ in g)
-        print("===================== Predicate Frequency =====================")
-        for p, count in pred_counts.items():
-            print(f"{p} : {count}")
-
+        print_triplets(g)
         results = get_query_results(g)
         for row in results:
             try:
@@ -194,9 +229,10 @@ def main():
                 print(f"Email: {row.email}")
             except:
                 pass 
+        plot_with_networkx(g, path, Path("JSONLDs"), "individual")
 
-        plot_with_networkx(g, path, Path("JSONLDs"))
-
+    #create plot combining all linked JSON-LD files
+    plot_combined_graph(paths)
         
 if __name__ == "__main__":
     main()
